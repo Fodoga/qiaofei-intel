@@ -46,9 +46,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add web/data.js
           git commit -m "自动更新爆品数据 ${{ github.run_id }}" || echo "无变化，跳过提交"
-          # 先拉取远程最新，避免本地 Action 与手动推送冲突
-          git pull --rebase origin main || echo "拉取时无新内容或冲突可忽略"
-          git push origin main
+          # 带重试的拉取+推送，避免与手动推送撞车
+          for i in 1 2 3; do
+            echo "第 $i 次尝试拉取并推送..."
+            git pull --rebase origin main && git push origin main && break
+            echo "第 $i 次失败，5秒后重试..."
+            sleep 5
+          done
 
       - name: 打包网页产物
         uses: actions/upload-pages-artifact@v3
