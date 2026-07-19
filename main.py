@@ -19,6 +19,13 @@ import traceback
 from data_store import merge_entry
 from push_wecom import push
 from agent import build_entry
+from web_search import search_image, placeholder_image
+
+# 平台色（与网页一致），用于生成占位图
+PLAT_COLOR = {
+    "淘宝/天猫": "#ff6a00", "拼多多": "#e02e24", "抖音": "#111418",
+    "1688（源头工厂）": "#ff7a1a", "饷店/细莫严选": "#c9418f",
+}
 
 
 def base_dir():
@@ -56,8 +63,33 @@ def log(bd, msg):
         pass
 
 
+def fill_images(entry, search_key):
+    """给没有图片的条目补全：优先真实图搜索（限次控额度），否则用占位图。"""
+    cap = 18  # 每天最多搜图次数，避免超额（20 产品 + 5 主推，余下回退占位图）
+    cnt = [0]
+
+    def _fill(p):
+        if p.get("image"):
+            return
+        if cnt[0] < cap and search_key:
+            p["image"] = search_image(p.get("name", ""), search_key)
+            if p["image"]:
+                cnt[0] += 1
+        if not p.get("image"):
+            p["image"] = placeholder_image(p.get("name", ""),
+                                           PLAT_COLOR.get(p.get("platform"), "#e85b8a"))
+
+    for p in entry.get("products", []):
+        _fill(p)
+    for tp in entry.get("weeklySuggestion", {}).get("topPicks", []):
+        _fill(tp)
+    print(f"[image] 图片补全完成，真实图搜索 {cnt[0]} 次")
+
+
 def run_pipeline(config, bd, use_mock=False):
     entry = build_entry(config, use_mock=use_mock)
+    search_key = config.get("search", {}).get("api_key", "")
+    fill_images(entry, search_key)
     entries = merge_entry(bd, config.get("output_dir", "web"), entry)
     n = len(entry.get("products", []))
     m = sum(1 for p in entry.get("products", []) if p.get("match"))

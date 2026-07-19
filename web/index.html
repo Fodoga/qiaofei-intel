@@ -144,6 +144,13 @@
     text-decoration:none;font-size:12.5px;font-weight:600}
   .card .link:hover{text-decoration:underline}
 
+  /* 产品图片 */
+  .imgwrap{position:relative;height:150px;border-radius:11px;overflow:hidden;margin:2px 0 11px;
+    background:linear-gradient(135deg,#fff6fa,#fdeef4);display:flex;align-items:center;justify-content:center}
+  .imgwrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .3s}
+  .imgwrap img.loaded{opacity:1}
+  .pick .imgwrap{height:132px;margin:4px 0 10px}
+
   .empty{color:var(--sub);padding:26px;text-align:center}
   footer{color:var(--faint);font-size:12px;text-align:center;padding:26px 12px;line-height:1.7}
 
@@ -163,7 +170,7 @@
       <span class="hd-badge">💰 价格敏感</span>
       <span class="hd-badge">🌿 健康养生习惯</span>
       <span class="hd-badge">🚚 发货≤48h优先</span>
-      <span class="hd-badge">🚫 已避开自研品类</span>
+      <span class="hd-badge">🚫 避开爱善天使自研</span>
     </div>
   </div>
 </header>
@@ -181,7 +188,7 @@
 
   <footer>
     数据来源为联网搜索聚合，非平台官方实时API；价格 / 链接 / 发货时效以平台最新页面为准，上架前请人工复核。<br>
-    本页每日 09:00 自动更新并保留全部历史，按日期归档；已按要求避开俏妃自研品类（卫生巾、洗脸巾/棉柔巾、纸巾等）。
+    本页每日 09:00 自动更新并保留全部历史，按日期归档；已避开爱善天使（俏妃）旗下自有产品（卫生巾/安心裤/湿巾/纸巾/私护套盒/艾灸贴/温宫调经·净腔养巢套盒等），避免内部竞争。
   </footer>
 </div>
 
@@ -190,6 +197,25 @@
 (function(){
   var DATA = (window.DASHBOARD_DATA || []);
   var currentFilter = "全部";
+
+  // 图片加载失败时的精美占位（带产品名 + 平台色）
+  function placeholderSVG(label, color){
+    var s='<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">'+
+      '<rect width="100%" height="100%" fill="'+color+'" opacity="0.12"/>'+
+      '<rect x="6" y="6" width="288" height="188" rx="12" fill="none" stroke="'+color+'" stroke-width="2" opacity="0.5"/>'+
+      '<text x="50%" y="50%" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="700" fill="'+color+'" text-anchor="middle" dominant-baseline="middle">'+label+'</text></svg>';
+    return 'data:image/svg+xml,'+encodeURIComponent(s);
+  }
+  function imgFallback(img){
+    img.onerror=null;
+    img.src=placeholderSVG(img.getAttribute('data-label')||'商品', img.getAttribute('data-color')||'#e85b8a');
+  }
+  function imgTag(p){
+    var col=pcolor(p.platform);
+    var src=esc(p.image||'');
+    return '<div class="imgwrap"><img src="'+src+'" data-label="'+esc(p.name)+'" data-color="'+col+'" '+
+      'referrerpolicy="no-referrer" onerror="imgFallback(this)" onload="this.classList.add(\'loaded\')"></div>';
+  }
 
   var PCOLOR = {
     "淘宝/天猫":"var(--p-tb)","拼多多":"var(--p-pdd)","抖音":"var(--p-dy)",
@@ -240,6 +266,7 @@
   function card(p){
     var col=pcolor(p.platform);
     return '<div class="card" style="--brand:'+col+'">'+
+      imgTag(p)+
       '<div class="ctop">'+
         '<h5>'+esc(p.name)+'</h5>'+
         (p.match?'<span class="tag y">✓ 匹配</span>':'<span class="tag n">✕ 不主推</span>')+
@@ -286,6 +313,7 @@
     var picksHtml=(w.topPicks||[]).map(function(p,i){
       return '<div class="pick">'+
         '<span class="rank">'+(i+1)+'</span>'+
+        imgTag(p)+
         '<h4>'+esc(p.name)+'</h4>'+
         '<div class="prow"><span class="pr">'+esc(p.price)+'</span><span class="plat" style="background:'+pcolor(p.platform)+'">'+esc(p.platform)+'</span></div>'+
         '<div class="m">'+esc(p.brand)+' · 🚚 '+esc(p.shipping)+'</div>'+

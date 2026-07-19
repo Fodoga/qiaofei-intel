@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """联网检索模块：优先 SerpAPI，失败/未配置时回退到 DuckDuckGo HTML。"""
 import re
+import urllib.parse
 import requests
 
 
@@ -36,7 +37,6 @@ def search_ddg(query, max_results=8, timeout=30):
     except Exception:
         return []
     results = []
-    # 每条结果在 class="result__a" 标题 + class="result__snippet" 摘要
     titles = re.findall(r'class="result__a"[^>]*>(.*?)</a>', html, re.S)
     links = re.findall(r'class="result__a"[^>]*href="(.*?)"', html, re.S)
     snippets = re.findall(r'class="result__snippet"[^>]*>(.*?)</a>', html, re.S)
@@ -59,6 +59,44 @@ def search(query, provider="serpapi", api_key="", max_results=8):
         except Exception as e:
             print(f"[warn] SerpAPI 失败，回退 DuckDuckGo: {e}")
     return search_ddg(query, max_results)
+
+
+def placeholder_image(label, color_hex="#e85b8a"):
+    """生成本地图文占位图（SVG data URI），无需联网。"""
+    safe = (str(label).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+    svg = (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">'
+        '<rect width="100%" height="100%" fill="%s" opacity="0.12"/>'
+        '<rect x="6" y="6" width="288" height="188" rx="12" fill="none" '
+        'stroke="%s" stroke-width="2" opacity="0.5"/>'
+        '<text x="50%%" y="50%%" font-family="PingFang SC,Microsoft YaHei,sans-serif" '
+        'font-size="17" font-weight="700" fill="%s" text-anchor="middle" '
+        'dominant-baseline="middle">%s</text></svg>'
+    ) % (color_hex, color_hex, color_hex, safe)
+    return "data:image/svg+xml," + urllib.parse.quote(svg)
+
+
+def search_image(query, api_key="", timeout=20):
+    """返回真实商品图直链（SerpAPI google_images）；无 key / 失败返回空字符串。"""
+    if api_key and api_key != "YOUR_SERPAPI_KEY":
+        try:
+            params = {
+                "q": query,
+                "api_key": api_key,
+                "engine": "google_images",
+                "hl": "zh-cn",
+                "num": 1,
+            }
+            r = requests.get("https://serpapi.com/search", params=params, timeout=timeout)
+            r.raise_for_status()
+            imgs = r.json().get("images_results", [])
+            if imgs:
+                url = imgs[0].get("original") or imgs[0].get("thumbnail")
+                if url and url.startswith("http"):
+                    return url
+        except Exception as e:
+            print(f"[warn] 图片搜索失败: {e}")
+    return ""
 
 
 if __name__ == "__main__":
