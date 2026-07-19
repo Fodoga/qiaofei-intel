@@ -65,14 +65,14 @@ def placeholder_image(label, color_hex="#e85b8a"):
     """生成本地图文占位图（SVG data URI），无需联网。"""
     safe = (str(label).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
     svg = (
-        '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">'
-        '<rect width="100%" height="100%" fill="%s" opacity="0.12"/>'
-        '<rect x="6" y="6" width="288" height="188" rx="12" fill="none" '
-        'stroke="%s" stroke-width="2" opacity="0.5"/>'
-        '<text x="50%%" y="50%%" font-family="PingFang SC,Microsoft YaHei,sans-serif" '
-        'font-size="17" font-weight="700" fill="%s" text-anchor="middle" '
-        'dominant-baseline="middle">%s</text></svg>'
-    ) % (color_hex, color_hex, color_hex, safe)
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">'
+        f'<rect width="100%" height="100%" fill="{color_hex}" opacity="0.12"/>'
+        f'<rect x="6" y="6" width="288" height="188" rx="12" fill="none" '
+        f'stroke="{color_hex}" stroke-width="2" opacity="0.5"/>'
+        f'<text x="50%" y="50%" font-family="PingFang SC,Microsoft YaHei,sans-serif" '
+        f'font-size="17" font-weight="700" fill="{color_hex}" text-anchor="middle" '
+        f'dominant-baseline="middle">{safe}</text></svg>'
+    )
     return "data:image/svg+xml," + urllib.parse.quote(svg)
 
 
