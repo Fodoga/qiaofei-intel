@@ -1,0 +1,31 @@
+{
+  "llm": {
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "YOUR_LLM_API_KEY",
+    "model": "deepseek-chat",
+    "temperature": 0.3
+  },
+  "search": {
+    "provider": "serpapi",
+    "api_key": "YOUR_SERPAPI_KEY",
+    "max_results": 8
+  },
+  "business": {
+    "mini_program": "俏妃甄选",
+    "audience": "三四线县城女性，价格敏感，注重健康养生习惯",
+    "max_products": 15,
+    "search_rounds": 3,
+    "avoid_categories": ["卫生巾", "卫生护垫", "洗脸巾", "棉柔巾", "纸巾", "生理内裤"],
+    "platforms": ["淘宝/天猫", "拼多多", "抖音", "1688（源头工厂）", "饷店/细莫严选"]
+  },
+  "wecom": {
+    "enabled": false,
+    "webhook_url": ""
+  },
+  "schedule": {
+    "hour": 9,
+    "minute": 0,
+    "days": "MON,TUE,WED,THU,FRI"
+  },
+  "output_dir": "web"
+}

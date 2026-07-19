@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>俏妃甄选 · 每日爆品情报站</title>
+<style>
+  :root{
+    --bg:#f4f6fb; --card:#ffffff; --line:#eaeef4; --line2:#f0f3f8;
+    --text:#1c2430; --sub:#6b7688; --faint:#97a1b0;
+    --brand:#e85b8a; --brand-2:#ff8fb4; --brand-soft:#fff0f6; --brand-line:#f7cdde;
+    --green:#12a06a; --green-soft:#e7f7ef;
+    --red:#e0574f; --red-soft:#fdecea;
+    --amber:#b9800f; --amber-soft:#fef6e6;
+    --blue:#3b74d6;
+    --shadow:0 2px 10px rgba(30,40,60,.05); --shadow-h:0 6px 20px rgba(232,91,138,.12);
+    /* 平台色 */
+    --p-tb:#ff6a00; --p-pdd:#e02e24; --p-dy:#111418; --p-1688:#ff7a1a; --p-xm:#c9418f;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,Roboto,sans-serif;
+    font-size:14px;line-height:1.65;-webkit-font-smoothing:antialiased}
+
+  /* ===== Header ===== */
+  header{background:linear-gradient(120deg,#ff9dc0 0%,#e85b8a 55%,#d6437a 100%);
+    color:#fff;padding:30px 24px 26px;position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;
+    background:radial-gradient(circle,rgba(255,255,255,.22),transparent 70%);border-radius:50%}
+  .hd{max-width:1200px;margin:0 auto;position:relative;z-index:1}
+  header h1{margin:0;font-size:25px;font-weight:800;letter-spacing:.5px}
+  header .sub{margin:8px 0 0;opacity:.95;font-size:13.5px;max-width:820px}
+  .hd-badges{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+  .hd-badge{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.28);
+    border-radius:20px;padding:4px 12px;font-size:12px;backdrop-filter:blur(4px)}
+
+  .wrap{max-width:1200px;margin:0 auto;padding:20px 16px 70px}
+
+  /* ===== 概览统计 ===== */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:2px 0 22px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:15px 16px;box-shadow:var(--shadow)}
+  .stat .n{font-size:24px;font-weight:800;color:var(--brand);line-height:1.1}
+  .stat .l{font-size:12.5px;color:var(--sub);margin-top:3px}
+
+  /* ===== 区块标题 ===== */
+  .sec-title{display:flex;align-items:center;gap:9px;margin:26px 0 14px;font-size:17px;font-weight:800}
+  .sec-title .bar{width:5px;height:19px;background:linear-gradient(var(--brand),var(--brand-2));border-radius:3px}
+  .sec-title .hint{font-size:12px;font-weight:500;color:var(--faint);margin-left:auto}
+
+  /* ===== 本周专区建议 ===== */
+  .week{background:linear-gradient(135deg,#fff6fa,#ffffff);border:1px solid var(--brand-line);
+    border-radius:18px;padding:20px 22px;box-shadow:var(--shadow)}
+  .week-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px}
+  .week-theme{font-size:19px;font-weight:800;color:var(--brand)}
+  .week-date{font-size:12.5px;color:var(--sub);background:var(--brand-soft);
+    border:1px solid var(--brand-line);border-radius:12px;padding:2px 10px}
+  .week-reason{color:#4a5568;margin:11px 0 4px;font-size:13px}
+  .zones{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0 18px}
+  .zone{background:#fff;border:1px solid var(--brand-line);border-radius:12px;
+    padding:9px 13px;font-size:12.5px;box-shadow:var(--shadow)}
+  .zone .zt{color:var(--brand);font-weight:700;display:block;margin-bottom:2px;font-size:12.5px}
+  .zone .zp{color:#5a6472}
+
+  .picks-hd{font-size:13.5px;font-weight:700;color:#404a58;margin:6px 0 10px;
+    display:flex;align-items:center;gap:6px}
+  .picks{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:13px}
+  .pick{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;
+    padding:15px 15px 14px;box-shadow:var(--shadow);transition:.2s}
+  .pick:hover{box-shadow:var(--shadow-h);transform:translateY(-2px);border-color:var(--brand-line)}
+  .pick .rank{position:absolute;top:-9px;left:14px;width:24px;height:24px;border-radius:50%;
+    background:linear-gradient(var(--brand),var(--brand-2));color:#fff;font-size:12px;font-weight:800;
+    display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(232,91,138,.4)}
+  .pick h4{margin:6px 0 7px;font-size:14.5px;font-weight:700;line-height:1.35}
+  .pick .prow{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:7px}
+  .pick .pr{color:var(--green);font-weight:800;font-size:16px}
+  .pick .plat{font-size:11px;color:#fff;padding:1px 8px;border-radius:10px;background:var(--brand)}
+  .pick .m{font-size:12px;color:var(--sub);margin-bottom:7px}
+  .pick p{margin:0;font-size:12.3px;color:#4a5568;line-height:1.55}
+
+  /* ===== 筛选 ===== */
+  .filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:12px 14px;box-shadow:var(--shadow)}
+  .filters .lbl{color:var(--sub);font-size:13px;font-weight:600;margin-right:2px}
+  .chip{border:1px solid var(--line);background:#fbfcfe;border-radius:20px;padding:6px 14px;
+    cursor:pointer;font-size:13px;color:#5a6472;transition:.15s;user-select:none}
+  .chip:hover{border-color:var(--brand-line);color:var(--brand)}
+  .chip.active{background:linear-gradient(var(--brand),var(--brand-2));color:#fff;border-color:transparent;
+    box-shadow:0 2px 8px rgba(232,91,138,.3)}
+
+  /* ===== 日期归档 ===== */
+  .day{background:var(--card);border:1px solid var(--line);border-radius:16px;
+    margin:14px 0;overflow:hidden;box-shadow:var(--shadow)}
+  .day-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;
+    gap:8px;padding:15px 18px;cursor:pointer;transition:.15s}
+  .day-head:hover{background:#fcfdff}
+  .day-head .left{display:flex;align-items:center;gap:11px;flex-wrap:wrap}
+  .day-head .d{font-weight:800;font-size:15.5px}
+  .day-head .s{color:var(--brand);font-size:12px;background:var(--brand-soft);
+    border:1px solid var(--brand-line);border-radius:11px;padding:2px 10px}
+  .day-head .right{display:flex;align-items:center;gap:10px}
+  .day-head .cnt{color:var(--sub);font-size:12.5px}
+  .day-head .arrow{color:var(--faint);transition:transform .25s;font-size:13px}
+  .day.open .day-head .arrow{transform:rotate(180deg)}
+  .day-body{display:none;padding:0 16px 18px}
+  .day.open .day-body{display:block;animation:fade .25s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+
+  .src{color:#8a7326;font-size:12px;padding:9px 13px;background:var(--amber-soft);
+    border:1px solid #f3e2b8;border-radius:10px;margin:6px 0 14px;line-height:1.5}
+
+  /* 平台分组 */
+  .pgroup{margin:16px 0}
+  .pgroup-hd{display:flex;align-items:center;gap:8px;margin:0 0 11px;font-size:14px;font-weight:700}
+  .pgroup-hd .dot{width:10px;height:10px;border-radius:3px}
+  .pgroup-hd .num{font-size:12px;font-weight:600;color:var(--faint);background:var(--line2);
+    border-radius:10px;padding:1px 9px}
+
+  /* 产品卡 */
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:13px}
+  .card{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;
+    padding:14px 15px;transition:.2s;overflow:hidden}
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--brand)}
+  .card:hover{box-shadow:var(--shadow-h);transform:translateY(-2px)}
+  .card .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:6px}
+  .card h5{margin:0;font-size:14.5px;font-weight:700;line-height:1.35;padding-left:2px}
+  .tag{flex:none;display:inline-block;padding:2px 9px;border-radius:11px;font-size:11.5px;font-weight:700;white-space:nowrap}
+  .tag.y{background:var(--green-soft);color:var(--green)}
+  .tag.n{background:var(--red-soft);color:var(--red)}
+  .card .prow{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:2px 0 8px;padding-left:2px}
+  .card .pr{color:var(--green);font-weight:800;font-size:17px}
+  .card .brand{font-size:12px;color:var(--sub)}
+  .card .ship{font-size:11.5px;color:var(--green);background:var(--green-soft);border-radius:8px;padding:1px 8px}
+  .card .reason{font-size:12.3px;color:#4a5568;margin:0 0 9px;padding-left:2px;line-height:1.55}
+  .card .kws{padding-left:2px;margin-bottom:9px}
+  .kw{display:inline-block;border-radius:6px;padding:2px 7px;margin:2px 3px 0 0;font-size:11.3px}
+  .kw.good{background:var(--green-soft);color:var(--green)}
+  .kw.bad{background:var(--red-soft);color:var(--red)}
+  .card .mr{font-size:11.8px;color:#5a6472;background:#f8fafc;border-left:3px solid var(--brand-line);
+    border-radius:0 8px 8px 0;padding:6px 10px;margin:0 0 10px}
+  .card .link{display:inline-flex;align-items:center;gap:5px;color:var(--blue);
+    text-decoration:none;font-size:12.5px;font-weight:600}
+  .card .link:hover{text-decoration:underline}
+
+  .empty{color:var(--sub);padding:26px;text-align:center}
+  footer{color:var(--faint);font-size:12px;text-align:center;padding:26px 12px;line-height:1.7}
+
+  @media(max-width:640px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    header h1{font-size:21px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="hd">
+    <h1>🌸 俏妃甄选 · 每日爆品情报站</h1>
+    <p class="sub">淘宝/天猫 · 拼多多 · 抖音 · 1688 · 饷店/细莫严选 每日热销精选，自动匹配你的目标人群与上架标准</p>
+    <div class="hd-badges">
+      <span class="hd-badge">👩 三四线县城女性</span>
+      <span class="hd-badge">💰 价格敏感</span>
+      <span class="hd-badge">🌿 健康养生习惯</span>
+      <span class="hd-badge">🚚 发货≤48h优先</span>
+      <span class="hd-badge">🚫 已避开自研品类</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stats" id="stats"></div>
+
+  <div class="sec-title"><span class="bar"></span>本周专区建议<span class="hint">结合季节性 · 每日 09:00 自动更新</span></div>
+  <div id="latest"></div>
+
+  <div class="sec-title"><span class="bar"></span>每日热销归档<span class="hint">点击日期展开 / 收起 · 历史永久保留</span></div>
+  <div class="filters" id="filters"><span class="lbl">平台筛选</span><span class="chip active" data-p="全部">全部</span></div>
+
+  <div id="archive"></div>
+
+  <footer>
+    数据来源为联网搜索聚合，非平台官方实时API；价格 / 链接 / 发货时效以平台最新页面为准，上架前请人工复核。<br>
+    本页每日 09:00 自动更新并保留全部历史，按日期归档；已按要求避开俏妃自研品类（卫生巾、洗脸巾/棉柔巾、纸巾等）。
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  var DATA = (window.DASHBOARD_DATA || []);
+  var currentFilter = "全部";
+
+  var PCOLOR = {
+    "淘宝/天猫":"var(--p-tb)","拼多多":"var(--p-pdd)","抖音":"var(--p-dy)",
+    "1688（源头工厂）":"var(--p-1688)","饷店/细莫严选":"var(--p-xm)"
+  };
+  function pcolor(p){ return PCOLOR[p] || "var(--brand)"; }
+
+  // 平台列表
+  var platforms=[];
+  DATA.forEach(function(d){ d.products.forEach(function(p){
+    if(platforms.indexOf(p.platform)===-1) platforms.push(p.platform);
+  });});
+
+  // ---- 概览统计 ----
+  (function(){
+    var total=0, matched=0;
+    if(DATA.length){ total=DATA[0].products.length; matched=DATA[0].products.filter(function(p){return p.match;}).length; }
+    var el=document.getElementById('stats');
+    el.innerHTML=
+      '<div class="stat"><div class="n">'+total+'</div><div class="l">今日精选产品</div></div>'+
+      '<div class="stat"><div class="n">'+matched+'</div><div class="l">✓ 匹配可上架</div></div>'+
+      '<div class="stat"><div class="n">'+platforms.length+'</div><div class="l">覆盖平台</div></div>'+
+      '<div class="stat"><div class="n">'+DATA.length+'</div><div class="l">历史归档天数</div></div>';
+  })();
+
+  // ---- 筛选条 ----
+  var fwrap=document.getElementById('filters');
+  platforms.forEach(function(p){
+    var c=document.createElement('span');
+    c.className='chip'; c.textContent=p; c.setAttribute('data-p',p);
+    c.onclick=function(){ setFilter(p); };
+    fwrap.appendChild(c);
+  });
+  function setFilter(p){
+    currentFilter=p;
+    document.querySelectorAll('.chip').forEach(function(c){
+      c.classList.toggle('active', c.getAttribute('data-p')===p);
+    });
+    render();
+  }
+
+  function esc(s){ return (s==null?'':String(s)); }
+  function kws(list,cls){
+    return (list||[]).map(function(k){return '<span class="kw '+cls+'">'+esc(k)+'</span>';}).join('');
+  }
+
+  // ---- 产品卡 ----
+  function card(p){
+    var col=pcolor(p.platform);
+    return '<div class="card" style="--brand:'+col+'">'+
+      '<div class="ctop">'+
+        '<h5>'+esc(p.name)+'</h5>'+
+        (p.match?'<span class="tag y">✓ 匹配</span>':'<span class="tag n">✕ 不主推</span>')+
+      '</div>'+
+      '<div class="prow">'+
+        '<span class="pr">'+esc(p.price)+'</span>'+
+        '<span class="brand">'+esc(p.brand)+'</span>'+
+        '<span class="ship">🚚 '+esc(p.shipping)+'</span>'+
+      '</div>'+
+      '<p class="reason">🔥 '+esc(p.hotReason)+'</p>'+
+      '<div class="kws">'+kws(p.goodKeywords,'good')+kws(p.badKeywords,'bad')+'</div>'+
+      '<div class="mr">💡 '+esc(p.matchReason)+'</div>'+
+      '<a class="link" href="'+esc(p.link)+'" target="_blank" rel="noopener">🔗 去 '+esc(p.platform)+' 查看</a>'+
+    '</div>';
+  }
+
+  // ---- 平台分组 ----
+  function groupedBody(d){
+    var groups={};
+    d.products.forEach(function(p){
+      if(currentFilter!=="全部" && p.platform!==currentFilter) return;
+      (groups[p.platform]=groups[p.platform]||[]).push(p);
+    });
+    var order=platforms.filter(function(p){return groups[p];});
+    if(!order.length) return '<div class="empty">该平台今日暂无匹配产品</div>';
+    return order.map(function(plat){
+      var list=groups[plat];
+      return '<div class="pgroup">'+
+        '<div class="pgroup-hd"><span class="dot" style="background:'+pcolor(plat)+'"></span>'+
+          esc(plat)+'<span class="num">'+list.length+' 款</span></div>'+
+        '<div class="cards">'+list.map(card).join('')+'</div>'+
+      '</div>';
+    }).join('');
+  }
+
+  // ---- 本周专区建议 ----
+  function renderLatest(){
+    var el=document.getElementById('latest');
+    if(!DATA.length){ el.innerHTML='<div class="empty">暂无数据</div>'; return; }
+    var d=DATA[0], w=d.weeklySuggestion||{};
+    var zonesHtml=(w.zones||[]).map(function(z){
+      return '<div class="zone"><span class="zt">'+esc(z.zone)+'</span><span class="zp">'+(z.products||[]).join(' · ')+'</span></div>';
+    }).join('');
+    var picksHtml=(w.topPicks||[]).map(function(p,i){
+      return '<div class="pick">'+
+        '<span class="rank">'+(i+1)+'</span>'+
+        '<h4>'+esc(p.name)+'</h4>'+
+        '<div class="prow"><span class="pr">'+esc(p.price)+'</span><span class="plat" style="background:'+pcolor(p.platform)+'">'+esc(p.platform)+'</span></div>'+
+        '<div class="m">'+esc(p.brand)+' · 🚚 '+esc(p.shipping)+'</div>'+
+        '<p>'+esc(p.reason)+'</p>'+
+      '</div>';
+    }).join('');
+    el.innerHTML=
+      '<div class="week">'+
+        '<div class="week-top"><span class="week-theme">📌 '+esc(w.theme)+'</span>'+
+          '<span class="week-date">'+esc(d.date)+' · '+esc(d.season)+'</span></div>'+
+        '<div class="week-reason">'+esc(w.reason)+'</div>'+
+        '<div class="zones">'+zonesHtml+'</div>'+
+        '<div class="picks-hd">⭐ 本周具体主推（'+(w.topPicks||[]).length+' 款，好评高 · 知名度高 · 48h内发货）</div>'+
+        '<div class="picks">'+picksHtml+'</div>'+
+      '</div>';
+  }
+
+  // ---- 归档渲染 ----
+  function render(){
+    var arc=document.getElementById('archive');
+    arc.innerHTML='';
+    var any=false;
+    DATA.forEach(function(d,idx){
+      var visible = currentFilter==="全部" ? d.products.length :
+        d.products.filter(function(p){return p.platform===currentFilter;}).length;
+      if(visible===0) return;
+      any=true;
+      var div=document.createElement('div');
+      div.className='day'+(idx===0?' open':'');
+      div.innerHTML=
+        '<div class="day-head" onclick="this.parentNode.classList.toggle(\'open\')">'+
+          '<div class="left"><span class="d">📅 '+esc(d.date)+'</span><span class="s">'+esc(d.season)+'</span></div>'+
+          '<div class="right"><span class="cnt">共 '+visible+' 款'+(currentFilter==="全部"?'':'（'+esc(currentFilter)+'）')+'</span><span class="arrow">▼</span></div>'+
+        '</div>'+
+        '<div class="day-body">'+
+          '<div class="src">⚠️ 数据说明：'+esc(d.dataSource)+'</div>'+
+          groupedBody(d)+
+        '</div>';
+      arc.appendChild(div);
+    });
+    if(!any) arc.innerHTML='<div class="empty">该平台暂无归档数据</div>';
+  }
+
+  renderLatest();
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+name: 每日爆品情报更新
+
+# 触发方式：
+#   1) 定时：UTC 01:00 = 北京 09:00，周一至周五自动跑
+#   2) 手动：在 GitHub 仓库 Actions 页点「Run workflow」立即更新
+on:
+  schedule:
+    - cron: "0 1 * * 1-5"
+  workflow_dispatch: {}
+
+# 权限：contents:write 用于把更新后的 data.js 提交回仓库（保留历史）；pages 用于部署网页
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 采集并更新数据
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          SEARCH_API_KEY: ${{ secrets.SEARCH_API_KEY }}
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+        run: python main.py --run
+
+      - name: 提交更新后的数据（保留历史）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/data.js
+          git commit -m "自动更新爆品数据 ${{ github.run_id }}" || echo "无变化，跳过提交"
+          git push
+
+      - name: 打包网页产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
