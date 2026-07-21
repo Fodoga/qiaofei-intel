@@ -1,5 +1,452 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-07-21",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "weeklySuggestion": {
+      "theme": "盛夏祛湿·内调外养",
+      "reason": "三伏天湿气重，三四线县城女性注重养生，需祛湿健脾、温和私护，选择平价药食同源及非棉品私护产品",
+      "zones": [
+        {
+          "zone": "祛湿食补专区",
+          "products": [
+            "红豆薏米茶",
+            "茯苓山药粉",
+            "陈皮姜枣膏"
+          ]
+        },
+        {
+          "zone": "温和私护专区",
+          "products": [
+            "雪莲苦参凝胶",
+            "益生菌私密护理液",
+            "艾草坐灸垫"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "红豆薏米茶",
+          "platform": "淘宝",
+          "price": "约19.9-39.9元/盒",
+          "brand": "同仁堂",
+          "shipping": "48小时内",
+          "reason": "经典祛湿配方，品牌背书强，夏季爆款，好评率高",
+          "image": "https://static.jstv.com/img/2023/7/25/20237251690267215525_248.jpg"
+        },
+        {
+          "name": "雪莲苦参凝胶",
+          "platform": "1688",
+          "price": "约15-30元/支",
+          "brand": "白云山",
+          "shipping": "48小时内",
+          "reason": "私护凝胶热销品，成分透明，源头工厂直供价低",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%9B%AA%E8%8E%B2%E8%8B%A6%E5%8F%82%E5%87%9D%E8%83%B6%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "益生菌私密护理液",
+          "platform": "拼多多",
+          "price": "约29.9-49.9元/瓶",
+          "brand": "妇炎洁",
+          "shipping": "48小时内",
+          "reason": "知名品牌，温和配方，销量高，适合日常养护",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%9B%8A%E7%94%9F%E8%8F%8C%E7%A7%81%E5%AF%86%E6%8A%A4%E7%90%86%E6%B6%B2%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "茯苓山药粉",
+          "platform": "淘宝",
+          "price": "约25-45元/罐",
+          "brand": "老金磨方",
+          "shipping": "48小时内",
+          "reason": "药食同源，健脾祛湿，适合早餐代餐，好评多",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8C%AF%E8%8B%93%E5%B1%B1%E8%8D%AF%E7%B2%89%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "红豆薏米茶",
+        "link": "https://s.taobao.com/search?q=红豆薏米茶",
+        "price": "约19.9-39.9元/盒",
+        "brand": "同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "夏季祛湿爆款，品牌旗舰店销量高，好评率98%以上",
+        "goodKeywords": [
+          "祛湿效果好",
+          "口感好",
+          "价格实惠"
+        ],
+        "badKeywords": [
+          "效果慢"
+        ],
+        "match": true,
+        "matchReason": "经典祛湿茶饮，适合夏季温养，价格亲民",
+        "image": "https://static.jstv.com/img/2023/7/25/20237251690267215525_248.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "茯苓山药粉",
+        "link": "https://s.taobao.com/search?q=茯苓山药粉",
+        "price": "约25-45元/罐",
+        "brand": "老金磨方",
+        "shipping": "48小时内",
+        "hotReason": "药食同源，健脾祛湿，早餐代餐热门，月销过万",
+        "goodKeywords": [
+          "健脾",
+          "方便冲泡",
+          "无添加"
+        ],
+        "badKeywords": [
+          "粉质不够细"
+        ],
+        "match": true,
+        "matchReason": "适合女性养生食补，价格适中",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2928278102/O1CN01YURtl729im3PLnzS8_!!4611686018427386454-0-item_pic.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "陈皮姜枣膏",
+        "link": "https://s.taobao.com/search?q=陈皮姜枣膏",
+        "price": "约29.9-59.9元/瓶",
+        "brand": "谷初源",
+        "shipping": "48小时内",
+        "hotReason": "夏季温阳祛湿，手工熬制，好评如潮",
+        "goodKeywords": [
+          "暖胃",
+          "驱寒",
+          "口感好"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "药食同源，适合女性寒湿体质",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%99%88%E7%9A%AE%E5%A7%9C%E6%9E%A3%E8%86%8F%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "1688",
+        "name": "雪莲苦参凝胶",
+        "link": "https://www.1688.com/?keywords=雪莲苦参凝胶",
+        "price": "约15-30元/支",
+        "brand": "白云山",
+        "shipping": "48小时内",
+        "hotReason": "私护凝胶热销，源头工厂直供，成分透明，批发量大",
+        "goodKeywords": [
+          "温和不刺激",
+          "抑菌效果好",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "个别有轻微灼热感"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护，适合日常养护，价格低",
+        "image": "https://img.maiyaole.com/img/202404/03/org_2024040312595689.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "益生菌私密护理液",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=益生菌私密护理液",
+        "price": "约29.9-49.9元/瓶",
+        "brand": "妇炎洁",
+        "shipping": "48小时内",
+        "hotReason": "知名品牌，温和配方，销量10万+，好评率高",
+        "goodKeywords": [
+          "温和",
+          "清爽",
+          "无刺激"
+        ],
+        "badKeywords": [
+          "瓶口设计不便"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护，适合日常清洁养护",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%9B%8A%E7%94%9F%E8%8F%8C%E7%A7%81%E5%AF%86%E6%8A%A4%E7%90%86%E6%B6%B2%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "艾草坐灸垫",
+        "link": "https://s.taobao.com/search?q=艾草坐灸垫",
+        "price": "约39.9-89.9元/个",
+        "brand": "艾修堂",
+        "shipping": "48小时内",
+        "hotReason": "夏季艾灸养生热销，坐灸方便，好评多",
+        "goodKeywords": [
+          "方便",
+          "艾草味浓",
+          "舒适"
+        ],
+        "badKeywords": [
+          "温度不好控制"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护，适合女性宫寒养护",
+        "image": "https://img06.weeecdn.com/item/image/397/065/308F46DEFD7BA060.png"
+      },
+      {
+        "platform": "拼多多",
+        "name": "黑蜂胶多肽水光凝胶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=黑蜂胶多肽水光凝胶",
+        "price": "约19.9-39.9元/支",
+        "brand": "舒奈美",
+        "shipping": "48小时内",
+        "hotReason": "私护凝胶新爆款，补水滋润，销量增长快",
+        "goodKeywords": [
+          "水润",
+          "温和",
+          "无味"
+        ],
+        "badKeywords": [
+          "效果不明显"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护，适合私处保养",
+        "image": "https://img.alicdn.com/imgextra/i3/2123251091/O1CN01Z2aH971JvjAAYBAzm_!!2123251091.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "银离子私密抑菌凝胶",
+        "link": "https://www.1688.com/?keywords=银离子私密抑菌凝胶",
+        "price": "约10-25元/支",
+        "brand": "白云山",
+        "shipping": "48小时内",
+        "hotReason": "源头工厂直供，银离子抑菌成分，批发价低",
+        "goodKeywords": [
+          "抑菌",
+          "实惠",
+          "工厂直供"
+        ],
+        "badKeywords": [
+          "包装简单"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护，性价比高",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2214427906668/O1CN01CkWRmX1z805HHoaaH_!!4611686018427384428-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "芦荟胶（天然护肤）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=芦荟胶",
+        "price": "约9.9-19.9元/支",
+        "brand": "完美",
+        "shipping": "48小时内",
+        "hotReason": "夏季晒后修复爆款，销量百万级，价格极低",
+        "goodKeywords": [
+          "补水",
+          "舒缓",
+          "便宜"
+        ],
+        "badKeywords": [
+          "假货多"
+        ],
+        "match": true,
+        "matchReason": "天然护肤，适合夏季晒后修复",
+        "image": "https://imgservice.suning.cn/uimg1/b2c/image/XnBu_Ss24wv18iAnijDheQ.jpg_800w_800h_4e_80Q_is"
+      },
+      {
+        "platform": "淘宝",
+        "name": "薏仁水爽肤水",
+        "link": "https://s.taobao.com/search?q=薏仁水爽肤水",
+        "price": "约29.9-59.9元/瓶",
+        "brand": "娥佩兰",
+        "shipping": "48小时内",
+        "hotReason": "平价大碗，夏季补水美白，热销多年",
+        "goodKeywords": [
+          "清爽",
+          "大容量",
+          "温和"
+        ],
+        "badKeywords": [
+          "功效单一"
+        ],
+        "match": true,
+        "matchReason": "天然护肤，适合学生党及县城女性",
+        "image": "https://img.hommi.jp/resize/500/public/images/2021/1/11/93fdf59d-4b04-4634-a292-bf67430e855a.png"
+      },
+      {
+        "platform": "拼多多",
+        "name": "维生素E乳",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=维生素E乳",
+        "price": "约9.9-19.9元/瓶",
+        "brand": "标婷",
+        "shipping": "48小时内",
+        "hotReason": "经典国货，保湿滋润，销量极高",
+        "goodKeywords": [
+          "保湿",
+          "便宜",
+          "国货"
+        ],
+        "badKeywords": [
+          "香味重"
+        ],
+        "match": true,
+        "matchReason": "天然护肤，适合夏季基础保湿",
+        "image": "https://m.chemicalbook.com/NewsImg/2024-01-15/6384090773844731713301431.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红糖姜茶",
+        "link": "https://s.taobao.com/search?q=红糖姜茶",
+        "price": "约19.9-39.9元/盒",
+        "brand": "寿全斋",
+        "shipping": "48小时内",
+        "hotReason": "夏季暖宫祛湿，品牌知名，月销过万",
+        "goodKeywords": [
+          "暖宫",
+          "口感好",
+          "方便"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "药食同源，适合女性经期及日常养护",
+        "image": "https://m.media-amazon.com/images/I/71HrseFxlkL.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "黑芝麻丸",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=黑芝麻丸",
+        "price": "约14.9-29.9元/罐",
+        "brand": "老金磨方",
+        "shipping": "48小时内",
+        "hotReason": "养生零食，乌发养颜，销量10万+",
+        "goodKeywords": [
+          "好吃",
+          "方便",
+          "养发"
+        ],
+        "badKeywords": [
+          "油大"
+        ],
+        "match": true,
+        "matchReason": "药食同源，适合女性日常养生",
+        "image": "https://img06.weeecdn.com/product/image/970/280/2C9B163A98060A97.png"
+      },
+      {
+        "platform": "1688",
+        "name": "艾草精油",
+        "link": "https://www.1688.com/?keywords=艾草精油",
+        "price": "约8-20元/瓶",
+        "brand": "艾草堂",
+        "shipping": "48小时内",
+        "hotReason": "源头工厂，夏季艾灸按摩常用，批发价低",
+        "goodKeywords": [
+          "纯度高",
+          "艾草味",
+          "实惠"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护，适合艾灸养生",
+        "image": "https://img.shoplineapp.com/media/image_clips/63c8eaa22d9dce00239bba7e/original.png?1674111650"
+      },
+      {
+        "platform": "淘宝",
+        "name": "枸杞原浆",
+        "link": "https://s.taobao.com/search?q=枸杞原浆",
+        "price": "约29.9-59.9元/盒",
+        "brand": "杞里香",
+        "shipping": "48小时内",
+        "hotReason": "夏季养生饮品，便携滋补，好评率高",
+        "goodKeywords": [
+          "方便",
+          "滋补",
+          "口感好"
+        ],
+        "badKeywords": [
+          "价格略高"
+        ],
+        "match": true,
+        "matchReason": "药食同源，适合女性日常养生",
+        "image": "https://img06.weeecdn.com/item/image/169/679/748C3B5715ADA524.jpeg!c750x0.jpeg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "阿胶糕",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=阿胶糕",
+        "price": "约19.9-49.9元/盒",
+        "brand": "东阿阿胶",
+        "shipping": "48小时内",
+        "hotReason": "经典补血养颜，夏季温补，品牌信任度高",
+        "goodKeywords": [
+          "补血",
+          "好吃",
+          "品牌正品"
+        ],
+        "badKeywords": [
+          "价格不一"
+        ],
+        "match": true,
+        "matchReason": "药食同源，适合女性气血养护",
+        "image": "https://i2.chuimg.com/7ecf87743f9046148626ff166dd5db8f_3024w_4032h.jpg?imageView2/1/w/640/h/520/q/75/format/jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "益生菌粉（女性专用）",
+        "link": "https://www.1688.com/?keywords=女性益生菌粉",
+        "price": "约20-40元/盒",
+        "brand": "汤臣倍健",
+        "shipping": "48小时内",
+        "hotReason": "女性私护益生菌，调节菌群，源头工厂直供",
+        "goodKeywords": [
+          "调节菌群",
+          "方便",
+          "品牌"
+        ],
+        "badKeywords": [
+          "需冷藏"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护，适合女性私处健康",
+        "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sbs/sbs80568/m/24.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "艾草足浴包",
+        "link": "https://s.taobao.com/search?q=艾草足浴包",
+        "price": "约9.9-29.9元/袋",
+        "brand": "修正",
+        "shipping": "48小时内",
+        "hotReason": "夏季祛湿排毒，泡脚养生，销量高",
+        "goodKeywords": [
+          "祛湿",
+          "助眠",
+          "便宜"
+        ],
+        "badKeywords": [
+          "药味重"
+        ],
+        "match": true,
+        "matchReason": "药食同源，适合女性夏季养生",
+        "image": "https://m.media-amazon.com/images/I/81gcXVcMdLL.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "蜂蜜柚子茶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=蜂蜜柚子茶",
+        "price": "约14.9-29.9元/瓶",
+        "brand": "农道好物",
+        "shipping": "48小时内",
+        "hotReason": "夏季清凉饮品，美白润喉，销量高",
+        "goodKeywords": [
+          "好喝",
+          "美白",
+          "实惠"
+        ],
+        "badKeywords": [
+          "糖分高"
+        ],
+        "match": true,
+        "matchReason": "药食同源，适合女性夏季饮品",
+        "image": "https://kimchi26027090.com/wp-content/uploads/2019/05/%E8%9C%82%E8%9C%9C%E6%9F%9A%E5%AD%90%E8%8C%B6.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-07-20",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
