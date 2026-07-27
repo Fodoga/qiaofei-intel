@@ -14,8 +14,7 @@
     --amber:#b9800f; --amber-soft:#fef6e6;
     --blue:#3b74d6;
     --shadow:0 2px 10px rgba(30,40,60,.05); --shadow-h:0 6px 20px rgba(232,91,138,.12);
-    /* 平台色 */
-    --p-tb:#ff6a00; --p-pdd:#e02e24; --p-dy:#111418; --p-1688:#ff7a1a; --p-xm:#c9418f;
+    --p-tb:#ff6a00; --p-pdd:#e02e24; --p-dy:#111418; --p-1688:#ff7a1a; --p-xm:#c9418f; --p-jd:#e1251b;
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -23,7 +22,6 @@
     font-family:-apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,Roboto,sans-serif;
     font-size:14px;line-height:1.65;-webkit-font-smoothing:antialiased}
 
-  /* ===== Header ===== */
   header{background:linear-gradient(120deg,#ff9dc0 0%,#e85b8a 55%,#d6437a 100%);
     color:#fff;padding:30px 24px 26px;position:relative;overflow:hidden}
   header::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;
@@ -37,19 +35,20 @@
 
   .wrap{max-width:1200px;margin:0 auto;padding:20px 16px 70px}
 
-  /* ===== 概览统计 ===== */
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:2px 0 22px}
-  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;
-    padding:15px 16px;box-shadow:var(--shadow)}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:2px 0 10px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 16px;box-shadow:var(--shadow)}
   .stat .n{font-size:24px;font-weight:800;color:var(--brand);line-height:1.1}
   .stat .l{font-size:12.5px;color:var(--sub);margin-top:3px}
 
-  /* ===== 区块标题 ===== */
+  .dupnote{font-size:12.5px;color:var(--sub);background:var(--card);border:1px solid var(--line);
+    border-radius:12px;padding:9px 14px;margin:0 0 18px;box-shadow:var(--shadow)}
+  .dupnote b{color:var(--brand)}
+
   .sec-title{display:flex;align-items:center;gap:9px;margin:26px 0 14px;font-size:17px;font-weight:800}
   .sec-title .bar{width:5px;height:19px;background:linear-gradient(var(--brand),var(--brand-2));border-radius:3px}
   .sec-title .hint{font-size:12px;font-weight:500;color:var(--faint);margin-left:auto}
 
-  /* ===== 本周专区建议 ===== */
+  /* 本周专区 */
   .week{background:linear-gradient(135deg,#fff6fa,#ffffff);border:1px solid var(--brand-line);
     border-radius:18px;padding:20px 22px;box-shadow:var(--shadow)}
   .week-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px}
@@ -57,17 +56,47 @@
   .week-date{font-size:12.5px;color:var(--sub);background:var(--brand-soft);
     border:1px solid var(--brand-line);border-radius:12px;padding:2px 10px}
   .week-reason{color:#4a5568;margin:11px 0 4px;font-size:13px}
-  .zones{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0 18px}
-  .zone{background:#fff;border:1px solid var(--brand-line);border-radius:12px;
-    padding:9px 13px;font-size:12.5px;box-shadow:var(--shadow)}
+  .cov{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px;align-items:center}
+  .cov .covlbl{font-size:12.5px;color:var(--sub);font-weight:600}
+  .cov-badge{font-size:12px;padding:3px 11px;border-radius:12px;border:1px solid var(--line);background:#fbfcfe;color:var(--faint)}
+  .cov-badge.on{background:var(--green-soft);color:var(--green);border-color:#bfe9d6;font-weight:700}
+  .cov-badge.gap{background:#fff4f3;border-color:#f6d6d3;color:var(--red)}
+
+  /* 价格带结构 */
+  .band{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 6px;align-items:center}
+  .band .blbl{font-size:12.5px;color:var(--sub);font-weight:600}
+  .band .b{font-size:12px;padding:3px 11px;border-radius:12px;font-weight:700}
+  .band .b.lead{background:#eaf3ff;color:#2f6fd6;border:1px solid #cfe1fb}
+  .band .b.profit{background:#fff3e6;color:#c9760a;border:1px solid #f6e0c2}
+  .band .b.norm{background:var(--line2);color:#5a6472;border:1px solid var(--line)}
+
+  /* 品类品牌建议 */
+  .brandsec{margin:16px 0 4px}
+  .brandsec-hd{font-size:14px;font-weight:800;color:#404a58;margin:6px 0 10px;display:flex;align-items:center;gap:6px}
+  .brandgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+  .bcat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px 15px;box-shadow:var(--shadow)}
+  .bcat .ct{font-size:13.5px;font-weight:800;color:var(--brand);margin-bottom:9px;display:flex;align-items:center;gap:7px}
+  .bcat .ct .dot{width:9px;height:9px;border-radius:3px;background:var(--brand)}
+  .brows{display:flex;flex-direction:column;gap:7px}
+  .brow{display:flex;align-items:center;gap:9px;padding:7px 9px;border-radius:10px;background:var(--line2)}
+  .brow.best{background:var(--brand-soft);border:1px solid var(--brand-line)}
+  .brow .rk{width:20px;height:20px;border-radius:50%;background:#dfe5ee;color:#5a6472;font-size:11px;font-weight:800;
+    display:flex;align-items:center;justify-content:center;flex:none}
+  .brow.best .rk{background:linear-gradient(var(--brand),var(--brand-2));color:#fff}
+  .brow .bn{font-weight:700;font-size:13px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .brow .bp{color:var(--green);font-weight:800;font-size:14px;flex:none}
+  .brow .bs{font-size:11px;color:var(--sub);background:#fff;border:1px solid var(--line);border-radius:8px;padding:1px 7px;flex:none}
+  .brow .star{color:var(--brand);font-size:12px;flex:none;font-weight:700}
+  .brow .why{width:100%;font-size:11.5px;color:#5a6472;margin-top:2px}
+
+  .zones{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0 0}
+  .zone{background:#fff;border:1px solid var(--brand-line);border-radius:12px;padding:9px 13px;font-size:12.5px;box-shadow:var(--shadow)}
   .zone .zt{color:var(--brand);font-weight:700;display:block;margin-bottom:2px;font-size:12.5px}
   .zone .zp{color:#5a6472}
 
-  .picks-hd{font-size:13.5px;font-weight:700;color:#404a58;margin:6px 0 10px;
-    display:flex;align-items:center;gap:6px}
+  .picks-hd{font-size:13.5px;font-weight:700;color:#404a58;margin:18px 0 10px;display:flex;align-items:center;gap:6px}
   .picks{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:13px}
-  .pick{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;
-    padding:15px 15px 14px;box-shadow:var(--shadow);transition:.2s}
+  .pick{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px 15px 14px;box-shadow:var(--shadow);transition:.2s}
   .pick:hover{box-shadow:var(--shadow-h);transform:translateY(-2px);border-color:var(--brand-line)}
   .pick .rank{position:absolute;top:-9px;left:14px;width:24px;height:24px;border-radius:50%;
     background:linear-gradient(var(--brand),var(--brand-2));color:#fff;font-size:12px;font-weight:800;
@@ -75,31 +104,53 @@
   .pick h4{margin:6px 0 7px;font-size:14.5px;font-weight:700;line-height:1.35}
   .pick .prow{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:7px}
   .pick .pr{color:var(--green);font-weight:800;font-size:16px}
+  .pick .pr-sub{font-size:11px;color:var(--faint)}
   .pick .plat{font-size:11px;color:#fff;padding:1px 8px;border-radius:10px;background:var(--brand)}
+  .pick .per{font-size:11px;color:var(--brand);background:var(--brand-soft);border:1px solid var(--brand-line);padding:1px 8px;border-radius:10px}
+  .pick .sc{font-size:11px;color:#fff;background:var(--blue);padding:1px 8px;border-radius:10px}
   .pick .m{font-size:12px;color:var(--sub);margin-bottom:7px}
   .pick p{margin:0;font-size:12.3px;color:#4a5568;line-height:1.55}
 
-  /* ===== 筛选 ===== */
-  .filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;
-    background:var(--card);border:1px solid var(--line);border-radius:14px;
-    padding:12px 14px;box-shadow:var(--shadow)}
-  .filters .lbl{color:var(--sub);font-size:13px;font-weight:600;margin-right:2px}
-  .chip{border:1px solid var(--line);background:#fbfcfe;border-radius:20px;padding:6px 14px;
-    cursor:pointer;font-size:13px;color:#5a6472;transition:.15s;user-select:none}
-  .chip:hover{border-color:var(--brand-line);color:var(--brand)}
-  .chip.active{background:linear-gradient(var(--brand),var(--brand-2));color:#fff;border-color:transparent;
-    box-shadow:0 2px 8px rgba(232,91,138,.3)}
+  /* 工具栏 */
+  .toolbar{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+    background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:14px;
+    padding:12px 14px;box-shadow:0 4px 16px rgba(30,40,60,.08);margin:0 0 16px}
+  .search{position:relative;flex:1 1 240px;min-width:200px}
+  .search input{width:100%;border:1px solid var(--line);background:#fbfcfe;border-radius:20px;padding:8px 34px 8px 36px;
+    font-size:13px;color:var(--text);outline:none;transition:.15s}
+  .search input:focus{border-color:var(--brand-line);background:#fff;box-shadow:0 0 0 3px var(--brand-soft)}
+  .search .ico{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--faint);font-size:14px}
+  .search .clr{position:absolute;right:8px;top:50%;transform:translateY(-50%);cursor:pointer;border:none;background:none;
+    font-size:16px;line-height:1;padding:4px;display:none;color:var(--faint)}
+  .search .clr.show{display:block}
+  .toolbar .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .toolbar select{border:1px solid var(--line);background:#fbfcfe;border-radius:20px;padding:7px 12px;font-size:13px;color:#5a6472;outline:none;cursor:pointer}
+  .toolbar select:focus{border-color:var(--brand-line)}
+  .toggle{display:inline-flex;align-items:center;gap:6px;cursor:pointer;user-select:none;border:1px solid var(--line);
+    background:#fbfcfe;border-radius:20px;padding:7px 13px;font-size:13px;color:#5a6472;transition:.15s}
+  .toggle input{accent-color:var(--brand);width:14px;height:14px;margin:0}
+  .toggle.on{border-color:var(--brand);color:var(--brand);background:var(--brand-soft)}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#fbfcfe}
+  .seg button{border:none;background:none;padding:7px 13px;font-size:13px;color:#5a6472;cursor:pointer;transition:.15s}
+  .seg button.active{background:linear-gradient(var(--brand),var(--brand-2));color:#fff}
+  .linkbtn{border:1px solid var(--line);background:#fbfcfe;border-radius:20px;padding:7px 13px;font-size:13px;color:#5a6472;cursor:pointer;transition:.15s}
+  .linkbtn:hover{border-color:var(--brand-line);color:var(--brand)}
+  .result{font-size:12.5px;color:var(--sub);margin:0 0 12px;padding-left:4px}
+  .result b{color:var(--brand)}
 
-  /* ===== 日期归档 ===== */
-  .day{background:var(--card);border:1px solid var(--line);border-radius:16px;
-    margin:14px 0;overflow:hidden;box-shadow:var(--shadow)}
-  .day-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;
-    gap:8px;padding:15px 18px;cursor:pointer;transition:.15s}
+  .filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .filters .lbl{color:var(--sub);font-size:13px;font-weight:600;margin-right:2px}
+  .chip{border:1px solid var(--line);background:#fbfcfe;border-radius:20px;padding:6px 14px;cursor:pointer;font-size:13px;color:#5a6472;transition:.15s;user-select:none}
+  .chip:hover{border-color:var(--brand-line);color:var(--brand)}
+  .chip.active{background:linear-gradient(var(--brand),var(--brand-2));color:#fff;border-color:transparent;box-shadow:0 2px 8px rgba(232,91,138,.3)}
+
+  /* 日期归档 */
+  .day{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:14px 0;overflow:hidden;box-shadow:var(--shadow)}
+  .day-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;padding:15px 18px;cursor:pointer;transition:.15s}
   .day-head:hover{background:#fcfdff}
   .day-head .left{display:flex;align-items:center;gap:11px;flex-wrap:wrap}
   .day-head .d{font-weight:800;font-size:15.5px}
-  .day-head .s{color:var(--brand);font-size:12px;background:var(--brand-soft);
-    border:1px solid var(--brand-line);border-radius:11px;padding:2px 10px}
+  .day-head .s{color:var(--brand);font-size:12px;background:var(--brand-soft);border:1px solid var(--brand-line);border-radius:11px;padding:2px 10px}
   .day-head .right{display:flex;align-items:center;gap:10px}
   .day-head .cnt{color:var(--sub);font-size:12.5px}
   .day-head .arrow{color:var(--faint);transition:transform .25s;font-size:13px}
@@ -108,29 +159,29 @@
   .day.open .day-body{display:block;animation:fade .25s ease}
   @keyframes fade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 
-  .src{color:#8a7326;font-size:12px;padding:9px 13px;background:var(--amber-soft);
-    border:1px solid #f3e2b8;border-radius:10px;margin:6px 0 14px;line-height:1.5}
+  .src{color:#8a7326;font-size:12px;padding:9px 13px;background:var(--amber-soft);border:1px solid #f3e2b8;border-radius:10px;margin:6px 0 14px;line-height:1.5}
 
-  /* 平台分组 */
   .pgroup{margin:16px 0}
   .pgroup-hd{display:flex;align-items:center;gap:8px;margin:0 0 11px;font-size:14px;font-weight:700}
   .pgroup-hd .dot{width:10px;height:10px;border-radius:3px}
-  .pgroup-hd .num{font-size:12px;font-weight:600;color:var(--faint);background:var(--line2);
-    border-radius:10px;padding:1px 9px}
+  .pgroup-hd .num{font-size:12px;font-weight:600;color:var(--faint);background:var(--line2);border-radius:10px;padding:1px 9px}
 
-  /* 产品卡 */
   .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:13px}
-  .card{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;
-    padding:14px 15px;transition:.2s;overflow:hidden}
+  .card{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 15px;transition:.2s;overflow:hidden}
   .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--brand)}
+  .card.fresh{border-color:var(--brand-line)}
   .card:hover{box-shadow:var(--shadow-h);transform:translateY(-2px)}
   .card .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:6px}
   .card h5{margin:0;font-size:14.5px;font-weight:700;line-height:1.35;padding-left:2px}
-  .tag{flex:none;display:inline-block;padding:2px 9px;border-radius:11px;font-size:11.5px;font-weight:700;white-space:nowrap}
+  .ctags{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex:none}
+  .tag{display:inline-block;padding:2px 9px;border-radius:11px;font-size:11.5px;font-weight:700;white-space:nowrap}
   .tag.y{background:var(--green-soft);color:var(--green)}
   .tag.n{background:var(--red-soft);color:var(--red)}
-  .card .prow{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:2px 0 8px;padding-left:2px}
+  .tag.dup{background:var(--amber-soft);color:var(--amber);border:1px solid #f3e2b8}
+  .tag.sc{background:#eaf0fb;color:var(--blue);border:1px solid #d3e0f7}
+  .card .prow{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:2px 0 8px;padding-left:2px}
   .card .pr{color:var(--green);font-weight:800;font-size:17px}
+  .card .pr-sub{font-size:11px;color:var(--faint)}
   .card .brand{font-size:12px;color:var(--sub)}
   .card .ship{font-size:11.5px;color:var(--green);background:var(--green-soft);border-radius:8px;padding:1px 8px}
   .card .reason{font-size:12.3px;color:#4a5568;margin:0 0 9px;padding-left:2px;line-height:1.55}
@@ -138,33 +189,89 @@
   .kw{display:inline-block;border-radius:6px;padding:2px 7px;margin:2px 3px 0 0;font-size:11.3px}
   .kw.good{background:var(--green-soft);color:var(--green)}
   .kw.bad{background:var(--red-soft);color:var(--red)}
-  .card .mr{font-size:11.8px;color:#5a6472;background:#f8fafc;border-left:3px solid var(--brand-line);
-    border-radius:0 8px 8px 0;padding:6px 10px;margin:0 0 10px}
-  .card .link{display:inline-flex;align-items:center;gap:5px;color:var(--blue);
-    text-decoration:none;font-size:12.5px;font-weight:600}
+  .card .mr{font-size:11.8px;color:#5a6472;background:#f8fafc;border-left:3px solid var(--brand-line);border-radius:0 8px 8px 0;padding:6px 10px;margin:0 0 10px}
+  .card .link{display:inline-flex;align-items:center;gap:5px;color:var(--blue);text-decoration:none;font-size:12.5px;font-weight:600}
   .card .link:hover{text-decoration:underline}
 
-  /* 产品图片 */
   .imgwrap{position:relative;height:150px;border-radius:11px;overflow:hidden;margin:2px 0 11px;
     background:linear-gradient(135deg,#fff6fa,#fdeef4);display:flex;align-items:center;justify-content:center}
   .imgwrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .3s}
   .imgwrap img.loaded{opacity:1}
   .pick .imgwrap{height:132px;margin:4px 0 10px}
 
-  .empty{color:var(--sub);padding:26px;text-align:center}
-  footer{color:var(--faint);font-size:12px;text-align:center;padding:26px 12px;line-height:1.7}
+  /* 同款聚合 */
+  .agg{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:12px 0;box-shadow:var(--shadow);overflow:hidden}
+  .agg>summary{list-style:none;cursor:pointer;padding:14px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+  .agg>summary::-webkit-details-marker{display:none}
+  .agg>summary:hover{background:#fcfdff}
+  .agg .an{font-weight:800;font-size:15px;flex:1;min-width:160px}
+  .agg .acat{font-size:11.5px;color:#fff;background:var(--brand);padding:1px 9px;border-radius:10px}
+  .agg .apr{color:var(--green);font-weight:800;font-size:17px}
+  .agg .apr-sub{font-size:11px;color:var(--faint)}
+  .agg .asc{font-size:11px;color:#fff;background:var(--blue);padding:1px 8px;border-radius:10px}
+  .agg .acnt{font-size:12px;color:var(--sub);background:var(--line2);border-radius:10px;padding:1px 9px}
+  .agg .aarrow{color:var(--faint);transition:transform .2s;font-size:13px}
+  .agg[open]>summary .aarrow{transform:rotate(180deg)}
+  .agg .vars{padding:0 16px 14px}
+  .vrow{display:flex;flex-wrap:wrap;align-items:center;gap:9px;padding:8px 10px;border-top:1px solid var(--line2);font-size:12.5px}
+  .vrow .vb{font-weight:700}
+  .vrow .vp{font-size:11px;color:#fff;padding:1px 8px;border-radius:10px;background:var(--brand)}
+  .vrow .vpr{color:var(--green);font-weight:800}
+  .vrow .vsc{font-size:10.5px;color:var(--sub);background:#fff;border:1px solid var(--line);border-radius:7px;padding:1px 6px}
+  .vrow .vstar{color:var(--brand);font-size:11px;font-weight:700}
+  .vrow .vlink{margin-left:auto;color:var(--blue);text-decoration:none;font-weight:600}
+  .vrow .vlink:hover{text-decoration:underline}
 
-  @media(max-width:640px){
-    .stats{grid-template-columns:repeat(2,1fr)}
-    header h1{font-size:21px}
-  }
+  .empty{color:var(--sub);padding:26px;text-align:center}
+  .nomatch{color:var(--faint);padding:40px 16px;text-align:center;font-size:13px}
+  footer{color:var(--faint);font-size:12px;text-align:center;padding:26px 12px;line-height:1.7}
+  .totop{position:fixed;right:18px;bottom:22px;width:44px;height:44px;border-radius:50%;
+    background:linear-gradient(var(--brand),var(--brand-2));color:#fff;border:none;cursor:pointer;font-size:18px;
+    box-shadow:0 4px 14px rgba(232,91,138,.4);opacity:0;pointer-events:none;transition:.25s;z-index:30}
+  .totop.show{opacity:1;pointer-events:auto}
+  /* 品类品牌建议：可点击跳转 */
+  .brow{cursor:pointer;transition:transform .12s,box-shadow .12s}
+  .brow:hover{transform:translateX(2px);box-shadow:0 2px 8px rgba(255,79,138,.18)}
+  .brow .bn{color:var(--brand)}
+  .bcat .ct{cursor:pointer;transition:color .12s;user-select:none}
+  .bcat .ct:hover{color:var(--brand-2)}
+  .bcat .ct::after{content:' ↗';font-weight:500;opacity:.55;font-size:12px;margin-left:2px}
+  .jclr{color:#fff!important;background:var(--brand);border-radius:8px;padding:1px 8px;font-size:11.5px;margin-left:6px;text-decoration:none;display:inline-block;font-weight:600}
+  .jclr:hover{background:var(--brand-2)!important}
+  .vplink{cursor:pointer;color:var(--brand);font-weight:700;text-decoration:underline dotted rgba(255,79,138,.45);text-underline-offset:2px}
+  .vplink:hover{color:var(--brand-2)}
+  .rep{font-size:11.5px;color:#5a6472;margin-top:2px}
+  .viz{margin:12px 0;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 15px;box-shadow:var(--shadow)}
+  .viz-h{font-size:13.5px;font-weight:800;color:#404a58;margin-bottom:10px}
+  .viz-row{display:flex;align-items:center;gap:10px;margin:7px 0 3px}
+  .viz-lbl{font-size:11.5px;color:var(--sub);width:62px;flex:none}
+  .vbar{display:flex;flex:1;height:14px;border-radius:7px;overflow:hidden;background:var(--line2)}
+  .vseg{height:100%;display:block}
+  .vlegend{display:flex;flex-wrap:wrap;gap:10px;margin:3px 0 2px 72px;font-size:11.5px;color:#5a6472}
+  .vlg{display:inline-flex;align-items:center;gap:4px}
+  .vlg i{width:10px;height:10px;border-radius:3px;display:inline-block}
+  .card.flash{animation:cardflash 1.4s ease}
+  @keyframes cardflash{0%,100%{box-shadow:0 0 0 rgba(255,79,138,0)}15%{box-shadow:0 0 0 3px var(--brand);transform:translateY(-2px)}60%{box-shadow:0 0 0 3px rgba(255,79,138,.5)}}
+  /* 勾选导出 */
+  .card .sel{display:inline-flex;align-items:center;gap:3px;cursor:pointer;font-size:11.5px;color:var(--sub);user-select:none}
+  .card .sel input{accent-color:var(--brand);width:14px;height:14px;margin:0}
+  .card .brand.sel-brand{cursor:pointer;color:var(--brand);font-weight:700}
+  .card .brand.sel-brand:hover{text-decoration:underline}
+  .kwlabel{display:inline-block;font-size:11px;font-weight:800;margin:2px 4px 0 0;padding:1px 6px;border-radius:6px}
+  .kwlabel.good{background:var(--green-soft);color:var(--green)}
+  .kwlabel.bad{background:var(--red-soft);color:var(--red)}
+  .sel-info{font-size:12.5px;color:var(--brand);font-weight:700;margin-left:4px}
+  .pick{position:relative}
+  .pick .sel{position:absolute;top:8px;right:10px;z-index:2;background:rgba(255,255,255,.82);border:1px solid var(--line);border-radius:8px;padding:1px 6px;font-size:11px;color:var(--sub);cursor:pointer;user-select:none}
+  .pick .sel input{accent-color:var(--brand);width:13px;height:13px;margin:0}
+  @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}header h1{font-size:21px}.cards{grid-template-columns:1fr}.brandgrid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header>
   <div class="hd">
     <h1>🌸 每日爆品情报站</h1>
-    <p class="sub">淘宝/天猫 · 拼多多 · 抖音 · 1688 · 饷店/细莫严选 每日热销精选，自动匹配你的目标人群与上架标准</p>
+    <p class="sub">淘宝/天猫 · 拼多多 · 抖音 · 1688 · 京东 · 饷店/细莫严选 每日热销精选，自动匹配你的目标人群与上架标准</p>
     <div class="hd-badges">
       <span class="hd-badge">👩 三四线县城女性</span>
       <span class="hd-badge">💰 价格敏感</span>
@@ -177,11 +284,40 @@
 
 <div class="wrap">
   <div class="stats" id="stats"></div>
+  <div class="dupnote" id="dupnote"></div>
 
-  <div class="sec-title"><span class="bar"></span>本周专区建议<span class="hint">结合季节性 · 每日 09:00 自动更新</span></div>
+  <div class="sec-title"><span class="bar"></span>本周专区建议<span class="hint">智能生成 · 季节/时间/需求 · 跨日去重 · 全家庭覆盖 · 品类品牌建议</span></div>
   <div id="latest"></div>
 
   <div class="sec-title"><span class="bar"></span>每日热销归档<span class="hint">点击日期展开 / 收起 · 历史永久保留</span></div>
+
+  <div class="toolbar">
+    <div class="search">
+      <span class="ico">🔍</span>
+      <input id="q" type="text" placeholder="搜索商品名 / 品牌 / 关键词…（按 / 聚焦）" autocomplete="off">
+      <button class="clr" id="qclr" title="清空">×</button>
+    </div>
+    <div class="grp">
+      <label class="toggle" id="matchToggle"><input type="checkbox">只看匹配</label>
+      <select id="sort">
+        <option value="default">排序：默认（新品优先）</option>
+        <option value="match">匹配优先</option>
+        <option value="priceAsc">价格：低 → 高</option>
+        <option value="priceDesc">价格：高 → 低</option>
+      </select>
+      <div class="seg" id="viewSeg">
+        <button data-v="platform" class="active">按平台</button>
+        <button data-v="agg">同款聚合</button>
+      </div>
+      <button class="linkbtn" id="expandAll">展开全部</button>
+      <button class="linkbtn" id="collapseAll">收起全部</button>
+      <button class="linkbtn" id="exportCsv">⬇ 导出CSV</button>
+      <button class="linkbtn" id="exportExcel">⬇ 导出已选Excel</button>
+      <span id="selInfo" class="sel-info"></span>
+    </div>
+  </div>
+
+  <div class="result" id="result"></div>
   <div class="filters" id="filters"><span class="lbl">平台筛选</span><span class="chip active" data-p="全部">全部</span></div>
 
   <div id="archive"></div>
@@ -192,171 +328,653 @@
   </footer>
 </div>
 
+<button class="totop" id="totop" title="返回顶部">↑</button>
+
 <script src="data.js"></script>
 <script>
 (function(){
   var DATA = (window.DASHBOARD_DATA || []);
   var currentFilter = "全部";
+  var currentSort = "default";
+  var onlyMatch = false;
+  var query = "";
+  var viewMode = "platform";
+  var openSet = {};
+  var jumpFilter = null; // {cat:'...', brand:'...' or null} 从品牌建议跳转时使用
+  var selected = {}; // 用户勾选的商品：key -> true（key = name|platform|date）
+  if(DATA.length) openSet[DATA[0].date] = true;
 
-  // 图片加载失败时的精美占位（带产品名 + 平台色）
-  function placeholderSVG(label, color){
-    var s='<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">'+
-      '<rect width="100%" height="100%" fill="'+color+'" opacity="0.12"/>'+
+  // ============ 平台归一 ============
+  var NORM = {"淘宝":"淘宝/天猫","淘宝/天猫":"淘宝/天猫","1688":"1688（源头工厂）","1688（源头工厂）":"1688（源头工厂）"};
+  function norm(p){ return NORM[p] || p; }
+  var PCOLOR = {"淘宝/天猫":"var(--p-tb)","拼多多":"var(--p-pdd)","抖音":"var(--p-dy)","1688（源头工厂）":"var(--p-1688)","京东":"var(--p-jd)","饷店/细莫严选":"var(--p-xm)"};
+  function pcolor(p){ return PCOLOR[p] || "var(--brand)"; }
+  var platforms=[];
+  DATA.forEach(function(d){ d.products.forEach(function(p){ var np=norm(p.platform); if(platforms.indexOf(np)===-1) platforms.push(np); }); });
+  // 全量商品索引（用于勾选导出时回查商品对象）
+  var PROD_MAP={};
+  DATA.forEach(function(d){ d.products.forEach(function(p){ PROD_MAP[p.name+'|'+norm(p.platform)+'|'+d.date]={p:p, date:d.date}; }); });
+
+  // ============ 跨日同名去重 ============
+  var nameDates={};
+  DATA.forEach(function(d){ d.products.forEach(function(p){ (nameDates[p.name]=nameDates[p.name]||[]).push(d.date); }); });
+  function dupCount(name){ return (nameDates[name]||[]).length; }
+
+  // ============ 人群角色 ============
+  var PERSONA_RULES=[
+    {key:'child', label:'🧒 孩子/母婴', kw:['儿童','宝宝','婴儿','母婴','学生','辅食','童','孕','产后','宝妈','少儿','开学','校园','学生党']},
+    {key:'male',  label:'👨 丈夫/男性', kw:['男士','男人','老公','男性','父亲','剃须','护肝','运动','男友','夫','他']},
+    {key:'elder', label:'👵 父母/老人', kw:['老人','长辈','父母','中老年','老年','爸妈','孝','三高','关节','睡眠','康养','滋补']},
+    {key:'home',  label:'🏠 家庭/日用', kw:['家庭','家用','清洁','洗衣','纸品','厨房','收纳','驱蚊','除螨','全屋','宠物','日用','家务','保鲜']},
+    {key:'female',label:'👩 女性',      kw:['女性','私护','经期','月经','暖宫','美容','护肤','美妆','养生','气血','阿胶','女神','胸部','妇科','温养','祛湿']}
+  ];
+  var NAME_RULES=[
+    {key:'child', kw:['儿童','宝宝','婴儿','母婴','学生','辅食','童','孕','产后','宝妈','少儿','开学','校园','学生党']},
+    {key:'male',  kw:['男士','男人','老公','男性','父亲','剃须','夫','男友']},
+    {key:'elder', kw:['老人','长辈','父母','中老年','老年','爸妈','孝']},
+    {key:'female',kw:['女性','私护','私处','妇科','经期','月经','暖宫','胸部','女神','阿胶','气血']}
+  ];
+  function personaKey(p){
+    var nm=(p.name||'').toLowerCase();
+    for(var i=0;i<NAME_RULES.length;i++){ var r=NAME_RULES[i]; for(var k=0;k<r.kw.length;k++){ if(nm.indexOf(r.kw[k].toLowerCase())>-1) return r.key; } }
+    var t=(p.name+' '+(p.hotReason||'')+' '+((p.goodKeywords||[]).join(' '))+' '+(p.matchReason||'')).toLowerCase();
+    for(var i=0;i<PERSONA_RULES.length-1;i++){ var r=PERSONA_RULES[i]; for(var k=0;k<r.kw.length;k++){ if(t.indexOf(r.kw[k].toLowerCase())>-1) return r.key; } }
+    return 'female';
+  }
+  function personaOf(p){ var key=personaKey(p); for(var i=0;i<PERSONA_RULES.length;i++){ if(PERSONA_RULES[i].key===key) return PERSONA_RULES[i]; } return PERSONA_RULES[PERSONA_RULES.length-1]; }
+
+  // ============ 品类分类 ============
+  var CAT=[
+    ["女性私护",["私护","私处","护理液","凝胶","妇科","洗液","抑菌"]],
+    ["益生菌/肠道",["益生菌"]],
+    ["祛湿茶",["红豆薏米","薏米","芡实","赤小豆","祛湿"]],
+    ["养生温补茶",["阿胶","红糖","姜枣","桂圆","枸杞","红枣","气血","菊花","决明子","桑葚","玫瑰","人参","当归","黄芪","党参"]],
+    ["足养/艾灸",["足贴","足浴","艾草","温灸","艾灸","足"]],
+    ["五谷粉糊",["黑芝麻","核桃","黑豆","五谷","茯苓","山药","薏仁","代餐"]],
+    ["护肤美妆",["面膜","水乳","精华","面霜","护肤","纯露","珍珠霜","甘油","芦荟胶","身体乳","喷雾","洁面","洗面奶"]],
+    ["洗护清洁",["洗发","沐浴","牙膏","洗衣","驱蚊","除螨"]]
+  ];
+  function categoryOf(p){
+    var n=(p.name||'').toLowerCase();
+    for(var i=0;i<CAT.length;i++){ var r=CAT[i]; for(var k=0;k<r[1].length;k++){ if(n.indexOf(r[1][k].toLowerCase())>-1) return r[0]; } }
+    return "其他";
+  }
+  var PLACEHOLDER=['多个品牌','未知品牌','多个工厂','花茶品牌','养生品牌','OEM代工','细莫等','古韩州等','等品牌','多个商家','多品牌','品牌方','品牌工厂','京东','淘宝','拼多多','抖音','1688'];
+  // 已知真实品牌（用于从占位 brand 的商品名中还原品牌）
+  var KNOWN_BRANDS=['古韩州','同仁堂','北京同仁堂','修正','妇炎洁','完美','东阿阿胶','老金磨方','福东海','片仔癀','百雀羚','白云山','Swisse','仁和','半亩花田','舒奈美','五谷磨房','云南白药','薇诺娜','寿全斋','阿芙','芙丽芳丝','细莫','固本堂','采之汲','春娟','舒友阁','可丽金','自然堂','六神','云南本草','ABC','养生堂','王老吉'];
+  function realBrand(p){
+    var b=(p.brand||'').trim();
+    // 已是真实品牌（非占位/非平台/不含"等"聚合词）
+    if(b && PLACEHOLDER.indexOf(b)<0 && b.indexOf('等')===-1) return b;
+    // 占位品牌：尝试从商品名前缀识别已知品牌
+    for(var i=0;i<KNOWN_BRANDS.length;i++){ if((p.name||'').indexOf(KNOWN_BRANDS[i])===0) return KNOWN_BRANDS[i]; }
+    return '其他';
+  }
+  // 卡片 / 主推卡 / 聚合变体行展示用品牌（= 还原后的真实品牌）
+  function displayBrand(p){ return realBrand(p); }
+  function baseOf(p){
+    var n=p.name||''; var b=realBrand(p);
+    if(b!=='其他' && n.indexOf(b)>-1){ n=n.split(b).join(''); }
+    n=n.replace(/[（(][^)）]*[)）]/g,'');
+    return n.replace(/^[\s·\-—]+|[\s·\-—]+$/g,'').trim() || (p.name||'商品');
+  }
+
+  // ============ 季节 / 节日 ============
+  function parseDate(s){ var m=String(s||'').match(/(\d{4})-(\d{2})-(\d{2})/); return m?new Date(+m[1],+m[2]-1,+m[3]):new Date(); }
+  var SEASON_MAP={'盛夏':['祛湿','温养','清热','解暑','防蚊','防晒','补水','消暑'],'初夏':['祛湿','防晒','清热','温养'],'秋季':['滋补','润燥','养肺','换季','过敏'],'冬季':['保暖','温补','润燥','护肤','进补'],'春季':['养肝','祛湿','过敏','焕新']};
+  function seasonKeywords(){ var s=DATA.length?DATA[0].season||'':''; for(var k in SEASON_MAP){ if(s.indexOf(k)>-1) return SEASON_MAP[k]; } return ['养生','温养']; }
+  function upcomingFestivals(ref){
+    var list=[{name:"七夕",date:new Date(ref.getFullYear(),7,19),persona:['female'],kw:['情侣','礼','玫瑰','甜蜜','女神']},
+              {name:"开学季",date:new Date(ref.getFullYear(),8,1),persona:['child','home'],kw:['开学','学生','文具','书包','校园']},
+              {name:"中秋",date:new Date(ref.getFullYear(),8,25),persona:['home','elder','female'],kw:['月饼','礼盒','团圆','送礼']},
+              {name:"国庆",date:new Date(ref.getFullYear(),9,1),persona:['home'],kw:['出游','旅行','户外']},
+              {name:"双11",date:new Date(ref.getFullYear(),10,11),persona:['female','home','child'],kw:['囤货','礼']}];
+    var persona={},kw=[],names=[];
+    list.forEach(function(f){ var days=(f.date-ref)/86400000; if(days>=0&&days<=45){ var w=Math.max(3,14-Math.floor(days/5)); names.push(f.name+"("+Math.round(days)+"天)"); f.persona.forEach(function(p){persona[p]=(persona[p]||0)+w;}); f.kw.forEach(function(k){kw.push(k);}); } });
+    return {persona:persona,kw:kw,names:names};
+  }
+  var REF_DATE=parseDate(DATA.length?DATA[0].date:null);
+  var SEASON_KW=seasonKeywords();
+  var FEST=upcomingFestivals(REF_DATE);
+
+  // ============ 工具 ============
+  function esc(s){ return (s==null?'':String(s)).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+  function kws(list,cls){ return (list||[]).map(function(k){return '<span class="kw '+cls+'">'+esc(k)+'</span>';}).join(''); }
+  function concretePrice(p){ var m=String(p.price||'').match(/(\d+(?:\.\d+)?)/); return m?parseFloat(m[1]):null; }
+  function haystack(p){ return (p.name+' '+(p.hotReason||'')+' '+((p.goodKeywords||[]).concat(p.badKeywords||[])).join(' ')+' '+(p.matchReason||'')).toLowerCase(); }
+  // 具体上架分（0-100+，展示时截断）
+  function score(p){
+    var hay=haystack(p); var s=40;
+    if(/48|24/.test(p.shipping||'')) s+=10;
+    SEASON_KW.forEach(function(k){ if(hay.indexOf(k.toLowerCase())>-1) s+=12; });
+    var per=personaKey(p);
+    if(FEST.persona[per]) s+=FEST.persona[per];
+    FEST.kw.forEach(function(k){ if(hay.indexOf(k.toLowerCase())>-1) s+=6; });
+    var pv=concretePrice(p); if(pv!=null){ if(pv<50) s+=10; else if(pv<100) s+=5; }
+    if(/高性价比|源头|批发|实惠|平价|性价比/.test(hay)) s+=6;
+    if(/热销|好评|知名度|爆款|推荐|热卖/.test(hay)) s+=8;
+    return s;
+  }
+  function dispScore(p){ return Math.max(0,Math.min(100,Math.round(score(p)))); }
+  function priceHTML(p){
+    var cp=concretePrice(p);
+    if(cp==null) return '<span class="pr">'+(esc(p.price)||'—')+'</span>';
+    var sub=(p.price && p.price!==('¥'+cp))?'<span class="pr-sub">'+esc(p.price)+'</span>':'';
+    return '<span class="pr">¥'+cp+'</span>'+sub;
+  }
+  // 规格：从价格串中提取「/」后的描述（如 ¥39.9/3盒 → 3盒）
+  function specOf(p){
+    var m=String(p.price||'').match(/\/\s*([^/]+)$/);
+    return m ? m[1].trim() : '—';
+  }
+  // 竞品平台在售情况：同名/同基名商品在哪些平台出现（跨全部历史）
+  function competitorPlatforms(p){
+    var key=baseOf(p); var set={};
+    DATA.forEach(function(d){ d.products.forEach(function(q){ if(baseOf(q)===key) set[norm(q.platform)]=true; }); });
+    return Object.keys(set);
+  }
+  function placeholderSVG(label,color){
+    var s='<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200"><rect width="100%" height="100%" fill="'+color+'" opacity="0.12"/>'+
       '<rect x="6" y="6" width="288" height="188" rx="12" fill="none" stroke="'+color+'" stroke-width="2" opacity="0.5"/>'+
-      '<text x="50%" y="50%" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="700" fill="'+color+'" text-anchor="middle" dominant-baseline="middle">'+label+'</text></svg>';
+      '<text x="50%" y="50%" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="700" fill="'+color+'" text-anchor="middle" dominant-baseline="middle">'+esc(label)+'</text></svg>';
     return 'data:image/svg+xml,'+encodeURIComponent(s);
   }
-  function imgFallback(img){
-    img.onerror=null;
-    img.src=placeholderSVG(img.getAttribute('data-label')||'商品', img.getAttribute('data-color')||'#e85b8a');
+  function imgFallback(img){ img.onerror=null; img.src=placeholderSVG(img.getAttribute('data-label')||'商品', img.getAttribute('data-color')||'#e85b8a'); }
+  function imgTag(p,lazy){
+    var col=pcolor(norm(p.platform)); var src=esc(p.image||''); var alt=' alt="'+esc(p.name)+'"';
+    if(!src) return '<div class="imgwrap"><img class="ph" data-label="'+esc(p.name)+'" data-color="'+col+'"'+alt+' referrerpolicy="no-referrer"></div>';
+    if(lazy) return '<div class="imgwrap"><img data-src="'+src+'" data-label="'+esc(p.name)+'" data-color="'+col+'"'+alt+' referrerpolicy="no-referrer" onerror="imgFallback(this)"></div>';
+    return '<div class="imgwrap"><img src="'+src+'" data-label="'+esc(p.name)+'" data-color="'+col+'"'+alt+' referrerpolicy="no-referrer" onerror="imgFallback(this)" onload="this.classList.add(\'loaded\')"></div>';
   }
-  function imgTag(p){
-    var col=pcolor(p.platform);
-    var src=esc(p.image||'');
-    return '<div class="imgwrap"><img src="'+src+'" data-label="'+esc(p.name)+'" data-color="'+col+'" '+
-      'referrerpolicy="no-referrer" onerror="imgFallback(this)" onload="this.classList.add(\'loaded\')"></div>';
+  function loadImages(container){
+    container.querySelectorAll('img[data-src]').forEach(function(img){ img.onload=function(){ img.classList.add('loaded'); }; img.src=img.getAttribute('data-src'); img.removeAttribute('data-src'); });
+    container.querySelectorAll('img.ph').forEach(function(img){ imgFallback(img); img.classList.add('loaded'); img.classList.remove('ph'); });
   }
 
-  var PCOLOR = {
-    "淘宝/天猫":"var(--p-tb)","拼多多":"var(--p-pdd)","抖音":"var(--p-dy)",
-    "1688（源头工厂）":"var(--p-1688)","饷店/细莫严选":"var(--p-xm)"
-  };
-  function pcolor(p){ return PCOLOR[p] || "var(--brand)"; }
+  // ============ 过滤 + 搜索 ============
+  function passFilter(p){
+    if(currentFilter!=="全部" && norm(p.platform)!==currentFilter) return false;
+    if(onlyMatch && !p.match) return false;
+    if(query){ var q=query.toLowerCase(); var hay=(p.name+' '+(p.brand||'')+' '+(p.price||'')+' '+(p.hotReason||'')+' '+(p.matchReason||'')+' '+((p.goodKeywords||[]).concat(p.badKeywords||[])).join(' ')).toLowerCase(); if(hay.indexOf(q)===-1) return false; }
+    if(jumpFilter){
+      if(categoryOf(p) !== jumpFilter.cat) return false;
+      if(jumpFilter.brand && displayBrand(p) !== jumpFilter.brand) return false;
+    }
+    return true;
+  }
+  function sortList(list){
+    if(currentSort==="default") return list.slice().sort(function(a,b){ return (dupCount(a.name)>1?1:0)-(dupCount(b.name)>1?1:0); });
+    if(currentSort==="match") return list.slice().sort(function(a,b){return (b.match?1:0)-(a.match?1:0);});
+    if(currentSort==="priceAsc") return list.slice().sort(function(a,b){return (concretePrice(a)||1e9)-(concretePrice(b)||1e9);});
+    if(currentSort==="priceDesc") return list.slice().sort(function(a,b){return (concretePrice(b)||-1)-(concretePrice(a)||-1);});
+    return list;
+  }
 
-  // 平台列表
-  var platforms=[];
-  DATA.forEach(function(d){ d.products.forEach(function(p){
-    if(platforms.indexOf(p.platform)===-1) platforms.push(p.platform);
-  });});
-
-  // ---- 概览统计 ----
+  // ============ 概览统计 ============
   (function(){
-    var total=0, matched=0;
+    var total=0, matched=0, dupNames=0;
     if(DATA.length){ total=DATA[0].products.length; matched=DATA[0].products.filter(function(p){return p.match;}).length; }
-    var el=document.getElementById('stats');
-    el.innerHTML=
+    Object.keys(nameDates).forEach(function(n){ if(nameDates[n].length>1) dupNames++; });
+    document.getElementById('stats').innerHTML=
       '<div class="stat"><div class="n">'+total+'</div><div class="l">今日精选产品</div></div>'+
       '<div class="stat"><div class="n">'+matched+'</div><div class="l">✓ 匹配可上架</div></div>'+
       '<div class="stat"><div class="n">'+platforms.length+'</div><div class="l">覆盖平台</div></div>'+
       '<div class="stat"><div class="n">'+DATA.length+'</div><div class="l">历史归档天数</div></div>';
+    document.getElementById('dupnote').innerHTML='🔁 本周跨日重复商品 <b>'+dupNames+'</b> 款（同名商品在多个日期重复出现，已在卡片标注并聚合同款；本周主推已自动去重；建议生成端减少每日重复推送）。';
   })();
 
-  // ---- 筛选条 ----
+  // ============ 筛选条 ============
   var fwrap=document.getElementById('filters');
-  platforms.forEach(function(p){
-    var c=document.createElement('span');
-    c.className='chip'; c.textContent=p; c.setAttribute('data-p',p);
-    c.onclick=function(){ setFilter(p); };
-    fwrap.appendChild(c);
-  });
-  function setFilter(p){
-    currentFilter=p;
-    document.querySelectorAll('.chip').forEach(function(c){
-      c.classList.toggle('active', c.getAttribute('data-p')===p);
-    });
-    render();
-  }
+  platforms.forEach(function(p){ var c=document.createElement('span'); c.className='chip'; c.textContent=p; c.setAttribute('data-p',p); c.onclick=function(){ setFilter(p); }; fwrap.appendChild(c); });
+  function setFilter(p){ currentFilter=p; document.querySelectorAll('.chip').forEach(function(c){ c.classList.toggle('active', c.getAttribute('data-p')===p); }); render(); }
 
-  function esc(s){ return (s==null?'':String(s)); }
-  function kws(list,cls){
-    return (list||[]).map(function(k){return '<span class="kw '+cls+'">'+esc(k)+'</span>';}).join('');
-  }
-
-  // ---- 产品卡 ----
-  function card(p){
-    var col=pcolor(p.platform);
-    return '<div class="card" style="--brand:'+col+'">'+
-      imgTag(p)+
-      '<div class="ctop">'+
-        '<h5>'+esc(p.name)+'</h5>'+
-        (p.match?'<span class="tag y">✓ 匹配</span>':'<span class="tag n">✕ 不主推</span>')+
+  // ============ 产品卡 ============
+  function card(p, date){
+    var col=pcolor(norm(p.platform)); var dc=dupCount(p.name);
+    var dupTag = dc>1 ? '<span class="tag dup">🔁 重复'+dc+'次</span>' : '';
+    var key = p.name+'|'+norm(p.platform)+'|'+date;
+    var gk=(p.goodKeywords||[]), bk=(p.badKeywords||[]);
+    var kwHtml='<div class="kws">';
+    if(gk.length) kwHtml+='<span class="kwlabel good">优点</span>'+kws(gk,'good');
+    if(bk.length) kwHtml+='<span class="kwlabel bad">缺点</span>'+kws(bk,'bad');
+    kwHtml+='</div>';
+    return '<div class="card'+(dc>1?'':' fresh')+'" style="--brand:'+col+'" data-cat="'+esc(categoryOf(p))+'" data-brand="'+esc(displayBrand(p))+'" data-score="'+dispScore(p)+'">'+
+      imgTag(p,true)+
+      '<div class="ctop"><h5>'+esc(p.name)+'</h5>'+
+        '<div class="ctags"><label class="sel" title="勾选后可在工具栏「导出已选Excel」"><input type="checkbox" class="pcb" data-key="'+esc(key)+'">选</label>'+(p.match?'<span class="tag y">✓ 匹配</span>':'<span class="tag n">✕ 不主推</span>')+dupTag+'<span class="tag sc">上架分 '+dispScore(p)+'</span></div>'+
       '</div>'+
-      '<div class="prow">'+
-        '<span class="pr">'+esc(p.price)+'</span>'+
-        '<span class="brand">'+esc(p.brand)+'</span>'+
-        '<span class="ship">🚚 '+esc(p.shipping)+'</span>'+
-      '</div>'+
+      '<div class="prow">'+priceHTML(p)+'<span class="brand sel-brand" data-cat="'+esc(categoryOf(p))+'" data-brand="'+esc(displayBrand(p))+'" title="点击查看该品牌全部商品">'+esc(displayBrand(p))+'</span><span class="ship">🚚 '+esc(p.shipping)+'</span></div>'+
       '<p class="reason">🔥 '+esc(p.hotReason)+'</p>'+
-      '<div class="kws">'+kws(p.goodKeywords,'good')+kws(p.badKeywords,'bad')+'</div>'+
+      kwHtml+
       '<div class="mr">💡 '+esc(p.matchReason)+'</div>'+
-      '<a class="link" href="'+esc(p.link)+'" target="_blank" rel="noopener">🔗 去 '+esc(p.platform)+' 查看</a>'+
+      '<a class="link" href="'+esc(p.link)+'" target="_blank" rel="noopener">🔗 去 '+esc(norm(p.platform))+' 查看（具体商品页）</a>'+
     '</div>';
   }
 
-  // ---- 平台分组 ----
+  // ============ 平台分组 ============
   function groupedBody(d){
     var groups={};
-    d.products.forEach(function(p){
-      if(currentFilter!=="全部" && p.platform!==currentFilter) return;
-      (groups[p.platform]=groups[p.platform]||[]).push(p);
-    });
+    d.products.forEach(function(p){ if(!passFilter(p)) return; var np=norm(p.platform); (groups[np]=groups[np]||[]).push(p); });
     var order=platforms.filter(function(p){return groups[p];});
-    if(!order.length) return '<div class="empty">该平台今日暂无匹配产品</div>';
+    if(!order.length) return '';
     return order.map(function(plat){
-      var list=groups[plat];
-      return '<div class="pgroup">'+
-        '<div class="pgroup-hd"><span class="dot" style="background:'+pcolor(plat)+'"></span>'+
-          esc(plat)+'<span class="num">'+list.length+' 款</span></div>'+
-        '<div class="cards">'+list.map(card).join('')+'</div>'+
-      '</div>';
+      var list=sortList(groups[plat]);
+      return '<div class="pgroup"><div class="pgroup-hd"><span class="dot" style="background:'+pcolor(plat)+'"></span>'+esc(plat)+'<span class="num">'+list.length+' 款</span></div>'+
+        '<div class="cards">'+list.map(function(p){return card(p, d.date);}).join('')+'</div></div>';
     }).join('');
   }
 
-  // ---- 本周专区建议 ----
+  // ============ 智能本周主推 ============
+  function computeWeekly(){
+    var cand=[];
+    DATA.forEach(function(d){ d.products.forEach(function(p){
+      if(!p.match) return;
+      var s=score(p); var dc=dupCount(p.name); if(dc>1) s-=15*(dc-1);
+      cand.push({p:p, score:s, per:personaOf(p), date:d.date});
+    }); });
+    cand.sort(function(a,b){ return b.score-a.score; });
+    var picks=[], perCount={}, usedNames={};
+    for(var i=0;i<cand.length && picks.length<8;i++){ var c=cand[i]; if(usedNames[c.p.name]) continue; usedNames[c.p.name]=true; perCount[c.per.key]=(perCount[c.per.key]||0)+1; if(perCount[c.per.key]>3 && picks.length<5) continue; picks.push(c); }
+    if(picks.length<3 && DATA.length && DATA[0].weeklySuggestion && DATA[0].weeklySuggestion.topPicks){
+      picks=(DATA[0].weeklySuggestion.topPicks||[]).map(function(p){ return {p:p, score:0, per:personaOf(p), date:DATA[0].date}; });
+    }
+    var covered={}; picks.forEach(function(c){ covered[c.per.key]=true; });
+    return {picks:picks, covered:covered};
+  }
+
+  // ============ 品类品牌建议 ============
+  function brandAdvice(){
+    // 从匹配款中按品类聚合真实品牌
+    var byCat={};
+    DATA.forEach(function(d){ d.products.forEach(function(p){
+      if(!p.match) return; if(!passFilter(p)) return;
+      var b=realBrand(p); if(b==='其他') return;   // 无明确品牌不进建议
+      var c=categoryOf(p); (byCat[c]=byCat[c]||[]).push({p:p, b:b});
+    }); });
+    var out=[];
+    Object.keys(byCat).forEach(function(cat){
+      var byBrand={};
+      byCat[cat].forEach(function(o){ (byBrand[o.b]=byBrand[o.b]||[]).push(o.p); });
+      if(Object.keys(byBrand).length<1) return;
+      var arr=Object.keys(byBrand).map(function(b){
+        var ps=byBrand[b];
+        var avg=ps.reduce(function(a,p){return a+score(p);},0)/ps.length;
+        var minP=Infinity; ps.forEach(function(p){ var v=concretePrice(p); if(v!=null&&v<minP) minP=v; });
+        var ship48=ps.some(function(p){return /48|24/.test(p.shipping||'');});
+        var pop=ps.some(function(p){return /热销|好评|知名度|爆款|推荐|热卖/.test(haystack(p));});
+        var brandScore=avg + ps.length*4 + (ship48?8:0) + (pop?6:0) + (minP<50?6:0);
+        var best=ps.reduce(function(a,p){return score(p)>score(a)?p:a;}, ps[0]);
+        return {brand:b, n:ps.length, avg:Math.round(avg), minP:minP, ship48:ship48, pop:pop, brandScore:brandScore, best:best};
+      });
+      arr.sort(function(a,b){return b.brandScore-a.brandScore;});
+      out.push({cat:cat, brands:arr.slice(0,3), total:byCat[cat].length});
+    });
+    out.sort(function(a,b){return b.total-a.total;});
+    return out.slice(0,6);
+  }
+  function reasonFor(b){
+    var r=[];
+    if(b.minP!=null && isFinite(b.minP)) r.push('¥'+b.minP+'起');
+    if(b.ship48) r.push('48h发货');
+    if(b.pop) r.push('热销/好评');
+    if(b.n>1) r.push(b.n+'款在架');
+    return r.join(' · ');
+  }
+
+  // ============ 选品结构可视化（仅品类占比） ============
+  function vizHtml(w){
+    var picks=w.picks; var total=picks.length||1;
+    var cc={}; picks.forEach(function(c){ var k=categoryOf(c.p); cc[k]=(cc[k]||0)+1; });
+    var catColor={'养生温补茶':'#ff6f91','女性私护':'#e056a0','护肤美妆':'#f7b500','祛湿茶':'#4fb477','益生菌/肠道':'#5b8def','其他':'#9aa6b2'};
+    var cbar='', clegend='';
+    Object.keys(cc).forEach(function(k){ var pct=cc[k]/total*100; cbar+='<span class="vseg" style="width:'+pct+'%;background:'+(catColor[k]||'#9aa6b2')+'" title="'+k+'：'+cc[k]+'"></span>'; clegend+='<span class="vlg"><i style="background:'+(catColor[k]||'#9aa6b2')+'"></i>'+esc(k)+' <b>'+cc[k]+'</b></span>'; });
+    return '<div class="viz"><div class="viz-h">📊 选品品类占比</div>'+
+      '<div class="viz-row"><div class="viz-lbl">品类占比</div><div class="vbar cat">'+cbar+'</div></div>'+
+      '<div class="vlegend">'+clegend+'</div></div>';
+  }
+
+  // ============ 本周专区渲染 ============
   function renderLatest(){
     var el=document.getElementById('latest');
     if(!DATA.length){ el.innerHTML='<div class="empty">暂无数据</div>'; return; }
-    var d=DATA[0], w=d.weeklySuggestion||{};
-    var zonesHtml=(w.zones||[]).map(function(z){
-      return '<div class="zone"><span class="zt">'+esc(z.zone)+'</span><span class="zp">'+(z.products||[]).join(' · ')+'</span></div>';
+    var d=DATA[0]; var w=computeWeekly(); var picks=w.picks; var festNames=FEST.names;
+    var theme=(d.season||'当季')+' · 全家庭温养'+(festNames.length?'（临近'+festNames[0]+'）':'');
+    var gaps=PERSONA_RULES.filter(function(r){return !w.covered[r.key];});
+    var reason='当前为'+(d.season||'当季')+(festNames.length?'，临近'+festNames.join('、')+'，':'')+'围绕三四线县城女性及全家庭健康养生需求选品；已优先匹配、48h内发货、价格敏感款，并跨日去重。'+
+      (gaps.length?' ⚠️ 本周数据以女性向为主，未覆盖：'+gaps.map(function(g){return g.label;}).join('、')+'，建议补充相关选品。':' ✅ 已实现全家庭人群覆盖。');
+
+    // 覆盖度
+    var covHtml='<div class="cov"><span class="covlbl">全家庭覆盖：</span>';
+    PERSONA_RULES.forEach(function(r){ covHtml+='<span class="cov-badge '+(w.covered[r.key]?'on':'gap')+'">'+r.label+(w.covered[r.key]?'':'（缺）')+'</span>'; });
+    covHtml+='</div>';
+
+    // 选品结构可视化（仅品类占比，价格带分布已移除）
+    var vizHtmlStr=vizHtml(w);
+    // 品类品牌建议（每行可点击跳转，品类标题可点击看全品类）
+    var adv=brandAdvice();
+    var advHtml='<div class="brandsec"><div class="brandsec-hd">🏷️ 品类品牌建议（每品类 Top3，⭐ 优先推荐 · 点击品牌或品类名跳转）</div><div class="brandgrid">';
+    adv.forEach(function(a){
+      var rows=a.brands.map(function(b,i){
+        var best=i===0;
+        var pmin=(b.minP!=null && isFinite(b.minP))?b.minP:null;
+        return '<div class="brow'+(best?' best':'')+'" data-brand="'+esc(b.brand)+'" data-cat="'+esc(a.cat)+'" title="点击查看「'+esc(b.brand)+'」的全部产品">'+
+          '<span class="rk">'+(i+1)+'</span>'+
+          '<span class="bn">'+esc(b.brand)+'</span>'+
+          (pmin!=null?'<span class="bp">¥'+pmin+'</span>':'<span class="bp">—</span>')+
+          '<span class="bs">分'+b.avg+'</span>'+
+          (best?'<span class="star">⭐优先</span>':'')+
+          (best?'<div class="why">推荐理由：'+esc(reasonFor(b))+' <span class="vplink" title="跳到该品牌评分最高的单品">查看该款 ›</span></div><div class="rep">代表单品：'+esc(b.best.name)+'（分'+dispScore(b.best)+'）</div>':'')+
+        '</div>';
+      }).join('');
+      advHtml+='<div class="bcat"><div class="ct" data-cat="'+esc(a.cat)+'" title="点击查看「'+esc(a.cat)+'」全部品牌的产品">'+
+        '<span class="dot"></span>'+esc(a.cat)+
+        ' <span style="font-weight:500;color:var(--faint);font-size:11.5px">('+a.total+'款在架)</span>'+
+      '</div><div class="brows">'+rows+'</div></div>';
+    });
+    advHtml+='</div></div>';
+
+    // 主推卡
+    var picksHtml=picks.map(function(c,i){
+      var pkey=c.p.name+'|'+norm(c.p.platform)+'|'+d.date;
+      return '<div class="pick"><label class="sel" title="勾选后可在工具栏「导出已选Excel」"><input type="checkbox" class="pcb" data-key="'+esc(pkey)+'">选</label><span class="rank">'+(i+1)+'</span>'+imgTag(c.p,false)+
+        '<h4>'+esc(c.p.name)+'</h4>'+
+        '<div class="prow">'+priceHTML(c.p)+
+          '<span class="plat" style="background:'+pcolor(norm(c.p.platform))+'">'+esc(norm(c.p.platform))+'</span>'+
+          '<span class="per">'+c.per.label+'</span>'+
+          '<span class="sc">分'+dispScore(c.p)+'</span></div>'+
+        '<div class="m">'+esc(displayBrand(c.p))+' · 🚚 '+esc(c.p.shipping)+'</div>'+
+        '<p>'+esc(c.p.reason||c.p.matchReason||c.p.hotReason||'')+'</p></div>';
     }).join('');
-    var picksHtml=(w.topPicks||[]).map(function(p,i){
-      return '<div class="pick">'+
-        '<span class="rank">'+(i+1)+'</span>'+
-        imgTag(p)+
-        '<h4>'+esc(p.name)+'</h4>'+
-        '<div class="prow"><span class="pr">'+esc(p.price)+'</span><span class="plat" style="background:'+pcolor(p.platform)+'">'+esc(p.platform)+'</span></div>'+
-        '<div class="m">'+esc(p.brand)+' · 🚚 '+esc(p.shipping)+'</div>'+
-        '<p>'+esc(p.reason)+'</p>'+
-      '</div>';
-    }).join('');
-    el.innerHTML=
-      '<div class="week">'+
-        '<div class="week-top"><span class="week-theme">📌 '+esc(w.theme)+'</span>'+
-          '<span class="week-date">'+esc(d.date)+' · '+esc(d.season)+'</span></div>'+
-        '<div class="week-reason">'+esc(w.reason)+'</div>'+
-        '<div class="zones">'+zonesHtml+'</div>'+
-        '<div class="picks-hd">⭐ 本周具体主推（'+(w.topPicks||[]).length+' 款，好评高 · 知名度高 · 48h内发货）</div>'+
-        '<div class="picks">'+picksHtml+'</div>'+
-      '</div>';
+
+    el.innerHTML='<div class="week">'+
+      '<div class="week-top"><span class="week-theme">📌 '+esc(theme)+'</span><span class="week-date">'+esc(d.date)+'</span></div>'+
+      '<div class="week-reason">'+esc(reason)+'</div>'+
+      covHtml+vizHtmlStr+advHtml+
+      '<div class="picks-hd">⭐ 本周智能主推（'+picks.length+' 款 · 综合匹配/时效/价格/季节/节日/去重 打分）</div>'+
+      '<div class="picks">'+picksHtml+'</div></div>';
   }
 
-  // ---- 归档渲染 ----
+  // ============ 同款聚合视图 ============
+  function renderAggregate(){
+    var groups={};
+    DATA.forEach(function(d){ d.products.forEach(function(p){
+      if(!passFilter(p)) return;
+      var key=categoryOf(p)+'||'+baseOf(p);
+      (groups[key]=groups[key]||[]).push(p);
+    }); });
+    var keys=Object.keys(groups);
+    if(!keys.length) return '<div class="nomatch">😶 没有匹配的商品，试试换个关键词或平台。</div>';
+    var html='';
+    keys.sort(function(a,b){
+      var ca=a.split('||')[0], cb=b.split('||')[0];
+      if(ca!==cb) return ca<cb?-1:1;
+      return groups[a].length>groups[b].length?-1:1;
+    });
+    keys.forEach(function(key){
+      var parts=key.split('||'); var cat=parts[0], base=parts[1];
+      var ps=groups[key];
+      // 最低价 / 最高分
+      var minP=Infinity, bestP=null;
+      ps.forEach(function(p){ var v=concretePrice(p); if(v!=null&&v<minP){minP=v;bestP=p;} if(bestP===null) bestP=p; if(score(p)>score(bestP)) bestP=p; });
+      var avgSc=Math.round(ps.reduce(function(a,p){return a+score(p);},0)/ps.length);
+      var vars=ps.slice().sort(function(a,b){ return (concretePrice(a)||1e9)-(concretePrice(b)||1e9); }).map(function(p){
+        var isBest=(p===bestP);
+        return '<div class="vrow">'+
+          '<span class="vb">'+esc(displayBrand(p))+'</span>'+
+          '<span class="vp">'+esc(norm(p.platform))+'</span>'+
+          (concretePrice(p)!=null?'<span class="vpr">¥'+concretePrice(p)+'</span>':'<span class="vpr">'+(esc(p.price)||'—')+'</span>')+
+          '<span class="vsc">分'+dispScore(p)+'</span>'+
+          (isBest?'<span class="vstar">⭐优先</span>':'')+
+          '<a class="vlink" href="'+esc(p.link)+'" target="_blank" rel="noopener">去查看 ›</a>'+
+        '</div>';
+      }).join('');
+      html+='<details class="agg"><summary>'+
+        '<span class="an">'+esc(base)+'</span>'+
+        '<span class="acat">'+esc(cat)+'</span>'+
+        (minP!=null && isFinite(minP)?'<span class="apr">¥'+minP+'</span><span class="apr-sub"> 起</span>':'<span class="apr">—</span>')+
+        '<span class="asc">分'+avgSc+'</span>'+
+        '<span class="acnt">'+ps.length+' 个同款</span>'+
+        '<span class="aarrow">▼</span>'+
+      '</summary><div class="vars">'+vars+'</div></details>';
+    });
+    return html;
+  }
+
+  // ============ 归档渲染 ============
   function render(){
     var arc=document.getElementById('archive');
+    var resultEl=document.getElementById('result');
+    var any=false, totalVisible=0;
+    var searching = !!query || currentFilter!=="全部" || onlyMatch || !!jumpFilter;
+    syncHash();
+
+    if(viewMode==="agg"){
+      var aggHtml=renderAggregate();
+      // 计算可见数
+      DATA.forEach(function(d){ d.products.forEach(function(p){ if(passFilter(p)) totalVisible++; }); });
+      any = totalVisible>0;
+      arc.innerHTML = any ? aggHtml : '<div class="nomatch">😶 没有匹配的商品，试试换个关键词或平台。</div>';
+      resultEl.innerHTML = '同款聚合视图 · 当前显示 <b>'+totalVisible+'</b> 款归入 <b>'+Object.keys(aggregateKeys()).length+'</b> 组'+(query?' · 关键词「'+esc(query)+'」':'')+_jumpChipHtml();
+      restoreSelection();
+      return;
+    }
+
     arc.innerHTML='';
-    var any=false;
-    DATA.forEach(function(d,idx){
-      var visible = currentFilter==="全部" ? d.products.length :
-        d.products.filter(function(p){return p.platform===currentFilter;}).length;
+    DATA.forEach(function(d){
+      var visible=d.products.filter(passFilter).length;
       if(visible===0) return;
-      any=true;
+      any=true; totalVisible+=visible;
+      var open=searching?true:!!openSet[d.date];
       var div=document.createElement('div');
-      div.className='day'+(idx===0?' open':'');
-      div.innerHTML=
-        '<div class="day-head" onclick="this.parentNode.classList.toggle(\'open\')">'+
-          '<div class="left"><span class="d">📅 '+esc(d.date)+'</span><span class="s">'+esc(d.season)+'</span></div>'+
-          '<div class="right"><span class="cnt">共 '+visible+' 款'+(currentFilter==="全部"?'':'（'+esc(currentFilter)+'）')+'</span><span class="arrow">▼</span></div>'+
-        '</div>'+
-        '<div class="day-body">'+
-          '<div class="src">⚠️ 数据说明：'+esc(d.dataSource)+'</div>'+
-          groupedBody(d)+
-        '</div>';
+      div.className='day'+(open?' open':'');
+      div.setAttribute('data-date',d.date);
+      div.innerHTML='<div class="day-head"><div class="left"><span class="d">📅 '+esc(d.date)+'</span><span class="s">'+esc(d.season)+'</span></div>'+
+        '<div class="right"><span class="cnt">共 '+visible+' 款'+(currentFilter==="全部"?'':'（'+esc(currentFilter)+'）')+'</span><span class="arrow">▼</span></div></div>'+
+        '<div class="day-body"><div class="src">⚠️ 数据说明：'+esc(d.dataSource)+'</div>'+groupedBody(d)+'</div>';
       arc.appendChild(div);
+      if(open) loadImages(div.querySelector('.day-body'));
     });
-    if(!any) arc.innerHTML='<div class="empty">该平台暂无归档数据</div>';
+    if(!any) arc.innerHTML='<div class="nomatch">😶 没有匹配的商品，试试换个关键词或平台。</div>';
+    var filterLabel=currentFilter==="全部"?'':'（'+esc(currentFilter)+'）';
+    var matchLabel=onlyMatch?' · 仅匹配':'';
+    resultEl.innerHTML='当前显示 <b>'+totalVisible+'</b> 款'+filterLabel+matchLabel+(query?' · 关键词「'+esc(query)+'」':'')+_jumpChipHtml();
+    restoreSelection();
+  }
+  function aggregateKeys(){
+    var g={};
+    DATA.forEach(function(d){ d.products.forEach(function(p){ if(passFilter(p)) g[categoryOf(p)+'||'+baseOf(p)]=1; }); });
+    return g;
   }
 
+  // ============ 导出 CSV ============
+  function exportCsv(){
+    var w=computeWeekly(); var rows=w.picks;
+    var header=['排名','品类','商品名','品牌','平台','具体价格(元)','上架分','匹配','发货时效','链接'];
+    var lines=[header.join(',')];
+    rows.forEach(function(c,i){
+      var p=c.p;
+      var cells=[i+1, categoryOf(p), p.name, p.brand||'', norm(p.platform), concretePrice(p)!=null?concretePrice(p):'', dispScore(p), p.match?'是':'否', p.shipping||'', p.link||''];
+      lines.push(cells.map(function(v){ v=String(v==null?'':v); if(/[",\n]/.test(v)) v='"'+v.replace(/"/g,'""')+'"'; return v; }).join(','));
+    });
+    var csv='\ufeff'+lines.join('\r\n');
+    var blob=new Blob([csv],{type:'text/csv;charset=utf-8'});
+    var a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+    a.download='本周主推选品_'+(DATA.length?DATA[0].date:'')+'.csv'; a.click();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); },1000);
+  }
+
+  // ============ 勾选状态维护 ============
+  function csvCell(v){ v=String(v==null?'':v); if(/[",\n\r]/.test(v)) v='"'+v.replace(/"/g,'""')+'"'; return v; }
+  function updateSelCount(){ var n=Object.keys(selected).length; var el=document.getElementById('selInfo'); if(el) el.textContent = n?('已选 '+n+' 款'):''; }
+  function restoreSelection(){ try{ document.querySelectorAll('.pcb').forEach(function(cb){ cb.checked = !!selected[cb.getAttribute('data-key')]; }); }catch(e){} }
+
+  // ============ 导出已选 Excel（CSV 含 BOM，10 列） ============
+  function exportExcel(){
+    var keys=Object.keys(selected);
+    if(!keys.length){ alert('请先在「每日热销归档」或「本周专区」卡片左上角的「选」框中，勾选你要导出的商品。'); return; }
+    var header=['品类','商品名称','品牌','定价','规格','卖点','图片','竞品平台在售情况','发货时效','选择理由'];
+    var lines=[header.map(csvCell).join(',')];
+    keys.forEach(function(k){
+      var o=PROD_MAP[k]; if(!o) return; var p=o.p;
+      var cells=[
+        categoryOf(p),
+        p.name,
+        displayBrand(p),
+        concretePrice(p)!=null?concretePrice(p):(p.price||''),
+        specOf(p),
+        (p.goodKeywords||[]).join('、'),
+        p.image||'—',
+        competitorPlatforms(p).join('、'),
+        p.shipping||'',
+        p.matchReason||''
+      ];
+      lines.push(cells.map(csvCell).join(','));
+    });
+    var csv='\ufeff'+lines.join('\r\n');
+    var blob=new Blob([csv],{type:'text/csv;charset=utf-8'});
+    var a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+    a.download='已选选品_'+(DATA.length?DATA[0].date:'')+'.csv'; a.click();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); },1000);
+  }
+
+  // ============ 跳转：品类/品牌建议 → 对应商品列表 ============
+  function _jumpChipHtml(){
+    if(!jumpFilter) return '';
+    var label='🏷️ 筛选：<b>'+esc(jumpFilter.cat)+'</b>'+(jumpFilter.brand?' · 品牌 <b>'+esc(jumpFilter.brand)+'</b>':' · 全部品牌');
+    return ' · '+label+' <a href="javascript:window.clearJump()" class="jclr">✕ 清除筛选</a>';
+  }
+  function _applyJumpUI(){
+    viewMode='platform';
+    currentFilter='全部';
+    query='';
+    onlyMatch=false;
+    try{
+      qInput.value=''; qClr.classList.remove('show');
+      document.querySelectorAll('.chip').forEach(function(c){ c.classList.toggle('active', c.getAttribute('data-p')==='全部'); });
+      document.querySelectorAll('#viewSeg button').forEach(function(x){ x.classList.toggle('active', x.getAttribute('data-v')==='platform'); });
+      mt.classList.remove('on');
+      mt.querySelector('input').checked = false;
+    }catch(e){}
+  }
+  function _scrollToResult(){
+    var r=document.getElementById('result');
+    if(r){ var top=r.getBoundingClientRect().top + window.pageYOffset - 70; window.scrollTo({top:Math.max(0,top), behavior:'smooth'}); }
+  }
+  function jumpToBrand(cat, brand){
+    jumpFilter={cat:cat, brand:brand};
+    _applyJumpUI(); render(); _scrollToResult();
+  }
+  function jumpToCat(cat){
+    jumpFilter={cat:cat, brand:null};
+    _applyJumpUI(); render(); _scrollToResult();
+  }
+  function clearJump(){
+    jumpFilter=null;
+    render();
+  }
+  function jumpToProduct(cat, brand){
+    jumpFilter={cat:cat, brand:brand};
+    _applyJumpUI(); render();
+    setTimeout(function(){
+      var cards=document.querySelectorAll('.card');
+      var best=null, bs=-1;
+      for(var i=0;i<cards.length;i++){
+        if(cards[i].getAttribute('data-cat')===cat && cards[i].getAttribute('data-brand')===brand){
+          var sc=parseFloat(cards[i].getAttribute('data-score')||'0');
+          if(sc>bs){ bs=sc; best=cards[i]; }
+        }
+      }
+      if(best){ try{ best.scrollIntoView({behavior:'smooth', block:'center'}); }catch(e){}
+        best.classList.add('flash');
+        setTimeout(function(){ best.classList.remove('flash'); }, 1400);
+      }
+    }, 40);
+  }
+  window.jumpToBrand = jumpToBrand;
+  window.jumpToCat = jumpToCat;
+  window.jumpToProduct = jumpToProduct;
+  window.clearJump = clearJump;
+  // 事件代理：点击 查看该款 / 品牌行 / 品类标题 触发跳转
+  document.getElementById('latest').addEventListener('click', function(e){
+    var vplink = e.target.closest('.vplink');
+    if(vplink){ var r=vplink.closest('.brow'); jumpToProduct(r.getAttribute('data-cat'), r.getAttribute('data-brand')); return; }
+    var brow = e.target.closest('.brow');
+    if(brow){ jumpToBrand(brow.getAttribute('data-cat'), brow.getAttribute('data-brand')); return; }
+    var ct = e.target.closest('.bcat .ct');
+    if(ct){ jumpToCat(ct.getAttribute('data-cat')); return; }
+  });
+
+  // ============ URL hash：分享/书签当前筛选 ============
+  function readHash(){
+    var h=(location.hash||'').replace(/^#/,'');
+    if(!h) return {};
+    var o={}; h.split('&').forEach(function(p){ var kv=p.split('='); if(kv[0]) o[kv[0]]=decodeURIComponent(kv[1]||''); });
+    return o;
+  }
+  function syncHash(){
+    try{
+      var parts=[];
+      if(currentFilter!=='全部') parts.push('plat='+encodeURIComponent(currentFilter));
+      if(jumpFilter){ parts.push('cat='+encodeURIComponent(jumpFilter.cat)); if(jumpFilter.brand) parts.push('brand='+encodeURIComponent(jumpFilter.brand)); }
+      if(query) parts.push('q='+encodeURIComponent(query));
+      if(currentSort!=='default') parts.push('sort='+encodeURIComponent(currentSort));
+      if(onlyMatch) parts.push('match=1');
+      if(viewMode!=='platform') parts.push('view='+encodeURIComponent(viewMode));
+      var newHash = parts.length ? ('#'+parts.join('&')) : '';
+      if(location.hash !== newHash) history.replaceState(null, '', newHash);
+    }catch(e){}
+  }
+  function applyHash(){
+    var o=readHash();
+    currentFilter = o.plat || '全部';
+    jumpFilter = (o.cat||o.brand) ? {cat:o.cat||'', brand:o.brand||null} : null;
+    query = o.q || '';
+    currentSort = o.sort || 'default';
+    onlyMatch = o.match==='1';
+    viewMode = o.view || 'platform';
+    try{
+      qInput.value = query; qClr.classList.toggle('show', query.length>0);
+      document.querySelectorAll('.chip').forEach(function(c){ c.classList.toggle('active', c.getAttribute('data-p')===currentFilter); });
+      document.querySelectorAll('#viewSeg button').forEach(function(x){ x.classList.toggle('active', x.getAttribute('data-v')===viewMode); });
+      mt.classList.toggle('on', onlyMatch); var mip=mt.querySelector('input'); if(mip) mip.checked=onlyMatch;
+    }catch(e){}
+  }
+  window.applyHash = applyHash; window.syncHash = syncHash;
+
+  window.addEventListener('hashchange', function(){ try{ applyHash(); render(); }catch(e){} });
+
+  // ============ 事件 ============
+  document.getElementById('archive').addEventListener('click',function(e){
+    var brand=e.target.closest('.sel-brand');
+    if(brand){ jumpToBrand(brand.getAttribute('data-cat'), brand.getAttribute('data-brand')); return; }
+    var head=e.target.closest('.day-head');
+    if(!head) return;
+    var day=head.parentNode; day.classList.toggle('open');
+    openSet[day.getAttribute('data-date')]=day.classList.contains('open');
+    if(day.classList.contains('open')) loadImages(day.querySelector('.day-body'));
+  });
+  var qInput=document.getElementById('q'), qClr=document.getElementById('qclr');
+  qInput.addEventListener('input',function(){ query=qInput.value.trim(); qClr.classList.toggle('show', query.length>0); render(); });
+  qClr.addEventListener('click',function(){ qInput.value=''; query=''; qClr.classList.remove('show'); render(); qInput.focus(); });
+  document.getElementById('sort').addEventListener('change',function(e){ currentSort=e.target.value; render(); });
+  var mt=document.getElementById('matchToggle');
+  mt.addEventListener('change',function(){ onlyMatch=mt.querySelector('input').checked; mt.classList.toggle('on',onlyMatch); render(); });
+  document.getElementById('viewSeg').addEventListener('click',function(e){ var b=e.target.closest('button'); if(!b) return; viewMode=b.getAttribute('data-v'); document.querySelectorAll('#viewSeg button').forEach(function(x){ x.classList.toggle('active', x===b); }); render(); });
+  document.getElementById('expandAll').addEventListener('click',function(){ DATA.forEach(function(d){ openSet[d.date]=true; }); render(); });
+  document.getElementById('collapseAll').addEventListener('click',function(){ DATA.forEach(function(d){ openSet[d.date]=false; }); render(); });
+  document.getElementById('exportCsv').addEventListener('click',exportCsv);
+  document.getElementById('exportExcel').addEventListener('click',exportExcel);
+  document.addEventListener('change',function(e){ var cb=e.target.closest('.pcb'); if(!cb) return; var k=cb.getAttribute('data-key'); if(cb.checked) selected[k]=true; else delete selected[k]; updateSelCount(); });
+  updateSelCount();
+  document.addEventListener('keydown',function(e){
+    if(e.key==="/" && document.activeElement!==qInput){ e.preventDefault(); qInput.focus(); }
+    else if(e.key==="Escape" && document.activeElement===qInput){ qInput.value=''; query=''; qClr.classList.remove('show'); render(); }
+  });
+  var totop=document.getElementById('totop');
+  window.addEventListener('scroll',function(){ totop.classList.toggle('show', window.scrollY>500); },{passive:true});
+  totop.addEventListener('click',function(){ window.scrollTo({top:0,behavior:'smooth'}); });
+
+  applyHash();
   renderLatest();
   render();
 })();
