@@ -1,0 +1,4 @@
+# 本目录存放插件/手动采集上传的原始商品 JSON（每次采集一个独立文件）。
+# merge_collected.py 会把这些原始文件合并去重进 ../collected.json，并生成 ../collected.js。
+# 合并完成后对应的原始文件会被删除，避免重复累计。
+# 此 .gitkeep 仅用于让空目录能被 git 跟踪。
