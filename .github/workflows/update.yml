@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -24,6 +24,12 @@ jobs:
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
+
+      - name: 确保工作区干净（避免上次并发冲突残留）
+        run: |
+          git status --porcelain
+          git reset --hard HEAD
+          git clean -fd
 
       - name: 配置 Python
         uses: actions/setup-python@v5
@@ -46,13 +52,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add web/data.js
           git commit -m "自动更新爆品数据 ${{ github.run_id }}" || echo "无变化，跳过提交"
-          # 带重试的拉取+推送，避免与手动推送撞车
-          for i in 1 2 3; do
-            echo "第 $i 次尝试拉取并推送..."
-            git pull --rebase origin main && git push origin main && break
-            echo "第 $i 次失败，5秒后重试..."
-            sleep 5
-          done
+          # 使用 --autostash 避免与并发运行/手动提交冲突；失败时直接报错，不再留下冲突标记
+          if ! git pull --rebase --autostash origin main; then
+            echo "❌ rebase 失败，可能存在未解决的冲突"
+            git rebase --abort || true
+            exit 1
+          fi
+          git push origin main
 
       - name: 打包网页产物
         uses: actions/upload-pages-artifact@v3
