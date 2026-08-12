@@ -290,6 +290,9 @@
   <div class="stats" id="stats"></div>
   <div class="dupnote" id="dupnote"></div>
 
+  <div class="sec-title"><span class="bar"></span>最近热销趋势参考<span class="hint">自动搜索聚合 · 近期销量爆品 · 趋势参考</span></div>
+  <div id="trending"></div>
+
   <div class="sec-title"><span class="bar"></span>本周专区建议<span class="hint">智能生成 · 季节/时间/需求 · 跨日去重 · 全家庭覆盖 · 品类品牌建议</span></div>
   <div id="latest"></div>
 
@@ -656,7 +659,7 @@
     var d=DATA[0]; var w=computeWeekly(); var picks=w.picks; var festNames=FEST.names;
     var theme=(d.season||'当季')+' · 全家庭温养'+(festNames.length?'（临近'+festNames[0]+'）':'');
     var gaps=PERSONA_RULES.filter(function(r){return !w.covered[r.key];});
-    var reason='当前为'+(d.season||'当季')+(festNames.length?'，临近'+festNames.join('、')+'，':'')+'围绕三四线县城女性及全家庭健康养生需求选品；已优先匹配、48h内发货、价格敏感款，并跨日去重。'+
+    var reason='当前为'+(d.season||'当季')+(festNames.length?'，临近'+festNames.join('、')+'，':'')+'围绕县城女性及全家庭（健康养生 / 家居好物 / 实用小家电 / 节日送礼）需求选品；已优先匹配、48h内发货、价格敏感款，并跨日去重。'+
       (gaps.length?' ⚠️ 本周数据以女性向为主，未覆盖：'+gaps.map(function(g){return g.label;}).join('、')+'，建议补充相关选品。':' ✅ 已实现全家庭人群覆盖。');
 
     // 覆盖度
@@ -710,6 +713,28 @@
       covHtml+vizHtmlStr+advHtml+
       '<div class="picks-hd">⭐ 本周智能主推（'+picks.length+' 款 · 综合匹配/时效/价格/季节/节日/去重 打分）</div>'+
       '<div class="picks">'+picksHtml+'</div></div>';
+  }
+
+  // ============ 最近热销趋势参考 ============
+  function renderTrending(){
+    var el=document.getElementById('trending');
+    if(!el) return;
+    if(!DATA.length || !DATA[0].trending || !DATA[0].trending.length){ el.innerHTML='<div class="empty">暂无趋势数据</div>'; return; }
+    var items=DATA[0].trending.slice(0,12);
+    var cards=items.map(function(t){
+      var p=t.platform||''; var nm=(t.name||'商品');
+      return '<div style="flex:0 0 168px;border:1px solid #ececec;border-radius:10px;padding:8px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.04)">'+
+        imgTag({name:nm, image:t.image, platform:p}, false)+
+        '<div style="font-weight:700;font-size:13px;margin-top:6px;line-height:1.3;max-height:34px;overflow:hidden">'+esc(nm)+'</div>'+
+        '<div style="margin-top:4px;display:flex;flex-wrap:wrap;gap:4px;align-items:center">'+
+          '<span class="plat" style="background:'+pcolor(norm(p))+'">'+esc(norm(p))+'</span>'+
+          (t.brand?'<span style="font-size:11px;color:#888">'+esc(t.brand)+'</span>':'')+
+          (t.price?'<span style="font-size:12px;color:#e23b3b;font-weight:700;margin-left:auto">'+esc(t.price)+'</span>':'')+
+        '</div>'+
+        (t.hotReason?'<div style="margin-top:5px;font-size:11.5px;color:#666;line-height:1.4;max-height:48px;overflow:hidden">'+esc(t.hotReason)+'</div>':'')+
+      '</div>';
+    }).join('');
+    el.innerHTML='<div style="display:flex;gap:12px;overflow-x:auto;padding:4px 2px 12px">'+cards+'</div>';
   }
 
   // ============ 同款聚合视图 ============
@@ -994,6 +1019,7 @@
 
   applyHash();
   renderLatest();
+  renderTrending();
   render();
 })();
 </script>
