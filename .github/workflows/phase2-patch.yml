@@ -1,0 +1,72 @@
+name: Phase2 升级仪表盘（一次性补丁）
+
+# 作用：在仓库内就地给 web/index.html 打 Phase 2 补丁
+#   —— 合并真实采集数据 + 来源徽章 + 本周专题横幅
+# 触发：
+#   1) 推送 tools/apply_phase2.py 或本工作流文件时自动跑
+#   2) Actions 页面手动 Run workflow
+# 补丁脚本是幂等的，重复运行不会重复插入，可放心多次触发。
+
+on:
+  push:
+    paths:
+      - "tools/apply_phase2.py"
+      - ".github/workflows/phase2-patch.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 应用 Phase 2 补丁
+        run: python tools/apply_phase2.py
+
+      - name: 提交补丁结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/index.html
+          if git diff --cached --quiet; then
+            echo "index.html 无变化，跳过提交"
+          else
+            git commit -m "Phase2: 仪表盘支持真实采集数据（来源徽章 + 专题横幅）"
+            for i in 1 2 3; do
+              echo "第 $i 次尝试拉取并推送..."
+              git pull --rebase origin main && git push origin main && break
+              echo "第 $i 次失败，5秒后重试..."
+              sleep 5
+            done
+          fi
+
+      - name: 打包网页产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: patch
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
