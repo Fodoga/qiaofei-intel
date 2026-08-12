@@ -205,6 +205,17 @@
   .imgwrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .3s}
   .imgwrap img.loaded{opacity:1}
   .pick .imgwrap{height:132px;margin:4px 0 10px}
+  /* 无实拍图占位：更紧凑，减少大面积空白 */
+  .imgwrap.ph{height:108px;background:#fff;border:1px dashed var(--brand-line)}
+  .pick .imgwrap.ph{height:96px}
+  .trending-strip .imgwrap{height:110px}
+  .trending-strip .imgwrap.ph{height:86px}
+  .ph-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:10px;text-align:center;height:100%;width:100%}
+  .ph-icon{font-size:34px;line-height:1}
+  .ph-label{font-size:12.5px;font-weight:700;color:var(--text);line-height:1.35;max-height:34px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .ph-hint{font-size:10.5px;color:var(--sub);background:#fff;border:1px solid var(--line);border-radius:10px;padding:2px 8px}
+  .trending-strip .ph-label{font-size:11.5px;max-height:30px}
+  .trending-strip .ph-icon{font-size:28px}
 
   /* 同款聚合 */
   .agg{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:12px 0;box-shadow:var(--shadow);overflow:hidden}
@@ -525,7 +536,10 @@
   function imgFallback(img){ img.onerror=null; img.src=placeholderSVG(img.getAttribute('data-label')||'商品', img.getAttribute('data-color')||'#e85b8a'); }
   function imgTag(p,lazy){
     var col=pcolor(norm(p.platform)); var src=esc(p.image||''); var alt=' alt="'+esc(p.name)+'"';
-    if(!src) return '<div class="imgwrap"><img src="'+placeholderSVG(p.name||'商品', col)+'"'+alt+' referrerpolicy="no-referrer"></div>';
+    if(!src){
+      var icon=categoryIcon(p.name||'商品');
+      return '<div class="imgwrap ph"><div class="ph-inner"><span class="ph-icon">'+icon+'</span><span class="ph-label">'+esc(p.name||'商品')+'</span><span class="ph-hint">暂无图片</span></div></div>';
+    }
     if(lazy) return '<div class="imgwrap"><img data-src="'+src+'" data-label="'+esc(p.name)+'" data-color="'+col+'"'+alt+' referrerpolicy="no-referrer" onerror="imgFallback(this)"></div>';
     return '<div class="imgwrap"><img src="'+src+'" data-label="'+esc(p.name)+'" data-color="'+col+'"'+alt+' referrerpolicy="no-referrer" onerror="imgFallback(this)" onload="this.classList.add(\'loaded\')"></div>';
   }
@@ -769,7 +783,7 @@
         (t.hotReason?'<div style="margin-top:5px;font-size:11.5px;color:#666;line-height:1.4;max-height:48px;overflow:hidden">'+esc(t.hotReason)+'</div>':'')+
       '</div>';
     }).join('');
-    el.innerHTML='<div style="display:flex;gap:12px;overflow-x:auto;padding:4px 2px 12px">'+cards+'</div>';
+    el.innerHTML='<div class="trending-strip" style="display:flex;gap:12px;overflow-x:auto;padding:4px 2px 12px">'+cards+'</div>';
   }
 
   // ============ 同款聚合视图 ============
