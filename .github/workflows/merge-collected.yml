@@ -1,0 +1,79 @@
+name: 合并真实采集数据
+
+# 作用：把插件/手动上传到 web/collected/raw/ 的原始商品，合并去重进 web/collected.json，
+#       并生成 web/collected.js（供仪表盘读取），然后部署到 GitHub Pages。
+# 与现有的「每日爆品情报更新」工作流互不修改：本工作流只动 collected.* / picked.json / collected/raw，
+# 不碰 data.js（AI 数据），因此不会破坏每天的 AI 自动选品。
+
+on:
+  schedule:
+    - cron: "0 2 * * *"        # UTC 02:00 = 北京 10:00，紧跟 AI 更新(01:00)之后做每日合并
+  workflow_dispatch: {}        # 可在 Actions 页手动触发
+  push:
+    paths:
+      - "web/collected/raw/**" # 插件/手动每上传一个原始文件，立即合并一次
+
+permissions:
+  contents: write             # 提交合并结果
+  pages: write                # 部署网页
+  id-token: write
+
+# 与「每日爆品情报更新」共用 pages 并发组，避免两个工作流同时部署冲突
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    # 把 commit 步骤的 changed 提升为 job 级输出，deploy 才能读到
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 合并 collected/raw -> collected.json + collected.js
+        run: python merge_collected.py
+
+      - name: 提交合并结果（有变化才提交/部署）
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/collected.json web/collected.js web/picked.json web/collected/raw
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "无变化，跳过提交"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git commit -m "合并真实采集数据 ${{ github.run_id }}"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin main && break
+              echo "第 $i 次推送失败，5秒后重试..."
+              sleep 5
+            done
+          fi
+
+      - name: 打包网页产物
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: merge
+    if: needs.merge.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
