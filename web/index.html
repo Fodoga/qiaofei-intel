@@ -170,6 +170,9 @@
   .card{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 15px;transition:.2s;overflow:hidden}
   .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--brand)}
   .card.fresh{border-color:var(--brand-line)}
+  .card.collected{border-color:#bfe9d6}
+  .card.collected::before{background:var(--green)}
+  .card .ribbon{position:absolute;top:11px;right:-1px;background:var(--green);color:#fff;font-size:10.5px;font-weight:700;padding:2px 9px;border-radius:10px 0 0 10px;box-shadow:0 2px 6px rgba(18,160,106,.3);z-index:3}
   .card:hover{box-shadow:var(--shadow-h);transform:translateY(-2px)}
   .card .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:6px}
   .card h5{margin:0;font-size:14.5px;font-weight:700;line-height:1.35;padding-left:2px}
@@ -341,9 +344,19 @@
 <script src="collected.js"></script>
 <script>
 (function(){
-  var DATA = (window.DASHBOARD_DATA || []).concat(window.COLLECTED_DATA || []);
-  // 给 AI 生成的条目补 source 标记（collected 真实采集条目本身已带 source）
-  DATA.forEach(function(d){ if(!d.dataSource || d.dataSource.indexOf('真实采集')===-1){ (d.products||[]).forEach(function(p){ if(!p.source) p.source='ai'; }); } });
+  // 合并同日：AI 情报(含 trending/专区) 为主，真实采集商品并入同一天卡片，避免同日期出现两张卡、采集商品被埋到底部
+  var DATA_RAW = (window.DASHBOARD_DATA || []).concat(window.COLLECTED_DATA || []);
+  DATA_RAW.forEach(function(d){
+    var isCollected = d.dataSource && d.dataSource.indexOf('真实采集') > -1;
+    (d.products || []).forEach(function(p){ if(!p.source) p.source = isCollected ? 'plugin' : 'ai'; });
+  });
+  var _byDate = {};
+  DATA_RAW.forEach(function(d){
+    var date = d.date;
+    if(!_byDate[date]){ _byDate[date] = JSON.parse(JSON.stringify(d)); _byDate[date].products = (d.products || []).slice(); }
+    else { _byDate[date].products = _byDate[date].products.concat(d.products || []); }
+  });
+  var DATA = Object.keys(_byDate).sort().reverse().map(function(k){ return _byDate[k]; });
   var currentFilter = "全部";
   var currentSort = "default";
   var onlyMatch = false;
@@ -483,16 +496,36 @@
     DATA.forEach(function(d){ d.products.forEach(function(q){ if(baseOf(q)===key) set[norm(q.platform)]=true; }); });
     return Object.keys(set);
   }
+  function categoryIcon(name){
+    var n=(name||'').toLowerCase();
+    if(/手链|项链|戒指|手镯|珠宝|黄金|银手|饰品|手表|手绳/.test(n)) return '💍';
+    if(/茶|饮品|膏|粉糊|薏|枸|红参|阿|五红|养生|姜枣|菊花/.test(n)) return '🍵';
+    if(/风扇|灯|电器|锅|机|器|充电|感应/.test(n)) return '🔌';
+    if(/收纳|盒|架|箱|袋|整理/.test(n)) return '📦';
+    if(/沐浴|洗发|洗|护肤|面膜|美妆|身体乳|香氛/.test(n)) return '🧴';
+    if(/礼|礼盒|永生花/.test(n)) return '🎁';
+    if(/益生菌|磷虾|鱼油|维生素|钙|软糖/.test(n)) return '💊';
+    if(/梳|按摩|刮痧|颈椎/.test(n)) return '💆';
+    return '🛍️';
+  }
   function placeholderSVG(label,color){
-    var s='<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200"><rect width="100%" height="100%" fill="'+color+'" opacity="0.12"/>'+
-      '<rect x="6" y="6" width="288" height="188" rx="12" fill="none" stroke="'+color+'" stroke-width="2" opacity="0.5"/>'+
-      '<text x="50%" y="50%" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="700" fill="'+color+'" text-anchor="middle" dominant-baseline="middle">'+esc(label)+'</text></svg>';
+    var icon=categoryIcon(label);
+    var s='<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">'+
+      '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">'+
+      '<stop offset="0%" stop-color="'+color+'" stop-opacity="0.18"/>'+
+      '<stop offset="100%" stop-color="'+color+'" stop-opacity="0.06"/></linearGradient></defs>'+
+      '<rect width="100%" height="100%" fill="url(#g)"/>'+
+      '<rect x="6" y="6" width="288" height="188" rx="14" fill="none" stroke="'+color+'" stroke-width="1.5" opacity="0.5"/>'+
+      '<text x="50%" y="42%" font-size="48" text-anchor="middle" dominant-baseline="middle">'+icon+'</text>'+
+      '<text x="50%" y="66%" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="700" fill="'+color+'" text-anchor="middle" dominant-baseline="middle">'+esc(label)+'</text>'+
+      '<text x="50%" y="80%" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" fill="'+color+'" opacity="0.65" text-anchor="middle">示意图 · 点击卡片查看实物</text>'+
+      '</svg>';
     return 'data:image/svg+xml,'+encodeURIComponent(s);
   }
   function imgFallback(img){ img.onerror=null; img.src=placeholderSVG(img.getAttribute('data-label')||'商品', img.getAttribute('data-color')||'#e85b8a'); }
   function imgTag(p,lazy){
     var col=pcolor(norm(p.platform)); var src=esc(p.image||''); var alt=' alt="'+esc(p.name)+'"';
-    if(!src) return '<div class="imgwrap"><img class="ph" data-label="'+esc(p.name)+'" data-color="'+col+'"'+alt+' referrerpolicy="no-referrer"></div>';
+    if(!src) return '<div class="imgwrap"><img src="'+placeholderSVG(p.name||'商品', col)+'"'+alt+' referrerpolicy="no-referrer"></div>';
     if(lazy) return '<div class="imgwrap"><img data-src="'+src+'" data-label="'+esc(p.name)+'" data-color="'+col+'"'+alt+' referrerpolicy="no-referrer" onerror="imgFallback(this)"></div>';
     return '<div class="imgwrap"><img src="'+src+'" data-label="'+esc(p.name)+'" data-color="'+col+'"'+alt+' referrerpolicy="no-referrer" onerror="imgFallback(this)" onload="this.classList.add(\'loaded\')"></div>';
   }
@@ -557,7 +590,9 @@
     if(gk.length) kwHtml+='<span class="kwlabel good">优点</span>'+kws(gk,'good');
     if(bk.length) kwHtml+='<span class="kwlabel bad">缺点</span>'+kws(bk,'bad');
     kwHtml+='</div>';
-    return '<div class="card'+(dc>1?'':' fresh')+'" style="--brand:'+col+'" data-cat="'+esc(categoryOf(p))+'" data-brand="'+esc(displayBrand(p))+'" data-score="'+dispScore(p)+'">'+
+    var isMine = (p.source==='plugin'||p.source==='manual');
+    return '<div class="card'+(dc>1?'':' fresh')+(isMine?' collected':'')+'" style="--brand:'+col+'" data-cat="'+esc(categoryOf(p))+'" data-brand="'+esc(displayBrand(p))+'" data-score="'+dispScore(p)+'">'+
+      (isMine?'<span class="ribbon">真实采集</span>':'')+
       imgTag(p,true)+
       '<div class="ctop"><h5>'+esc(p.name)+'</h5>'+
         '<div class="ctags"><label class="sel" title="勾选后可在工具栏「导出已选Excel」"><input type="checkbox" class="pcb" data-key="'+esc(key)+'">选</label>'+(p.match?'<span class="tag y">✓ 匹配</span>':'<span class="tag n">✕ 不主推</span>')+dupTag+sourceBadge(p)+'<span class="tag sc">上架分 '+dispScore(p)+'</span></div>'+
