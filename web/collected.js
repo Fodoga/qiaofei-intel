@@ -1,0 +1,1 @@
+window.COLLECTED_DATA = [];
