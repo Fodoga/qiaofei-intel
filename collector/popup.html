@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>爆品采集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- 顶栏 -->
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">情</span>
+        <span class="title">爆品采集</span>
+      </div>
+      <span class="theme-chip" id="themeChip">本周专题 · —</span>
+    </header>
+    <div class="subbar">
+      <span id="todayCount" class="muted">今日已采 0 件</span>
+      <span class="dot-sep">·</span>
+      <span class="muted">本周去重已开</span>
+      <span class="dot-sep">·</span>
+      <span class="muted" id="verTag">v—</span>
+    </div>
+
+    <!-- 状态区 -->
+    <section class="stage" id="stage">
+      <div class="state-empty" id="stateEmpty">
+        <div class="illu">⌕</div>
+        <p>请在商品页打开我</p>
+        <p class="muted sm">支持 拼多多 / 淘宝 / 天猫 / 抖音 商品页</p>
+        <p class="muted sm kbd-hint">快捷键 <b>Ctrl+Shift+S</b> 一键采集当前页</p>
+      </div>
+      <div class="state-loading" id="stateLoading" hidden>
+        <div class="spinner"></div>
+        <p class="muted">正在识别商品…</p>
+      </div>
+      <div class="state-ready" id="stateReady" hidden>
+        <div class="preview" id="preview"><!-- 预览卡由 JS 注入 --></div>
+      </div>
+    </section>
+
+    <!-- 动作 -->
+    <section class="actions" id="actions" hidden>
+      <button class="btn primary" id="btnUpload">采集并上传</button>
+      <button class="btn ghost" id="btnRescan">重采</button>
+      <button class="btn ghost" id="btnDiag">诊断</button>
+      <button class="btn ghost" id="btnDiscard">丢弃</button>
+      <div class="try-row">
+        <span class="muted sm">试用（不碰仓库、不需 Token）：</span>
+        <button class="btn mini" id="btnCopyJson">复制 JSON</button>
+        <button class="btn mini" id="btnSaveJson">下载 JSON</button>
+      </div>
+    </section>
+
+    <!-- 诊断面板：抓取异常时，把页面结构发我定位 -->
+    <section class="diag" id="diagPanel" hidden>
+      <div class="diag-head">
+        <span class="muted sm">页面诊断（抓取异常时复制发我）</span>
+        <button class="btn mini" id="btnCopyDiag">复制</button>
+      </div>
+      <pre class="diag-body" id="diagBody"></pre>
+    </section>
+
+    <!-- 底部 Tab -->
+    <nav class="tabs">
+      <button class="tab active" data-tab="collect">采集</button>
+      <button class="tab" data-tab="manual">手动录入</button>
+      <button class="tab" data-tab="history">我的历史</button>
+      <button class="tab" data-tab="settings">设置</button>
+    </nav>
+
+    <!-- 手动录入 -->
+    <section class="panel" id="panelManual" hidden>
+      <p class="muted sm">适合抖音 App / 微信小程序等插件进不去的页面：把截图发给我（WorkBuddy 对话），我来抽字段上传，最稳。</p>
+      <button class="btn ghost block" id="btnOpenManual">打开手动录入页</button>
+    </section>
+
+    <!-- 历史 -->
+    <section class="panel" id="panelHistory" hidden>
+      <ul class="history" id="historyList"></ul>
+      <p class="muted sm" id="historyEmpty">暂无本机历史</p>
+    </section>
+
+    <!-- 设置 -->
+    <section class="panel" id="panelSettings" hidden>
+      <label class="field">
+        <span>GitHub Token</span>
+        <input type="password" id="inpToken" placeholder="github_pat_xxx（仅存本机浏览器）" autocomplete="off" />
+      </label>
+      <label class="field">
+        <span>仓库路径</span>
+        <input type="text" id="inpRepo" value="Fodoga/qiaofei-intel" />
+      </label>
+      <label class="field">
+        <span>上传目录</span>
+        <input type="text" id="inpPath" value="web/collected/raw" />
+      </label>
+      <button class="btn ghost block" id="btnSaveSettings">保存设置</button>
+      <p class="muted sm">Token 只存在你浏览器本地（chrome.storage.local），不经过任何第三方。用不爽可随时去 GitHub 删除。</p>
+    </section>
+
+    <div class="toast" id="toast" hidden></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
