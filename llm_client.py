@@ -52,7 +52,8 @@ class LLMClient:
 
     @staticmethod
     def _extract_json(text):
-        """从文本中提取并解析 JSON，支持 markdown 代码块、前后废话、常见脏格式。"""
+        """从文本中提取并解析 JSON，支持 markdown 代码块、前后废话、常见脏格式，
+        并在响应被 max_tokens 截断时做尽力修复（关闭未结束的字符串/括号），保证不整体失败。"""
         t = text.strip()
 
         # 去掉 markdown 代码块标记
@@ -100,20 +101,21 @@ class LLMClient:
                 if not stack:
                     end = i
                     break
-        if end == -1:
-            raise ValueError("未找到 JSON 结束标记")
 
-        json_str = t[start:end + 1]
+        if end != -1:
+            json_str = t[start:end + 1]
+            try:
+                return json.loads(json_str)
+            except json.JSONDecodeError:
+                pass
+            return json.loads(LLMClient._clean_json(json_str))
 
-        # 尝试直接解析
+        # ===== 响应被截断（max_tokens 不够，括号未闭合）：尽力修复成合法 JSON =====
+        repaired = LLMClient._repair_truncated(t[start:], in_string, escape, stack)
         try:
-            return json.loads(json_str)
+            return json.loads(repaired)
         except json.JSONDecodeError:
-            pass
-
-        # 修复常见脏格式后重试
-        cleaned = LLMClient._clean_json(json_str)
-        return json.loads(cleaned)
+            return json.loads(LLMClient._clean_json(repaired))
 
     @staticmethod
     def _clean_json(s):
@@ -127,3 +129,16 @@ class LLMClient:
         # 去掉对象里的多余尾部逗号
         s = re.sub(r',(\s*})', r'\1', s)
         return s.strip()
+
+    @staticmethod
+    def _repair_truncated(s, in_string, escape, stack):
+        """把被 max_tokens 截断的 JSON 片段补成合法 JSON：先关掉未结束的字符串，
+        再按从内到外的顺序补齐未关闭的括号。任何没写完的不完整对象/数组元素会被丢弃（只保留已写完的部分）。"""
+        out = s
+        if in_string:
+            if escape:
+                out += "\\"  # 收尾处是一个不完整的转义，先补一个反斜杠
+            out += '"'
+        for ch in reversed(stack):
+            out += "}" if ch == "{" else "]"
+        return out
