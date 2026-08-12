@@ -139,7 +139,9 @@ def build_entry(config, use_mock=False, base_dir=None, output_dir=None):
 
 请基于以上素材（素材不足时用你的知识谨慎补充，并标注不确定性），产出符合 schema 的 JSON。"""
     client = LLMClient(**config["llm"])
-    entry = client.chat_json(sys_p, user_p, max_tokens=4096)
+    # 输出较大（products+trending+topPicks），给足 max_tokens；若仍被截断，
+    # llm_client._extract_json 会做尽力修复，避免整次运行失败。
+    entry = client.chat_json(sys_p, user_p, max_tokens=8192)
     # 兜底字段
     entry.setdefault("date", date_str)
     entry.setdefault("season", season)
