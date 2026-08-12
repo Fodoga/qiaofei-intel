@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>手动录入 · 爆品采集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="manual.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <span class="logo">情</span>
+      <span class="title">手动录入</span>
+    </header>
+
+    <section class="body">
+      <p class="lead">适合抖音 App / 微信小程序等插件进不去的页面。</p>
+
+      <div class="card">
+        <div class="step">① 截图商品页（或复制商品链接 / 文字描述）</div>
+        <div class="step">② 回到 WorkBuddy 对话，把截图/链接发给我</div>
+        <div class="step">③ 我会读图抽字段，并直接上传到情报站</div>
+      </div>
+
+      <p class="muted sm">这是最稳的方式：不需要视觉密钥、不会把大图塞进仓库、抖音/小程序都能用。</p>
+
+      <label class="field">
+        <span>一键复制发给我的话术</span>
+        <textarea id="tpl" rows="5">帮我采集这个商品到情报站：请抽取 商品名/平台/价格/品牌/规格/发货时效/销量，并做卖点分析（爆点理由 hotReason、匹配理由 matchReason、卖点词 goodKeywords、风险词 badKeywords）。人群是三四线县城女性，避开棉品/艾灸/俏妃自研品类，价格带参考站内中位数 25 元。最后按当前专题归类。</textarea>
+      </label>
+      <button class="btn primary block" id="btnCopy">复制话术</button>
+
+      <p class="muted sm" id="note">提示：自动 OCR 上传（插件内直接传图）将在「配置视觉密钥」后开放（Phase 3）。</p>
+    </section>
+
+    <div class="toast" id="toast" hidden></div>
+  </div>
+  <script src="manual.js"></script>
+</body>
+</html>
