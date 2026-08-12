@@ -5,243 +5,332 @@ window.DASHBOARD_DATA = [
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
     "trending": [
       {
-        "name": "女性益生菌40g（2g*20条）/盒*3盒",
+        "name": "女性益生菌（细莫严选）",
         "platform": "细莫严选",
-        "price": "约149元",
+        "price": "149元/3盒",
         "brand": "细莫严选",
-        "hotReason": "夏季闷热，女性私护需求上升，细莫严选平台热销，主打私密花园健康，复购率高",
+        "hotReason": "社交电商平台热销，主打女性私密健康，复购率高",
         "image": ""
       },
       {
-        "name": "肠道益生菌40g（2g*20条）/盒*3盒",
+        "name": "肠道益生菌",
         "platform": "细莫严选",
-        "price": "约109元",
+        "price": "109元/3盒",
         "brand": "细莫严选",
-        "hotReason": "夏季肠胃易不适，益生菌改善消化吸收，平台销量靠前",
+        "hotReason": "改善消化吸收，夏季肠胃问题高发，需求旺盛",
         "image": ""
       },
       {
-        "name": "南极磷虾油凝胶糖果0.8g*60粒/瓶",
+        "name": "南极磷虾油凝胶糖果",
         "platform": "细莫严选",
-        "price": "约104元",
+        "price": "104元/瓶",
         "brand": "细莫严选",
-        "hotReason": "心脑血管养护，中老年送礼热门，平台春季特惠活动",
+        "hotReason": "大健康趋势，富含Omega-3，适合中老年送礼",
         "image": ""
       },
       {
-        "name": "穴位按摩梳",
-        "platform": "淘宝",
-        "price": "约20-50元",
-        "brand": "多种",
-        "hotReason": "养生达人推荐，早晚梳头健脑美发，夏季养生好物",
+        "name": "zoeynuo黄金复合配方成长胶囊",
+        "platform": "细莫严选",
+        "price": "开团价",
+        "brand": "zoeynuo",
+        "hotReason": "博士论坛发布新品，主打细胞级守护，健康管理升级",
         "image": ""
       },
       {
-        "name": "香氛沐浴礼盒",
-        "platform": "淘宝",
-        "price": "约100-300元",
-        "brand": "浔至XFINDING等",
-        "hotReason": "七夕送礼热门，仪式感强，被誉为东方小香奈",
-        "image": ""
-      },
-      {
-        "name": "厨房收纳好物",
+        "name": "中式养生茶饮",
         "platform": "抖音",
-        "price": "约10-50元",
-        "brand": "多种",
-        "hotReason": "抖音爆款，低成本提升幸福感，视频获13.2万赞",
+        "price": "19.9-59元",
+        "brand": "真不二",
+        "hotReason": "月销千万，年轻化IP设计，疗愈养生趋势",
         "image": ""
       },
       {
-        "name": "低水压花洒",
-        "platform": "拼多多",
-        "price": "约15-40元",
-        "brand": "多种",
-        "hotReason": "拼多多百亿补贴居家囤货清单，解决低水压问题，实用性强",
+        "name": "艾灸盒",
+        "platform": "抖音",
+        "price": "29-99元",
+        "brand": "真不二",
+        "hotReason": "中式养生爆品，夏季祛湿温养需求高",
         "image": ""
       },
       {
         "name": "私处护理液",
         "platform": "淘宝",
-        "price": "约50-150元",
-        "brand": "珂曼朵等",
-        "hotReason": "2026年女性私护产品推荐，微生态养护成新趋势，安全认证受关注",
+        "price": "39-89元",
+        "brand": "珂曼朵",
+        "hotReason": "微生态养护趋势，2026年高口碑推荐",
         "image": ""
       },
       {
-        "name": "七夕创意礼物",
-        "platform": "淘宝",
-        "price": "约50-500元",
-        "brand": "多种",
-        "hotReason": "七夕临近，淘宝热卖榜单，创意礼物需求激增",
+        "name": "智能云台摄像头",
+        "platform": "拼多多",
+        "price": "99-199元",
+        "brand": "荣耀亲选",
+        "hotReason": "居家安防刚需，AI人形侦测，性价比高",
         "image": ""
       },
       {
-        "name": "居家生活用品",
+        "name": "厨房收纳小工具",
         "platform": "1688",
-        "price": "约10-100元",
-        "brand": "多种",
-        "hotReason": "1688平台高复购，洗漱收纳与厨房小工具爆款逻辑",
+        "price": "5-20元",
+        "brand": "白牌",
+        "hotReason": "高复购，低成本提升厨房幸福感",
         "image": ""
       },
       {
-        "name": "香氛沐浴露",
-        "platform": "抖音",
-        "price": "约50-200元",
-        "brand": "多种",
-        "hotReason": "七夕送礼推荐，实用走心，提升生活品质",
+        "name": "香氛沐浴礼盒",
+        "platform": "淘宝",
+        "price": "199-399元",
+        "brand": "浔至XFINDING",
+        "hotReason": "七夕送礼热门，东方小香奈，仪式感强",
+        "image": ""
+      },
+      {
+        "name": "永生花玫瑰熊礼盒",
+        "platform": "京东",
+        "price": "299-599元",
+        "brand": "JoyFlower",
+        "hotReason": "七夕礼物爆款，高颜值，表达爱意",
+        "image": ""
+      },
+      {
+        "name": "低水压花洒",
+        "platform": "拼多多",
+        "price": "15-35元",
+        "brand": "白牌",
+        "hotReason": "居家好物，提升沐浴体验，百亿补贴热销",
         "image": ""
       }
     ],
     "weeklySuggestion": {
       "theme": "七夕心意·健康居家",
-      "reason": "正值盛夏，七夕临近，结合女性健康与家居生活需求，推荐高性价比礼物与实用好物，满足送礼与自用场景",
+      "reason": "正值七夕，结合夏季祛湿温养需求，推荐适合送礼的健康养生产品和提升生活品质的家居好物，兼顾性价比与仪式感。",
       "zones": [
         {
-          "zone": "七夕浪漫礼",
+          "zone": "七夕送礼专区",
           "products": [
             "香氛沐浴礼盒",
-            "永生花音乐盒",
-            "珍珠项链"
+            "永生花玫瑰熊礼盒",
+            "珍珠耳钉"
           ]
         },
         {
-          "zone": "健康养生局",
+          "zone": "夏季祛湿专区",
           "products": [
-            "红豆薏米芡实茶",
-            "艾草颈椎枕",
-            "女性益生菌"
+            "红豆薏米茶",
+            "艾草足浴包",
+            "茯苓山药粉"
           ]
         },
         {
-          "zone": "居家幸福感",
+          "zone": "品质家居专区",
           "products": [
-            "多功能料理锅",
             "智能感应夜灯",
-            "收纳盒套装"
+            "多功能收纳架",
+            "低水压花洒"
           ]
         }
       ],
       "topPicks": [
         {
-          "name": "红豆薏米芡实茶",
+          "name": "香氛沐浴礼盒",
           "platform": "淘宝",
-          "price": "约30-60元",
-          "brand": "同仁堂",
-          "hotReason": "夏季祛湿，药食同源，品牌背书",
-          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%BA%A2%E8%B1%86%E8%96%8F%E7%B1%B3%E8%8A%A1%E5%AE%9E%E8%8C%B6%3C/text%3E%3C/svg%3E"
+          "price": "199-399元",
+          "brand": "浔至XFINDING",
+          "shipping": "48小时内",
+          "reason": "七夕送礼热门，高颜值礼盒，仪式感强，符合节日氛围",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E6%B0%9B%E6%B2%90%E6%B5%B4%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
         },
         {
-          "name": "多功能料理锅",
+          "name": "智能感应夜灯",
           "platform": "拼多多",
-          "price": "约100-200元",
-          "brand": "多种",
+          "price": "29-59元",
+          "brand": "白牌",
           "shipping": "48小时内",
-          "reason": "提升厨房幸福感，适合家庭使用，价格亲民",
-          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A4%9A%E5%8A%9F%E8%83%BD%E6%96%99%E7%90%86%E9%94%85%3C/text%3E%3C/svg%3E"
+          "reason": "实用家居好物，提升生活便利性，价格亲民",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%99%BA%E8%83%BD%E6%84%9F%E5%BA%94%E5%A4%9C%E7%81%AF%3C/text%3E%3C/svg%3E"
         }
       ]
     },
     "products": [
       {
         "platform": "淘宝",
-        "name": "红豆薏米芡实茶",
-        "link": "https://s.taobao.com/search?q=红豆薏米芡实茶",
-        "price": "约30-60元",
-        "brand": "同仁堂",
+        "name": "香氛沐浴礼盒",
+        "link": "https://s.taobao.com/search?q=香氛沐浴礼盒",
+        "price": "199-399元",
+        "brand": "浔至XFINDING",
         "shipping": "48小时内",
-        "hotReason": "夏季祛湿，药食同源，同仁堂品牌背书，销量高",
+        "hotReason": "七夕送礼热门，被誉为东方小香奈，网红种草多",
         "goodKeywords": [
-          "祛湿效果好",
-          "口感好",
-          "独立包装"
-        ],
-        "badKeywords": [
-          "效果慢"
-        ],
-        "match": true,
-        "matchReason": "夏季祛湿需求，品牌可靠",
-        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%BA%A2%E8%B1%86%E8%96%8F%E7%B1%B3%E8%8A%A1%E5%AE%9E%E8%8C%B6%3C/text%3E%3C/svg%3E"
-      },
-      {
-        "platform": "拼多多",
-        "name": "多功能料理锅",
-        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=多功能料理锅",
-        "price": "约100-200元",
-        "brand": "多种",
-        "shipping": "48小时内",
-        "hotReason": "提升厨房幸福感，适合家庭使用，拼多多价格优势",
-        "goodKeywords": [
-          "功能多",
-          "实用",
-          "清洗方便"
-        ],
-        "badKeywords": [
-          "加热不均"
-        ],
-        "match": true,
-        "matchReason": "家居好物，提升生活质量",
-        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A4%9A%E5%8A%9F%E8%83%BD%E6%96%99%E7%90%86%E9%94%85%3C/text%3E%3C/svg%3E"
-      },
-      {
-        "platform": "抖音",
-        "name": "智能感应夜灯",
-        "link": "https://www.douyin.com/search/智能感应夜灯",
-        "price": "约20-50元",
-        "brand": "多种",
-        "shipping": "48小时内",
-        "hotReason": "居家实用，夜间起夜方便，抖音爆款",
-        "goodKeywords": [
-          "感应灵敏",
-          "光线柔和",
-          "省电"
-        ],
-        "badKeywords": [
-          "电池不耐用"
-        ],
-        "match": true,
-        "matchReason": "提升生活便利性",
-        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%99%BA%E8%83%BD%E6%84%9F%E5%BA%94%E5%A4%9C%E7%81%AF%3C/text%3E%3C/svg%3E"
-      },
-      {
-        "platform": "淘宝",
-        "name": "珍珠项链",
-        "link": "https://s.taobao.com/search?q=珍珠项链",
-        "price": "约100-300元",
-        "brand": "多种",
-        "shipping": "48小时内",
-        "hotReason": "七夕送礼经典，优雅体面，适合送女友或长辈",
-        "goodKeywords": [
-          "光泽好",
-          "显气质",
+          "高级感",
+          "留香持久",
           "包装精美"
         ],
         "badKeywords": [
-          "真假难辨"
+          "价格偏高"
         ],
         "match": true,
-        "matchReason": "七夕礼品，体面合宜",
-        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%8F%8D%E7%8F%A0%E9%A1%B9%E9%93%BE%3C/text%3E%3C/svg%3E"
+        "matchReason": "符合七夕送礼场景，体面合宜",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E6%B0%9B%E6%B2%90%E6%B5%B4%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "永生花玫瑰熊礼盒",
+        "link": "https://search.jd.com/Search?keyword=永生花玫瑰熊礼盒",
+        "price": "299-599元",
+        "brand": "JoyFlower",
+        "shipping": "48小时内",
+        "hotReason": "七夕礼物爆款，高颜值，表达爱意",
+        "goodKeywords": [
+          "颜值高",
+          "寓意好",
+          "不用打理"
+        ],
+        "badKeywords": [
+          "价格略贵"
+        ],
+        "match": true,
+        "matchReason": "七夕送礼佳品，符合节日需求",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%B0%B8%E7%94%9F%E8%8A%B1%E7%8E%AB%E7%91%B0%E7%86%8A%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
       },
       {
         "platform": "拼多多",
-        "name": "收纳盒套装",
-        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=收纳盒套装",
-        "price": "约20-60元",
-        "brand": "多种",
+        "name": "低水压花洒",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=低水压花洒",
+        "price": "15-35元",
+        "brand": "白牌",
         "shipping": "48小时内",
-        "hotReason": "家居收纳刚需，1688高复购，拼多多价格低",
+        "hotReason": "居家好物，提升沐浴体验，百亿补贴热销",
         "goodKeywords": [
-          "容量大",
-          "质量好",
-          "整齐"
+          "增压明显",
+          "安装简单",
+          "性价比高"
         ],
         "badKeywords": [
-          "有异味"
+          "塑料质感"
         ],
         "match": true,
-        "matchReason": "提升家居整洁度",
-        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%94%B6%E7%BA%B3%E7%9B%92%E5%A5%97%E8%A3%85%3C/text%3E%3C/svg%3E"
+        "matchReason": "提升生活质量，价格亲民",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BD%8E%E6%B0%B4%E5%8E%8B%E8%8A%B1%E6%B4%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "智能云台摄像头",
+        "link": "https://www.douyin.com/search/智能云台摄像头",
+        "price": "99-199元",
+        "brand": "荣耀亲选",
+        "shipping": "48小时内",
+        "hotReason": "居家安防刚需，AI人形侦测，性价比高",
+        "goodKeywords": [
+          "清晰度高",
+          "夜视好",
+          "手机远程"
+        ],
+        "badKeywords": [
+          "偶尔掉线"
+        ],
+        "match": true,
+        "matchReason": "提升家居安全，实用小家电",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%99%BA%E8%83%BD%E4%BA%91%E5%8F%B0%E6%91%84%E5%83%8F%E5%A4%B4%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "1688",
+        "name": "厨房收纳小工具",
+        "link": "https://www.1688.com/?keywords=厨房收纳小工具",
+        "price": "5-20元",
+        "brand": "白牌",
+        "shipping": "48小时内",
+        "hotReason": "高复购，低成本提升厨房幸福感",
+        "goodKeywords": [
+          "实用",
+          "便宜",
+          "节省空间"
+        ],
+        "badKeywords": [
+          "质量参差"
+        ],
+        "match": true,
+        "matchReason": "家居好物，价格低，适合囤货",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8E%A8%E6%88%BF%E6%94%B6%E7%BA%B3%E5%B0%8F%E5%B7%A5%E5%85%B7%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "珍珠耳钉",
+        "link": "https://s.taobao.com/search?q=珍珠耳钉",
+        "price": "49-129元",
+        "brand": "白牌",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼热门，优雅百搭，性价比高",
+        "goodKeywords": [
+          "显气质",
+          "做工精致",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "珍珠大小不一"
+        ],
+        "match": true,
+        "matchReason": "七夕送礼，体面合宜",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%8F%8D%E7%8F%A0%E8%80%B3%E9%92%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "多功能收纳架",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=多功能收纳架",
+        "price": "19.9-49.9元",
+        "brand": "白牌",
+        "shipping": "48小时内",
+        "hotReason": "家居收纳刚需，提升空间利用率",
+        "goodKeywords": [
+          "结实",
+          "容量大",
+          "安装方便"
+        ],
+        "badKeywords": [
+          "塑料味"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量，价格实惠",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A4%9A%E5%8A%9F%E8%83%BD%E6%94%B6%E7%BA%B3%E6%9E%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "茯苓山药粉",
+        "link": "https://www.douyin.com/search/茯苓山药粉",
+        "price": "29.9-59.9元",
+        "brand": "五谷磨房",
+        "shipping": "48小时内",
+        "hotReason": "夏季祛湿健脾，药食同源，养生趋势",
+        "goodKeywords": [
+          "健脾祛湿",
+          "口感细腻",
+          "无添加"
+        ],
+        "badKeywords": [
+          "冲泡结块"
+        ],
+        "match": true,
+        "matchReason": "符合养生需求，品牌知名",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8C%AF%E8%8B%93%E5%B1%B1%E8%8D%AF%E7%B2%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "香薰加湿器",
+        "link": "https://s.taobao.com/search?q=香薰加湿器",
+        "price": "39-89元",
+        "brand": "白牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季空调房干燥，提升居家幸福感",
+        "goodKeywords": [
+          "静音",
+          "出雾大",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "清洗麻烦"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，实用小家电",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E8%96%B0%E5%8A%A0%E6%B9%BF%E5%99%A8%3C/text%3E%3C/svg%3E"
       }
     ]
   },
