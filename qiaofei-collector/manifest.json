@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "爆品采集 · 情报站",
+  "version": "1.1.0",
+  "description": "逛电商网页时一键采集真实在售爆品，自动做卖点分析，上传到你的每日爆品情报站（合规·零风控）。支持快捷键采集与页面诊断。",
+  "permissions": ["activeTab", "scripting", "storage", "unlimitedStorage"],
+  "host_permissions": [
+    "https://*.pinduoduo.com/*",
+    "https://*.yangkeduo.com/*",
+    "https://*.taobao.com/*",
+    "https://*.tmall.com/*",
+    "https://*.douyin.com/*",
+    "https://api.github.com/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "爆品采集"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.pinduoduo.com/*",
+        "https://*.yangkeduo.com/*",
+        "https://*.taobao.com/*",
+        "https://*.tmall.com/*",
+        "https://*.douyin.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "commands": {
+    "capture-current": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "采集当前商品页（自动分析 + 提示）"
+    }
+  }
+}
