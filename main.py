@@ -87,7 +87,7 @@ def fill_images(entry, search_key):
 
 
 def run_pipeline(config, bd, use_mock=False):
-    entry = build_entry(config, use_mock=use_mock)
+    entry = build_entry(config, use_mock=use_mock, base_dir=bd, output_dir=config.get("output_dir", "web"))
     search_key = config.get("search", {}).get("api_key", "")
     fill_images(entry, search_key)
     entries = merge_entry(bd, config.get("output_dir", "web"), entry)
