@@ -1,0 +1,140 @@
+:root{
+  --ink:#232A36;          /* 墨色：主文字/主按钮/logo */
+  --ink-soft:#4A525E;
+  --muted:#767B85;        /* 次文字 */
+  --faint:#A6ABB5;        /* 辅助 */
+  --gold:#B08D57;         /* 暖金棕：克制点缀 */
+  --line:#ECECEF;         /* 发丝边 */
+  --bg:#FFFFFF;
+  --bg-soft:#FAFAFA;      /* 分区底 */
+  --ok:#2E7D32;           /* 截图同款深绿 */
+  --ok-bg:#E8F5E9;        /* 截图同款浅绿底 */
+  --ok-line:#C8E6C9;
+  --warn:#E65100;         /* 截图同款深橙 */
+  --warn-bg:#FFF3E0;      /* 截图同款浅橙底 */
+  --warn-line:#FFE0B2;
+  --radius:12px;
+  --shadow:0 1px 2px rgba(0,0,0,.04);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:360px;font-family:"Noto Sans SC",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);font-size:13px;line-height:1.5}
+.app{display:flex;flex-direction:column;min-height:540px}
+.muted{color:var(--muted)}
+.sm{font-size:11.5px}
+
+/* 顶栏 */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 16px 6px}
+.brand{display:flex;align-items:center;gap:8px}
+.logo{width:26px;height:26px;border-radius:7px;background:var(--ink);color:#fff;display:grid;place-items:center;font-family:"Noto Serif SC",serif;font-weight:600;font-size:14px}
+.title{font-family:"Noto Serif SC",serif;font-weight:600;font-size:15px;letter-spacing:.04em}
+.theme-chip{font-size:11px;color:var(--gold);border:1px solid var(--gold);border-radius:999px;padding:3px 10px;white-space:nowrap;background:rgba(176,141,87,.06)}
+.subbar{display:flex;align-items:center;gap:8px;padding:0 16px 10px;font-size:11.5px}
+.dot-sep{color:var(--faint)}
+
+/* 状态区 */
+.stage{padding:4px 16px 10px;flex:1}
+.illu{font-size:32px;color:var(--faint);text-align:center;margin:36px 0 8px;font-weight:300}
+.state-empty p{text-align:center}
+.state-loading{text-align:center;padding:60px 0}
+.spinner{width:22px;height:22px;border:2px solid var(--line);border-top-color:var(--gold);border-radius:50%;margin:0 auto 12px;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* 预览卡：截图同款白色卡片 */
+.preview{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow)}
+.pv-head{display:flex;gap:12px}
+.pv-img{width:64px;height:64px;border-radius:8px;object-fit:cover;background:#eee;flex:none;border:1px solid var(--line)}
+.pv-meta{flex:1;min-width:0}
+.pv-name{font-weight:600;font-size:14px;margin-bottom:5px;line-height:1.45}
+.tag-gold{display:inline-block;font-size:10.5px;color:#8B6F44;background:rgba(176,141,87,.1);border:1px solid rgba(176,141,87,.18);border-radius:6px;padding:2px 7px;margin-right:5px}
+.pv-row{display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink-soft);margin-top:4px}
+.pv-edit,.more-fields{margin-top:12px;display:flex;flex-direction:column;gap:8px}
+.pv-edit input,.pv-edit select,.more-fields input,.more-fields select{font-family:inherit;font-size:12px;padding:7px 10px;border:1px solid #eee;border-radius:8px;background:#f7f7f7;color:var(--ink);width:100%}
+.pv-edit .full{grid-column:1/3}
+.pv-edit label,.more-fields label{display:block;font-size:11px;color:var(--muted);margin-bottom:3px;font-weight:500}
+.pv-edit input:focus,.pv-edit select:focus,.more-fields input:focus,.more-fields select:focus{outline:none;border-color:var(--gold);background:#fff}
+.pv-more{margin-top:8px}
+.more-toggle{font-size:11px;color:var(--gold);cursor:pointer;text-align:center;padding:6px 4px;border-top:1px dashed var(--line);margin-top:4px}
+.more-fields{display:none;padding-top:8px}
+.pv-more.open .more-fields{display:flex}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.two-col label{margin-bottom:0}
+
+/* 提醒条：列表页 / 红线 */
+.note{font-size:11.5px;line-height:1.6;color:var(--ink-soft);background:#fff;
+  border:1px solid var(--line);border-left:2px solid var(--faint);
+  border-radius:7px;padding:7px 9px;margin-bottom:10px}
+.note b{font-weight:600;color:var(--ink)}
+.note.warn{border-left-color:var(--warn);color:var(--warn)}
+.note.warn b{color:var(--warn)}
+.note.danger{border-left-color:#A4483C;color:#A4483C;background:rgba(164,72,60,.04)}
+.note.danger b{color:#A4483C}
+
+/* 卖点分析：截图同款绿/橙 chips */
+.pv-analysis{margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+.an-title{display:flex;align-items:baseline;justify-content:space-between;
+  font-family:"Noto Sans SC",sans-serif;font-size:13px;font-weight:600;color:var(--ink);margin-bottom:8px}
+.an-title .muted{font-weight:400}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+.chip{font-size:11px;line-height:1.5;padding:3px 9px;border-radius:999px;border:1px solid transparent}
+.chip.good{color:var(--ok);background:var(--ok-bg);border-color:var(--ok-line)}
+.chip.bad{color:var(--warn);background:var(--warn-bg);border-color:var(--warn-line)}
+/* 具体卖点：把关键词落成该商品可读的卖点句 */
+.sp-block{margin-top:10px;padding:10px 12px;background:linear-gradient(180deg,#fff,#fffdf9);border:1px solid var(--ok-line);border-radius:10px}
+.sp-title{font-size:11px;font-weight:600;color:var(--ok);margin-bottom:6px;letter-spacing:.02em}
+.sp-title::before{content:"✓ ";font-weight:700}
+.sp-list{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:5px}
+.sp-list li{position:relative;padding-left:18px;font-size:12.5px;line-height:1.5;color:var(--ink)}
+.sp-list li::before{content:"";position:absolute;left:2px;top:6px;width:7px;height:7px;border-radius:2px;background:var(--ok);transform:rotate(45deg)}
+.sp-empty{display:block;margin-top:8px}
+.pv-edit textarea,.more-fields textarea{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:12px;resize:vertical;background:#fafafa;color:var(--ink)}
+.pv-edit textarea:focus,.more-fields textarea:focus{outline:none;border-color:var(--gold);background:#fff}
+
+/* 动作 */
+.try-row{width:100%;display:flex;align-items:center;gap:6px;flex-wrap:wrap;
+  margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}
+.btn.mini{padding:4px 10px;font-size:11px;border:1px solid var(--line);
+  background:#fff;color:var(--ink);border-radius:6px;cursor:pointer}
+.btn.mini:hover{border-color:var(--gold);color:var(--gold)}
+.actions{display:flex;gap:8px;padding:0 16px 8px;flex-wrap:wrap}
+.btn{font-family:inherit;font-size:12.5px;border-radius:9px;padding:9px 12px;cursor:pointer;border:1px solid transparent;transition:transform .12s,background .12s}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:var(--ink);color:#fff;flex:1}
+.btn.primary:hover{background:#1a2030}
+.btn.ghost{background:#fff;border-color:var(--line);color:var(--ink-soft)}
+.btn.block{width:100%;margin-top:8px}
+
+/* 底部 Tab */
+.tabs{display:flex;border-top:1px solid var(--line);background:var(--bg-soft)}
+.tab{flex:1;background:none;border:none;padding:11px 0;font-family:inherit;font-size:11.5px;color:var(--muted);cursor:pointer;border-top:2px solid transparent}
+.tab.active{color:var(--ink);border-top-color:var(--gold);font-weight:500}
+
+/* 面板 */
+.panel{padding:14px 16px;border-top:1px solid var(--line)}
+.field{display:block;margin-bottom:10px}
+.field span{display:block;font-size:11px;color:var(--faint);margin-bottom:4px}
+.field input{width:100%;font-family:inherit;font-size:12px;padding:8px 9px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink)}
+.history{list-style:none}
+.history li{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--line);font-size:12px}
+.history li .h-del{color:var(--warn);cursor:pointer;background:none;border:none;font-size:11px}
+
+/* Toast */
+.toast{position:fixed;left:50%;bottom:64px;transform:translateX(-50%);background:var(--ink);color:#fff;font-size:12px;padding:9px 14px;border-radius:9px;box-shadow:0 6px 20px rgba(0,0,0,.18);opacity:0;transition:opacity .2s,transform .2s;pointer-events:none}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(-4px)}
+.toast.ok{background:var(--ok)}
+.toast.err{background:var(--warn)}
+
+/* 快捷键提示 */
+.kbd-hint{margin-top:6px}
+.kbd-hint b{font-weight:600;color:var(--ink-soft);background:var(--bg-soft);border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:11px}
+
+/* 新品增强：品类 / 评价 / 详情图 */
+.pv-extra{margin:10px 0 4px}
+.extra-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.tag-soft{font-size:11px;color:var(--ink-soft);background:var(--bg-soft);border:1px solid var(--line);border-radius:999px;padding:3px 9px}
+.img-strip{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.img-strip img{width:52px;height:52px;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:var(--bg-soft)}
+
+/* 诊断面板 */
+.diag{border-top:1px solid var(--line);padding:10px 16px 14px;background:var(--bg-soft)}
+.diag-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.diag-body{max-height:220px;overflow:auto;background:#1E232B;color:#CFE8CF;font-family:ui-monospace,SFMono-Regular,Menlo,consolas,monospace;font-size:10.5px;line-height:1.45;padding:10px;border-radius:8px;white-space:pre-wrap;word-break:break-all}
