@@ -1,5 +1,370 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-13",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "今日头条",
+        "price": "50-80元",
+        "brand": "未知",
+        "hotReason": "2026年十大平价幸福感好物推荐，适合办公学习场景，提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "希亦K-lamp灭蚊器",
+        "platform": "知乎",
+        "price": "约100元",
+        "brand": "希亦",
+        "hotReason": "开学季宿舍刚需，夏秋交替蚊虫多，低功率不跳闸，学生党推荐",
+        "image": ""
+      },
+      {
+        "name": "西圣PB磁吸充电宝",
+        "platform": "知乎",
+        "price": "158元",
+        "brand": "西圣",
+        "hotReason": "开学季学生党必入，高性价比、快充、便携，适合宿舍和外出",
+        "image": ""
+      },
+      {
+        "name": "希亦ACE2内衣洗衣机",
+        "platform": "CSDN",
+        "price": "约300元",
+        "brand": "希亦",
+        "hotReason": "开学季宿舍好物，内衣专用，高温煮洗，解放双手，学生党热捧",
+        "image": ""
+      },
+      {
+        "name": "珂曼朵私处护理液",
+        "platform": "淘江湖",
+        "price": "约60元",
+        "brand": "珂曼朵",
+        "hotReason": "2026年女性私护推荐，微生态精准养护，pH平衡，安全温和",
+        "image": ""
+      },
+      {
+        "name": "波后私护产品",
+        "platform": "今日头条",
+        "price": "约100元",
+        "brand": "波后",
+        "hotReason": "2026中国十大私护品牌，两性健康领域，市场增速快，用户口碑好",
+        "image": ""
+      },
+      {
+        "name": "低水压花洒",
+        "platform": "拼多多",
+        "price": "约30元",
+        "brand": "未知",
+        "hotReason": "平价家居好物，解决低水压洗澡痛点，提升沐浴体验，百亿补贴热销",
+        "image": ""
+      },
+      {
+        "name": "浔至XFINDING香氛沐浴礼盒",
+        "platform": "知乎",
+        "price": "约200元",
+        "brand": "浔至XFINDING",
+        "hotReason": "七夕送礼热门，被誉为东方小香奈，200+网红种草，时尚杂志TOP3",
+        "image": ""
+      },
+      {
+        "name": "中国黄金满天星银手链",
+        "platform": "淘宝",
+        "price": "245元",
+        "brand": "中国黄金",
+        "hotReason": "七夕情人节礼物热销，轻奢小众，已售100+件，4.8分好评",
+        "image": ""
+      },
+      {
+        "name": "磁悬浮永生花摆件",
+        "platform": "京东",
+        "price": "约200元",
+        "brand": "逐星",
+        "hotReason": "七夕创意礼物，磁悬浮科技感，京东自营热销，10000+评论",
+        "image": ""
+      },
+      {
+        "name": "希亦RM1内衣洗衣机",
+        "platform": "搜狐",
+        "price": "约200元",
+        "brand": "希亦",
+        "hotReason": "开学季宿舍神器，百元价位性能小钢炮，清洗力强，支持烘干",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "七夕礼遇·开学焕新·居家清凉",
+      "reason": "正值盛夏，七夕临近，开学季启动，结合祛湿温养需求，推荐高性价比的礼品、宿舍好物和清凉居家用品，满足女性用户自用及送礼场景",
+      "zones": [
+        {
+          "zone": "七夕浪漫礼盒",
+          "products": [
+            "香氛沐浴露礼盒",
+            "永生花音乐盒",
+            "定制银饰手链"
+          ]
+        },
+        {
+          "zone": "开学宿舍神器",
+          "products": [
+            "便携榨汁杯",
+            "宿舍小风扇",
+            "磁吸充电宝"
+          ]
+        },
+        {
+          "zone": "清凉祛湿好物",
+          "products": [
+            "红豆薏米茶",
+            "艾草坐垫",
+            "智能恒温杯垫"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "香氛沐浴露礼盒",
+          "platform": "淘宝",
+          "price": "约150元",
+          "brand": "浔至XFINDING",
+          "shipping": "48小时内",
+          "reason": "七夕送礼热门，东方香氛，仪式感强，网红种草多",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E6%B0%9B%E6%B2%90%E6%B5%B4%E9%9C%B2%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "希亦K-lamp灭蚊器",
+          "platform": "京东",
+          "price": "约100元",
+          "brand": "希亦",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍刚需，夏季蚊虫多，低功率安全，学生党好评",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B8%8C%E4%BA%A6K-lamp%E7%81%AD%E8%9A%8A%E5%99%A8%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "智能恒温保温杯垫",
+          "platform": "拼多多",
+          "price": "50-80元",
+          "brand": "未知",
+          "shipping": "48小时内",
+          "reason": "平价提升幸福感，办公学习必备，冬季夏季都适用",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%99%BA%E8%83%BD%E6%81%92%E6%B8%A9%E4%BF%9D%E6%B8%A9%E6%9D%AF%E5%9E%AB%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "磁悬浮永生花摆件",
+          "platform": "京东",
+          "price": "约200元",
+          "brand": "逐星",
+          "shipping": "48小时内",
+          "reason": "七夕创意礼物，科技感强，京东自营，评论多",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%A3%81%E6%82%AC%E6%B5%AE%E6%B0%B8%E7%94%9F%E8%8A%B1%E6%91%86%E4%BB%B6%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "香氛沐浴露礼盒",
+        "link": "https://s.taobao.com/search?q=香氛沐浴露礼盒",
+        "price": "约150元",
+        "brand": "浔至XFINDING",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼热门，东方小香奈，网红种草多，时尚杂志TOP3",
+        "goodKeywords": [
+          "香味高级",
+          "包装精美",
+          "留香持久"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "七夕礼品，高颜值，符合送礼场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E6%B0%9B%E6%B2%90%E6%B5%B4%E9%9C%B2%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "希亦K-lamp灭蚊器",
+        "link": "https://www.jd.com/search?keyword=希亦K-lamp灭蚊器",
+        "price": "约100元",
+        "brand": "希亦",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍刚需，夏秋蚊虫多，低功率不跳闸，学生党推荐",
+        "goodKeywords": [
+          "静音",
+          "灭蚊效果好",
+          "安全"
+        ],
+        "badKeywords": [
+          "需定期更换耗材"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍神器，实用高性价比",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B8%8C%E4%BA%A6K-lamp%E7%81%AD%E8%9A%8A%E5%99%A8%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "智能恒温保温杯垫",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=智能恒温保温杯垫",
+        "price": "50-80元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "2026年十大平价幸福感好物，办公学习必备，提升生活品质",
+        "goodKeywords": [
+          "恒温",
+          "省电",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "加热慢"
+        ],
+        "match": true,
+        "matchReason": "平价实用，适合办公和居家",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%99%BA%E8%83%BD%E6%81%92%E6%B8%A9%E4%BF%9D%E6%B8%A9%E6%9D%AF%E5%9E%AB%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "磁悬浮永生花摆件",
+        "link": "https://www.jd.com/search?keyword=磁悬浮永生花摆件",
+        "price": "约200元",
+        "brand": "逐星",
+        "shipping": "48小时内",
+        "hotReason": "七夕创意礼物，科技感强，京东自营，10000+评论",
+        "goodKeywords": [
+          "创意",
+          "科技感",
+          "包装精美"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "七夕礼品，独特有纪念意义",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%A3%81%E6%82%AC%E6%B5%AE%E6%B0%B8%E7%94%9F%E8%8A%B1%E6%91%86%E4%BB%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "低水压花洒",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=低水压花洒",
+        "price": "约30元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "平价家居好物，解决低水压洗澡痛点，提升沐浴体验，百亿补贴热销",
+        "goodKeywords": [
+          "增压",
+          "出水细腻",
+          "安装简单"
+        ],
+        "badKeywords": [
+          "塑料材质"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，性价比高",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BD%8E%E6%B0%B4%E5%8E%8B%E8%8A%B1%E6%B4%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "中国黄金满天星银手链",
+        "link": "https://s.taobao.com/search?q=中国黄金满天星银手链",
+        "price": "245元",
+        "brand": "中国黄金",
+        "shipping": "48小时内",
+        "hotReason": "七夕情人节礼物热销，轻奢小众，已售100+件，4.8分好评",
+        "goodKeywords": [
+          "品牌",
+          "精致",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "易氧化"
+        ],
+        "match": true,
+        "matchReason": "七夕礼品，品牌背书，价格适中",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%B8%AD%E5%9B%BD%E9%BB%84%E9%87%91%E6%BB%A1%E5%A4%A9%E6%98%9F%E9%93%B6%E6%89%8B%E9%93%BE%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "希亦ACE2内衣洗衣机",
+        "link": "https://www.jd.com/search?keyword=希亦ACE2内衣洗衣机",
+        "price": "约300元",
+        "brand": "希亦",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍好物，内衣专用，高温煮洗，解放双手，学生党热捧",
+        "goodKeywords": [
+          "高温消毒",
+          "小巧",
+          "省水"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "宿舍实用小家电，提升生活品质",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B8%8C%E4%BA%A6ACE2%E5%86%85%E8%A1%A3%E6%B4%97%E8%A1%A3%E6%9C%BA%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "珂曼朵私处护理液",
+        "link": "https://s.taobao.com/search?q=珂曼朵私处护理液",
+        "price": "约60元",
+        "brand": "珂曼朵",
+        "shipping": "48小时内",
+        "hotReason": "2026年女性私护推荐，微生态精准养护，pH平衡，安全温和",
+        "goodKeywords": [
+          "温和",
+          "pH平衡",
+          "无刺激"
+        ],
+        "badKeywords": [
+          "价格略高"
+        ],
+        "match": true,
+        "matchReason": "女性私护非棉品，符合选品方向",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%8F%82%E6%9B%BC%E6%9C%B5%E7%A7%81%E5%A4%84%E6%8A%A4%E7%90%86%E6%B6%B2%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "西圣PB磁吸充电宝",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=西圣PB磁吸充电宝",
+        "price": "158元",
+        "brand": "西圣",
+        "shipping": "48小时内",
+        "hotReason": "开学季学生党必入，高性价比、快充、便携，适合宿舍和外出",
+        "goodKeywords": [
+          "快充",
+          "便携",
+          "磁吸"
+        ],
+        "badKeywords": [
+          "容量一般"
+        ],
+        "match": true,
+        "matchReason": "开学季数码好物，实用",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%A5%BF%E5%9C%A3PB%E7%A3%81%E5%90%B8%E5%85%85%E7%94%B5%E5%AE%9D%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "艾草坐垫",
+        "link": "https://www.douyin.com/search/艾草坐垫",
+        "price": "约40元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "夏季久坐闷热，艾草坐垫祛湿温养，抖音热销，适合办公室和居家",
+        "goodKeywords": [
+          "祛湿",
+          "透气",
+          "舒适"
+        ],
+        "badKeywords": [
+          "艾草味重"
+        ],
+        "match": true,
+        "matchReason": "养生家居好物，符合祛湿主题",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E5%9D%90%E5%9E%AB%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-08-12",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
