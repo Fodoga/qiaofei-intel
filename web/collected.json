@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-08-14",
+    "season": "",
+    "dataSource": "真实采集（插件/手动）",
+    "weeklySuggestion": {
+      "theme": "七夕好礼",
+      "reason": "",
+      "zones": [],
+      "topPicks": []
+    },
+    "products": [
+      {
+        "name": "七夕礼物志高颈椎按摩器仪正品腰部背部肩颈全自动揉捏枕疏通神器",
+        "platform": "淘宝",
+        "price": "¥59",
+        "brand": "CHIGO志高按摩电器品牌连锁店",
+        "shipping": "承诺今天发货，预计后天送达",
+        "reason": "",
+        "image": "https://gw.alicdn.com/imgextra/O1CN01Fm5Mok1lPx1ZPBp9W_!!2211883554812-0-picasso.jpg_.webp",
+        "link": "https://item.taobao.com/item.htm?id=785781455597",
+        "hotReason": "详情主打七夕情侣送礼",
+        "matchReason": "¥59 高于站内 p75，需要更硬的卖点撑住；契合节日送礼场景",
+        "goodKeywords": [
+          "七夕情侣送礼"
+        ],
+        "badKeywords": [],
+        "spec": "",
+        "salesText": "",
+        "source": "plugin",
+        "collectedAt": "2026-08-14T01:17:16.007Z",
+        "salesConfidence": "reported",
+        "theme": "七夕好礼"
+      }
+    ]
+  },
+  {
     "date": "2026-08-12",
     "season": "",
     "dataSource": "真实采集（插件/手动）",
