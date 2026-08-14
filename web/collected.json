@@ -31,6 +31,31 @@
         "collectedAt": "2026-08-14T01:17:16.007Z",
         "salesConfidence": "reported",
         "theme": "七夕好礼"
+      },
+      {
+        "name": "【七夕礼物】INTOYOU水雾唇釉礼盒点新意迷你唇部口红彩妆套装",
+        "platform": "天猫",
+        "price": "¥79",
+        "brand": "INTOYOU旗舰店",
+        "shipping": "预计8小时内发货，后天送达",
+        "reason": "",
+        "image": "https://gw.alicdn.com/imgextra/O1CN01cP2vK1q71PL1chua_!!2208156289515-0-yinheaigc.jpg_.webp",
+        "link": "https://detail.tmall.com/item.htm?id=740816924126",
+        "hotReason": "详情主打颜值送礼体面、七夕情侣送礼、独立包装便携",
+        "matchReason": "¥79 高于站内 p75，需要更硬的卖点撑住；契合节日送礼场景",
+        "goodKeywords": [
+          "颜值送礼体面",
+          "七夕情侣送礼",
+          "独立包装便携",
+          "口碑销量高"
+        ],
+        "badKeywords": [],
+        "spec": "",
+        "salesText": "",
+        "source": "plugin",
+        "collectedAt": "2026-08-14T01:18:13.369Z",
+        "salesConfidence": "reported",
+        "theme": "七夕好礼"
       }
     ]
   },
