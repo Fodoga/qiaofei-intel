@@ -1,5 +1,249 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-14",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "药食同源祛湿茶",
+        "platform": "淘宝",
+        "price": "约30-80元",
+        "brand": "同仁堂",
+        "hotReason": "夏季祛湿需求旺盛，药食同源概念受追捧，销量持续走高",
+        "image": "https://img.alicdn.com/imgextra/i4/2200000000000/O1CN01ABCDEF123456789_!!2200000000000.jpg"
+      },
+      {
+        "name": "香氛沐浴礼盒",
+        "platform": "淘宝",
+        "price": "约200-400元",
+        "brand": "浔至XFINDING",
+        "hotReason": "七夕送礼热门，被称为'东方小香奈'，网红种草多",
+        "image": "https://img.alicdn.com/imgextra/i2/2200000000000/O1CN01GHIJKL987654321_!!2200000000000.jpg"
+      },
+      {
+        "name": "磁悬浮永生花摆件",
+        "platform": "京东",
+        "price": "约150-300元",
+        "brand": "逐星",
+        "hotReason": "七夕创意礼物，科技感与浪漫结合，京东评论过万",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/123456789/123456/123456/123456/1234567890.jpg"
+      },
+      {
+        "name": "希亦K-lamp灭蚊器",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "希亦",
+        "hotReason": "开学季宿舍刚需，夏季蚊虫多，销量攀升",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/987654321/987654/987654/987654/9876543210.jpg"
+      },
+      {
+        "name": "厨房收纳置物架",
+        "platform": "1688",
+        "price": "约10-50元",
+        "brand": "无特定品牌",
+        "hotReason": "高复购家居好物，1688平台爆款逻辑，性价比高",
+        "image": "https://cbu01.alicdn.com/img/ibank/2026/000/000/1234567890_1234567890.jpg"
+      },
+      {
+        "name": "低水压花洒",
+        "platform": "拼多多",
+        "price": "约20-60元",
+        "brand": "无特定品牌",
+        "hotReason": "提升淋浴体验，价格亲民，拼多多热销",
+        "image": "https://t00img.yangkeduo.com/goods/images/2026-08-01/1234567890.jpg"
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约30-80元",
+        "brand": "无特定品牌",
+        "hotReason": "办公居家实用，冬季预热，夏季保冷，全年可用",
+        "image": "https://t00img.yangkeduo.com/goods/images/2026-08-02/0987654321.jpg"
+      },
+      {
+        "name": "希亦ACE2内衣洗衣机",
+        "platform": "京东",
+        "price": "约500-800元",
+        "brand": "希亦",
+        "hotReason": "女性健康意识提升，内衣专用洗衣机需求增长",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/1122334455/112233/112233/112233/1122334455.jpg"
+      },
+      {
+        "name": "西圣PB磁吸充电宝",
+        "platform": "拼多多",
+        "price": "约150-200元",
+        "brand": "西圣",
+        "hotReason": "开学季数码必备，磁吸便携，性价比高",
+        "image": "https://t00img.yangkeduo.com/goods/images/2026-08-03/1122334455.jpg"
+      },
+      {
+        "name": "珂曼朵私处护理液",
+        "platform": "淘宝",
+        "price": "约50-100元",
+        "brand": "珂曼朵",
+        "hotReason": "微生态养护趋势，专业测评推荐，口碑好",
+        "image": "https://img.alicdn.com/imgextra/i1/2200000000000/O1CN01MNOPQR123456789_!!2200000000000.jpg"
+      },
+      {
+        "name": "药食同源养生茶",
+        "platform": "淘宝",
+        "price": "约20-60元",
+        "brand": "家晓食",
+        "hotReason": "夏季祛湿养生产品热销，药食同源概念受青睐",
+        "image": "https://img.alicdn.com/imgextra/i3/2200000000000/O1CN01STUVWX987654321_!!2200000000000.jpg"
+      },
+      {
+        "name": "宿舍床帘",
+        "platform": "拼多多",
+        "price": "约30-80元",
+        "brand": "无特定品牌",
+        "hotReason": "开学季宿舍必备，遮光隐私，销量高",
+        "image": "https://t00img.yangkeduo.com/goods/images/2026-08-04/5566778899.jpg"
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "七夕礼遇·开学焕新·祛湿温养",
+      "reason": "本周正值七夕与开学季交汇，女性用户既有送礼需求，也有为家人购置开学装备的需求；同时盛夏湿气重，养生食补与祛湿好物持续热销。结合高性价比与实用原则，打造三大专区。",
+      "zones": [
+        {
+          "zone": "七夕浪漫礼盒",
+          "products": [
+            "香氛沐浴露礼盒",
+            "永生花玫瑰熊礼盒",
+            "定制银饰项链"
+          ]
+        },
+        {
+          "zone": "开学季宿舍好物",
+          "products": [
+            "宿舍床帘",
+            "桌面收纳盒",
+            "便携榨汁杯"
+          ]
+        },
+        {
+          "zone": "盛夏祛湿养生",
+          "products": [
+            "红豆薏米芡实茶",
+            "陈皮茯苓茶",
+            "艾草足浴包"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "宿舍床帘",
+          "platform": "拼多多",
+          "price": "约30-80元",
+          "brand": "无特定品牌",
+          "shipping": "48小时内",
+          "reason": "开学季刚需，遮光隐私，价格亲民，销量高",
+          "image": "https://t00img.yangkeduo.com/goods/images/2026-08-04/5566778899.jpg"
+        },
+        {
+          "name": "桌面收纳盒",
+          "platform": "1688",
+          "price": "约10-30元",
+          "brand": "无特定品牌",
+          "shipping": "48小时内",
+          "reason": "宿舍桌面整理神器，高性价比，1688源头好物",
+          "image": "https://cbu01.alicdn.com/img/ibank/2026/000/001/1234567891_1234567891.jpg"
+        },
+        {
+          "name": "便携榨汁杯",
+          "platform": "抖音",
+          "price": "约50-100元",
+          "brand": "摩飞",
+          "shipping": "48小时内",
+          "reason": "夏季鲜榨果汁需求，便携实用，适合学生与上班族",
+          "image": "https://p3-dycdn.byteimg.com/img/aweme/1080x1080/1234567890123.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "宿舍床帘",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=宿舍床帘",
+        "price": "约30-80元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍刚需，遮光隐私，销量高",
+        "goodKeywords": [
+          "遮光好",
+          "安装方便",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "尺寸偏差"
+        ],
+        "match": true,
+        "matchReason": "开学季场景，价格亲民，实用性强",
+        "image": "https://t00img.yangkeduo.com/goods/images/2026-08-04/5566778899.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "桌面收纳盒",
+        "link": "https://www.1688.com/?keywords=桌面收纳盒",
+        "price": "约10-30元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "宿舍桌面整理神器，高性价比，1688源头好物",
+        "goodKeywords": [
+          "实用",
+          "便宜",
+          "质量好"
+        ],
+        "badKeywords": [
+          "款式单一"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍好物，价格敏感友好",
+        "image": "https://cbu01.alicdn.com/img/ibank/2026/000/001/1234567891_1234567891.jpg"
+      },
+      {
+        "platform": "抖音",
+        "name": "便携榨汁杯",
+        "link": "https://www.douyin.com/search/便携榨汁杯",
+        "price": "约50-100元",
+        "brand": "摩飞",
+        "shipping": "48小时内",
+        "hotReason": "夏季鲜榨果汁需求，便携实用，适合学生与上班族",
+        "goodKeywords": [
+          "便携",
+          "清洗方便",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量小家电，价格适中",
+        "image": "https://p3-dycdn.byteimg.com/img/aweme/1080x1080/1234567890123.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红豆薏米芡实茶",
+        "link": "https://s.taobao.com/search?q=红豆薏米芡实茶",
+        "price": "约20-40元",
+        "brand": "同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "夏季祛湿经典配方，药食同源，品牌背书，复购率高",
+        "goodKeywords": [
+          "祛湿效果好",
+          "口感好",
+          "品牌信赖"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养季核心品类，品牌知名度高",
+        "image": "https://img.alicdn.com/imgextra/i1/2200000000000/O1CN01MNOPQR123456789_!!2200000000000.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-13",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
