@@ -76,6 +76,26 @@ window.COLLECTED_DATA = [
         "collectedAt": "2026-08-14T01:19:17.665Z",
         "salesConfidence": "reported",
         "theme": "七夕好礼"
+      },
+      {
+        "name": "三福都市雪花彩奢手链单条 时尚气质装饰首饰手饰链条858705",
+        "platform": "天猫",
+        "price": "¥49.71",
+        "brand": "三福饰品旗舰店",
+        "shipping": "预计9小时内发货，后天送达",
+        "reason": "",
+        "image": "https://gw.alicdn.com/bao/uploaded/i4/2217779124255/O1CN01umF69R1hIqPo5RdxV_!!2217779124255.jpg_.webp",
+        "link": "https://detail.tmall.com/item.htm?id=1061025880887",
+        "hotReason": "",
+        "matchReason": "¥49.71 高于站内 p75，需要更硬的卖点撑住",
+        "goodKeywords": [],
+        "badKeywords": [],
+        "spec": "",
+        "salesText": "",
+        "source": "plugin",
+        "collectedAt": "2026-08-14T01:22:50.344Z",
+        "salesConfidence": "reported",
+        "theme": "七夕好礼"
       }
     ]
   },
