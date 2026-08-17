@@ -1,5 +1,309 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-17",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "西圣PB磁吸充电宝",
+        "platform": "拼多多",
+        "price": "约158元",
+        "brand": "西圣",
+        "hotReason": "开学季学生党必备，高性价比快充，便携安全，榜单热销",
+        "image": ""
+      },
+      {
+        "name": "希亦K-lamp灭蚊器",
+        "platform": "京东",
+        "price": "约99元",
+        "brand": "希亦",
+        "hotReason": "夏秋交替蚊虫多，宿舍神器，销量火爆",
+        "image": ""
+      },
+      {
+        "name": "希亦ACE2内衣洗衣机",
+        "platform": "京东",
+        "price": "约899元",
+        "brand": "希亦",
+        "hotReason": "女性健康意识提升，内衣专用洗衣机热销，解放双手",
+        "image": ""
+      },
+      {
+        "name": "广东省中医院养生茶饮",
+        "platform": "淘宝",
+        "price": "约30-80元",
+        "brand": "广东省中医院",
+        "hotReason": "药食同源，权威背书，祛湿养颜，夏季热销",
+        "image": ""
+      },
+      {
+        "name": "15味祛湿茶",
+        "platform": "拼多多",
+        "price": "约20-50元",
+        "brand": "多种",
+        "hotReason": "夏季祛湿需求高，药食同源配方，销量增长",
+        "image": ""
+      },
+      {
+        "name": "女性益生菌",
+        "platform": "淘宝",
+        "price": "约50-150元",
+        "brand": "Swisse等",
+        "hotReason": "私护微生态养护趋势，复购率高，销量稳定",
+        "image": ""
+      },
+      {
+        "name": "珂曼朵私处护理液",
+        "platform": "淘宝",
+        "price": "约60-120元",
+        "brand": "珂曼朵",
+        "hotReason": "微生态精准养护，2026年高口碑推荐",
+        "image": ""
+      },
+      {
+        "name": "宿舍收纳神器",
+        "platform": "1688",
+        "price": "约10-30元",
+        "brand": "多种",
+        "hotReason": "开学季宿舍改造热，性价比高，批发价",
+        "image": ""
+      },
+      {
+        "name": "智能云台摄像头",
+        "platform": "京东",
+        "price": "约150-300元",
+        "brand": "荣耀亲选",
+        "hotReason": "家庭安防需求，AI侦测，提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "南极磷虾油凝胶糖果",
+        "platform": "细莫严选",
+        "price": "约104元",
+        "brand": "细莫严选",
+        "hotReason": "大健康趋势，细胞级守护，送礼自用皆宜",
+        "image": ""
+      },
+      {
+        "name": "穴位按摩梳",
+        "platform": "淘宝",
+        "price": "约20-50元",
+        "brand": "多种",
+        "hotReason": "养生小物，日常健脑美发，30+女性喜爱",
+        "image": ""
+      },
+      {
+        "name": "低水压花洒",
+        "platform": "拼多多",
+        "price": "约30-80元",
+        "brand": "多种",
+        "hotReason": "提升沐浴体验，性价比高，家居好物热销",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季·焕新生活周",
+      "reason": "8月中旬正值开学季，学生党及家庭采购需求旺盛，同时夏季祛湿养生仍是重点，结合性价比与实用性，推荐宿舍好物、养生茶饮及女性健康产品。",
+      "zones": [
+        {
+          "zone": "宿舍焕新专区",
+          "products": [
+            "可伸缩书立架",
+            "宿舍挂灯",
+            "便携收纳袋"
+          ]
+        },
+        {
+          "zone": "祛湿养生专区",
+          "products": [
+            "15味祛湿茶",
+            "薏米赤小豆粥料包",
+            "茯苓山药粉"
+          ]
+        },
+        {
+          "zone": "女性健康专区",
+          "products": [
+            "女性益生菌",
+            "私处护理液",
+            "玫瑰桑葚茶"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "可伸缩书立架",
+          "platform": "拼多多",
+          "price": "约9.9-19.9元",
+          "brand": "多种",
+          "shipping": "48小时内",
+          "reason": "宿舍书桌收纳神器，实用不贵，开学季刚需",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E4%B9%A6%E7%AB%8B%E6%9E%B6%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "15味祛湿茶",
+          "platform": "淘宝",
+          "price": "约25-45元",
+          "brand": "药食同源",
+          "shipping": "48小时内",
+          "reason": "夏季祛湿健脾，药食同源配方，适合全家",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E15%E5%91%B3%E7%A5%9B%E6%B9%BF%E8%8C%B6%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "宿舍挂灯",
+          "platform": "1688",
+          "price": "约15-30元",
+          "brand": "多种",
+          "shipping": "48小时内",
+          "reason": "宿舍学习照明，护眼实用，批发价更划算",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%AE%BF%E8%88%8D%E6%8C%82%E7%81%AF%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "可伸缩书立架",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=可伸缩书立架",
+        "price": "约9.9-19.9元",
+        "brand": "多种",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍桌面收纳刚需，实用便宜，销量高",
+        "goodKeywords": [
+          "实用",
+          "便宜",
+          "节省空间"
+        ],
+        "badKeywords": [
+          "质量一般"
+        ],
+        "match": true,
+        "matchReason": "高性价比，宿舍场景匹配",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8F%AF%E4%BC%B8%E7%BC%A9%E4%B9%A6%E7%AB%8B%E6%9E%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "1688",
+        "name": "宿舍挂灯",
+        "link": "https://www.1688.com/?keywords=宿舍挂灯",
+        "price": "约15-30元",
+        "brand": "多种",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍照明需求，护眼，批发价低",
+        "goodKeywords": [
+          "护眼",
+          "安装方便",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "亮度不足"
+        ],
+        "match": true,
+        "matchReason": "宿舍好物，价格敏感友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%AE%BF%E8%88%8D%E6%8C%82%E7%81%AF%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "15味祛湿茶",
+        "link": "https://s.taobao.com/search?q=15味祛湿茶",
+        "price": "约25-45元",
+        "brand": "药食同源",
+        "shipping": "48小时内",
+        "hotReason": "夏季祛湿健脾，药食同源配方，健康养生趋势",
+        "goodKeywords": [
+          "祛湿效果好",
+          "口感好",
+          "配料干净"
+        ],
+        "badKeywords": [
+          "效果不明显"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养季匹配，高性价比",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E15%E5%91%B3%E7%A5%9B%E6%B9%BF%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "薏米赤小豆粥料包",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=薏米赤小豆粥料包",
+        "price": "约15-30元",
+        "brand": "多种",
+        "shipping": "48小时内",
+        "hotReason": "祛湿经典食疗方，夏季家庭常备，销量高",
+        "goodKeywords": [
+          "祛湿",
+          "实惠",
+          "食材新鲜"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "药食同源，祛湿温养季匹配",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%96%8F%E7%B1%B3%E8%B5%A4%E5%B0%8F%E8%B1%86%E7%B2%A5%E6%96%99%E5%8C%85%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "1688",
+        "name": "便携收纳袋",
+        "link": "https://www.1688.com/?keywords=便携收纳袋",
+        "price": "约5-15元",
+        "brand": "多种",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍收纳，旅行必备，批发价低",
+        "goodKeywords": [
+          "便携",
+          "容量大",
+          "便宜"
+        ],
+        "badKeywords": [
+          "材质薄"
+        ],
+        "match": true,
+        "matchReason": "宿舍好物，高性价比",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BE%BF%E6%90%BA%E6%94%B6%E7%BA%B3%E8%A2%8B%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "穴位按摩梳",
+        "link": "https://s.taobao.com/search?q=穴位按摩梳",
+        "price": "约20-50元",
+        "brand": "多种",
+        "shipping": "48小时内",
+        "hotReason": "养生小物，日常健脑美发，30+女性喜爱",
+        "goodKeywords": [
+          "舒服",
+          "促进循环",
+          "小巧"
+        ],
+        "badKeywords": [
+          "梳齿硬"
+        ],
+        "match": true,
+        "matchReason": "养生好物，匹配女性用户",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%A9%B4%E4%BD%8D%E6%8C%89%E6%91%A9%E6%A2%B3%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "茯苓山药粉",
+        "link": "https://www.douyin.com/search/茯苓山药粉",
+        "price": "约20-40元",
+        "brand": "多种",
+        "shipping": "48小时内",
+        "hotReason": "健脾祛湿，药食同源，抖音热销",
+        "goodKeywords": [
+          "健脾",
+          "易冲泡",
+          "口感好"
+        ],
+        "badKeywords": [
+          "有颗粒感"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养季匹配，高性价比",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8C%AF%E8%8B%93%E5%B1%B1%E8%8D%AF%E7%B2%89%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-08-14",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
