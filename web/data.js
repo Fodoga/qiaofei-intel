@@ -1,5 +1,387 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-18",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "广东省中医院养生茶饮",
+        "platform": "淘宝",
+        "price": "约50-150元",
+        "brand": "广东省中医院",
+        "hotReason": "权威医院背书，药食同源概念火爆，夏季祛湿需求旺盛",
+        "image": ""
+      },
+      {
+        "name": "15味祛湿茶",
+        "platform": "淘宝",
+        "price": "约30-80元",
+        "brand": "同仁堂",
+        "hotReason": "祛湿健脾，夏季高温潮湿，需求量大",
+        "image": ""
+      },
+      {
+        "name": "智能云台摄像头",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "荣耀亲选",
+        "hotReason": "家庭安防与看护老人小孩需求，智能家居趋势",
+        "image": ""
+      },
+      {
+        "name": "厨房收纳置物架",
+        "platform": "1688",
+        "price": "约20-50元",
+        "brand": "无特定品牌",
+        "hotReason": "小户型厨房收纳刚需，高性价比，复购率高",
+        "image": ""
+      },
+      {
+        "name": "隔热垫",
+        "platform": "抖音",
+        "price": "约10-30元",
+        "brand": "琴姐居家日用百货",
+        "hotReason": "抖音爆款，实用美观，提升餐桌幸福感",
+        "image": ""
+      },
+      {
+        "name": "女性益生菌胶囊",
+        "platform": "天猫",
+        "price": "约80-150元",
+        "brand": "Swisse",
+        "hotReason": "女性健康意识提升，微生态养护趋势",
+        "image": ""
+      },
+      {
+        "name": "艾草坐垫",
+        "platform": "抖音",
+        "price": "约30-60元",
+        "brand": "无特定品牌",
+        "hotReason": "夏季祛湿温养，艾草制品热销",
+        "image": ""
+      },
+      {
+        "name": "永生花玫瑰熊礼盒",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "无特定品牌",
+        "hotReason": "七夕送礼刚需，颜值高，仪式感强",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约20-40元",
+        "brand": "无特定品牌",
+        "hotReason": "办公居家实用，冬季预热，夏季保温，性价比高",
+        "image": ""
+      },
+      {
+        "name": "低水压花洒",
+        "platform": "拼多多",
+        "price": "约15-30元",
+        "brand": "无特定品牌",
+        "hotReason": "解决老小区水压问题，提升沐浴体验",
+        "image": ""
+      },
+      {
+        "name": "香氛沐浴露礼盒",
+        "platform": "淘宝",
+        "price": "约50-100元",
+        "brand": "力士",
+        "hotReason": "七夕送礼，香氛沐浴提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "磁悬浮永生花摆件",
+        "platform": "京东",
+        "price": "约80-150元",
+        "brand": "无特定品牌",
+        "hotReason": "科技感与浪漫结合，送礼新宠",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "盛夏祛湿·七夕礼遇",
+      "reason": "夏季高温潮湿，祛湿温养是核心需求；同时临近七夕，送礼场景需求旺盛，需兼顾健康与仪式感",
+      "zones": [
+        {
+          "zone": "祛湿养生专区",
+          "products": [
+            "茯苓薏米茶",
+            "赤小豆芡实茶",
+            "陈皮茯苓茶"
+          ]
+        },
+        {
+          "zone": "七夕浪漫礼盒",
+          "products": [
+            "永生花音乐盒",
+            "定制银饰项链",
+            "香氛蜡烛礼盒"
+          ]
+        },
+        {
+          "zone": "家居清凉好物",
+          "products": [
+            "冰丝凉席",
+            "便携小风扇",
+            "降温喷雾"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "茯苓薏米茶",
+          "platform": "淘宝",
+          "price": "约30-60元",
+          "brand": "同仁堂",
+          "shipping": "48小时内",
+          "reason": "药食同源，祛湿健脾，夏季必备",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8C%AF%E8%8B%93%E8%96%8F%E7%B1%B3%E8%8C%B6%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "永生花音乐盒",
+          "platform": "京东",
+          "price": "约80-120元",
+          "brand": "无特定品牌",
+          "shipping": "48小时内",
+          "reason": "七夕送礼，浪漫有仪式感",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%B0%B8%E7%94%9F%E8%8A%B1%E9%9F%B3%E4%B9%90%E7%9B%92%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "冰丝凉席",
+          "platform": "拼多多",
+          "price": "约50-100元",
+          "brand": "无特定品牌",
+          "shipping": "48小时内",
+          "reason": "夏季降温，提升睡眠质量",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%86%B0%E4%B8%9D%E5%87%89%E5%B8%AD%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "便携小风扇",
+          "platform": "抖音",
+          "price": "约20-40元",
+          "brand": "无特定品牌",
+          "shipping": "48小时内",
+          "reason": "夏季出行必备，便携实用",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BE%BF%E6%90%BA%E5%B0%8F%E9%A3%8E%E6%89%87%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "香氛蜡烛礼盒",
+          "platform": "淘宝",
+          "price": "约50-80元",
+          "brand": "无特定品牌",
+          "shipping": "48小时内",
+          "reason": "七夕送礼，营造浪漫氛围",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E6%B0%9B%E8%9C%A1%E7%83%9B%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "茯苓薏米茶",
+        "link": "https://s.taobao.com/search?q=茯苓薏米茶",
+        "price": "约30-60元",
+        "brand": "同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "药食同源，祛湿健脾，夏季养生热销",
+        "goodKeywords": [
+          "祛湿效果好",
+          "口感清香",
+          "包装精美"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "符合祛湿温养主题，品牌背书强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8C%AF%E8%8B%93%E8%96%8F%E7%B1%B3%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "赤小豆芡实茶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=赤小豆芡实茶",
+        "price": "约20-40元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "祛湿经典配方，性价比高，复购率高",
+        "goodKeywords": [
+          "祛湿",
+          "实惠",
+          "方便冲泡"
+        ],
+        "badKeywords": [
+          "味道一般"
+        ],
+        "match": true,
+        "matchReason": "价格敏感友好，祛湿需求匹配",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%B5%A4%E5%B0%8F%E8%B1%86%E8%8A%A1%E5%AE%9E%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "永生花音乐盒",
+        "link": "https://search.jd.com/Search?keyword=永生花音乐盒",
+        "price": "约80-120元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼热门，浪漫有创意",
+        "goodKeywords": [
+          "颜值高",
+          "音乐好听",
+          "包装精美"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "七夕送礼场景匹配",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%B0%B8%E7%94%9F%E8%8A%B1%E9%9F%B3%E4%B9%90%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "冰丝凉席",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=冰丝凉席",
+        "price": "约50-100元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季降温，提升睡眠质量，性价比高",
+        "goodKeywords": [
+          "凉快",
+          "柔软",
+          "易收纳"
+        ],
+        "badKeywords": [
+          "尺寸偏差"
+        ],
+        "match": true,
+        "matchReason": "夏季家居刚需",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%86%B0%E4%B8%9D%E5%87%89%E5%B8%AD%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "便携小风扇",
+        "link": "https://www.douyin.com/search/便携小风扇",
+        "price": "约20-40元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季出行必备，抖音爆款",
+        "goodKeywords": [
+          "风力大",
+          "续航久",
+          "静音"
+        ],
+        "badKeywords": [
+          "充电慢"
+        ],
+        "match": true,
+        "matchReason": "夏季清凉好物",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BE%BF%E6%90%BA%E5%B0%8F%E9%A3%8E%E6%89%87%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "香氛蜡烛礼盒",
+        "link": "https://s.taobao.com/search?q=香氛蜡烛礼盒",
+        "price": "约50-80元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼，营造浪漫氛围",
+        "goodKeywords": [
+          "香味好闻",
+          "包装精美",
+          "助眠"
+        ],
+        "badKeywords": [
+          "燃烧时间短"
+        ],
+        "match": true,
+        "matchReason": "七夕送礼场景匹配",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E6%B0%9B%E8%9C%A1%E7%83%9B%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "1688",
+        "name": "冰丝袖套",
+        "link": "https://www.1688.com/?keywords=冰丝袖套",
+        "price": "约5-15元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季防晒，清凉透气，批发价低",
+        "goodKeywords": [
+          "防晒",
+          "凉感",
+          "便宜"
+        ],
+        "badKeywords": [
+          "质量一般"
+        ],
+        "match": true,
+        "matchReason": "夏季防晒刚需，性价比高",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%86%B0%E4%B8%9D%E8%A2%96%E5%A5%97%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "降温喷雾",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=降温喷雾",
+        "price": "约10-20元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季降温神器，便携实用",
+        "goodKeywords": [
+          "降温快",
+          "便携",
+          "清爽"
+        ],
+        "badKeywords": [
+          "持续时间短"
+        ],
+        "match": true,
+        "matchReason": "夏季清凉好物",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%99%8D%E6%B8%A9%E5%96%B7%E9%9B%BE%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "艾草颈椎枕",
+        "link": "https://www.douyin.com/search/艾草颈椎枕",
+        "price": "约30-60元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季空调房颈椎不适，艾草温养",
+        "goodKeywords": [
+          "缓解颈椎",
+          "艾草味",
+          "舒适"
+        ],
+        "badKeywords": [
+          "高度不合适"
+        ],
+        "match": true,
+        "matchReason": "健康养生，符合温养主题",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E9%A2%88%E6%A4%8E%E6%9E%95%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "1688",
+        "name": "厨房防油贴纸",
+        "link": "https://www.1688.com/?keywords=厨房防油贴纸",
+        "price": "约10-20元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "厨房清洁好物，易清洁，高性价比",
+        "goodKeywords": [
+          "易清洁",
+          "防水",
+          "便宜"
+        ],
+        "badKeywords": [
+          "粘性不足"
+        ],
+        "match": true,
+        "matchReason": "家居实用好物",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8E%A8%E6%88%BF%E9%98%B2%E6%B2%B9%E8%B4%B4%E7%BA%B8%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-08-17",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
