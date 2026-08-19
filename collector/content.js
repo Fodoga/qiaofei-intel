@@ -323,6 +323,8 @@
       .replace(/客服[满平][意均][度分].*$/g, "")
       .replace(/旺旺在线/g, "")
       .replace(/\d+年老店/g, "")
+      // 去掉店名后缀黏着的店铺评分（如「中国黄金严选专卖店4.8」→「中国黄金严选专卖店」）
+      .replace(/(旗舰店|专卖店|店|铺)[\s·•\-]*(\d{1,2}(?:\.\d{1,2})?)$/, "$1")
       .replace(/\s+/g, "")
       .trim();
   }
@@ -382,10 +384,14 @@
     if (plat === "淘宝" || plat === "天猫") sel = "[class*=\"rating\"], [class*=\"rate\"], [class*=\"review-count\"]";
     else if (plat === "拼多多" || plat === "抖音") sel = "[class*=\"review\"], [class*=\"comment\"], [class*=\"evaluate\"]";
     if (sel) {
-      var el = document.querySelector(sel);
-      if (el) {
-        var t = (el.textContent || "").replace(/\s+/g, " ").trim();
-        if (t) return t.slice(0, 60);
+      // 遍历所有命中，挑第一个真正像评分/评价的（必含数字，且不是账号/导航噪声）
+      var els = document.querySelectorAll(sel);
+      for (var i = 0; i < els.length; i++) {
+        var t = (els[i].textContent || "").replace(/\s+/g, " ").trim();
+        if (t && /\d/.test(t) &&
+            !/账号|退出|登录|我的淘宝|我的天猫|购物车|收藏|帮助中心|官方客服/.test(t)) {
+          return t.slice(0, 60);
+        }
       }
     }
     return "";

@@ -3,6 +3,35 @@
   "use strict";
 
   var PLATFORMS = ["拼多多", "淘宝", "天猫", "抖音"];
+
+  // 归属专区：与情报站页面 buildSchedules 的专区名保持一致（页面按 zone 名称归类）
+  // 后续应由 schedule.json / zones.json 统一下发，避免两端名字漂移
+  var ZONES = [
+    { label: "本周日常 · 女性养生专区", zone: "女性养生专区", scheduleId: "weekly" },
+    { label: "本周日常 · 家居好物专区", zone: "家居好物专区", scheduleId: "weekly" },
+    { label: "本周日常 · 节日送礼专区", zone: "节日送礼专区", scheduleId: "weekly" },
+    { label: "七夕专区 · 七夕礼物专区", zone: "七夕礼物专区", scheduleId: "qixi" },
+    { label: "七夕专区 · 情侣护理专区", zone: "情侣护理专区", scheduleId: "qixi" },
+    { label: "七夕专区 · 居家氛围专区", zone: "居家氛围专区", scheduleId: "qixi" },
+    { label: "开学专区 · 学生用品专区", zone: "学生用品专区", scheduleId: "kaixue" },
+    { label: "开学专区 · 儿童健康专区", zone: "儿童健康专区", scheduleId: "kaixue" },
+    { label: "开学专区 · 家庭焕新专区", zone: "家庭焕新专区", scheduleId: "kaixue" },
+    { label: "中秋专区 · 中秋礼盒专区", zone: "中秋礼盒专区", scheduleId: "zhongqiu" },
+    { label: "中秋专区 · 滋补养生专区", zone: "滋补养生专区", scheduleId: "zhongqiu" },
+    { label: "中秋专区 · 家庭分享专区", zone: "家庭分享专区", scheduleId: "zhongqiu" }
+  ];
+  var ZONE_SCHEDULE = {};
+  ZONES.forEach(function (z) { ZONE_SCHEDULE[z.zone] = z.scheduleId; });
+
+  function populateZones() {
+    if (!els.inpZone) return;
+    var opts = ['<option value="">日常采集（不归类）</option>'].concat(
+      ZONES.map(function (z) {
+        return '<option value="' + esc(z.zone) + '">' + esc(z.label) + "</option>";
+      })
+    );
+    els.inpZone.innerHTML = opts.join("");
+  }
   var els = {};
   var current = null; // 当前识别到的商品（可编辑）
   var currentMeta = null; // 本次抽取的附加信息（是否详情页 / 是否触红线 / 抓到多少字）
@@ -34,9 +63,9 @@
   /* ---------- 设置 ---------- */
   function loadSettings(cb) {
     chrome.storage.local.get("settings", function (r) {
-      var s = r.settings || { token: "", repo: "Fodoga/qiaofei-intel", path: "web/collected/raw" };
+      var s = r.settings || { token: "", repo: "你的GitHub用户名/你的情报站仓库", path: "web/collected/raw" };
       els.inpToken.value = s.token || "";
-      els.inpRepo.value = s.repo || "Fodoga/qiaofei-intel";
+      els.inpRepo.value = s.repo || "你的GitHub用户名/你的情报站仓库";
       els.inpPath.value = s.path || "web/collected/raw";
       SETTINGS = s;
       cb(s);
@@ -85,7 +114,7 @@
 
   /* ---------- 本周专题 ---------- */
   function loadTheme() {
-    var repo = (SETTINGS && SETTINGS.repo) || "Fodoga/qiaofei-intel";
+    var repo = (SETTINGS && SETTINGS.repo) || "你的GitHub用户名/你的情报站仓库";
     chrome.runtime.sendMessage({ type: "getTheme", repo: repo }, function (resp) {
       if (resp && resp.theme) els.themeChip.textContent = "本周专题 · " + resp.theme;
     });
@@ -119,6 +148,7 @@
           current = resp.product;
           currentMeta = resp.meta || {};
           currentMeta.rawName = current.name;  // 记下原始值，用于判断用户是否改过
+          if (els.inpZone) els.inpZone.value = current.zone || "";  // 回显已归类的专区
           renderPreview(current);
           showStage("ready");
         });
@@ -265,6 +295,9 @@
   /* ---------- 上传 ---------- */
   function doUpload() {
     if (!current || !current.name) { toast("没有可上传的商品", "err"); return; }
+    // 把「归属专区」选择写入商品，便于情报站按 zone 归类到对应板块
+    current.zone = (els.inpZone && els.inpZone.value) || "";
+    current.scheduleId = ZONE_SCHEDULE[current.zone] || "";
     // 红线商品拦一道：避免手滑把撞车品类推上情报站
     if (currentMeta && currentMeta.redFlag &&
         !confirm("该商品触碰选品红线（棉品/艾灸/自有品牌/医械字号），确定仍要上传吗？")) {
@@ -412,7 +445,7 @@
     ["themeChip", "todayCount", "stateEmpty", "stateLoading", "stateReady", "preview", "actions",
      "btnUpload", "btnRescan", "btnDiag", "btnDiscard", "panelManual", "panelHistory", "panelSettings",
      "btnOpenManual", "btnSaveSettings", "historyList", "historyEmpty", "toast", "diagPanel", "diagBody", "btnCopyDiag",
-     "inpToken", "inpRepo", "inpPath", "btnCopyJson", "btnSaveJson", "verTag"].forEach(function (id) { els[id] = $(id); });
+     "inpToken", "inpRepo", "inpPath", "inpZone", "btnCopyJson", "btnSaveJson", "verTag"].forEach(function (id) { els[id] = $(id); });
 
     // 版本号直接摆出来：刷新扩展后这里会变，一眼确认新版有没有生效
     try { els.verTag.textContent = "v" + chrome.runtime.getManifest().version; } catch (e) {}
@@ -426,6 +459,10 @@
     els.btnDiscard.onclick = function () { current = null; currentMeta = null; showStage("empty"); };
     els.btnOpenManual.onclick = function () { chrome.tabs.create({ url: chrome.runtime.getURL("manual.html") }); };
     els.btnSaveSettings.onclick = saveSettings;
+    populateZones();
+    if (els.inpZone) els.inpZone.onchange = function () {
+      if (current) { current.zone = els.inpZone.value || ""; current.scheduleId = ZONE_SCHEDULE[els.inpZone.value] || ""; }
+    };
     Array.prototype.forEach.call(document.querySelectorAll(".tab"), function (t) {
       t.onclick = function () { switchTab(t.dataset.tab); };
     });

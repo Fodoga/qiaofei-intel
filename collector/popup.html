@@ -46,6 +46,10 @@
 
     <!-- 动作 -->
     <section class="actions" id="actions" hidden>
+      <label class="zone-sel">
+        <span>归属专区</span>
+        <select id="inpZone"></select>
+      </label>
       <button class="btn primary" id="btnUpload">采集并上传</button>
       <button class="btn ghost" id="btnRescan">重采</button>
       <button class="btn ghost" id="btnDiag">诊断</button>
@@ -94,14 +98,14 @@
       </label>
       <label class="field">
         <span>仓库路径</span>
-        <input type="text" id="inpRepo" value="Fodoga/qiaofei-intel" />
+        <input type="text" id="inpRepo" value="你的GitHub用户名/你的情报站仓库" />
       </label>
       <label class="field">
         <span>上传目录</span>
         <input type="text" id="inpPath" value="web/collected/raw" />
       </label>
       <button class="btn ghost block" id="btnSaveSettings">保存设置</button>
-      <p class="muted sm">Token 只存在你浏览器本地（chrome.storage.local），不经过任何第三方。用不爽可随时去 GitHub 删除。</p>
+      <p class="muted sm">Token 只存在你浏览器本地（chrome.storage.local），不经过任何第三方，也不会写进任何文件。切勿把你的 Token 随安装包转发给他人；想停用随时去 GitHub → Settings → Developer settings 撤销即可。</p>
     </section>
 
     <div class="toast" id="toast" hidden></div>
