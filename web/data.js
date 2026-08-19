@@ -1,5 +1,358 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-19",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "九阳不用手洗豆浆机",
+        "platform": "京东",
+        "price": "约500-800元",
+        "brand": "九阳",
+        "hotReason": "2026年厨房小家电高性价比榜单热推，懒人免洗设计，适合家庭日常使用",
+        "image": ""
+      },
+      {
+        "name": "智能扫地机器人",
+        "platform": "京东",
+        "price": "约1000-2000元",
+        "brand": "科沃斯",
+        "hotReason": "年轻一代对智能化家居需求增长，销量大幅上升，提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅",
+        "platform": "拼多多",
+        "price": "约150-300元",
+        "brand": "美的",
+        "hotReason": "健康少油烹饪，夏季轻食趋势，高性价比小家电热销",
+        "image": ""
+      },
+      {
+        "name": "多功能电蒸锅",
+        "platform": "淘宝",
+        "price": "约200-400元",
+        "brand": "苏泊尔",
+        "hotReason": "9秒快速出蒸汽，一机多用，提升厨房效率，送礼自用皆宜",
+        "image": ""
+      },
+      {
+        "name": "无糖芝麻酥",
+        "platform": "淘宝",
+        "price": "约20-40元",
+        "brand": "未知",
+        "hotReason": "七夕送长辈热门礼品，健康无糖，芝香浓郁，适合中老年",
+        "image": ""
+      },
+      {
+        "name": "羊驼按摩器",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "礼意久久",
+        "hotReason": "七夕创意礼物热销，可爱实用，缓解疲劳，送礼有面子",
+        "image": ""
+      },
+      {
+        "name": "景德镇陶瓷永生花",
+        "platform": "京东",
+        "price": "约50-150元",
+        "brand": "爱夕",
+        "hotReason": "七夕礼物热门，永不凋谢，寓意美好，高颜值高性价比",
+        "image": ""
+      },
+      {
+        "name": "智能感应小夜灯",
+        "platform": "拼多多",
+        "price": "约20-50元",
+        "brand": "小米",
+        "hotReason": "家居好物，提升生活便利性，价格亲民，适合出租屋或家庭",
+        "image": ""
+      },
+      {
+        "name": "多功能数据线",
+        "platform": "1688",
+        "price": "约10-30元",
+        "brand": "未知",
+        "hotReason": "创意小电器，一物多用，解决充电烦恼，性价比高",
+        "image": ""
+      },
+      {
+        "name": "女性私护凝胶",
+        "platform": "抖音",
+        "price": "约50-100元",
+        "brand": "未知",
+        "hotReason": "女性健康意识觉醒，私护市场增长，科学养护需求旺盛",
+        "image": ""
+      },
+      {
+        "name": "有机牛肝菌",
+        "platform": "淘宝",
+        "price": "约60-120元",
+        "brand": "未知",
+        "hotReason": "七夕送长辈健康食材，菌香浓郁，营养丰富，体面实用",
+        "image": ""
+      },
+      {
+        "name": "低水压花洒",
+        "platform": "拼多多",
+        "price": "约30-80元",
+        "brand": "未知",
+        "hotReason": "夏季洗澡频繁，增压节水，提升沐浴体验，高性价比",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "七夕心意·健康养生礼",
+      "reason": "七夕临近，结合盛夏祛湿温养需求，推荐健康养生与实用小家电，兼顾送礼体面与性价比，满足女性及家人需求",
+      "zones": [
+        {
+          "zone": "祛湿温养茶饮",
+          "products": [
+            "陈皮茯苓茶",
+            "红豆薏米芡实茶",
+            "姜枣茶"
+          ]
+        },
+        {
+          "zone": "七夕实用礼盒",
+          "products": [
+            "羊驼按摩器",
+            "景德镇陶瓷永生花",
+            "无糖芝麻酥"
+          ]
+        },
+        {
+          "zone": "厨房懒人小家电",
+          "products": [
+            "九阳不用手洗豆浆机",
+            "多功能电蒸锅",
+            "空气炸锅"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "九阳不用手洗豆浆机",
+          "platform": "京东",
+          "price": "约500-800元",
+          "brand": "九阳",
+          "shipping": "48小时内",
+          "reason": "2026年高性价比榜单热推，免洗设计省时省力，适合家庭日常，提升生活品质",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/4205117925/O1CN01FCLvt128PhxMi6KbR_!!4205117925.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "羊驼按摩器",
+          "platform": "京东",
+          "price": "约100-200元",
+          "brand": "礼意久久",
+          "shipping": "48小时内",
+          "reason": "七夕礼物热门，可爱实用，缓解疲劳，送礼有面子，价格适中",
+          "image": "https://img.alicdn.com/imgextra/i2/2210599597418/O1CN01J5DTgN24fV1KieLto_!!0-item_pic.jpg"
+        },
+        {
+          "name": "无糖芝麻酥",
+          "platform": "淘宝",
+          "price": "约20-40元",
+          "brand": "未知",
+          "shipping": "48小时内",
+          "reason": "送长辈健康零食，无糖配方，芝香浓郁，高性价比",
+          "image": "https://www.lohas-mall.com/image/cache/catalog/product-2648/edafc23ee86d114a0c5d694ebdb1dc82-850x850.jpg"
+        },
+        {
+          "name": "多功能电蒸锅",
+          "platform": "淘宝",
+          "price": "约200-400元",
+          "brand": "苏泊尔",
+          "shipping": "48小时内",
+          "reason": "9秒快速出蒸汽，一机多用，适合家庭，提升厨房效率",
+          "image": "https://cn.buydeem.com/cdn/shop/files/G32_Mini_Electric_Food_Steamer.png?v=1730478066"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "九阳不用手洗豆浆机",
+        "link": "https://search.jd.com/Search?keyword=九阳不用手洗豆浆机",
+        "price": "约500-800元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "2026年厨房小家电高性价比榜单热推，免洗设计，销量领先",
+        "goodKeywords": [
+          "免洗方便",
+          "豆浆细腻",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，适合家庭，高性价比",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/4205117925/O1CN01FCLvt128PhxMi6KbR_!!4205117925.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "多功能电蒸锅",
+        "link": "https://s.taobao.com/search?q=多功能电蒸锅",
+        "price": "约200-400元",
+        "brand": "苏泊尔",
+        "shipping": "48小时内",
+        "hotReason": "9秒快速出蒸汽，一机多用，提升厨房效率，送礼自用皆宜",
+        "goodKeywords": [
+          "出蒸汽快",
+          "容量大",
+          "实用"
+        ],
+        "badKeywords": [
+          "占地方"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，提升生活品质，适合家庭",
+        "image": "https://cn.buydeem.com/cdn/shop/files/G32_Mini_Electric_Food_Steamer.png?v=1730478066"
+      },
+      {
+        "platform": "拼多多",
+        "name": "空气炸锅",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=空气炸锅",
+        "price": "约150-300元",
+        "brand": "美的",
+        "shipping": "48小时内",
+        "hotReason": "健康少油烹饪，夏季轻食趋势，高性价比小家电热销",
+        "goodKeywords": [
+          "少油健康",
+          "操作简单",
+          "清洗方便"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "健康烹饪，价格亲民，适合家庭",
+        "image": "https://consumer.panasonic.cn/static/upload/image/20230209/1675929012828758.png"
+      },
+      {
+        "platform": "京东",
+        "name": "羊驼按摩器",
+        "link": "https://search.jd.com/Search?keyword=羊驼按摩器",
+        "price": "约100-200元",
+        "brand": "礼意久久",
+        "shipping": "48小时内",
+        "hotReason": "七夕礼物热门，可爱实用，缓解疲劳，送礼有面子",
+        "goodKeywords": [
+          "可爱",
+          "按摩舒服",
+          "礼物首选"
+        ],
+        "badKeywords": [
+          "力度小"
+        ],
+        "match": true,
+        "matchReason": "七夕送礼体面，实用性强",
+        "image": "https://img.alicdn.com/imgextra/i2/2210599597418/O1CN01J5DTgN24fV1KieLto_!!0-item_pic.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "景德镇陶瓷永生花",
+        "link": "https://search.jd.com/Search?keyword=景德镇陶瓷永生花",
+        "price": "约50-150元",
+        "brand": "爱夕",
+        "shipping": "48小时内",
+        "hotReason": "七夕礼物热门，永不凋谢，寓意美好，高颜值高性价比",
+        "goodKeywords": [
+          "颜值高",
+          "寓意好",
+          "不掉色"
+        ],
+        "badKeywords": [
+          "易碎"
+        ],
+        "match": true,
+        "matchReason": "七夕送礼，体面且价格适中",
+        "image": "https://img.alicdn.com/imgextra/i1/20617718/O1CN01Xaz7u026stnJyWAiH_!!20617718.jpg_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "无糖芝麻酥",
+        "link": "https://s.taobao.com/search?q=无糖芝麻酥",
+        "price": "约20-40元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "七夕送长辈热门礼品，健康无糖，芝香浓郁，适合中老年",
+        "goodKeywords": [
+          "无糖健康",
+          "酥脆",
+          "老人喜欢"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "送长辈健康零食，高性价比",
+        "image": "https://www.lohas-mall.com/image/cache/catalog/product-2648/edafc23ee86d114a0c5d694ebdb1dc82-850x850.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "有机牛肝菌",
+        "link": "https://s.taobao.com/search?q=有机牛肝菌",
+        "price": "约60-120元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "七夕送长辈健康食材，菌香浓郁，营养丰富，体面实用",
+        "goodKeywords": [
+          "新鲜",
+          "菌香浓",
+          "营养丰富"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面，健康食材",
+        "image": "https://img06.weeecdn.com/description/image/892/140/4E8607A58BCA1EF4.jpeg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "智能感应小夜灯",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=智能感应小夜灯",
+        "price": "约20-50元",
+        "brand": "小米",
+        "shipping": "48小时内",
+        "hotReason": "家居好物，提升生活便利性，价格亲民，适合出租屋或家庭",
+        "goodKeywords": [
+          "感应灵敏",
+          "光线柔和",
+          "省电"
+        ],
+        "badKeywords": [
+          "电池不耐用"
+        ],
+        "match": true,
+        "matchReason": "实用家居好物，性价比高",
+        "image": "https://cdn.aqara.com/cdn/website/mainland/static/lodash-4.17.15/motion-activated-night-light_app_01.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "多功能数据线",
+        "link": "https://www.1688.com/?keywords=多功能数据线",
+        "price": "约10-30元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "创意小电器，一物多用，解决充电烦恼，性价比高",
+        "goodKeywords": [
+          "实用",
+          "方便",
+          "便宜"
+        ],
+        "badKeywords": [
+          "质量一般"
+        ],
+        "match": true,
+        "matchReason": "实用小件，价格低，适合批发",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2222174251086/O1CN01mO7gE31JtRG4EGJh8_!!4611686018427381838-0-item_pic.jpg_360x360q90.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-18",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
