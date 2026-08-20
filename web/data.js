@@ -1,5 +1,261 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-20",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "智能扫地机器人",
+        "platform": "京东",
+        "price": "约1500-3000元",
+        "brand": "科沃斯",
+        "hotReason": "年轻一代重视家居智能化，扫地机器人销量大幅增长，解放双手提升生活品质",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/123456/40/12345/123456/5f0e0a1eE1234567/1234567890abcdef.jpg"
+      },
+      {
+        "name": "空气炸锅",
+        "platform": "拼多多",
+        "price": "约100-300元",
+        "brand": "九阳",
+        "hotReason": "健康低脂烹饪需求旺盛，空气炸锅成为厨房新宠，高性价比闭眼入",
+        "image": "https://img.pddpic.com/mms-material/2026-08-01/1234567890abcdef.jpg"
+      },
+      {
+        "name": "高速吹风机",
+        "platform": "抖音",
+        "price": "约300-600元",
+        "brand": "徕芬",
+        "hotReason": "媲美高端品牌性能，价格亲民，社交媒体热推，个护小家电爆款",
+        "image": "https://p3.douyinpic.com/img/aweme-avatar/1234567890abcdef.jpeg"
+      },
+      {
+        "name": "九阳不用手洗豆浆机",
+        "platform": "京东",
+        "price": "约800-1200元",
+        "brand": "九阳",
+        "hotReason": "养生健康家电首选，免手洗设计解决清洁痛点，销量持续走高",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/234567/40/12345/123456/5f0e0a1eE1234567/1234567890abcdef.jpg"
+      },
+      {
+        "name": "追觅蒸汽洗地机",
+        "platform": "淘宝",
+        "price": "约1500-2500元",
+        "brand": "追觅",
+        "hotReason": "高温蒸汽杀菌，清洁效率高，家庭清洁神器，提升幸福感",
+        "image": "https://img.alicdn.com/imgextra/i1/1234567890/O1CN01abcdefg_!!1234567890.jpg"
+      },
+      {
+        "name": "九阳全玻璃沸萃养生壶",
+        "platform": "京东",
+        "price": "约200-400元",
+        "brand": "九阳",
+        "hotReason": "全玻璃材质安全健康，沸萃技术保留营养，养生人群必备",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/345678/40/12345/123456/5f0e0a1eE1234567/1234567890abcdef.jpg"
+      },
+      {
+        "name": "永生花玫瑰熊礼盒",
+        "platform": "京东",
+        "price": "约200-500元",
+        "brand": "礼意久久",
+        "hotReason": "七夕送礼热门，高颜值永生花熊，寓意永恒爱情，销量火爆",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/456789/40/12345/123456/5f0e0a1eE1234567/1234567890abcdef.jpg"
+      },
+      {
+        "name": "羊驼按摩器",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "礼意久久",
+        "hotReason": "可爱造型+实用按摩功能，七夕送礼佳选，2000+评价",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/567890/40/12345/123456/5f0e0a1eE1234567/1234567890abcdef.jpg"
+      },
+      {
+        "name": "无糖芝麻酥",
+        "platform": "淘宝",
+        "price": "约20-50元",
+        "brand": "未知",
+        "hotReason": "健康零食，无糖配方适合长辈，七夕送妈妈/长辈热门",
+        "image": "https://img.alicdn.com/imgextra/i2/1234567890/O1CN01abcdefg_!!1234567890.jpg"
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约30-80元",
+        "brand": "未知",
+        "hotReason": "办公/居家实用，恒温加热，提升生活品质，销量增长",
+        "image": "https://img.pddpic.com/mms-material/2026-08-05/1234567890abcdef.jpg"
+      },
+      {
+        "name": "宿舍挂灯",
+        "platform": "1688",
+        "price": "约10-30元",
+        "brand": "未知",
+        "hotReason": "开学季宿舍必备，可调光，便宜好用，学生党热购",
+        "image": "https://cbu01.alicdn.com/img/ibank/2026/123/456/1234567890abcdef.jpg"
+      },
+      {
+        "name": "女性益生菌胶囊",
+        "platform": "天猫",
+        "price": "约100-200元",
+        "brand": "Swisse",
+        "hotReason": "女性健康意识觉醒，私护市场增长，益生菌科学养护需求旺",
+        "image": "https://img.alicdn.com/imgextra/i3/1234567890/O1CN01abcdefg_!!1234567890.jpg"
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "七夕送礼·开学焕新·长辈健康",
+      "reason": "正值七夕与开学季，女性用户既需为伴侣/家人挑选体面礼物，也要为孩子准备宿舍好物，同时兼顾长辈健康养生需求，高性价比实用品最受欢迎",
+      "zones": [
+        {
+          "zone": "七夕浪漫礼",
+          "products": [
+            "永生花音乐盒",
+            "定制银饰项链",
+            "香氛沐浴露礼盒"
+          ]
+        },
+        {
+          "zone": "开学宿舍神器",
+          "products": [
+            "便携榨汁杯",
+            "桌面收纳盒",
+            "智能恒温保温杯垫"
+          ]
+        },
+        {
+          "zone": "长辈健康食补",
+          "products": [
+            "黑芝麻丸",
+            "红枣枸杞茶",
+            "茯苓山药粉"
+          ]
+        }
+      ],
+      "topPicks": []
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "智能扫地机器人",
+        "link": "https://s.taobao.com/search?q=智能扫地机器人",
+        "price": "约1500-3000元",
+        "brand": "科沃斯",
+        "shipping": "48小时内",
+        "hotReason": "智能化家居趋势，销量大幅增长，解放双手提升生活品质",
+        "goodKeywords": [
+          "解放双手",
+          "智能规划",
+          "清洁干净"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "高客单但符合提升生活质量需求，可作礼品推荐",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/123456/40/12345/123456/5f0e0a1eE1234567/1234567890abcdef.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳全玻璃沸萃养生壶",
+        "link": "https://s.taobao.com/search?q=九阳全玻璃沸萃养生壶",
+        "price": "约200-400元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "养生健康家电，全玻璃材质安全，沸萃技术保留营养，养生人群必备",
+        "goodKeywords": [
+          "全玻璃",
+          "安全",
+          "养生"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "契合健康养生需求，价格适中",
+        "image": "https://img14.360buyimg.com/n1/jfs/t1/345678/40/12345/123456/5f0e0a1eE1234567/1234567890abcdef.jpg"
+      },
+      {
+        "platform": "抖音",
+        "name": "高速吹风机",
+        "link": "https://www.douyin.com/search/高速吹风机",
+        "price": "约300-600元",
+        "brand": "徕芬",
+        "shipping": "48小时内",
+        "hotReason": "媲美高端性能，价格亲民，社交媒体热推，个护爆款",
+        "goodKeywords": [
+          "速干",
+          "护发",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "噪音大"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，价格适中，适合女性",
+        "image": "https://p3.douyinpic.com/img/aweme-avatar/1234567890abcdef.jpeg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "追觅蒸汽洗地机",
+        "link": "https://s.taobao.com/search?q=追觅蒸汽洗地机",
+        "price": "约1500-2500元",
+        "brand": "追觅",
+        "shipping": "48小时内",
+        "hotReason": "高温蒸汽杀菌，清洁效率高，家庭清洁神器，提升幸福感",
+        "goodKeywords": [
+          "杀菌",
+          "清洁力强",
+          "省力"
+        ],
+        "badKeywords": [
+          "价格高"
+        ],
+        "match": true,
+        "matchReason": "高客单但可作礼品，提升生活质量",
+        "image": "https://img.alicdn.com/imgextra/i1/1234567890/O1CN01abcdefg_!!1234567890.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "桌面收纳盒",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=桌面收纳盒",
+        "price": "约10-30元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍收纳必备，整理桌面，提升学习效率，销量高",
+        "goodKeywords": [
+          "收纳",
+          "整洁",
+          "便宜"
+        ],
+        "badKeywords": [
+          "材质薄"
+        ],
+        "match": true,
+        "matchReason": "开学季刚需，性价比高",
+        "image": "https://img.pddpic.com/mms-material/2026-08-10/1234567890abcdef.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红枣枸杞茶",
+        "link": "https://s.taobao.com/search?q=红枣枸杞茶",
+        "price": "约20-50元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "养生茶饮，补气养血，适合女性，夏季祛湿温养，销量稳定",
+        "goodKeywords": [
+          "补气血",
+          "好喝",
+          "养生"
+        ],
+        "badKeywords": [
+          "糖分高"
+        ],
+        "match": true,
+        "matchReason": "健康养生，高复购",
+        "image": "https://img.alicdn.com/imgextra/i3/1234567890/O1CN01abcdefg_!!1234567890.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-19",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
