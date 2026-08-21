@@ -1,5 +1,327 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-21",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "药食同源养生茶饮",
+        "platform": "淘宝",
+        "price": "约20-50元",
+        "brand": "多个品牌",
+        "hotReason": "年轻人追捧药食同源，祛湿茶销量高达7万+件，夏季祛湿需求旺盛",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机",
+        "platform": "抖音",
+        "price": "约200-400元",
+        "brand": "徕芬",
+        "hotReason": "媲美高端性能亲民价格，海外社交媒体爆火，国内热销",
+        "image": ""
+      },
+      {
+        "name": "厨房小家电（破壁机/豆浆机）",
+        "platform": "京东",
+        "price": "约300-600元",
+        "brand": "九阳",
+        "hotReason": "懒人厨房神器，提升幸福感，家庭实用小家电推荐榜首",
+        "image": ""
+      },
+      {
+        "name": "七夕送妈妈礼物（按摩梳礼盒）",
+        "platform": "淘宝",
+        "price": "约175元",
+        "brand": "多个品牌",
+        "hotReason": "七夕送礼场景，实用养生礼盒受青睐，销量上升",
+        "image": ""
+      },
+      {
+        "name": "开学季宿舍小电器（床头灯/煮茶器）",
+        "platform": "拼多多",
+        "price": "约50-100元",
+        "brand": "多个品牌",
+        "hotReason": "开学季临近，宿舍限电下百元内小电器热销",
+        "image": ""
+      },
+      {
+        "name": "女性私护护理液",
+        "platform": "淘宝",
+        "price": "约50-100元",
+        "brand": "珂曼朵",
+        "hotReason": "女性健康意识觉醒，私护市场年增10.4%，基础清洁转科学养护",
+        "image": ""
+      },
+      {
+        "name": "祛湿茶（陈皮茯苓茶）",
+        "platform": "拼多多",
+        "price": "约15-30元",
+        "brand": "多个品牌",
+        "hotReason": "三伏天祛湿温养，药食同源代茶饮成年轻人新选择",
+        "image": ""
+      },
+      {
+        "name": "永生花礼盒",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "多个品牌",
+        "hotReason": "七夕送礼浪漫仪式感，永生花寓意永恒，高颜值高性价比",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约30-60元",
+        "brand": "多个品牌",
+        "hotReason": "办公宿舍实用，保持饮品温度，提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "艾草坐垫",
+        "platform": "抖音",
+        "price": "约40-80元",
+        "brand": "多个品牌",
+        "hotReason": "夏季空调房久坐，艾草温养驱寒，养生人群热购",
+        "image": ""
+      },
+      {
+        "name": "无糖芝麻酥",
+        "platform": "淘宝",
+        "price": "约20-40元",
+        "brand": "多个品牌",
+        "hotReason": "健康零食，药食同源，适合送长辈，七夕礼品热门",
+        "image": ""
+      },
+      {
+        "name": "便携榨汁杯",
+        "platform": "抖音",
+        "price": "约50-100元",
+        "brand": "多个品牌",
+        "hotReason": "夏季水果季，便携榨汁杯满足健康饮品需求，学生党宿舍好物",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "七夕·开学季·祛湿温养",
+      "reason": "正值盛夏末，七夕情人节与开学季叠加，女性用户既需自用养生祛湿，又要为家人选购礼品，兼顾实用与体面。",
+      "zones": [
+        {
+          "zone": "祛湿温养茶饮区",
+          "products": [
+            "五指毛桃茯苓茶",
+            "陈皮炒米茶",
+            "赤小豆薏米茶"
+          ]
+        },
+        {
+          "zone": "七夕体面礼品区",
+          "products": [
+            "东阿阿胶礼盒",
+            "养生按摩梳礼盒",
+            "永生花音乐盒"
+          ]
+        },
+        {
+          "zone": "开学季宿舍好物区",
+          "products": [
+            "可调光床头灯",
+            "迷你煮茶器",
+            "便携收纳袋"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "五指毛桃茯苓茶",
+          "platform": "淘宝",
+          "price": "约25-45元",
+          "brand": "衡身堂",
+          "shipping": "48小时内",
+          "reason": "三伏天祛湿温养，药食同源配方，适合女性日常饮用，好评率高",
+          "image": "https://img.maiyaole.com/img/202502/20/org_20250220092219214_660848.jpg"
+        },
+        {
+          "name": "东阿阿胶礼盒",
+          "platform": "京东",
+          "price": "约200-300元",
+          "brand": "东阿阿胶",
+          "shipping": "48小时内",
+          "reason": "七夕送长辈体面健康，品牌背书强，2000+评论，礼盒装",
+          "image": "https://md.huarenstore.com/media/650/catalog/product/d/e/deej-ejp001-01.png.webp"
+        },
+        {
+          "name": "养生按摩梳礼盒",
+          "platform": "淘宝",
+          "price": "约175元",
+          "brand": "京东京造",
+          "shipping": "48小时内",
+          "reason": "实用养生，七夕送妈妈/长辈，高性价比，销量上升",
+          "image": "https://img.alicdn.com/imgextra/i3/2208789867980/O1CN01Rdsh4628otghB44mH_!!4611686018427383244-0-item_pic.jpg"
+        },
+        {
+          "name": "可调光床头灯",
+          "platform": "拼多多",
+          "price": "约30-60元",
+          "brand": "多个品牌",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍必备，百元内小电器，安全实用，学生党好评",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2220005877660/O1CN01aYW2yV26SKzyGOIK8_!!2220005877660.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "迷你煮茶器",
+          "platform": "淘宝",
+          "price": "约80-120元",
+          "brand": "多个品牌",
+          "shipping": "48小时内",
+          "reason": "宿舍限电可用，煮茶煮花茶，提升生活品质，开学季热销",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i2/2211192384726/O1CN01SqPOdp1kmYp29gmDl_!!2211192384726.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "五指毛桃茯苓茶",
+        "link": "https://s.taobao.com/search?q=五指毛桃茯苓茶",
+        "price": "约25-45元",
+        "brand": "衡身堂",
+        "shipping": "48小时内",
+        "hotReason": "三伏天祛湿温养，药食同源配方，适合女性日常饮用，好评率高",
+        "goodKeywords": [
+          "祛湿效果好",
+          "口感清香",
+          "包装精致"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养契合季节，非自研品类，高性价比",
+        "image": "https://img.maiyaole.com/img/202502/20/org_20250220092219214_660848.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "东阿阿胶礼盒",
+        "link": "https://s.taobao.com/search?q=东阿阿胶礼盒",
+        "price": "约200-300元",
+        "brand": "东阿阿胶",
+        "shipping": "48小时内",
+        "hotReason": "七夕送长辈体面健康，品牌背书强，2000+评论，礼盒装",
+        "goodKeywords": [
+          "品质好",
+          "包装高档",
+          "适合送礼"
+        ],
+        "badKeywords": [
+          "价格贵"
+        ],
+        "match": true,
+        "matchReason": "七夕礼品场景，品牌知名度高，非自研",
+        "image": "https://md.huarenstore.com/media/650/catalog/product/d/e/deej-ejp001-01.png.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "养生按摩梳礼盒",
+        "link": "https://s.taobao.com/search?q=养生按摩梳礼盒",
+        "price": "约175元",
+        "brand": "京东京造",
+        "shipping": "48小时内",
+        "hotReason": "七夕送妈妈/长辈，实用养生，高性价比，销量上升",
+        "goodKeywords": [
+          "梳头舒服",
+          "礼盒精美",
+          "实用"
+        ],
+        "badKeywords": [
+          "梳齿偏硬"
+        ],
+        "match": true,
+        "matchReason": "送礼实用，非自研，符合价格敏感",
+        "image": "https://img.alicdn.com/imgextra/i3/2208789867980/O1CN01Rdsh4628otghB44mH_!!4611686018427383244-0-item_pic.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "可调光床头灯",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=可调光床头灯",
+        "price": "约30-60元",
+        "brand": "多个品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍必备，百元内小电器，安全实用，学生党好评",
+        "goodKeywords": [
+          "亮度可调",
+          "不占空间",
+          "价格实惠"
+        ],
+        "badKeywords": [
+          "塑料感"
+        ],
+        "match": true,
+        "matchReason": "开学季场景，性价比高，非自研",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2220005877660/O1CN01aYW2yV26SKzyGOIK8_!!2220005877660.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "迷你煮茶器",
+        "link": "https://s.taobao.com/search?q=迷你煮茶器",
+        "price": "约80-120元",
+        "brand": "多个品牌",
+        "shipping": "48小时内",
+        "hotReason": "宿舍限电可用，煮茶煮花茶，提升生活品质，开学季热销",
+        "goodKeywords": [
+          "小巧方便",
+          "功率低",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "宿舍实用小家电，非自研，价格适中",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i2/2211192384726/O1CN01SqPOdp1kmYp29gmDl_!!2211192384726.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳破壁机",
+        "link": "https://s.taobao.com/search?q=九阳破壁机",
+        "price": "约300-500元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "懒人厨房神器，不用手洗，提升幸福感，家庭实用小家电推荐",
+        "goodKeywords": [
+          "功能多",
+          "易清洗",
+          "噪音小"
+        ],
+        "badKeywords": [
+          "体积大"
+        ],
+        "match": true,
+        "matchReason": "厨房小家电，非自研，品牌可靠",
+        "image": "https://md.huarenstore.com/media/650/catalog/product/1/_/1_488_4.jpg.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "陈皮炒米茶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=陈皮炒米茶",
+        "price": "约15-30元",
+        "brand": "多个品牌",
+        "shipping": "48小时内",
+        "hotReason": "三伏天温阳散寒，药食同源，祛湿茶饮热销",
+        "goodKeywords": [
+          "祛湿",
+          "口感好",
+          "方便冲泡"
+        ],
+        "badKeywords": [
+          "包装简单"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养，非自研，价格实惠",
+        "image": "https://tasteteamama.com/uploads/products/isc611/54/product-197-cc40675a05-20180429_115656_mh1526315275277__29956.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-20",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
