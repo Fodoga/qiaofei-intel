@@ -1,5 +1,289 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-24",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "药食同源养生茶饮",
+        "platform": "淘宝",
+        "price": "30-80元",
+        "brand": "九芝堂、南京同仁堂",
+        "hotReason": "年轻人掀起药食同源养生热，祛湿茶、养生水销量走高，夏季祛湿需求旺盛",
+        "image": ""
+      },
+      {
+        "name": "宿舍小家电",
+        "platform": "京东",
+        "price": "100-300元",
+        "brand": "九阳、小熊",
+        "hotReason": "开学季临近，宿舍实用小家电如迷你电饭煲、养生壶等热销，提升住宿幸福感",
+        "image": ""
+      },
+      {
+        "name": "智能清洁家电",
+        "platform": "淘宝",
+        "price": "1500-3000元",
+        "brand": "追觅、MOVA",
+        "hotReason": "智能洗地机、扫地机器人等清洁家电持续热销，解放双手，提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌",
+        "platform": "天猫",
+        "price": "100-200元",
+        "brand": "Swisse、Life-Space",
+        "hotReason": "女性健康意识觉醒，私护益生菌市场快速增长，科学养护成为趋势",
+        "image": ""
+      },
+      {
+        "name": "开学收纳好物",
+        "platform": "拼多多",
+        "price": "10-50元",
+        "brand": "多种",
+        "hotReason": "开学季宿舍收纳需求激增，桌面收纳盒、书立等实用好物热销",
+        "image": ""
+      },
+      {
+        "name": "养生壶",
+        "platform": "京东",
+        "price": "150-300元",
+        "brand": "九阳",
+        "hotReason": "全玻璃沸萃养生壶受青睐，适合煮养生茶、汤品，契合健康养生趋势",
+        "image": ""
+      },
+      {
+        "name": "艾灸类产品",
+        "platform": "拼多多",
+        "price": "20-100元",
+        "brand": "多种",
+        "hotReason": "夏季祛湿温养，艾灸盒、艾灸柱等产品热销，传统养生方式受追捧",
+        "image": ""
+      },
+      {
+        "name": "破壁机",
+        "platform": "京东",
+        "price": "300-800元",
+        "brand": "九阳",
+        "hotReason": "破壁机可制作养生糊、果汁，满足健康饮食需求，高性价比型号热销",
+        "image": ""
+      },
+      {
+        "name": "宿舍床帘",
+        "platform": "拼多多",
+        "price": "30-80元",
+        "brand": "多种",
+        "hotReason": "开学季学生党必备，遮光、隐私、防蚊，提升宿舍生活质量",
+        "image": ""
+      },
+      {
+        "name": "药食同源粉剂",
+        "platform": "抖音",
+        "price": "50-150元",
+        "brand": "多种",
+        "hotReason": "破壁粉剂便携易冲，吸收率高，年轻人食补新选择",
+        "image": ""
+      },
+      {
+        "name": "智能小夜灯",
+        "platform": "拼多多",
+        "price": "20-60元",
+        "brand": "小米",
+        "hotReason": "智能感应小夜灯提升生活便利性，适合宿舍和家庭使用",
+        "image": ""
+      },
+      {
+        "name": "女性健康治疗贴",
+        "platform": "淘宝",
+        "price": "30-100元",
+        "brand": "多种",
+        "hotReason": "女性健康关注度提升，治疗贴类产品热销，但需注意避开自研品类",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季·宿舍焕新与养生食补",
+      "reason": "正值开学季，学生宿舍好物需求旺盛，同时夏季祛湿温养是养生重点，结合两者推出高性价比实用好物与药食同源食补，满足学生和家庭主妇的采购需求",
+      "zones": [
+        {
+          "zone": "宿舍实用好物",
+          "products": [
+            "迷你电煮锅",
+            "宿舍挂篮",
+            "LED酷毙灯"
+          ]
+        },
+        {
+          "zone": "祛湿养生茶饮",
+          "products": [
+            "陈皮茯苓茶",
+            "红豆薏米茶",
+            "赤小豆芡实茶"
+          ]
+        },
+        {
+          "zone": "健康小家电",
+          "products": [
+            "迷你养生壶",
+            "便携榨汁杯",
+            "小型加湿器"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "迷你电煮锅",
+          "platform": "拼多多",
+          "price": "30-60元",
+          "brand": "小熊",
+          "shipping": "48小时内",
+          "reason": "宿舍神器，可煮面、煮粥，功率小不违禁，开学季热销",
+          "image": "https://akbplaythings.com/image/cache/catalog/product/BRUNO/Mini%20pot/BOE110-LBLsquare-01_1800x1800-800x800.jpg"
+        },
+        {
+          "name": "迷你养生壶",
+          "platform": "京东",
+          "price": "100-200元",
+          "brand": "九阳",
+          "shipping": "48小时内",
+          "reason": "宿舍可用，煮茶煮汤，健康便捷，开学季送礼自用皆宜",
+          "image": "https://135editor.cdn.bcebos.com/files/users/697/6977202/202108/Lxc5GNWv_Syyb.jpg"
+        },
+        {
+          "name": "宿舍挂篮",
+          "platform": "1688",
+          "price": "5-15元",
+          "brand": "无品牌",
+          "shipping": "48小时内",
+          "reason": "收纳神器，免打孔安装，宿舍空间利用最大化",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/849090736/O1CN01H1gHCF1HJ8bEnAJ9A_!!849090736.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "迷你电煮锅",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=迷你电煮锅",
+        "price": "30-60元",
+        "brand": "小熊",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍神器，小功率不违禁，销量高",
+        "goodKeywords": [
+          "小巧方便",
+          "不粘锅",
+          "功率小"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "开学季实用好物，价格亲民",
+        "image": "https://akbplaythings.com/image/cache/catalog/product/BRUNO/Mini%20pot/BOE110-LBLsquare-01_1800x1800-800x800.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "迷你养生壶",
+        "link": "https://search.jd.com/Search?keyword=迷你养生壶",
+        "price": "100-200元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "养生家电热销，宿舍可用，煮茶煮汤方便",
+        "goodKeywords": [
+          "颜值高",
+          "功能多",
+          "操作简单"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "健康小家电，符合养生趋势",
+        "image": "https://135editor.cdn.bcebos.com/files/users/697/6977202/202108/Lxc5GNWv_Syyb.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "宿舍挂篮",
+        "link": "https://www.1688.com/?keywords=宿舍挂篮",
+        "price": "5-15元",
+        "brand": "无品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季收纳需求，免打孔安装，性价比高",
+        "goodKeywords": [
+          "免打孔",
+          "承重好",
+          "安装方便"
+        ],
+        "badKeywords": [
+          "塑料感"
+        ],
+        "match": true,
+        "matchReason": "宿舍收纳刚需，价格低",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/849090736/O1CN01H1gHCF1HJ8bEnAJ9A_!!849090736.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "小型加湿器",
+        "link": "https://search.jd.com/Search?keyword=小型加湿器",
+        "price": "50-100元",
+        "brand": "小熊",
+        "shipping": "48小时内",
+        "hotReason": "宿舍干燥，加湿器提升舒适度，开学季热销",
+        "goodKeywords": [
+          "静音",
+          "大容量",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "出雾小"
+        ],
+        "match": true,
+        "matchReason": "提升宿舍生活质量",
+        "image": "https://cdn.yamibuy.net/item/1122ded0a17d150402cba587c920c5f5_750x750.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "LED酷毙灯",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=LED酷毙灯",
+        "price": "15-30元",
+        "brand": "多种",
+        "shipping": "48小时内",
+        "hotReason": "宿舍熄灯后照明神器，磁吸安装，开学季热销",
+        "goodKeywords": [
+          "亮度好",
+          "安装方便",
+          "护眼"
+        ],
+        "badKeywords": [
+          "电池不耐用"
+        ],
+        "match": true,
+        "matchReason": "宿舍实用好物，性价比高",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/25776459235/O1CN01tsKtpf2I5gnLb1OzZ_!!25776459235.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "1688",
+        "name": "药食同源粉剂",
+        "link": "https://www.1688.com/?keywords=药食同源粉剂",
+        "price": "30-80元",
+        "brand": "无品牌",
+        "shipping": "48小时内",
+        "hotReason": "破壁粉剂吸收率高，便携即冲，年轻人食补新宠",
+        "goodKeywords": [
+          "吸收好",
+          "便携",
+          "原料好"
+        ],
+        "badKeywords": [
+          "口感一般"
+        ],
+        "match": true,
+        "matchReason": "养生食补，符合趋势",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2220166621699/O1CN01fXzRlY1OQC2ytFN6F_!!4611686018427382275-0-item_pic.jpg_360x360q90.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-08-21",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
