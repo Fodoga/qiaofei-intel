@@ -1,5 +1,220 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-25",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "姜黄肉桂奶茶",
+        "platform": "淘宝",
+        "price": "约15-30元/杯",
+        "brand": "新兴茶饮品牌",
+        "hotReason": "药食同源养生热，年轻人追捧国潮养生饮品",
+        "image": ""
+      },
+      {
+        "name": "百合红枣八宝饭",
+        "platform": "淘宝",
+        "price": "约20-40元/份",
+        "brand": "老字号/手作",
+        "hotReason": "药食同源理念融入传统食品，健康与美味兼得",
+        "image": ""
+      },
+      {
+        "name": "祛湿茶",
+        "platform": "淘宝",
+        "price": "约30-80元/盒",
+        "brand": "九芝堂、南京同仁堂等",
+        "hotReason": "夏季祛湿需求旺盛，药食同源代茶饮热销",
+        "image": ""
+      },
+      {
+        "name": "药食同源粉剂",
+        "platform": "1688",
+        "price": "约20-50元/罐",
+        "brand": "工厂贴牌",
+        "hotReason": "破壁粉剂吸收率高，便携即冲，符合年轻人低负担养生",
+        "image": ""
+      },
+      {
+        "name": "智能电饭煲",
+        "platform": "京东",
+        "price": "约300-600元",
+        "brand": "九阳、美的",
+        "hotReason": "智能化小家电受青睐，提升烹饪便利性",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅",
+        "platform": "拼多多",
+        "price": "约100-200元",
+        "brand": "小熊、山本",
+        "hotReason": "高性价比，健康烹饪方式流行",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机",
+        "platform": "抖音",
+        "price": "约200-400元",
+        "brand": "徕芬",
+        "hotReason": "媲美高端品牌性能，价格亲民，社交媒体热推",
+        "image": ""
+      },
+      {
+        "name": "养生壶",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "九阳、北鼎",
+        "hotReason": "多功能煮茶炖汤，契合养生需求",
+        "image": ""
+      },
+      {
+        "name": "私处护理液",
+        "platform": "淘宝",
+        "price": "约50-100元",
+        "brand": "珂曼朵、妇炎洁",
+        "hotReason": "女性健康意识提升，私护市场增长",
+        "image": ""
+      },
+      {
+        "name": "女性益生菌",
+        "platform": "天猫",
+        "price": "约100-200元",
+        "brand": "Swisse、Life Space",
+        "hotReason": "科学养护私密健康，复购率高",
+        "image": ""
+      },
+      {
+        "name": "艾灸蒲团",
+        "platform": "拼多多",
+        "price": "约30-60元",
+        "brand": "无品牌/工厂",
+        "hotReason": "夏季祛湿温养，艾灸产品热销",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约20-40元",
+        "brand": "无品牌",
+        "hotReason": "提升生活品质，办公居家实用",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "夏末祛湿·温养焕新",
+      "reason": "正值盛夏末，湿气重，女性及家人易感疲惫，药食同源祛湿茶饮、温养小家电及私护产品需求上升，结合七夕送礼和开学季，推荐高性价比健康好物。",
+      "zones": [
+        {
+          "zone": "祛湿茶饮专区",
+          "products": [
+            "陈皮茯苓茶",
+            "赤小豆芡实茶",
+            "薏米红豆粉"
+          ]
+        },
+        {
+          "zone": "温养小家电专区",
+          "products": [
+            "迷你养生壶",
+            "电蒸锅",
+            "足浴盆"
+          ]
+        },
+        {
+          "zone": "私护健康专区",
+          "products": [
+            "女性益生菌",
+            "私处护理液",
+            "蔓越莓胶囊"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "女性益生菌",
+          "platform": "天猫",
+          "price": "约100-200元",
+          "brand": "Swisse",
+          "shipping": "48小时内",
+          "reason": "科学私护，复购率高，品牌知名",
+          "image": "https://m.media-amazon.com/images/I/71Ur5ZXMaHL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "name": "电蒸锅",
+          "platform": "淘宝",
+          "price": "约100-200元",
+          "brand": "苏泊尔",
+          "shipping": "48小时内",
+          "reason": "健康烹饪，提升家庭饮食质量，实用礼品",
+          "image": "https://www.huarenstore.com/blog/wp-content/uploads/2023/03/%E7%BE%8E%E5%9B%BD%E7%94%B5%E8%92%B8%E9%94%85%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97.png"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "薏米红豆粉",
+        "link": "https://s.taobao.com/search?q=薏米红豆粉",
+        "price": "约25-45元/罐",
+        "brand": "五谷磨房",
+        "shipping": "48小时内",
+        "hotReason": "即冲即饮，祛湿饱腹，适合早餐代餐",
+        "goodKeywords": [
+          "方便",
+          "祛湿",
+          "口感细腻"
+        ],
+        "badKeywords": [
+          "含糖量高"
+        ],
+        "match": true,
+        "matchReason": "符合药食同源趋势，便携养生",
+        "image": "https://static.appicidea.com/original/yyt_1bc9392f4538c5c3ec542a983839af00f5187dfdb6d3d0f9.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "电蒸锅",
+        "link": "https://s.taobao.com/search?q=电蒸锅",
+        "price": "约100-200元",
+        "brand": "苏泊尔",
+        "shipping": "48小时内",
+        "hotReason": "健康烹饪，多层大容量，家庭实用",
+        "goodKeywords": [
+          "蒸菜健康",
+          "容量大",
+          "易清洗"
+        ],
+        "badKeywords": [
+          "占空间"
+        ],
+        "match": true,
+        "matchReason": "提升家庭饮食质量，适合送礼",
+        "image": "https://www.huarenstore.com/blog/wp-content/uploads/2023/03/%E7%BE%8E%E5%9B%BD%E7%94%B5%E8%92%B8%E9%94%85%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97.png"
+      },
+      {
+        "platform": "天猫",
+        "name": "女性益生菌",
+        "link": "https://list.tmall.com/search_product.htm?q=女性益生菌",
+        "price": "约100-200元",
+        "brand": "Swisse",
+        "shipping": "48小时内",
+        "hotReason": "科学私护，复购率高，品牌知名",
+        "goodKeywords": [
+          "改善菌群",
+          "安全",
+          "效果好"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "符合私护健康需求，非棉品",
+        "image": "https://m.media-amazon.com/images/I/71Ur5ZXMaHL._AC_UF1000,1000_QL80_.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-24",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
