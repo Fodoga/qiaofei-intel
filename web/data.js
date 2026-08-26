@@ -1,5 +1,201 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-26",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "高速吹风机",
+        "platform": "抖音",
+        "price": "约200-400元",
+        "brand": "徕芬",
+        "hotReason": "媲美高端品牌性能，价格亲民，海外社交媒体热推，国内抖音爆款",
+        "image": ""
+      },
+      {
+        "name": "智能扫地机器人",
+        "platform": "京东",
+        "price": "约1000-2000元",
+        "brand": "科沃斯",
+        "hotReason": "年轻一代对智能化家居需求增长，销量大幅增长，京东家电榜单前列",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅",
+        "platform": "拼多多",
+        "price": "约100-300元",
+        "brand": "九阳",
+        "hotReason": "健康低脂烹饪需求，拼多多百亿补贴热销，高性价比",
+        "image": ""
+      },
+      {
+        "name": "九阳全玻璃沸萃养生壶",
+        "platform": "京东",
+        "price": "约200-300元",
+        "brand": "九阳",
+        "hotReason": "全玻璃材质健康安全，养生壶市场热门，京东家电榜单推荐",
+        "image": ""
+      },
+      {
+        "name": "女性益生菌",
+        "platform": "天猫",
+        "price": "约100-200元",
+        "brand": "Life Space",
+        "hotReason": "女性健康意识觉醒，私护市场增长，天猫热销",
+        "image": ""
+      },
+      {
+        "name": "东阿阿胶礼盒",
+        "platform": "京东",
+        "price": "约300-500元",
+        "brand": "东阿阿胶",
+        "hotReason": "七夕送礼热门，滋补养生，京东自营好评2000+",
+        "image": ""
+      },
+      {
+        "name": "永生花玫瑰熊礼盒",
+        "platform": "京东",
+        "price": "约200-400元",
+        "brand": "Roseonly",
+        "hotReason": "七夕礼物爆款，颜值高，京东礼品榜热销",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约30-60元",
+        "brand": "品益",
+        "hotReason": "办公居家实用，拼多多低价热销，提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "艾草坐垫",
+        "platform": "抖音",
+        "price": "约50-100元",
+        "brand": "同仁堂",
+        "hotReason": "夏季祛湿温养，艾草养生热，抖音直播带货",
+        "image": ""
+      },
+      {
+        "name": "香氛沐浴露礼盒",
+        "platform": "淘宝",
+        "price": "约100-200元",
+        "brand": "力士",
+        "hotReason": "七夕送礼，香氛个护热销，淘宝礼盒榜",
+        "image": ""
+      },
+      {
+        "name": "智能云台摄像头",
+        "platform": "京东",
+        "price": "约150-300元",
+        "brand": "小米",
+        "hotReason": "家庭安防需求，智能家居趋势，京东热销",
+        "image": ""
+      },
+      {
+        "name": "厨房收纳置物架",
+        "platform": "1688",
+        "price": "约20-50元",
+        "brand": "义乌工厂",
+        "hotReason": "家居收纳刚需，1688源头工厂高性价比，小红书推荐",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "七夕心意·温养好礼",
+      "reason": "临近七夕，结合夏季祛湿温养需求，推荐高性价比、体面合宜的礼品与养生好物，兼顾女性健康与家居品质提升。",
+      "zones": [
+        {
+          "zone": "温养食补",
+          "products": [
+            "红豆薏米芡实茶",
+            "茯苓山药粉",
+            "红枣枸杞茶"
+          ]
+        },
+        {
+          "zone": "七夕心意礼",
+          "products": [
+            "永生花音乐盒",
+            "定制银饰项链",
+            "香氛沐浴露礼盒"
+          ]
+        },
+        {
+          "zone": "家居小电",
+          "products": [
+            "智能恒温保温杯垫",
+            "便携榨汁杯",
+            "低水压花洒"
+          ]
+        }
+      ],
+      "topPicks": []
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "茯苓山药粉",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=茯苓山药粉",
+        "price": "约50-80元",
+        "brand": "五谷磨房",
+        "shipping": "48小时内",
+        "hotReason": "健脾祛湿，女性养生热门，拼多多百亿补贴",
+        "goodKeywords": [
+          "粉质细腻",
+          "易冲泡",
+          "健康"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "药食同源，符合温养需求",
+        "image": "https://img06.weeecdn.com/item/image/166/654/507EC604CC00DDE7.jpeg!c750x0.jpeg"
+      },
+      {
+        "platform": "抖音",
+        "name": "香氛沐浴露礼盒",
+        "link": "https://www.douyin.com/search/香氛沐浴露礼盒",
+        "price": "约100-200元",
+        "brand": "力士",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼，香氛个护，抖音直播带货",
+        "goodKeywords": [
+          "香味持久",
+          "包装高级",
+          "洗后不紧绷"
+        ],
+        "badKeywords": [
+          "香味太浓"
+        ],
+        "match": true,
+        "matchReason": "七夕送礼佳品，符合节日场景",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/3807693673/O1CN01qrVjuL1d0Hgvl0IWy_!!3807693673.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "南极磷虾油凝胶糖果",
+        "link": "https://s.taobao.com/search?q=南极磷虾油凝胶糖果",
+        "price": "约100-200元",
+        "brand": "细莫严选",
+        "shipping": "48小时内",
+        "hotReason": "健康滋补，送礼佳品，淘宝热销",
+        "goodKeywords": [
+          "品质好",
+          "送礼体面",
+          "口感好"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "健康礼品，符合送礼场景",
+        "image": "https://img.maiyaole.com/img/202501/06/org_20250106131542495_027413.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-25",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
