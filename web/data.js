@@ -1,5 +1,251 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-27",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "TCL真省电Pro空调",
+        "platform": "知乎",
+        "price": "约2000-3000元",
+        "brand": "TCL",
+        "hotReason": "夏季高温驱动，省电、制冷效率高，装修季热销",
+        "image": ""
+      },
+      {
+        "name": "徕芬高速吹风机",
+        "platform": "抖音",
+        "price": "约300-600元",
+        "brand": "徕芬",
+        "hotReason": "媲美高端品牌性能，性价比高，海外反向海淘热门",
+        "image": ""
+      },
+      {
+        "name": "九阳不用手洗豆浆机K7Pro",
+        "platform": "京东",
+        "price": "约500-800元",
+        "brand": "九阳",
+        "hotReason": "养生健康家电首选，免手洗便捷，适合家庭日常",
+        "image": ""
+      },
+      {
+        "name": "九阳全玻璃沸萃养生壶",
+        "platform": "京东",
+        "price": "约200-400元",
+        "brand": "九阳",
+        "hotReason": "全玻璃材质安全，沸萃功能多样，养生人群追捧",
+        "image": ""
+      },
+      {
+        "name": "追觅蒸汽洗地机",
+        "platform": "淘宝",
+        "price": "约1500-2500元",
+        "brand": "追觅",
+        "hotReason": "蒸汽高温清洁，提升家务效率，智能清洁电器热销",
+        "image": ""
+      },
+      {
+        "name": "MOVA智能清洁电器",
+        "platform": "什么值得买",
+        "price": "约1000-2000元",
+        "brand": "MOVA",
+        "hotReason": "新锐黑马品牌，智能清洁产品高性价比，榜单推荐",
+        "image": ""
+      },
+      {
+        "name": "景德镇陶瓷永生花",
+        "platform": "京东",
+        "price": "约100-300元",
+        "brand": "爱夕",
+        "hotReason": "七夕送礼热门，2000条评价，创意礼盒",
+        "image": ""
+      },
+      {
+        "name": "羊驼按摩器",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "礼意久久",
+        "hotReason": "七夕送礼实用，次日达，送女友闺蜜热门",
+        "image": ""
+      },
+      {
+        "name": "无糖芝麻酥",
+        "platform": "淘宝",
+        "price": "约20-50元",
+        "brand": "未知",
+        "hotReason": "送长辈健康零食，无糖酥脆，七夕礼品热门",
+        "image": ""
+      },
+      {
+        "name": "有机牛肝菌",
+        "platform": "淘宝",
+        "price": "约50-100元",
+        "brand": "未知",
+        "hotReason": "菌香浓郁，健康食材，送长辈七夕礼品",
+        "image": ""
+      },
+      {
+        "name": "宿舍除螨装备",
+        "platform": "腾讯新闻",
+        "price": "约50-150元",
+        "brand": "未知",
+        "hotReason": "开学季宿舍刚需，清洁床铺，提升住宿舒适度",
+        "image": ""
+      },
+      {
+        "name": "贴身衣物洗烘小家电",
+        "platform": "腾讯新闻",
+        "price": "约200-500元",
+        "brand": "未知",
+        "hotReason": "开学季女生宿舍必备，健康卫生，便捷实用",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "七夕送礼·开学焕新·长辈健康",
+      "reason": "正值七夕与开学季交汇，女性用户既需为伴侣、长辈挑选体面礼品，也要为家人购置实用好物；结合盛夏祛湿温养需求，推荐健康食补、家居小电与实用礼品，兼顾性价比与心意。",
+      "zones": [
+        {
+          "zone": "七夕浪漫礼",
+          "products": [
+            "永生花音乐盒",
+            "香薰加湿器",
+            "情侣对杯"
+          ]
+        },
+        {
+          "zone": "开学宿舍神器",
+          "products": [
+            "便携榨汁杯",
+            "迷你电煮锅",
+            "桌面收纳盒"
+          ]
+        },
+        {
+          "zone": "长辈健康食补",
+          "products": [
+            "无糖芝麻酥",
+            "有机牛肝菌",
+            "红枣枸杞茶"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "香薰加湿器",
+          "platform": "拼多多",
+          "price": "约30-80元",
+          "brand": "未知",
+          "shipping": "48小时内",
+          "reason": "提升家居幸福感，七夕送礼实用，价格实惠",
+          "image": "https://images4.joy-sourcing.com/product/s512x512_jfsintlpro-000-product/t1/4294967296/2293760/101615961195748/125599/68e8761cE41934d53/42b10752b5083d5e.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "香薰加湿器",
+        "link": "https://s.taobao.com/search?q=香薰加湿器",
+        "price": "约30-80元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼热门，提升家居氛围，实用性强",
+        "goodKeywords": [
+          "颜值高",
+          "静音",
+          "出雾细腻"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "符合家居好物与礼品场景，性价比高",
+        "image": "https://images4.joy-sourcing.com/product/s512x512_jfsintlpro-000-product/t1/4294967296/2293760/101615961195748/125599/68e8761cE41934d53/42b10752b5083d5e.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "情侣对杯",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=情侣对杯",
+        "price": "约20-50元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼创意，成双成对寓意好，价格亲民",
+        "goodKeywords": [
+          "有创意",
+          "质量好",
+          "包装精美"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "七夕礼品场景，高性价比",
+        "image": "https://img.alicdn.com/imgextra/O1CN01g84Zqc1KGnPafON7p_!!6000000001137-2-yinhe.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "迷你电煮锅",
+        "link": "https://search.jd.com/Search?keyword=迷你电煮锅",
+        "price": "约50-100元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "宿舍必备，煮面煮粥方便，开学季热销",
+        "goodKeywords": [
+          "不粘锅",
+          "功率小",
+          "多功能"
+        ],
+        "badKeywords": [
+          "线短"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍神器，实用性强",
+        "image": "https://akbplaythings.com/image/cache/catalog/product/BRUNO/Mini%20pot/BOE110-LBLsquare-01_1800x1800-800x800.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "红枣枸杞茶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=红枣枸杞茶",
+        "price": "约15-30元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "养生茶饮，补气养血，适合女性日常",
+        "goodKeywords": [
+          "料足",
+          "口感好",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "甜度偏高"
+        ],
+        "match": true,
+        "matchReason": "养生食补，符合女性健康需求",
+        "image": "https://ihealth.bwnet.com.tw/AC_Gallery/2023/12/26569417-c59f-40f5-ea32-65549f78b932.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "智能恒温保温杯垫",
+        "link": "https://search.jd.com/Search?keyword=智能恒温保温杯垫",
+        "price": "约50-100元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "办公宿舍实用，恒温加热，提升生活品质",
+        "goodKeywords": [
+          "恒温",
+          "安全",
+          "小巧"
+        ],
+        "badKeywords": [
+          "加热慢"
+        ],
+        "match": true,
+        "matchReason": "家居好物，实用性强",
+        "image": "https://img.alicdn.com/imgextra/i2/216169360/O1CN011rxmr12J0wHVr6qg1_!!216169360.png"
+      }
+    ]
+  },
+  {
     "date": "2026-08-26",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
