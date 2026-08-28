@@ -1,5 +1,220 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-28",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "祛湿茶",
+        "platform": "淘宝",
+        "price": "约30-80元",
+        "brand": "九芝堂/南京同仁堂",
+        "hotReason": "夏季祛湿需求旺盛，药食同源概念热销，月销口碑榜前列",
+        "image": ""
+      },
+      {
+        "name": "女性健康治疗贴",
+        "platform": "淘宝",
+        "price": "约20-60元",
+        "brand": "多个品牌",
+        "hotReason": "女性健康意识提升，搜索热度高，淘宝相关商品超1400件",
+        "image": ""
+      },
+      {
+        "name": "药食同源粉剂",
+        "platform": "1688",
+        "price": "约15-50元",
+        "brand": "工厂直供",
+        "hotReason": "破壁粉剂吸收率高，便携即冲，年轻女性养生新宠",
+        "image": ""
+      },
+      {
+        "name": "厨房小家电",
+        "platform": "抖音",
+        "price": "约50-200元",
+        "brand": "多个品牌",
+        "hotReason": "高颜值小家电提升幸福感，抖音视频获赞2.9万，热度持续",
+        "image": ""
+      },
+      {
+        "name": "永生花礼盒",
+        "platform": "1688",
+        "price": "约135元",
+        "brand": "东阳市东润工艺品",
+        "hotReason": "七夕送礼热门，成交893笔，兼具颜值与寓意",
+        "image": ""
+      },
+      {
+        "name": "开学宿舍神器",
+        "platform": "淘宝",
+        "price": "约10-50元",
+        "brand": "铭渤等",
+        "hotReason": "开学季临近，宿舍收纳、小电器需求激增，热搜榜前列",
+        "image": ""
+      },
+      {
+        "name": "东阿阿胶礼盒",
+        "platform": "京东",
+        "price": "约200-400元",
+        "brand": "东阿阿胶",
+        "hotReason": "送礼送长辈首选，京东评论超2000条，健康滋补属性强",
+        "image": ""
+      },
+      {
+        "name": "智能小家电",
+        "platform": "京东",
+        "price": "约100-500元",
+        "brand": "九阳/追觅等",
+        "hotReason": "智能家居趋势，提升生活品质，京东销量领先",
+        "image": ""
+      },
+      {
+        "name": "中式糕点礼盒",
+        "platform": "淘宝",
+        "price": "约35-50美元",
+        "brand": "知味观",
+        "hotReason": "七夕送长辈，传统糕点受欢迎，兼具文化底蕴",
+        "image": ""
+      },
+      {
+        "name": "私护凝胶",
+        "platform": "天猫",
+        "price": "约50-150元",
+        "brand": "多个品牌",
+        "hotReason": "私护市场年增速10.4%，科学养护需求上升，成分安全受关注",
+        "image": ""
+      },
+      {
+        "name": "养生壶",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "九阳",
+        "hotReason": "夏季养生煮茶煮汤，全玻璃材质受青睐，销量稳定",
+        "image": ""
+      },
+      {
+        "name": "宿舍小夜灯",
+        "platform": "拼多多",
+        "price": "约10-30元",
+        "brand": "多个品牌",
+        "hotReason": "开学季宿舍必备，可调光设计实用，拼多多低价热销",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "七夕送礼·开学焕新·祛湿温养",
+      "reason": "正值盛夏末，七夕与开学季双节点叠加，女性用户既需为家人选购体面礼品，也要为学子准备实用好物；同时夏季湿气重，药食同源祛湿产品需求旺盛。结合价格敏感与高性价比，精选健康滋补、家居小电、宿舍神器三大方向。",
+      "zones": [
+        {
+          "zone": "七夕心意礼",
+          "products": [
+            "植绒熊永生花礼盒",
+            "东阿阿胶糕礼盒",
+            "香薰加湿器"
+          ]
+        },
+        {
+          "zone": "开学宿舍神器",
+          "products": [
+            "可调光床头灯",
+            "迷你煮茶器",
+            "桌面收纳盒"
+          ]
+        },
+        {
+          "zone": "祛湿温养局",
+          "products": [
+            "茯苓薏米茶",
+            "赤小豆芡实茶",
+            "山药粉"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "植绒熊永生花礼盒",
+          "platform": "1688",
+          "price": "约135元",
+          "brand": "东阳市东润工艺品",
+          "shipping": "48小时内",
+          "reason": "七夕送礼热门，成交893笔，颜值高寓意好，价格亲民",
+          "image": "https://img01.hua.com/uploadpic/newpic/1073451.jpg"
+        },
+        {
+          "name": "东阿阿胶糕礼盒",
+          "platform": "京东",
+          "price": "约200-300元",
+          "brand": "东阿阿胶",
+          "shipping": "48小时内",
+          "reason": "送长辈健康滋补，品牌背书强，京东评论超2000条",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2215141390478/O1CN01Khd6ZX1FOyT3lYaSu_!!4611686018427385998-0-item_pic.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "植绒熊永生花礼盒",
+        "link": "https://s.taobao.com/search?q=植绒熊永生花礼盒",
+        "price": "约135元",
+        "brand": "东阳市东润工艺品",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼热门，1688成交893笔，颜值高寓意好",
+        "goodKeywords": [
+          "颜值高",
+          "寓意好",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "价格略高"
+        ],
+        "match": true,
+        "matchReason": "七夕礼品方向，价格适中，适合县城女性送礼",
+        "image": "https://img01.hua.com/uploadpic/newpic/1073451.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "东阿阿胶糕礼盒",
+        "link": "https://search.jd.com/Search?keyword=东阿阿胶糕礼盒",
+        "price": "约200-300元",
+        "brand": "东阿阿胶",
+        "shipping": "48小时内",
+        "hotReason": "送长辈健康滋补，京东评论超2000条，品牌背书强",
+        "goodKeywords": [
+          "滋补",
+          "品牌好",
+          "送礼有面子"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "送长辈礼品，健康属性契合，价格在可接受范围",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2215141390478/O1CN01Khd6ZX1FOyT3lYaSu_!!4611686018427385998-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "天猫",
+        "name": "私护凝胶",
+        "link": "https://s.taobao.com/search?q=私护凝胶",
+        "price": "约50-150元",
+        "brand": "多个品牌",
+        "shipping": "48小时内",
+        "hotReason": "私护市场年增速10.4%，科学养护需求上升，成分安全受关注",
+        "goodKeywords": [
+          "温和",
+          "安全",
+          "有效"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "女性健康护理，非棉品，符合选品方向",
+        "image": "https://cdn.yamibuy.net/item/60ced494f3b2ae684d2e18802f0fcab3_750x750.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-08-27",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
