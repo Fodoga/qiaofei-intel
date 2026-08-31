@@ -1,5 +1,271 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-08-31",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "药食同源养生茶礼盒",
+        "platform": "淘宝",
+        "price": "39-99元",
+        "brand": "衡身堂",
+        "hotReason": "药食同源趋势持续升温，夏季祛湿需求旺盛，礼盒装兼具自用与送礼属性",
+        "image": ""
+      },
+      {
+        "name": "宿舍神器-多功能收纳盒",
+        "platform": "淘宝",
+        "price": "15-30元",
+        "brand": "无特定品牌",
+        "hotReason": "开学季宿舍收纳需求激增，高性价比实用好物",
+        "image": ""
+      },
+      {
+        "name": "开放式蓝牙耳机",
+        "platform": "拼多多",
+        "price": "100-200元",
+        "brand": "南卡",
+        "hotReason": "开学季学生党必备，开放式设计舒适且适合学习场景",
+        "image": ""
+      },
+      {
+        "name": "儿童电话手表",
+        "platform": "淘宝",
+        "price": "200-400元",
+        "brand": "小霸王",
+        "hotReason": "开学季家长为孩子购置，安全通讯需求驱动",
+        "image": ""
+      },
+      {
+        "name": "双胆电饭煲",
+        "platform": "淘宝",
+        "price": "150-300元",
+        "brand": "九阳",
+        "hotReason": "小家电热销，双胆设计提升烹饪效率，适合小家庭",
+        "image": ""
+      },
+      {
+        "name": "智能感应小夜灯",
+        "platform": "拼多多",
+        "price": "20-40元",
+        "brand": "小米",
+        "hotReason": "家居便利性提升，夜间使用场景多，性价比高",
+        "image": ""
+      },
+      {
+        "name": "多功能数据线",
+        "platform": "1688",
+        "price": "10-25元",
+        "brand": "无特定品牌",
+        "hotReason": "多接口设计满足多种设备充电需求，实用性强",
+        "image": ""
+      },
+      {
+        "name": "药食同源固体饮料",
+        "platform": "京东",
+        "price": "50-120元",
+        "brand": "衡身堂",
+        "hotReason": "传统滋补转型科学养生，便携化产品受青睐",
+        "image": ""
+      },
+      {
+        "name": "电蒸锅",
+        "platform": "淘宝",
+        "price": "100-200元",
+        "brand": "苏泊尔",
+        "hotReason": "健康烹饪趋势，蒸菜保留营养，家庭实用",
+        "image": ""
+      },
+      {
+        "name": "破壁机",
+        "platform": "京东",
+        "price": "200-400元",
+        "brand": "九阳",
+        "hotReason": "厨房小家电热销，制作养生饮品方便",
+        "image": ""
+      },
+      {
+        "name": "养生壶",
+        "platform": "京东",
+        "price": "80-150元",
+        "brand": "九阳",
+        "hotReason": "煮茶、炖汤多功能，契合养生需求",
+        "image": ""
+      },
+      {
+        "name": "私护凝胶",
+        "platform": "天猫",
+        "price": "100-200元",
+        "brand": "妇炎洁",
+        "hotReason": "女性健康意识提升，私护市场增长，非棉品方向",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季·宿舍焕新与健康守护",
+      "reason": "正值开学季，学生宿舍生活用品需求旺盛，同时夏季祛湿养生仍是重点，结合两者推出高性价比好物，兼顾实用与健康",
+      "zones": [
+        {
+          "zone": "宿舍收纳与照明",
+          "products": [
+            "多功能收纳盒",
+            "LED酷毙灯",
+            "可伸缩书立架"
+          ]
+        },
+        {
+          "zone": "宿舍小家电",
+          "products": [
+            "迷你电煮锅",
+            "便携小风扇",
+            "迷你养生壶"
+          ]
+        },
+        {
+          "zone": "祛湿养生茶饮",
+          "products": [
+            "五指毛桃茯苓茶",
+            "赤小豆芡实茶",
+            "陈皮炒米茶"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "多功能收纳盒",
+          "platform": "淘宝",
+          "price": "15-30元",
+          "brand": "无特定品牌",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍收纳刚需，多规格可选，性价比高",
+          "image": "https://m.media-amazon.com/images/I/61oh2VTRbYL._AC_UF1000,1000_QL80_.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "多功能收纳盒",
+        "link": "https://s.taobao.com/search?q=多功能收纳盒",
+        "price": "15-30元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍收纳需求激增，多规格满足不同需求",
+        "goodKeywords": [
+          "收纳强",
+          "质量好",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "尺寸偏小"
+        ],
+        "match": true,
+        "matchReason": "高性价比宿舍好物，适合学生党",
+        "image": "https://m.media-amazon.com/images/I/61oh2VTRbYL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "便携小风扇",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=便携小风扇",
+        "price": "20-40元",
+        "brand": "无特定品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季降温必备，便携设计",
+        "goodKeywords": [
+          "风力大",
+          "续航长",
+          "静音"
+        ],
+        "badKeywords": [
+          "充电慢"
+        ],
+        "match": true,
+        "matchReason": "夏季刚需，价格低",
+        "image": "https://images.lulian.cn/upload/201804/1524104769.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "药食同源固体饮料",
+        "link": "https://s.taobao.com/search?q=药食同源固体饮料",
+        "price": "50-120元",
+        "brand": "衡身堂",
+        "shipping": "48小时内",
+        "hotReason": "传统滋补转型科学养生，便携化产品受青睐",
+        "goodKeywords": [
+          "方便",
+          "效果好",
+          "口感好"
+        ],
+        "badKeywords": [
+          "价格高"
+        ],
+        "match": true,
+        "matchReason": "契合健康养生趋势，品牌背书强",
+        "image": "https://imgservice.suning.cn/uimg1/b2c/image/IeQLHknqVVkIyvYN8OIsAw.jpg_800w_800h_4e"
+      },
+      {
+        "platform": "京东",
+        "name": "电蒸锅",
+        "link": "https://search.jd.com/Search?keyword=电蒸锅",
+        "price": "100-200元",
+        "brand": "苏泊尔",
+        "shipping": "48小时内",
+        "hotReason": "健康烹饪趋势，蒸菜保留营养，家庭实用",
+        "goodKeywords": [
+          "容量大",
+          "蒸汽足",
+          "易清洗"
+        ],
+        "badKeywords": [
+          "占地方"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，适合家庭",
+        "image": "https://cn.buydeem.com/cdn/shop/files/G32_Mini_Electric_Food_Steamer_1.6QT_Cozy_Greenish.png?v=1787190546"
+      },
+      {
+        "platform": "京东",
+        "name": "破壁机",
+        "link": "https://search.jd.com/Search?keyword=破壁机",
+        "price": "200-400元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "厨房小家电热销，制作养生饮品方便",
+        "goodKeywords": [
+          "功能全",
+          "噪音小",
+          "细腻"
+        ],
+        "badKeywords": [
+          "清洗难"
+        ],
+        "match": true,
+        "matchReason": "健康饮食好帮手，品牌知名",
+        "image": "https://www.huarenstore.com/blog/wp-content/uploads/2024/06/Joydeem-%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%A0%B4%E5%A3%81%E6%96%99%E7%90%86%E6%9C%BA%E8%B1%86%E6%B5%86%E6%9C%BA-JD-D16.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "双胆电饭煲",
+        "link": "https://s.taobao.com/search?q=双胆电饭煲",
+        "price": "150-300元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "小家电热销，双胆设计提升烹饪效率",
+        "goodKeywords": [
+          "双胆方便",
+          "煮饭香",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "体积大"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，适合小家庭",
+        "image": "https://static.airchina.com.cn/upload/t/WQz8CajY9ANtIB8dqOgAWOofGQA=/filters:format(webp)/img/20250709/1752051239549099761.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-28",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
