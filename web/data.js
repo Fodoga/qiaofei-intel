@@ -1,5 +1,191 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-01",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "猫太子电子考试计时器",
+        "platform": "淘宝",
+        "price": "约29-59元",
+        "brand": "猫太子",
+        "hotReason": "开学季热销，帮助学生建立时间观念，提升学习效率，榜单推荐",
+        "image": ""
+      },
+      {
+        "name": "宿舍日式收纳套组",
+        "platform": "淘宝",
+        "price": "约19-49元",
+        "brand": "铭渤",
+        "hotReason": "开学季宿舍收纳刚需，简约风格提升生活品质，销量走高",
+        "image": ""
+      },
+      {
+        "name": "药食同源养生茶包",
+        "platform": "拼多多",
+        "price": "约15-35元",
+        "brand": "多个品牌",
+        "hotReason": "年轻人追捧药食同源，祛湿茶销量高达7万+件，养生热持续",
+        "image": ""
+      },
+      {
+        "name": "九阳全玻璃沸萃养生壶",
+        "platform": "京东",
+        "price": "约199-299元",
+        "brand": "九阳",
+        "hotReason": "2026厨房小家电高性价比榜单推荐，全玻璃材质健康安全，养生壶热销",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机",
+        "platform": "抖音",
+        "price": "约199-399元",
+        "brand": "徕芬",
+        "hotReason": "媲美高端品牌性能，价格亲民，海外社交媒体爆火，国内热销",
+        "image": ""
+      },
+      {
+        "name": "智能感应小夜灯",
+        "platform": "拼多多",
+        "price": "约9.9-29元",
+        "brand": "多个品牌",
+        "hotReason": "宿舍神器，起夜方便，省电实用，开学季销量增长",
+        "image": ""
+      },
+      {
+        "name": "多功能电蒸锅",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "多个品牌",
+        "hotReason": "一机多用，9秒出蒸汽，家庭实用，提升生活品质，热销榜单",
+        "image": ""
+      },
+      {
+        "name": "女性益生菌",
+        "platform": "天猫",
+        "price": "约99-199元",
+        "brand": "多个品牌",
+        "hotReason": "女性健康意识觉醒，私护市场增长，益生菌成热门品类",
+        "image": ""
+      },
+      {
+        "name": "可调光床头灯",
+        "platform": "拼多多",
+        "price": "约29-69元",
+        "brand": "多个品牌",
+        "hotReason": "宿舍限电神器，可调光护眼，开学季必备小电器",
+        "image": ""
+      },
+      {
+        "name": "破壁机",
+        "platform": "京东",
+        "price": "约299-599元",
+        "brand": "九阳",
+        "hotReason": "2026厨房小家电热门，破壁机位列十大热门小家电，健康饮食趋势",
+        "image": ""
+      },
+      {
+        "name": "养生按摩梳礼盒",
+        "platform": "淘宝",
+        "price": "约39-89元",
+        "brand": "多个品牌",
+        "hotReason": "送礼佳品，兼顾养生与实用，七夕/开学季送礼热门",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "京东",
+        "price": "约49-99元",
+        "brand": "多个品牌",
+        "hotReason": "办公/宿舍神器，恒温保暖，提升生活品质，销量稳定",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季·宿舍焕新与养生食补",
+      "reason": "9月开学季，学生宿舍场景需求激增，同时夏季末祛湿温养仍是重点，结合药食同源养生热，推荐实用小家电与养生食品，兼顾性价比与健康",
+      "zones": [
+        {
+          "zone": "宿舍实用小电器",
+          "products": [
+            "迷你煮茶器",
+            "可调光床头灯",
+            "小型加湿器"
+          ]
+        },
+        {
+          "zone": "药食同源养生茶饮",
+          "products": [
+            "赤小豆芡实茶",
+            "陈皮炒米茶",
+            "茯苓山药粉"
+          ]
+        },
+        {
+          "zone": "开学季送礼好物",
+          "products": [
+            "猫太子电子计时器",
+            "养生按摩梳礼盒",
+            "永生花音乐盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "猫太子电子考试计时器",
+          "platform": "淘宝",
+          "price": "约29-59元",
+          "brand": "猫太子",
+          "shipping": "48小时内",
+          "reason": "开学季热销，帮助学生提升学习效率，实用性强，性价比高",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2200639027333/O1CN01bOxGeC242ZTj0Esnd_!!2200639027333.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "猫太子电子考试计时器",
+        "link": "https://s.taobao.com/search?q=猫太子电子考试计时器",
+        "price": "约29-59元",
+        "brand": "猫太子",
+        "shipping": "48小时内",
+        "hotReason": "开学季热销，帮助学生建立时间观念，提升学习效率，榜单推荐",
+        "goodKeywords": [
+          "实用",
+          "提升效率",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "功能单一"
+        ],
+        "match": true,
+        "matchReason": "开学季送礼佳品，实用且性价比高，符合学生家长需求",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2200639027333/O1CN01bOxGeC242ZTj0Esnd_!!2200639027333.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "宿舍日式收纳套组",
+        "link": "https://s.taobao.com/search?q=宿舍日式收纳套组",
+        "price": "约19-49元",
+        "brand": "铭渤",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍收纳刚需，简约风格提升生活品质，销量走高",
+        "goodKeywords": [
+          "收纳强",
+          "简约",
+          "实用"
+        ],
+        "badKeywords": [
+          "材质一般"
+        ],
+        "match": true,
+        "matchReason": "宿舍场景刚需，价格亲民，提升生活品质",
+        "image": "https://img.alicdn.com/imgextra/i3/2372162717/O1CN01HTv41q1VwR73w4wGp_!!2372162717.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
