@@ -1,5 +1,389 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-02",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "祛湿茶",
+        "platform": "淘宝",
+        "price": "约19.9-39.9元",
+        "brand": "多种品牌",
+        "hotReason": "夏季祛湿需求旺盛，某款祛湿茶销量高达7万+件，药食同源趋势带动",
+        "image": ""
+      },
+      {
+        "name": "药食同源固体饮料",
+        "platform": "淘宝",
+        "price": "约49-99元",
+        "brand": "老金磨方",
+        "hotReason": "年轻人养生热，便携即冲的固体饮料成为新宠，销量持续走高",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机",
+        "platform": "抖音",
+        "price": "约199-399元",
+        "brand": "徕芬",
+        "hotReason": "媲美高端性能但价格亲民，在社交媒体上爆火，成为个护小家电热门",
+        "image": ""
+      },
+      {
+        "name": "破壁机",
+        "platform": "京东",
+        "price": "约299-599元",
+        "brand": "九阳",
+        "hotReason": "厨房小家电热销榜前列，多功能破壁机满足家庭健康饮食需求",
+        "image": ""
+      },
+      {
+        "name": "电蒸锅",
+        "platform": "淘宝",
+        "price": "约89-199元",
+        "brand": "小熊",
+        "hotReason": "多功能电蒸锅销量增长，9秒出蒸汽，适合家庭使用，健康烹饪趋势",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "京东",
+        "price": "约39-79元",
+        "brand": "品益",
+        "hotReason": "办公居家好物，保持饮品温度，提升生活品质，近期热销",
+        "image": ""
+      },
+      {
+        "name": "女性益生菌",
+        "platform": "天猫",
+        "price": "约99-199元",
+        "brand": "Swisse",
+        "hotReason": "女性健康意识提升，私护养护从基础清洁转向科学养护，益生菌需求增长",
+        "image": ""
+      },
+      {
+        "name": "养生壶",
+        "platform": "京东",
+        "price": "约129-259元",
+        "brand": "九阳",
+        "hotReason": "药食同源养生热带动养生壶销量，全玻璃沸萃设计受青睐",
+        "image": ""
+      },
+      {
+        "name": "香薰加湿器",
+        "platform": "淘宝",
+        "price": "约49-99元",
+        "brand": "无印良品",
+        "hotReason": "提升居家幸福感，夏季空调房保湿必备，颜值高销量好",
+        "image": ""
+      },
+      {
+        "name": "东阿阿胶糕",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "东阿阿胶",
+        "hotReason": "传统滋补品送礼佳选，药食同源年货热卖，品牌背书强",
+        "image": ""
+      },
+      {
+        "name": "养生按摩梳",
+        "platform": "淘宝",
+        "price": "约29-69元",
+        "brand": "谭木匠",
+        "hotReason": "国潮养生趋势，牛角梳按摩头皮促进血液循环，送礼自用皆宜",
+        "image": ""
+      },
+      {
+        "name": "多功能电煮锅",
+        "platform": "拼多多",
+        "price": "约39-79元",
+        "brand": "荣事达",
+        "hotReason": "宿舍党必备，一人食火锅煮面皆可，性价比高销量大",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季·焕新养生局",
+      "reason": "9月初正值开学季，同时盛夏余温未消，祛湿温养仍是重点。针对县城女性为家人（尤其是学生和长辈）购置需求，主打便携养生、实用小家电和健康食补，兼顾性价比与实用性。",
+      "zones": [
+        {
+          "zone": "学生党宿舍好物",
+          "products": [
+            "迷你电煮锅",
+            "便携榨汁杯",
+            "LED护眼台灯"
+          ]
+        },
+        {
+          "zone": "长辈健康食补",
+          "products": [
+            "无糖芝麻丸",
+            "即食燕麦片",
+            "枸杞原浆"
+          ]
+        },
+        {
+          "zone": "家居焕新小电",
+          "products": [
+            "多功能电蒸锅",
+            "迷你养生壶",
+            "智能恒温杯垫"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "无糖芝麻丸",
+          "platform": "淘宝",
+          "price": "约19.9-39.9元",
+          "brand": "老金磨方",
+          "shipping": "48小时内",
+          "reason": "健康零食，适合长辈和学生，药食同源概念，高复购",
+          "image": "https://img.alicdn.com/imgextra/O1CN01vlyjJw25o27WEeU98_!!6000000007572-2-yinhe.png_q50.jpg_.webp"
+        },
+        {
+          "name": "智能恒温杯垫",
+          "platform": "京东",
+          "price": "约39-79元",
+          "brand": "品益",
+          "shipping": "48小时内",
+          "reason": "秋冬预热，保持饮品温度，实用送礼佳品",
+          "image": "https://m.media-amazon.com/images/I/51NDwdLaleL._AC_UF894,1000_QL80_AIweblab1381794,T1_.jpg"
+        },
+        {
+          "name": "枸杞原浆",
+          "platform": "拼多多",
+          "price": "约29.9-59.9元",
+          "brand": "杞里香",
+          "shipping": "48小时内",
+          "reason": "滋补养生，便携即饮，适合长辈日常保健",
+          "image": "https://m.tsemporium.com/media/catalog/product/cache/1/image/450x/9df78eab33525d08d6e5fb8d27136e95/6/9/6972062252090_a.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "祛湿茶",
+        "link": "https://s.taobao.com/search?q=祛湿茶",
+        "price": "约19.9-39.9元",
+        "brand": "多种品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季祛湿需求旺盛，某款祛湿茶销量高达7万+件，药食同源趋势带动",
+        "goodKeywords": [
+          "祛湿效果好",
+          "口感不错",
+          "方便冲泡"
+        ],
+        "badKeywords": [
+          "效果不明显"
+        ],
+        "match": true,
+        "matchReason": "符合祛湿温养主题，价格亲民，适合家庭常备",
+        "image": "https://eshop.kenfordmedical.com/wp-content/uploads/2020/09/%E7%A5%9B%E6%BF%95%E8%8C%B6L.png"
+      },
+      {
+        "platform": "拼多多",
+        "name": "红豆薏米茯苓茶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=红豆薏米茯苓茶",
+        "price": "约15.9-29.9元",
+        "brand": "茶里王",
+        "shipping": "48小时内",
+        "hotReason": "药食同源养生茶饮热销，祛湿健脾概念受青睐，销量高",
+        "goodKeywords": [
+          "祛湿",
+          "独立包装",
+          "味道清香"
+        ],
+        "badKeywords": [
+          "碎末多"
+        ],
+        "match": true,
+        "matchReason": "高性价比祛湿茶，适合家庭日常饮用",
+        "image": "https://img.maiyaole.com/img/202502/10/org_20250210124426357_096501.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "即食燕麦片",
+        "link": "https://s.taobao.com/search?q=即食燕麦片",
+        "price": "约29.9-49.9元",
+        "brand": "西麦",
+        "shipping": "48小时内",
+        "hotReason": "健康早餐代餐，开学季学生和上班族需求大，高复购",
+        "goodKeywords": [
+          "饱腹",
+          "无添加",
+          "方便"
+        ],
+        "badKeywords": [
+          "口感一般"
+        ],
+        "match": true,
+        "matchReason": "健康食补，适合学生和长辈，价格实惠",
+        "image": "https://sautao.com/storage/files/shares/68259/68259.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "便携榨汁杯",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=便携榨汁杯",
+        "price": "约29-59元",
+        "brand": "摩飞",
+        "shipping": "48小时内",
+        "hotReason": "夏季水果季，便携榨汁杯满足健康饮品需求，学生党开学必备",
+        "goodKeywords": [
+          "便携",
+          "易清洗",
+          "榨汁细腻"
+        ],
+        "badKeywords": [
+          "电池不耐用"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质的小家电，价格适中，适合学生和上班族",
+        "image": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/75f8841100cae36b38392c412cebd097.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "LED护眼台灯",
+        "link": "https://s.taobao.com/search?q=LED护眼台灯",
+        "price": "约49-99元",
+        "brand": "欧普",
+        "shipping": "48小时内",
+        "hotReason": "开学季学生护眼需求，国标AA级护眼台灯热销",
+        "goodKeywords": [
+          "护眼",
+          "无频闪",
+          "可调光"
+        ],
+        "badKeywords": [
+          "底座不稳"
+        ],
+        "match": true,
+        "matchReason": "学生党必备，健康照明，性价比高",
+        "image": "https://www.citiesocial.com/cdn/shop/files/CITI-_E9_96_83.jpg?v=1767924146"
+      },
+      {
+        "platform": "拼多多",
+        "name": "枸杞原浆",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=枸杞原浆",
+        "price": "约29.9-59.9元",
+        "brand": "杞里香",
+        "shipping": "48小时内",
+        "hotReason": "滋补养生，便携即饮，适合长辈日常保健，药食同源趋势",
+        "goodKeywords": [
+          "方便",
+          "无添加",
+          "口感好"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "长辈健康食补，高复购，符合送礼场景",
+        "image": "https://m.tsemporium.com/media/catalog/product/cache/1/image/450x/9df78eab33525d08d6e5fb8d27136e95/6/9/6972062252090_a.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "多功能电蒸锅",
+        "link": "https://search.jd.com/Search?keyword=多功能电蒸锅",
+        "price": "约89-199元",
+        "brand": "小熊",
+        "shipping": "48小时内",
+        "hotReason": "健康烹饪趋势，电蒸锅销量增长，9秒出蒸汽，适合家庭",
+        "goodKeywords": [
+          "大容量",
+          "快速出蒸汽",
+          "易清洗"
+        ],
+        "badKeywords": [
+          "体积大"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，提升家庭烹饪便利性，价格亲民",
+        "image": "https://cn.buydeem.com/cdn/shop/files/G32_Mini_Electric_Food_Steamer_1.6QT_Cozy_Greenish.png?v=1787190546"
+      },
+      {
+        "platform": "淘宝",
+        "name": "无糖芝麻丸",
+        "link": "https://s.taobao.com/search?q=无糖芝麻丸",
+        "price": "约19.9-39.9元",
+        "brand": "老金磨方",
+        "shipping": "48小时内",
+        "hotReason": "健康零食，适合长辈和学生，药食同源概念，高复购",
+        "goodKeywords": [
+          "无糖",
+          "香脆",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "有点干"
+        ],
+        "match": true,
+        "matchReason": "健康零食，适合家庭常备，价格实惠",
+        "image": "https://img.alicdn.com/imgextra/O1CN01vlyjJw25o27WEeU98_!!6000000007572-2-yinhe.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "智能恒温杯垫",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=智能恒温杯垫",
+        "price": "约39-79元",
+        "brand": "品益",
+        "shipping": "48小时内",
+        "hotReason": "办公居家好物，保持饮品温度，提升生活品质，近期热销",
+        "goodKeywords": [
+          "恒温",
+          "小巧",
+          "实用"
+        ],
+        "badKeywords": [
+          "加热慢"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，适合办公或居家，送礼也合适",
+        "image": "https://m.media-amazon.com/images/I/51NDwdLaleL._AC_UF894,1000_QL80_AIweblab1381794,T1_.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "养生按摩梳",
+        "link": "https://s.taobao.com/search?q=养生按摩梳",
+        "price": "约29-69元",
+        "brand": "谭木匠",
+        "shipping": "48小时内",
+        "hotReason": "国潮养生趋势，牛角梳按摩头皮促进血液循环，送礼自用皆宜",
+        "goodKeywords": [
+          "质感好",
+          "按摩舒服",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "养生礼品，适合送长辈，品牌有保障",
+        "image": "https://img.alicdn.com/imgextra/i3/2208789867980/O1CN01Rdsh4628otghB44mH_!!4611686018427383244-0-item_pic.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "东阿阿胶糕",
+        "link": "https://search.jd.com/Search?keyword=东阿阿胶糕",
+        "price": "约99-199元",
+        "brand": "东阿阿胶",
+        "shipping": "48小时内",
+        "hotReason": "传统滋补品送礼佳选，药食同源年货热卖，品牌背书强",
+        "goodKeywords": [
+          "补气血",
+          "口感好",
+          "包装精美"
+        ],
+        "badKeywords": [
+          "价格高"
+        ],
+        "match": true,
+        "matchReason": "送礼体面，适合送长辈，品牌知名度高",
+        "image": "http://www.luliaoge.com/cdn/shop/products/j1_grande.jpg?v=1530448357"
+      }
+    ]
+  },
+  {
     "date": "2026-09-01",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
