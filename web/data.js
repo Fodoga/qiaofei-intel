@@ -1,5 +1,367 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-03",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "高速吹风机",
+        "platform": "抖音",
+        "price": "约200-400元",
+        "brand": "徕芬",
+        "hotReason": "媲美高端品牌的性能与亲民价格，在社交媒体上掀起热潮，成为个护小家电爆款",
+        "image": ""
+      },
+      {
+        "name": "多功能电蒸锅",
+        "platform": "京东",
+        "price": "约150-300元",
+        "brand": "九阳",
+        "hotReason": "一机多用，9秒快速出蒸汽，满足家庭蒸煮需求，提升厨房效率，销量持续走高",
+        "image": ""
+      },
+      {
+        "name": "破壁机",
+        "platform": "京东",
+        "price": "约300-600元",
+        "brand": "九阳",
+        "hotReason": "不用手洗设计解决清洁痛点，成为健康饮食热门小家电，榜单常客",
+        "image": ""
+      },
+      {
+        "name": "养生壶",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "九阳",
+        "hotReason": "全玻璃沸萃设计，适合煮花茶、养生汤，契合夏季养生需求，销量稳定",
+        "image": ""
+      },
+      {
+        "name": "智能恒温杯垫",
+        "platform": "拼多多",
+        "price": "约20-50元",
+        "brand": "多个品牌",
+        "hotReason": "办公居家必备，保持饮品温度，价格亲民，复购率高，近期热销",
+        "image": ""
+      },
+      {
+        "name": "女性益生菌",
+        "platform": "天猫",
+        "price": "约100-200元",
+        "brand": "多个品牌",
+        "hotReason": "女性健康意识觉醒，私护市场增长，益生菌成为科学养护热门品类",
+        "image": ""
+      },
+      {
+        "name": "养生按摩梳",
+        "platform": "淘宝",
+        "price": "约50-150元",
+        "brand": "谭木匠等",
+        "hotReason": "送礼自用两相宜，结合中医养生理念，七夕及长辈礼品热门",
+        "image": ""
+      },
+      {
+        "name": "东阿阿胶糕",
+        "platform": "京东",
+        "price": "约100-300元",
+        "brand": "东阿阿胶",
+        "hotReason": "滋补养生，礼盒装适合送长辈，品牌背书强，销量稳定",
+        "image": ""
+      },
+      {
+        "name": "香薰加湿器",
+        "platform": "淘宝",
+        "price": "约50-150元",
+        "brand": "多个品牌",
+        "hotReason": "提升居家幸福感，兼具加湿与香薰功能，夏季空调房必备",
+        "image": ""
+      },
+      {
+        "name": "迷你电煮锅",
+        "platform": "拼多多",
+        "price": "约30-80元",
+        "brand": "多个品牌",
+        "hotReason": "一人食神器，宿舍党最爱，价格低功能全，销量爆款",
+        "image": ""
+      },
+      {
+        "name": "祛湿茶",
+        "platform": "淘宝",
+        "price": "约20-50元",
+        "brand": "多个品牌",
+        "hotReason": "盛夏祛湿温养季，红豆薏米等配方茶饮需求旺盛，健康养生趋势",
+        "image": ""
+      },
+      {
+        "name": "即食燕窝礼盒",
+        "platform": "京东",
+        "price": "约200-500元",
+        "brand": "同仁堂",
+        "hotReason": "七夕送礼热门，滋补养颜，品牌信任度高，节日驱动销量",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "夏末初秋·温润滋养",
+      "reason": "9月初夏末秋初，天气渐干，女性注重润燥养颜，同时临近开学季和教师节，礼品需求上升。选择药食同源、轻滋补及实用小家电，兼顾健康与送礼场景。",
+      "zones": [
+        {
+          "zone": "润燥养颜专区",
+          "products": [
+            "秋梨膏",
+            "百合茯苓膏",
+            "即食花胶"
+          ]
+        },
+        {
+          "zone": "开学季实用好物",
+          "products": [
+            "桌面吸尘器",
+            "便携保温杯",
+            "LED酷毙灯"
+          ]
+        },
+        {
+          "zone": "长辈关怀礼品",
+          "products": [
+            "颈椎按摩仪",
+            "足浴盆",
+            "无糖糕点礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "秋梨膏",
+          "platform": "淘宝",
+          "price": "约30-60元",
+          "brand": "多个品牌",
+          "shipping": "48小时内",
+          "reason": "秋季润燥佳品，药食同源，适合女性和长辈，价格亲民，复购率高",
+          "image": "https://i0.wp.com/beanpanda.com/wp-content/uploads/2024/05/14c42-pear_syrup_feature.jpg?resize=600%2C381&ssl=1"
+        },
+        {
+          "name": "桌面吸尘器",
+          "platform": "拼多多",
+          "price": "约20-40元",
+          "brand": "多个品牌",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍神器，清洁橡皮屑、灰尘，小巧实用，性价比高",
+          "image": "https://giftone.com.hk/wp-content/uploads/2025/06/HL-1324-01.webp"
+        },
+        {
+          "name": "颈椎按摩仪",
+          "platform": "京东",
+          "price": "约100-200元",
+          "brand": "SKG等",
+          "shipping": "48小时内",
+          "reason": "送长辈贴心实用，缓解颈椎疲劳，品牌知名度高，节日礼品热门",
+          "image": "https://y.zdmimg.com/202309/13/650177be0e92c8020.jpg_d480.jpg"
+        },
+        {
+          "name": "即食花胶",
+          "platform": "天猫",
+          "price": "约150-300元",
+          "brand": "多个品牌",
+          "shipping": "48小时内",
+          "reason": "滋补养颜，即食方便，适合女性日常保养，礼盒装送礼体面",
+          "image": "http://www.guanzhan.com/wap_images/main_lun_3.png"
+        },
+        {
+          "name": "便携保温杯",
+          "platform": "淘宝",
+          "price": "约50-100元",
+          "brand": "膳魔师等",
+          "shipping": "48小时内",
+          "reason": "开学季学生必备，保温效果好，品牌选择多，实用性强",
+          "image": "https://img.hommi.jp/resize/500/public/images/2023/10/28/7d5b62b1-c42f-43e3-ae44-bbca46b9b851.png"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "秋梨膏",
+        "link": "https://s.taobao.com/search?q=秋梨膏",
+        "price": "约30-60元",
+        "brand": "多个品牌",
+        "shipping": "48小时内",
+        "hotReason": "秋季润燥止咳，药食同源，适合女性和长辈，销量稳定",
+        "goodKeywords": [
+          "润肺",
+          "口感好",
+          "无添加"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "契合秋季润燥主题，价格亲民，高复购",
+        "image": "https://i0.wp.com/beanpanda.com/wp-content/uploads/2024/05/14c42-pear_syrup_feature.jpg?resize=600%2C381&ssl=1"
+      },
+      {
+        "platform": "拼多多",
+        "name": "桌面吸尘器",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=桌面吸尘器",
+        "price": "约20-40元",
+        "brand": "多个品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍清洁神器，小巧便携，销量火爆",
+        "goodKeywords": [
+          "吸力强",
+          "静音",
+          "便携"
+        ],
+        "badKeywords": [
+          "续航短"
+        ],
+        "match": true,
+        "matchReason": "开学季刚需，性价比高",
+        "image": "https://giftone.com.hk/wp-content/uploads/2025/06/HL-1324-01.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "颈椎按摩仪",
+        "link": "https://search.jd.com/Search?keyword=颈椎按摩仪",
+        "price": "约100-200元",
+        "brand": "SKG",
+        "shipping": "48小时内",
+        "hotReason": "送长辈热门礼品，缓解颈椎疲劳，品牌知名度高",
+        "goodKeywords": [
+          "效果明显",
+          "操作简单",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "力度不够"
+        ],
+        "match": true,
+        "matchReason": "长辈关怀场景匹配，品牌背书强",
+        "image": "https://y.zdmimg.com/202309/13/650177be0e92c8020.jpg_d480.jpg"
+      },
+      {
+        "platform": "天猫",
+        "name": "即食花胶",
+        "link": "https://s.taobao.com/search?q=即食花胶",
+        "price": "约150-300元",
+        "brand": "官栈等",
+        "shipping": "48小时内",
+        "hotReason": "滋补养颜，即食方便，女性健康食品趋势，礼盒装受欢迎",
+        "goodKeywords": [
+          "胶质浓",
+          "口感好",
+          "方便"
+        ],
+        "badKeywords": [
+          "价格高"
+        ],
+        "match": true,
+        "matchReason": "女性滋补需求，非自研品类",
+        "image": "http://www.guanzhan.com/wap_images/main_lun_3.png"
+      },
+      {
+        "platform": "淘宝",
+        "name": "便携保温杯",
+        "link": "https://s.taobao.com/search?q=便携保温杯",
+        "price": "约50-100元",
+        "brand": "膳魔师",
+        "shipping": "48小时内",
+        "hotReason": "开学季学生党必备，保温效果好，品牌多样",
+        "goodKeywords": [
+          "保温时间长",
+          "颜值高",
+          "不漏水"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "开学季场景，实用性强",
+        "image": "https://img.hommi.jp/resize/500/public/images/2023/10/28/7d5b62b1-c42f-43e3-ae44-bbca46b9b851.png"
+      },
+      {
+        "platform": "拼多多",
+        "name": "百合茯苓膏",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=百合茯苓膏",
+        "price": "约30-50元",
+        "brand": "多个品牌",
+        "shipping": "48小时内",
+        "hotReason": "药食同源，健脾祛湿，适合夏季湿气重人群，销量上升",
+        "goodKeywords": [
+          "祛湿",
+          "口感好",
+          "方便"
+        ],
+        "badKeywords": [
+          "效果慢"
+        ],
+        "match": true,
+        "matchReason": "契合祛湿温养主题，价格实惠",
+        "image": "https://cdn.yamibuy.net/item/f745216cd91212f1641a9a6a02853fb1_750x750.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "足浴盆",
+        "link": "https://search.jd.com/Search?keyword=足浴盆",
+        "price": "约100-200元",
+        "brand": "蓓慈等",
+        "shipping": "48小时内",
+        "hotReason": "送长辈健康礼品，促进血液循环，缓解疲劳，节日热销",
+        "goodKeywords": [
+          "恒温",
+          "按摩功能",
+          "排水方便"
+        ],
+        "badKeywords": [
+          "占空间"
+        ],
+        "match": true,
+        "matchReason": "长辈关怀场景，实用健康",
+        "image": "https://m.media-amazon.com/images/I/51oNelG03vL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "无糖糕点礼盒",
+        "link": "https://s.taobao.com/search?q=无糖糕点礼盒",
+        "price": "约50-100元",
+        "brand": "知味观等",
+        "shipping": "48小时内",
+        "hotReason": "送长辈健康点心，无糖更安心，中秋临近，礼盒需求增加",
+        "goodKeywords": [
+          "无糖",
+          "口感好",
+          "包装精美"
+        ],
+        "badKeywords": [
+          "保质期短"
+        ],
+        "match": true,
+        "matchReason": "礼品场景，健康属性",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/6000000005467/O1CN01RlFpVAtSSRG1chua_!!6000000005467-0-sm.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "天猫",
+        "name": "女性护理凝胶",
+        "link": "https://s.taobao.com/search?q=女性护理凝胶",
+        "price": "约80-150元",
+        "brand": "妇炎洁等",
+        "shipping": "48小时内",
+        "hotReason": "女性私护市场增长，科学养护需求，非棉品，符合规定",
+        "goodKeywords": [
+          "温和",
+          "清爽",
+          "无刺激"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "女性健康方向，非自研品类",
+        "image": "https://cdn.yamibuy.net/item/97e0a55e5fc88ab9ebb197c33f0740be_750x750.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-09-02",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
