@@ -1,5 +1,191 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-04",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "九阳炫饭煲40N1U",
+        "platform": "京东",
+        "price": "约500-700元",
+        "brand": "九阳",
+        "hotReason": "2026厨房小家电高性价比榜单推荐，0涂层电饭煲健康概念受追捧",
+        "image": ""
+      },
+      {
+        "name": "九阳不用手洗豆浆机K7Pro",
+        "platform": "京东",
+        "price": "约1000-1500元",
+        "brand": "九阳",
+        "hotReason": "懒人养生终极解决方案，自动清洗功能解决用户痛点，榜单热推",
+        "image": ""
+      },
+      {
+        "name": "九阳小旋风破壁机B70",
+        "platform": "京东",
+        "price": "约600-900元",
+        "brand": "九阳",
+        "hotReason": "变频轻音实力派，2026年小家电好物推荐闭眼入款",
+        "image": ""
+      },
+      {
+        "name": "多功能电蒸锅",
+        "platform": "京东",
+        "price": "约200-400元",
+        "brand": "多个品牌",
+        "hotReason": "一机多用，9秒快速出蒸汽，家庭实用，提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "女性健康治疗贴",
+        "platform": "淘宝",
+        "price": "约20-80元",
+        "brand": "多个品牌",
+        "hotReason": "淘宝海外精选1462个商品，女性健康养护需求旺盛",
+        "image": ""
+      },
+      {
+        "name": "艾草锤",
+        "platform": "1688",
+        "price": "约7.5元/个",
+        "brand": "南阳艾岽生物",
+        "hotReason": "母亲节礼物热门，养生实用，批发价低，适合送礼",
+        "image": ""
+      },
+      {
+        "name": "养生按摩梳礼盒",
+        "platform": "淘宝",
+        "price": "约148元",
+        "brand": "UBelle等",
+        "hotReason": "七夕/生日送妈妈长辈热门，实用养生，高颜值礼盒",
+        "image": ""
+      },
+      {
+        "name": "猫太子电子考试计时器",
+        "platform": "淘宝",
+        "price": "约30-60元",
+        "brand": "猫太子",
+        "hotReason": "开学季热销，帮助学生建立时间概念，家长青睐",
+        "image": ""
+      },
+      {
+        "name": "宿舍日式收纳套组",
+        "platform": "淘宝",
+        "price": "约20-50元",
+        "brand": "铭渤",
+        "hotReason": "开学宿舍实用神器，收纳整理提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "小霸王H07儿童手表",
+        "platform": "淘宝",
+        "price": "约200-300元",
+        "brand": "小霸王",
+        "hotReason": "开学季热销，4G全网通，家长可随时联系孩子",
+        "image": ""
+      },
+      {
+        "name": "Soap flower香皂花束",
+        "platform": "拼多多",
+        "price": "约30-80元",
+        "brand": "多个品牌",
+        "hotReason": "七夕情人节礼物热门，创意永生花，适合送女友闺蜜",
+        "image": ""
+      },
+      {
+        "name": "智能感应小夜灯",
+        "platform": "淘宝",
+        "price": "约20-50元",
+        "brand": "小米等",
+        "hotReason": "反向海淘热门，提升生活便利性，创意小电器",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季·健康焕新周",
+      "reason": "9月初正值开学季，同时盛夏余温未消，祛湿温养仍是刚需。结合女性决策者为家人购置的场景，主推宿舍实用小家电、健康食补和养生小工具，兼顾性价比与实用性。",
+      "zones": [
+        {
+          "zone": "宿舍神器·开学焕新",
+          "products": [
+            "迷你电煮锅",
+            "便携小风扇",
+            "LED酷毙灯"
+          ]
+        },
+        {
+          "zone": "祛湿温养·健康食补",
+          "products": [
+            "五指毛桃茯苓茶",
+            "红豆薏米茯苓茶",
+            "陈皮炒米茶"
+          ]
+        },
+        {
+          "zone": "养生小工具·送长辈",
+          "products": [
+            "艾草锤",
+            "养生按摩梳",
+            "足浴包"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "艾草锤",
+          "platform": "1688",
+          "price": "约7.5元/个",
+          "brand": "南阳艾岽生物",
+          "shipping": "48小时内",
+          "reason": "送长辈实用养生小工具，批发价低，可组合礼盒，高性价比",
+          "image": "https://cdn.yamibuy.net/item/ee79ef33983a61e91ff7957670229d49_750x750.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "迷你电煮锅",
+        "link": "https://s.taobao.com/search?q=迷你电煮锅",
+        "price": "约30-60元",
+        "brand": "多个品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍神器，学生党必备，可煮面煮粥，销量高",
+        "goodKeywords": [
+          "方便实用",
+          "小巧不占地方",
+          "功率合适"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "高性价比宿舍小家电，契合开学季场景",
+        "image": "https://akbplaythings.com/image/cache/catalog/product/BRUNO/Mini%20pot/BOE110-LBLsquare-01_1800x1800-800x800.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "艾草锤",
+        "link": "https://www.1688.com/?keywords=艾草锤",
+        "price": "约7.5元/个",
+        "brand": "南阳艾岽生物",
+        "shipping": "48小时内",
+        "hotReason": "母亲节/送礼热门，养生实用，批发价低",
+        "goodKeywords": [
+          "实用",
+          "养生",
+          "便宜"
+        ],
+        "badKeywords": [
+          "做工一般"
+        ],
+        "match": true,
+        "matchReason": "送长辈实用小工具，高性价比",
+        "image": "https://cdn.yamibuy.net/item/ee79ef33983a61e91ff7957670229d49_750x750.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-09-03",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
