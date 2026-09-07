@@ -1,5 +1,369 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-07",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "南京同仁堂阿胶糕礼盒",
+        "platform": "淘宝",
+        "price": "约85.9元",
+        "brand": "南京同仁堂",
+        "hotReason": "七夕送礼热门，补气血长辈认可，月销100+，品牌背书强",
+        "image": ""
+      },
+      {
+        "name": "法丽兹曲奇饼干礼盒",
+        "platform": "淘宝",
+        "price": "约50-80元",
+        "brand": "法丽兹",
+        "hotReason": "七夕送礼热门，丝滑香浓，包装精美，适合送女性长辈",
+        "image": ""
+      },
+      {
+        "name": "小熊全玻璃恒温养生壶",
+        "platform": "京东",
+        "price": "约150-200元",
+        "brand": "小熊",
+        "hotReason": "一炉多用，健康养生，七夕送礼佳品，口碑好",
+        "image": ""
+      },
+      {
+        "name": "酸枣仁百合膏",
+        "platform": "淘宝",
+        "price": "约60-100元",
+        "brand": "未知",
+        "hotReason": "助眠安神，10味草本精华，适合压力大的女性",
+        "image": ""
+      },
+      {
+        "name": "音之源水晶钢琴音乐盒",
+        "platform": "京东",
+        "price": "约100-200元",
+        "brand": "音之源",
+        "hotReason": "七夕创意礼物，DIY定制，浪漫氛围，评价100+",
+        "image": ""
+      },
+      {
+        "name": "金箔玫瑰花玻璃罩永生花小夜灯",
+        "platform": "1688",
+        "price": "约30-60元",
+        "brand": "未知",
+        "hotReason": "七夕情人节礼物，永生花寓意永恒，带小夜灯实用",
+        "image": ""
+      },
+      {
+        "name": "郁金香艾草锤",
+        "platform": "1688",
+        "price": "约15-30元",
+        "brand": "未知",
+        "hotReason": "养生按摩，创意造型，母亲节/教师节礼物，兼具实用与颜值",
+        "image": ""
+      },
+      {
+        "name": "金沙奶黄酥礼盒",
+        "platform": "淘宝",
+        "price": "约80-120元",
+        "brand": "未知",
+        "hotReason": "酥香松脆，铁盒装，适合送礼，节日热门",
+        "image": ""
+      },
+      {
+        "name": "猫太子电子考试计时器",
+        "platform": "淘宝",
+        "price": "约20-40元",
+        "brand": "猫太子",
+        "hotReason": "开学季热销，帮助孩子建立时间观念，实用小礼物",
+        "image": ""
+      },
+      {
+        "name": "多功能收纳盒",
+        "platform": "淘宝",
+        "price": "约15-30元",
+        "brand": "未知",
+        "hotReason": "开学季宿舍收纳必备，分类存放文具，性价比高",
+        "image": ""
+      },
+      {
+        "name": "药食同源养生茶饮",
+        "platform": "淘宝",
+        "price": "约30-60元",
+        "brand": "未知",
+        "hotReason": "药食同源趋势，祛湿茶销量高达7万+，年轻人追捧",
+        "image": ""
+      },
+      {
+        "name": "九阳全玻璃沸萃养生壶",
+        "platform": "京东",
+        "price": "约200-300元",
+        "brand": "九阳",
+        "hotReason": "高性价比厨房小家电，全玻璃材质，健康养生",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "七夕心意·开学焕新·长辈安康",
+      "reason": "正值七夕与开学季交汇，女性用户既需为伴侣/家人挑选礼品，也要为孩子准备开学好物，同时兼顾长辈健康养生需求。结合季节祛湿温养，推荐高性价比、实用体面的产品。",
+      "zones": [
+        {
+          "zone": "七夕浪漫礼",
+          "products": [
+            "永生花小夜灯",
+            "水晶音乐盒",
+            "情侣对杯"
+          ]
+        },
+        {
+          "zone": "开学焕新季",
+          "products": [
+            "电子计时器",
+            "多功能收纳盒",
+            "LED护眼台灯"
+          ]
+        },
+        {
+          "zone": "长辈养生局",
+          "products": [
+            "阿胶糕礼盒",
+            "养生壶",
+            "酸枣仁百合膏"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "南京同仁堂阿胶糕礼盒",
+          "platform": "淘宝",
+          "price": "约85.9元",
+          "brand": "南京同仁堂",
+          "shipping": "48小时内",
+          "reason": "品牌背书强，补气血，适合送长辈，七夕送礼体面",
+          "image": "https://cdn.yamibuy.net/item/b73a9475af38294257b2d0c352a608fb_750x750.webp"
+        },
+        {
+          "name": "小熊全玻璃恒温养生壶",
+          "platform": "京东",
+          "price": "约150-200元",
+          "brand": "小熊",
+          "shipping": "48小时内",
+          "reason": "一壶多用，健康养生，提升生活品质，适合送妈妈",
+          "image": "https://img.youzigifts.com/pic/106/B/402.jpg?_uptime=20241216162952"
+        },
+        {
+          "name": "金箔玫瑰花玻璃罩永生花小夜灯",
+          "platform": "1688",
+          "price": "约30-60元",
+          "brand": "未知",
+          "shipping": "48小时内",
+          "reason": "七夕浪漫礼物，永生花寓意好，带夜灯实用，性价比高",
+          "image": "https://m.media-amazon.com/images/I/51Dc7AR7gnL._AC_UF894,1000_QL80_.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "南京同仁堂阿胶糕礼盒",
+        "link": "https://s.taobao.com/search?q=南京同仁堂阿胶糕礼盒",
+        "price": "约85.9元",
+        "brand": "南京同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼热门，补气血，长辈认可，月销100+",
+        "goodKeywords": [
+          "补气血",
+          "口感好",
+          "包装精美"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "品牌背书，适合送礼，符合目标人群需求",
+        "image": "https://cdn.yamibuy.net/item/b73a9475af38294257b2d0c352a608fb_750x750.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "法丽兹曲奇饼干礼盒",
+        "link": "https://s.taobao.com/search?q=法丽兹曲奇饼干礼盒",
+        "price": "约50-80元",
+        "brand": "法丽兹",
+        "shipping": "48小时内",
+        "hotReason": "七夕送礼热门，丝滑香浓，包装精美，适合送女性长辈",
+        "goodKeywords": [
+          "口感好",
+          "包装精美",
+          "分量足"
+        ],
+        "badKeywords": [
+          "易碎"
+        ],
+        "match": true,
+        "matchReason": "体面礼品，价格适中，适合节日送礼",
+        "image": "https://img.youzigifts.com/Upload/Img103/106183-1350168692439190-5704116.jpg?_uptime=20240426121628"
+      },
+      {
+        "platform": "京东",
+        "name": "小熊全玻璃恒温养生壶",
+        "link": "https://so.m.jd.com/ware/search.action?keyword=小熊全玻璃恒温养生壶",
+        "price": "约150-200元",
+        "brand": "小熊",
+        "shipping": "48小时内",
+        "hotReason": "一炉多用，健康养生，七夕送礼佳品，口碑好",
+        "goodKeywords": [
+          "材质安全",
+          "功能多",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，适合送妈妈或自用",
+        "image": "https://img.youzigifts.com/pic/106/B/402.jpg?_uptime=20241216162952"
+      },
+      {
+        "platform": "淘宝",
+        "name": "酸枣仁百合膏",
+        "link": "https://s.taobao.com/search?q=酸枣仁百合膏",
+        "price": "约60-100元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "助眠安神，10味草本精华，适合压力大的女性",
+        "goodKeywords": [
+          "助眠",
+          "草本",
+          "口感好"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "健康养生，符合药食同源趋势",
+        "image": "https://img06.weeecdn.com/item/image/293/368/6B3FF3D6CB3D2D66.webp!c750x0.jpeg"
+      },
+      {
+        "platform": "京东",
+        "name": "音之源水晶钢琴音乐盒",
+        "link": "https://so.m.jd.com/ware/search.action?keyword=音之源水晶钢琴音乐盒",
+        "price": "约100-200元",
+        "brand": "音之源",
+        "shipping": "48小时内",
+        "hotReason": "七夕创意礼物，DIY定制，浪漫氛围，评价100+",
+        "goodKeywords": [
+          "浪漫",
+          "音质好",
+          "可定制"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "七夕送礼创意之选，满足浪漫需求",
+        "image": "https://img12.360buyimg.com/n1/jfs/t1/272149/29/7368/112451/67dd5636Fa3867354/32feee71c59ea373.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "金箔玫瑰花玻璃罩永生花小夜灯",
+        "link": "https://www.1688.com/?keywords=金箔玫瑰花玻璃罩永生花小夜灯",
+        "price": "约30-60元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "七夕情人节礼物，永生花寓意永恒，带小夜灯实用",
+        "goodKeywords": [
+          "寓意好",
+          "实用",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "需注意尺寸"
+        ],
+        "match": true,
+        "matchReason": "高性价比浪漫礼品，适合七夕",
+        "image": "https://m.media-amazon.com/images/I/51Dc7AR7gnL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "郁金香艾草锤",
+        "link": "https://www.1688.com/?keywords=郁金香艾草锤",
+        "price": "约15-30元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "养生按摩，创意造型，母亲节/教师节礼物，兼具实用与颜值",
+        "goodKeywords": [
+          "实用",
+          "创意",
+          "养生"
+        ],
+        "badKeywords": [
+          "质量参差"
+        ],
+        "match": true,
+        "matchReason": "养生实用，价格亲民，适合送长辈",
+        "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3859056950844389363"
+      },
+      {
+        "platform": "淘宝",
+        "name": "金沙奶黄酥礼盒",
+        "link": "https://s.taobao.com/search?q=金沙奶黄酥礼盒",
+        "price": "约80-120元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "酥香松脆，铁盒装，适合送礼，节日热门",
+        "goodKeywords": [
+          "口感好",
+          "包装精美",
+          "铁盒装"
+        ],
+        "badKeywords": [
+          "保质期短"
+        ],
+        "match": true,
+        "matchReason": "体面礼品，适合节日送礼",
+        "image": "https://biggrains.com/cdn/shop/files/golden_custard_1400x.jpg?v=1786345438"
+      },
+      {
+        "platform": "淘宝",
+        "name": "药食同源养生茶饮",
+        "link": "https://s.taobao.com/search?q=药食同源养生茶饮",
+        "price": "约30-60元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "药食同源趋势，祛湿茶销量高达7万+，年轻人追捧",
+        "goodKeywords": [
+          "祛湿",
+          "方便",
+          "口感好"
+        ],
+        "badKeywords": [
+          "效果慢"
+        ],
+        "match": true,
+        "matchReason": "符合健康养生趋势，适合日常饮用",
+        "image": "https://static.foodtalks.cn/image/post/0fabccb7d80e0c677c0fa654658daedd.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳全玻璃沸萃养生壶",
+        "link": "https://so.m.jd.com/ware/search.action?keyword=九阳全玻璃沸萃养生壶",
+        "price": "约200-300元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "高性价比厨房小家电，全玻璃材质，健康养生",
+        "goodKeywords": [
+          "材质安全",
+          "功能全",
+          "易清洗"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，适合家庭使用",
+        "image": "https://img.alicdn.com/imgextra/i3/4244469338/O1CN01KkuMxA2IqrbKakdM3_!!4611686018427385434-2-item_pic.png_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-09-04",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
