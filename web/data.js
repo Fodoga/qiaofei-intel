@@ -1,5 +1,369 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-08",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "金怡神阿胶红糖红枣枸杞茶",
+        "platform": "淘宝",
+        "price": "约39.9元/盒",
+        "brand": "金怡神",
+        "hotReason": "经期气血救星，小袋装方便冲泡，药食同源概念热销",
+        "image": ""
+      },
+      {
+        "name": "喜善花房姜枣茶",
+        "platform": "淘宝",
+        "price": "约29.9元/盒",
+        "brand": "喜善花房",
+        "hotReason": "姨妈期暖身必备，六味食材黄金配伍，女性养生爆款",
+        "image": ""
+      },
+      {
+        "name": "苹果山楂乌梅麦芽饮",
+        "platform": "网易严选",
+        "price": "约45元/盒",
+        "brand": "未知",
+        "hotReason": "药食同源，健脾消食，适合儿童及女性，健康趋势",
+        "image": ""
+      },
+      {
+        "name": "五味草本茶",
+        "platform": "淘宝",
+        "price": "约35元/盒",
+        "brand": "未知",
+        "hotReason": "熬夜油腻救星，清透感草本茶，年轻女性养生新宠",
+        "image": ""
+      },
+      {
+        "name": "乐多花草红糖姜枣茶",
+        "platform": "淘宝",
+        "price": "约25.9元/盒",
+        "brand": "乐多花草",
+        "hotReason": "真材实料测评推荐，独立小包装，办公室养生省心选",
+        "image": ""
+      },
+      {
+        "name": "玉灵膏",
+        "platform": "电商平台",
+        "price": "约80-120元/瓶",
+        "brand": "未知",
+        "hotReason": "气血不足高效调理，西洋参含量12%，女性向爆款",
+        "image": ""
+      },
+      {
+        "name": "猫太子电子考试计时器",
+        "platform": "淘宝",
+        "price": "约29.9元",
+        "brand": "猫太子",
+        "hotReason": "开学季热销，帮助学生建立时间概念，实用礼物",
+        "image": ""
+      },
+      {
+        "name": "宿舍可调光床头灯",
+        "platform": "淘宝",
+        "price": "约50元",
+        "brand": "未知",
+        "hotReason": "开学季宿舍必备小电器，百元内，安全实用",
+        "image": ""
+      },
+      {
+        "name": "多功能收纳盒",
+        "platform": "淘宝",
+        "price": "约19.9元",
+        "brand": "未知",
+        "hotReason": "开学季学生用品热销，分类收纳文具，高性价比",
+        "image": ""
+      },
+      {
+        "name": "碧然德滤水壶",
+        "platform": "京东",
+        "price": "约50-200元",
+        "brand": "碧然德",
+        "hotReason": "净饮机入门推荐，性价比高，改善水质，家庭必备",
+        "image": ""
+      },
+      {
+        "name": "宜盾普微蒸烤一体机",
+        "platform": "天猫",
+        "price": "约2000元",
+        "brand": "宜盾普",
+        "hotReason": "多功能厨房小家电，节省空间，提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "柯达钥匙圈数位相机盲盒",
+        "platform": "友和",
+        "price": "约300元",
+        "brand": "柯达",
+        "hotReason": "创意礼品，盲盒形式，年轻人送礼新宠",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季·健康礼遇",
+      "reason": "9月开学季，家长关注孩子学习与健康，同时夏季末仍需祛湿温养，结合女性健康与家庭实用好物，推出高性价比礼赠专区。",
+      "zones": [
+        {
+          "zone": "学生党实用好物",
+          "products": [
+            "猫太子电子考试计时器",
+            "LED护眼台灯",
+            "便携小风扇"
+          ]
+        },
+        {
+          "zone": "女性暖养茶饮",
+          "products": [
+            "金怡神阿胶红糖红枣枸杞茶",
+            "喜善花房姜枣茶",
+            "苹果山楂乌梅麦芽饮"
+          ]
+        },
+        {
+          "zone": "家居小家电",
+          "products": [
+            "碧然德滤水壶",
+            "迷你电煮锅",
+            "多功能电蒸锅"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "金怡神阿胶红糖红枣枸杞茶",
+          "platform": "淘宝",
+          "price": "约39.9元/盒",
+          "brand": "金怡神",
+          "shipping": "48小时内",
+          "reason": "经期气血救星，药食同源，小袋装方便，女性健康热销",
+          "image": "https://img.alicdn.com/imgextra/O1CN01ERqu8q1REEQN4xnUf_!!6000000002079-2-yinhe.png"
+        },
+        {
+          "name": "碧然德滤水壶",
+          "platform": "京东",
+          "price": "约50-200元",
+          "brand": "碧然德",
+          "shipping": "48小时内",
+          "reason": "提升家庭饮水质量，性价比高，国际大牌",
+          "image": "https://cdn.brita.cn/.imaging/opt/1654072693899/dam/jcr:0bd68f5a-0563-4c59-88dc-e2d6571bc778/jug-marella.png"
+        },
+        {
+          "name": "苹果山楂乌梅麦芽饮",
+          "platform": "网易严选",
+          "price": "约45元/盒",
+          "brand": "未知",
+          "shipping": "48小时内",
+          "reason": "药食同源，健脾消食，适合儿童及女性，健康趋势",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8B%B9%E6%9E%9C%E5%B1%B1%E6%A5%82%E4%B9%8C%E6%A2%85%E9%BA%A6%E8%8A%BD%E9%A5%AE%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "金怡神阿胶红糖红枣枸杞茶",
+        "link": "https://s.taobao.com/search?q=金怡神阿胶红糖红枣枸杞茶",
+        "price": "约39.9元/盒",
+        "brand": "金怡神",
+        "shipping": "48小时内",
+        "hotReason": "经期气血救星，小袋装方便冲泡，药食同源概念热销",
+        "goodKeywords": [
+          "补血",
+          "暖宫",
+          "方便"
+        ],
+        "badKeywords": [
+          "甜度偏高"
+        ],
+        "match": true,
+        "matchReason": "女性健康养生，高性价比，符合目标人群",
+        "image": "https://img.alicdn.com/imgextra/O1CN01ERqu8q1REEQN4xnUf_!!6000000002079-2-yinhe.png"
+      },
+      {
+        "platform": "淘宝",
+        "name": "喜善花房姜枣茶",
+        "link": "https://s.taobao.com/search?q=喜善花房姜枣茶",
+        "price": "约29.9元/盒",
+        "brand": "喜善花房",
+        "shipping": "48小时内",
+        "hotReason": "姨妈期暖身必备，六味食材黄金配伍，女性养生爆款",
+        "goodKeywords": [
+          "暖身",
+          "真材实料",
+          "口感好"
+        ],
+        "badKeywords": [
+          "姜味重"
+        ],
+        "match": true,
+        "matchReason": "女性暖养需求，价格亲民",
+        "image": "https://cdn.yamibuy.net/item/d24efc0b4c39543e932c6145e4dcec91_750x750.webp"
+      },
+      {
+        "platform": "网易严选",
+        "name": "苹果山楂乌梅麦芽饮",
+        "link": "https://www.163.com/search?q=苹果山楂乌梅麦芽饮",
+        "price": "约45元/盒",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "药食同源，健脾消食，适合儿童及女性，健康趋势",
+        "goodKeywords": [
+          "消食",
+          "温和",
+          "药食同源"
+        ],
+        "badKeywords": [
+          "酸味"
+        ],
+        "match": true,
+        "matchReason": "健康养生，适合家庭",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8B%B9%E6%9E%9C%E5%B1%B1%E6%A5%82%E4%B9%8C%E6%A2%85%E9%BA%A6%E8%8A%BD%E9%A5%AE%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "五味草本茶",
+        "link": "https://s.taobao.com/search?q=五味草本茶",
+        "price": "约35元/盒",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "熬夜油腻救星，清透感草本茶，年轻女性养生新宠",
+        "goodKeywords": [
+          "清透",
+          "草本",
+          "解腻"
+        ],
+        "badKeywords": [
+          "口感淡"
+        ],
+        "match": true,
+        "matchReason": "女性养生，符合季节",
+        "image": "https://m.media-amazon.com/images/I/61x6f7UclnL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "乐多花草红糖姜枣茶",
+        "link": "https://s.taobao.com/search?q=乐多花草红糖姜枣茶",
+        "price": "约25.9元/盒",
+        "brand": "乐多花草",
+        "shipping": "48小时内",
+        "hotReason": "真材实料测评推荐，独立小包装，办公室养生省心选",
+        "goodKeywords": [
+          "独立包装",
+          "真材实料",
+          "方便"
+        ],
+        "badKeywords": [
+          "甜"
+        ],
+        "match": true,
+        "matchReason": "高性价比，女性暖养",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2208156822709/O1CN01hN190n1Vsm3i151JV_!!4611686018427382965-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "电商平台",
+        "name": "玉灵膏",
+        "link": "https://s.taobao.com/search?q=玉灵膏",
+        "price": "约80-120元/瓶",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "气血不足高效调理，西洋参含量12%，女性向爆款",
+        "goodKeywords": [
+          "补气血",
+          "温和",
+          "有效"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "女性健康调理，中高端但性价比可",
+        "image": "https://bkimg.cdn.bcebos.com/pic/f9198618367adab44aed5665f688a41c8701a18b4eda?x-bce-process=image/format,f_auto/quality,Q_80/resize,m_lfit,limit_1,h_700"
+      },
+      {
+        "platform": "淘宝",
+        "name": "宿舍可调光床头灯",
+        "link": "https://s.taobao.com/search?q=宿舍可调光床头灯",
+        "price": "约50元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍必备小电器，百元内，安全实用",
+        "goodKeywords": [
+          "可调光",
+          "护眼",
+          "宿舍神器"
+        ],
+        "badKeywords": [
+          "亮度一般"
+        ],
+        "match": true,
+        "matchReason": "学生党实用，价格亲民",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2220005877660/O1CN01aYW2yV26SKzyGOIK8_!!2220005877660.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "碧然德滤水壶",
+        "link": "https://search.jd.com/Search?keyword=碧然德滤水壶",
+        "price": "约50-200元",
+        "brand": "碧然德",
+        "shipping": "48小时内",
+        "hotReason": "净饮机入门推荐，性价比高，改善水质，家庭必备",
+        "goodKeywords": [
+          "改善水质",
+          "大品牌",
+          "性价比"
+        ],
+        "badKeywords": [
+          "滤芯需更换"
+        ],
+        "match": true,
+        "matchReason": "提升家庭生活质量，健康饮水",
+        "image": "https://cdn.brita.cn/.imaging/opt/1654072693899/dam/jcr:0bd68f5a-0563-4c59-88dc-e2d6571bc778/jug-marella.png"
+      },
+      {
+        "platform": "天猫",
+        "name": "宜盾普微蒸烤一体机",
+        "link": "https://s.taobao.com/search?q=宜盾普微蒸烤一体机",
+        "price": "约2000元",
+        "brand": "宜盾普",
+        "shipping": "48小时内",
+        "hotReason": "多功能厨房小家电，节省空间，提升生活品质",
+        "goodKeywords": [
+          "多功能",
+          "节省空间",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "价格高"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，但客单价较高，谨慎推荐",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/O1CN01iMQXCc27J0Y17kJXb_!!2220942297775-0-scmitem176000.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "友和",
+        "name": "柯达钥匙圈数位相机盲盒",
+        "link": "https://www.yohohongkong.com/zh-cn/search?q=柯达钥匙圈数位相机盲盒",
+        "price": "约300元",
+        "brand": "柯达",
+        "shipping": "48小时内",
+        "hotReason": "创意礼品，盲盒形式，年轻人送礼新宠",
+        "goodKeywords": [
+          "创意",
+          "盲盒",
+          "收藏"
+        ],
+        "badKeywords": [
+          "价格高"
+        ],
+        "match": true,
+        "matchReason": "礼品属性强，但价格偏高，可作礼品推荐",
+        "image": "https://www.kodak.retopro.co/cdn/shop/files/4E49C8D4-3F7A-43E8-B7B3-71FB338B10BF_b6360c2c-fd8e-4515-bce2-8b45ca813f52.png?v=1755858077&width=1799"
+      }
+    ]
+  },
+  {
     "date": "2026-09-07",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
