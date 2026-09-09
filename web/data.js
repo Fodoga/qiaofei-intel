@@ -1,5 +1,351 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-09",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "老金磨方芝麻丸",
+        "platform": "淘宝",
+        "price": "约19.9-39.9元",
+        "brand": "老金磨方",
+        "hotReason": "浙江老字号，聚焦年轻滋补，芝麻丸复购率高，夏季轻养生趋势",
+        "image": ""
+      },
+      {
+        "name": "东方补者红豆薏米茶",
+        "platform": "抖音",
+        "price": "约29.9元/盒",
+        "brand": "东方补者",
+        "hotReason": "低糖配方，红小豆薏米祛湿，热卖好评复购TOP1",
+        "image": ""
+      },
+      {
+        "name": "修正海参鹿鞭牡蛎玛咖片",
+        "platform": "淘宝",
+        "price": "约99元/瓶",
+        "brand": "修正",
+        "hotReason": "男士滋补药食同源，送礼或家庭常备，品牌背书强",
+        "image": ""
+      },
+      {
+        "name": "九阳双驱0涂层电饭煲",
+        "platform": "京东",
+        "price": "约399-599元",
+        "brand": "九阳",
+        "hotReason": "0涂层健康概念，厨房小家电高性价比榜单前列",
+        "image": ""
+      },
+      {
+        "name": "徕芬高速吹风机",
+        "platform": "淘宝",
+        "price": "约399-599元",
+        "brand": "徕芬",
+        "hotReason": "媲美戴森性能，价格亲民，海外海淘热门，国内热度持续",
+        "image": ""
+      },
+      {
+        "name": "多功能电煮锅",
+        "platform": "拼多多",
+        "price": "约29.9-59元",
+        "brand": "奥克斯/小熊",
+        "hotReason": "宿舍/独居必备，一锅多用，性价比高，销量爆款",
+        "image": ""
+      },
+      {
+        "name": "百合麦冬玉竹养生茶",
+        "platform": "抖音",
+        "price": "约39.9元/盒",
+        "brand": "未知",
+        "hotReason": "药食同源，熬夜润燥，家庭常备，社交平台种草",
+        "image": ""
+      },
+      {
+        "name": "旺复堂有机黄精",
+        "platform": "淘宝",
+        "price": "约158元/罐",
+        "brand": "旺复堂",
+        "hotReason": "有机种植，15年足龄，高端滋补趋势，中老年送礼",
+        "image": ""
+      },
+      {
+        "name": "九阳全玻璃养生壶",
+        "platform": "京东",
+        "price": "约199元",
+        "brand": "九阳",
+        "hotReason": "全玻璃无涂层，健康煮茶，夏季养生壶热销",
+        "image": ""
+      },
+      {
+        "name": "便携小风扇",
+        "platform": "拼多多",
+        "price": "约9.9-19.9元",
+        "brand": "mikibobo",
+        "hotReason": "夏季降温刚需，低价高销量，开学季学生党",
+        "image": ""
+      },
+      {
+        "name": "电蒸锅",
+        "platform": "京东",
+        "price": "约129-199元",
+        "brand": "美的/九阳",
+        "hotReason": "9秒出蒸汽，多功能，家庭实用，提升幸福感",
+        "image": ""
+      },
+      {
+        "name": "女性健康护理凝胶",
+        "platform": "天猫",
+        "price": "约69-129元",
+        "brand": "未知",
+        "hotReason": "私护养护需求，非棉品，夏季清爽，复购高",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初秋润燥·开学焕新",
+      "reason": "9月初秋，暑气未消但干燥渐显，兼顾祛湿与润燥；同时开学季带动学生党小家电和收纳需求，送礼场景转向教师节和中秋预热。",
+      "zones": [
+        {
+          "zone": "润燥养生饮",
+          "products": [
+            "百合麦冬玉竹茶",
+            "秋梨膏",
+            "蜂蜜柚子茶"
+          ]
+        },
+        {
+          "zone": "开学焕新小家电",
+          "products": [
+            "便携榨汁杯",
+            "迷你电煮锅",
+            "LED护眼台灯"
+          ]
+        },
+        {
+          "zone": "教师节感恩礼",
+          "products": [
+            "无糖糕点礼盒",
+            "香薰加湿器",
+            "保温杯"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "百合麦冬玉竹茶",
+          "platform": "抖音",
+          "price": "约39.9元/盒",
+          "brand": "未知",
+          "shipping": "48小时内",
+          "reason": "药食同源，润燥养阴，适合初秋，家庭常备",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%99%BE%E5%90%88%E9%BA%A6%E5%86%AC%E7%8E%89%E7%AB%B9%E8%8C%B6%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "老金磨方芝麻丸",
+        "link": "https://s.taobao.com/search?q=老金磨方芝麻丸",
+        "price": "约19.9-39.9元",
+        "brand": "老金磨方",
+        "shipping": "48小时内",
+        "hotReason": "浙江老字号，芝麻丸复购率高，夏季轻滋补",
+        "goodKeywords": [
+          "香浓",
+          "独立包装",
+          "不甜腻"
+        ],
+        "badKeywords": [
+          "偏油"
+        ],
+        "match": true,
+        "matchReason": "高性价比养生零食，适合女性日常",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%80%81%E9%87%91%E7%A3%A8%E6%96%B9%E8%8A%9D%E9%BA%BB%E4%B8%B8%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "东方补者红豆薏米茶",
+        "link": "https://www.douyin.com/search/东方补者红豆薏米茶",
+        "price": "约29.9元/盒",
+        "brand": "东方补者",
+        "shipping": "48小时内",
+        "hotReason": "低糖配方，祛湿，热卖好评复购TOP1",
+        "goodKeywords": [
+          "祛湿",
+          "口感好",
+          "低糖"
+        ],
+        "badKeywords": [
+          "效果慢"
+        ],
+        "match": true,
+        "matchReason": "祛湿茶饮，符合季节主题",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%B8%9C%E6%96%B9%E8%A1%A5%E8%80%85%E7%BA%A2%E8%B1%86%E8%96%8F%E7%B1%B3%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "修正海参鹿鞭牡蛎玛咖片",
+        "link": "https://s.taobao.com/search?q=修正海参鹿鞭牡蛎玛咖片",
+        "price": "约99元/瓶",
+        "brand": "修正",
+        "shipping": "48小时内",
+        "hotReason": "男士滋补，药食同源，送礼或家庭常备",
+        "goodKeywords": [
+          "大品牌",
+          "送礼体面",
+          "效果不错"
+        ],
+        "badKeywords": [
+          "片剂大"
+        ],
+        "match": true,
+        "matchReason": "适合为家中男性长辈选购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BF%AE%E6%AD%A3%E6%B5%B7%E5%8F%82%E9%B9%BF%E9%9E%AD%E7%89%A1%E8%9B%8E%E7%8E%9B%E5%92%96%E7%89%87%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳双驱0涂层电饭煲",
+        "link": "https://search.jd.com/Search?keyword=九阳双驱0涂层电饭煲",
+        "price": "约399-599元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "0涂层健康概念，高性价比榜单前列",
+        "goodKeywords": [
+          "无涂层",
+          "煮饭香",
+          "易清洗"
+        ],
+        "badKeywords": [
+          "价格稍高"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质，健康厨房家电",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%B9%9D%E9%98%B3%E5%8F%8C%E9%A9%B10%E6%B6%82%E5%B1%82%E7%94%B5%E9%A5%AD%E7%85%B2%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "徕芬高速吹风机",
+        "link": "https://s.taobao.com/search?q=徕芬高速吹风机",
+        "price": "约399-599元",
+        "brand": "徕芬",
+        "shipping": "48小时内",
+        "hotReason": "媲美戴森，价格亲民，热度持续",
+        "goodKeywords": [
+          "风力大",
+          "噪音小",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "重量略重"
+        ],
+        "match": true,
+        "matchReason": "个护小家电，提升生活品质",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%BE%95%E8%8A%AC%E9%AB%98%E9%80%9F%E5%90%B9%E9%A3%8E%E6%9C%BA%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "多功能电煮锅",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=多功能电煮锅",
+        "price": "约29.9-59元",
+        "brand": "奥克斯/小熊",
+        "shipping": "48小时内",
+        "hotReason": "宿舍/独居必备，一锅多用，性价比高",
+        "goodKeywords": [
+          "实用",
+          "不粘",
+          "小巧"
+        ],
+        "badKeywords": [
+          "功率小"
+        ],
+        "match": true,
+        "matchReason": "开学季学生党刚需",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%94%B5%E7%85%AE%E9%94%85%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "百合麦冬玉竹茶",
+        "link": "https://www.douyin.com/search/百合麦冬玉竹茶",
+        "price": "约39.9元/盒",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "药食同源，润燥，熬夜人群",
+        "goodKeywords": [
+          "润燥",
+          "食材好",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "味道淡"
+        ],
+        "match": true,
+        "matchReason": "初秋润燥，符合季节",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%99%BE%E5%90%88%E9%BA%A6%E5%86%AC%E7%8E%89%E7%AB%B9%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "旺复堂有机黄精",
+        "link": "https://s.taobao.com/search?q=旺复堂有机黄精",
+        "price": "约158元/罐",
+        "brand": "旺复堂",
+        "shipping": "48小时内",
+        "hotReason": "有机种植，15年足龄，高端滋补",
+        "goodKeywords": [
+          "有机",
+          "无添加",
+          "品质好"
+        ],
+        "badKeywords": [
+          "价格高"
+        ],
+        "match": true,
+        "matchReason": "适合送长辈，滋补养生",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%97%BA%E5%A4%8D%E5%A0%82%E6%9C%89%E6%9C%BA%E9%BB%84%E7%B2%BE%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳全玻璃养生壶",
+        "link": "https://search.jd.com/Search?keyword=九阳全玻璃养生壶",
+        "price": "约199元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "全玻璃无涂层，健康煮茶",
+        "goodKeywords": [
+          "玻璃材质",
+          "煮茶方便",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "养生壶热销，但注意与近期推荐不重复",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%B9%9D%E9%98%B3%E5%85%A8%E7%8E%BB%E7%92%83%E5%85%BB%E7%94%9F%E5%A3%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "天猫",
+        "name": "女性健康护理凝胶",
+        "link": "https://s.taobao.com/search?q=女性健康护理凝胶",
+        "price": "约69-129元",
+        "brand": "未知",
+        "shipping": "48小时内",
+        "hotReason": "私护养护需求，非棉品",
+        "goodKeywords": [
+          "温和",
+          "清爽",
+          "无刺激"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "私护品类，非爱善天使方向",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A5%B3%E6%80%A7%E5%81%A5%E5%BA%B7%E6%8A%A4%E7%90%86%E5%87%9D%E8%83%B6%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-09-08",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
