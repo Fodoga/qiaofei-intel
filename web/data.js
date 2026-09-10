@@ -1,5 +1,378 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-10",
+    "season": "初秋·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "女性私处益生菌（口服菌株养护）",
+        "platform": "淘宝",
+        "price": "约99-199元/盒",
+        "brand": "细莫严选等",
+        "hotReason": "2026年私护市场从基础清洁升级为菌群平衡养护，口服益生菌成日常养护新趋势，复购率高",
+        "image": ""
+      },
+      {
+        "name": "私密修护滋润双效凝胶",
+        "platform": "天猫",
+        "price": "约69-159元/3盒",
+        "brand": "多品牌",
+        "hotReason": "2026年私护凝胶市场白热化，修护+滋润双效成日常护理新基准，周期化使用带动3盒装热销",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约50-80元",
+        "brand": "多品牌",
+        "hotReason": "2026十大平价幸福感好物榜首，上班族学生党刚需，入秋后热饮需求上升",
+        "image": ""
+      },
+      {
+        "name": "小熊电煮锅/多功能电煮锅",
+        "platform": "淘宝",
+        "price": "约79-159元",
+        "brand": "小熊",
+        "hotReason": "百元价位平价小家电常青款，1-2人份煮面小火锅，抖音厨房好物视频持续高赞",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅（平价入门款）",
+        "platform": "京东",
+        "price": "约199-299元",
+        "brand": "美的等",
+        "hotReason": "平价但品质高的生活好物代表，知乎幸福感小家电攻略评论超万条，家庭刚需",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩仪",
+        "platform": "京东",
+        "price": "约129-299元",
+        "brand": "多品牌",
+        "hotReason": "提升幸福感小家电热门，送长辈父母体面实用，入秋后肩颈养护需求上升",
+        "image": ""
+      },
+      {
+        "name": "香薰花束礼盒（教师节/送礼）",
+        "platform": "京东",
+        "price": "约59-129元",
+        "brand": "钟礼等",
+        "hotReason": "2000+条评论，栀子花香+手提袋，教师节与七夕后送礼场景延续，体面伴手礼",
+        "image": ""
+      },
+      {
+        "name": "南极磷虾油凝胶糖果",
+        "platform": "细莫严选",
+        "price": "约104元/瓶",
+        "brand": "细莫严选",
+        "hotReason": "大健康类目热销，中老年心脑血管养护，送长辈父母场景强",
+        "image": ""
+      },
+      {
+        "name": "厨房收纳好物套装",
+        "platform": "抖音",
+        "price": "约19-59元",
+        "brand": "多品牌",
+        "hotReason": "抖音厨房好物视频33万+点赞，家家户户刚需，平价实用提升做饭幸福感",
+        "image": ""
+      },
+      {
+        "name": "智能衣物护理机/除湿机",
+        "platform": "1688",
+        "price": "约99元起",
+        "brand": "多品牌",
+        "hotReason": "1688春季焕新促销主推，除湿机空气循环扇低至99元，初秋回潮除湿需求",
+        "image": ""
+      },
+      {
+        "name": "内服养颜元气饮品",
+        "platform": "细莫严选",
+        "price": "约89-149元",
+        "brand": "细莫严选",
+        "hotReason": "内服养颜专区主推，喝出好气色，女性养生食补复购品类",
+        "image": ""
+      },
+      {
+        "name": "永生花小夜灯礼盒",
+        "platform": "淘宝",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "hotReason": "七夕创意礼盒Top榜常客，仪式感强，节日送礼与家居装饰双场景",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初秋温养·私护焕新与家人关怀周",
+      "reason": "9月初秋暑湿未退、昼夜转凉，女性私护菌群养护与祛湿温养进入旺季；同时开学季与送长辈场景叠加，家居好物与体面礼品需求上升，主打平价高性价比与高复购",
+      "zones": [
+        {
+          "zone": "私护焕新专区",
+          "products": [
+            "女性私处益生菌",
+            "私密修护滋润双效凝胶",
+            "女性私护洗液"
+          ]
+        },
+        {
+          "zone": "初秋温养食补专区",
+          "products": [
+            "南极磷虾油凝胶糖果",
+            "内服养颜元气饮品",
+            "红豆薏米茯苓茶"
+          ]
+        },
+        {
+          "zone": "家人关怀·家居好物专区",
+          "products": [
+            "智能恒温保温杯垫",
+            "颈椎按摩仪",
+            "香薰花束礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "女性私处益生菌",
+          "platform": "淘宝",
+          "price": "约99-199元/盒",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "2026私护升级为菌群平衡养护，口服益生菌日常复购强，契合县城女性健康养生需求",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A5%B3%E6%80%A7%E7%A7%81%E5%A4%84%E7%9B%8A%E7%94%9F%E8%8F%8C%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "智能恒温保温杯垫",
+          "platform": "拼多多",
+          "price": "约50-80元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "2026十大平价幸福感好物榜首，入秋热饮刚需，价格敏感友好",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%99%BA%E8%83%BD%E6%81%92%E6%B8%A9%E4%BF%9D%E6%B8%A9%E6%9D%AF%E5%9E%AB%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "南极磷虾油凝胶糖果",
+          "platform": "细莫严选",
+          "price": "约104元/瓶",
+          "brand": "细莫严选",
+          "shipping": "48小时内",
+          "reason": "大健康类目热销，中老年心脑血管养护，送长辈场景强",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%97%E6%9E%81%E7%A3%B7%E8%99%BE%E6%B2%B9%E5%87%9D%E8%83%B6%E7%B3%96%E6%9E%9C%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "香薰花束礼盒",
+          "platform": "京东",
+          "price": "约59-129元",
+          "brand": "钟礼等",
+          "shipping": "48小时内",
+          "reason": "2000+条评论，教师节与送礼场景延续，体面伴手礼性价比高",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E8%96%B0%E8%8A%B1%E6%9D%9F%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "女性私处益生菌",
+        "link": "https://s.taobao.com/search?q=女性私处益生菌",
+        "price": "约99-199元/盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "2026私护市场升级为菌群平衡养护，口服益生菌成日常养护新趋势，复购率高",
+        "goodKeywords": [
+          "菌群平衡",
+          "温和不刺激",
+          "复购方便"
+        ],
+        "badKeywords": [
+          "见效慢"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护方向，契合女性健康养生与高复购需求",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A5%B3%E6%80%A7%E7%A7%81%E5%A4%84%E7%9B%8A%E7%94%9F%E8%8F%8C%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "天猫",
+        "name": "私密修护滋润双效凝胶",
+        "link": "https://s.taobao.com/search?q=私密修护滋润双效凝胶",
+        "price": "约69-159元/3盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "2026私护凝胶市场白热化，修护+滋润双效成日常护理新基准，3盒装周期使用热销",
+        "goodKeywords": [
+          "滋润修护",
+          "温和",
+          "周期装划算"
+        ],
+        "badKeywords": [
+          "包装一般"
+        ],
+        "match": true,
+        "matchReason": "护理凝胶属非棉品私护方向，避开自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%A7%81%E5%AF%86%E4%BF%AE%E6%8A%A4%E6%BB%8B%E6%B6%A6%E5%8F%8C%E6%95%88%E5%87%9D%E8%83%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "女性私护洗液",
+        "link": "https://s.taobao.com/search?q=女性私护洗液",
+        "price": "约39-89元/瓶",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "私护全场景化发展，外阴清洁日常刚需，pH匹配温和配方受青睐",
+        "goodKeywords": [
+          "温和清洁",
+          "pH匹配",
+          "不干涩"
+        ],
+        "badKeywords": [
+          "香味偏浓"
+        ],
+        "match": true,
+        "matchReason": "护理液属非棉品私护方向，日常复购强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A5%B3%E6%80%A7%E7%A7%81%E6%8A%A4%E6%B4%97%E6%B6%B2%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "细莫严选",
+        "name": "南极磷虾油凝胶糖果",
+        "link": "https://www.ximogo.com/",
+        "price": "约104元/瓶",
+        "brand": "细莫严选",
+        "shipping": "48小时内",
+        "hotReason": "大健康类目热销，中老年心脑血管养护，送长辈父母场景强",
+        "goodKeywords": [
+          "送长辈体面",
+          "品质可靠",
+          "复购方便"
+        ],
+        "badKeywords": [
+          "价格略高"
+        ],
+        "match": true,
+        "matchReason": "养生食补方向，契合送长辈父母场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%97%E6%9E%81%E7%A3%B7%E8%99%BE%E6%B2%B9%E5%87%9D%E8%83%B6%E7%B3%96%E6%9E%9C%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "细莫严选",
+        "name": "内服养颜元气饮品",
+        "link": "https://www.ximogo.com/",
+        "price": "约89-149元",
+        "brand": "细莫严选",
+        "shipping": "48小时内",
+        "hotReason": "内服养颜专区主推，喝出好气色，女性养生食补复购品类",
+        "goodKeywords": [
+          "气色好",
+          "口感好",
+          "方便冲泡"
+        ],
+        "badKeywords": [
+          "甜度偏高"
+        ],
+        "match": true,
+        "matchReason": "药食同源养生食补，契合女性健康养生",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%86%85%E6%9C%8D%E5%85%BB%E9%A2%9C%E5%85%83%E6%B0%94%E9%A5%AE%E5%93%81%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "智能恒温保温杯垫",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=智能恒温保温杯垫",
+        "price": "约50-80元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "2026十大平价幸福感好物榜首，上班族学生党刚需，入秋热饮需求上升",
+        "goodKeywords": [
+          "恒温实用",
+          "颜值高",
+          "价格友好"
+        ],
+        "badKeywords": [
+          "加热偏慢"
+        ],
+        "match": true,
+        "matchReason": "平价家居好物，价格敏感友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%99%BA%E8%83%BD%E6%81%92%E6%B8%A9%E4%BF%9D%E6%B8%A9%E6%9D%AF%E5%9E%AB%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "香薰花束礼盒",
+        "link": "https://search.jd.com/Search?keyword=香薰花束礼盒",
+        "price": "约59-129元",
+        "brand": "钟礼等",
+        "shipping": "48小时内",
+        "hotReason": "2000+条评论，栀子花香+手提袋，教师节与送礼场景延续，体面伴手礼",
+        "goodKeywords": [
+          "包装体面",
+          "香味好闻",
+          "送礼合适"
+        ],
+        "badKeywords": [
+          "花材偏小"
+        ],
+        "match": true,
+        "matchReason": "体面合宜的节日送礼礼品",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E8%96%B0%E8%8A%B1%E6%9D%9F%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "厨房收纳好物套装",
+        "link": "https://www.douyin.com/search/厨房收纳好物套装",
+        "price": "约19-59元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "抖音厨房好物视频33万+点赞，家家户户刚需，平价实用提升做饭幸福感",
+        "goodKeywords": [
+          "实用",
+          "便宜",
+          "收纳整齐"
+        ],
+        "badKeywords": [
+          "材质一般"
+        ],
+        "match": true,
+        "matchReason": "平价家居好物，价格敏感友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8E%A8%E6%88%BF%E6%94%B6%E7%BA%B3%E5%A5%BD%E7%89%A9%E5%A5%97%E8%A3%85%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "1688",
+        "name": "除湿机/空气循环扇",
+        "link": "https://www.1688.com/?keywords=除湿机空气循环扇",
+        "price": "约99元起",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "1688春季焕新促销主推，除湿机空气循环扇低至99元，初秋回潮除湿需求",
+        "goodKeywords": [
+          "除湿有效",
+          "静音",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "体积偏大"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，初秋除湿场景契合",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%99%A4%E6%B9%BF%E6%9C%BA/%E7%A9%BA%E6%B0%94%E5%BE%AA%E7%8E%AF%E6%89%87%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "永生花小夜灯礼盒",
+        "link": "https://s.taobao.com/search?q=永生花小夜灯礼盒",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "七夕创意礼盒Top榜常客，仪式感强，节日送礼与家居装饰双场景",
+        "goodKeywords": [
+          "仪式感强",
+          "颜值高",
+          "送礼合适"
+        ],
+        "badKeywords": [
+          "做工一般"
+        ],
+        "match": true,
+        "matchReason": "体面节日送礼礼品，价格友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%B0%B8%E7%94%9F%E8%8A%B1%E5%B0%8F%E5%A4%9C%E7%81%AF%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-09-09",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
