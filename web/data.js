@@ -1,5 +1,383 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-11",
+    "season": "初秋·开学焕新与祛湿润养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "希亦ACE Pro内裤清洗机",
+        "platform": "淘宝",
+        "price": "约300-500元",
+        "brand": "希亦",
+        "hotReason": "开学季宿舍刚需，知乎/搜狐多篇开学好物清单高频推荐，主打高温煮洗除菌，女生私护场景契合",
+        "image": ""
+      },
+      {
+        "name": "希亦RM1除螨仪",
+        "platform": "京东",
+        "price": "约200-400元",
+        "brand": "希亦",
+        "hotReason": "换季除螨需求上升，开学季床品清洁刚需，多篇开学清单推荐",
+        "image": ""
+      },
+      {
+        "name": "希亦K-lamp灭蚊器",
+        "platform": "淘宝",
+        "price": "约100-200元",
+        "brand": "希亦",
+        "hotReason": "9月开学夏秋交替蚊虫仍多，宿舍无化学驱蚊刚需，知乎/搜狐开学好物榜高频出现",
+        "image": ""
+      },
+      {
+        "name": "美的平价空气炸锅",
+        "platform": "京东",
+        "price": "约150-300元",
+        "brand": "美的",
+        "hotReason": "知乎平价好物高赞推荐，厨房小家电性价比标杆，家庭主妇复购与送礼两用",
+        "image": ""
+      },
+      {
+        "name": "飞科入门吹风机",
+        "platform": "淘宝",
+        "price": "约50-120元",
+        "brand": "飞科",
+        "hotReason": "知乎平价品质好物推荐，国民品牌认知度高，价格敏感人群友好",
+        "image": ""
+      },
+      {
+        "name": "美的手持吸尘器VS04K1-FW",
+        "platform": "京东",
+        "price": "约199元",
+        "brand": "美的",
+        "hotReason": "知乎小家电合集推荐，三种刷头低音降噪，家居清洁刚需平价之选",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约50-80元",
+        "brand": "多品牌",
+        "hotReason": "今日头条2026十大平价幸福感好物，上班族学生党秋冬暖饮刚需，季节切换节点热销",
+        "image": ""
+      },
+      {
+        "name": "女性私护凝胶（修护+滋润双效）",
+        "platform": "天猫",
+        "price": "约80-200元",
+        "brand": "多品牌",
+        "hotReason": "2026私护市场升级为科学养护，淘宝百科/今日头条榜单高频，微生态养护成新趋势",
+        "image": ""
+      },
+      {
+        "name": "私处护理液（微生态型）",
+        "platform": "淘宝",
+        "price": "约50-120元",
+        "brand": "珂曼朵等",
+        "hotReason": "淘江湖2026女性私护榜单推荐，pH匹配菌群友好，日常清洁养护高复购",
+        "image": ""
+      },
+      {
+        "name": "浔至XFINDING香氛沐浴礼盒",
+        "platform": "淘宝",
+        "price": "约150-300元",
+        "brand": "浔至",
+        "hotReason": "七夕礼物榜单高频，被称东方小香奈，200+博主种草，送礼仪式感强",
+        "image": ""
+      },
+      {
+        "name": "宿舍可调光床头灯",
+        "platform": "淘宝",
+        "price": "约30-80元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍好物清单高频，护眼可调光，学生党刚需平价",
+        "image": ""
+      },
+      {
+        "name": "厨房收纳神器套装",
+        "platform": "1688",
+        "price": "约20-60元",
+        "brand": "多品牌",
+        "hotReason": "1688买家百科2026热销厨房小工具，百元内高性价比，抖音厨房好物话题高播放",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学焕新·初秋祛湿润养专区",
+      "reason": "9月开学季叠加夏秋交替，学生宿舍清洁护理与家庭祛湿润养需求同步上升；三四线女性既为孩子备开学好物，也为父母备秋季养生，价格敏感但重性价比与体面感",
+      "zones": [
+        {
+          "zone": "开学宿舍焕新",
+          "products": [
+            "希亦ACE Pro内裤清洗机",
+            "希亦K-lamp灭蚊器",
+            "宿舍可调光床头灯",
+            "厨房收纳神器套装"
+          ]
+        },
+        {
+          "zone": "初秋祛湿润养",
+          "products": [
+            "红豆薏米茯苓茶",
+            "百合麦冬玉竹茶",
+            "智能恒温保温杯垫",
+            "足浴盆"
+          ]
+        },
+        {
+          "zone": "女性私护养护",
+          "products": [
+            "女性私护凝胶（修护+滋润双效）",
+            "私处护理液（微生态型）",
+            "女性私处益生菌"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "希亦ACE Pro内裤清洗机",
+          "platform": "淘宝",
+          "price": "约300-500元",
+          "brand": "希亦",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍刚需，高温煮洗除菌契合女性私护场景，多篇开学清单高频推荐",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B8%8C%E4%BA%A6ACE%20Pro%E5%86%85%E8%A3%A4%E6%B8%85%E6%B4%97%E6%9C%BA%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "希亦K-lamp灭蚊器",
+          "platform": "淘宝",
+          "price": "约100-200元",
+          "brand": "希亦",
+          "shipping": "48小时内",
+          "reason": "9月夏秋交替蚊虫多，宿舍无化学驱蚊刚需，学生党与家庭两用",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B8%8C%E4%BA%A6K-lamp%E7%81%AD%E8%9A%8A%E5%99%A8%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "女性私护凝胶（修护+滋润双效）",
+          "platform": "天猫",
+          "price": "约80-200元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "私护市场科学养护升级，微生态修护成趋势，女性健康高复购",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A5%B3%E6%80%A7%E7%A7%81%E6%8A%A4%E5%87%9D%E8%83%B6%EF%BC%88%E4%BF%AE%E6%8A%A4%2B%E6%BB%8B%E6%B6%A6%E5%8F%8C%E6%95%88%EF%BC%89%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "希亦ACE Pro内裤清洗机",
+        "link": "https://s.taobao.com/search?q=希亦ACE Pro内裤清洗机",
+        "price": "约300-500元",
+        "brand": "希亦",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍刚需，知乎/搜狐多篇开学好物清单高频推荐，高温煮洗除菌契合女性私护",
+        "goodKeywords": [
+          "洗得干净",
+          "除菌放心",
+          "宿舍神器",
+          "静音"
+        ],
+        "badKeywords": [
+          "容量偏小",
+          "价格略高"
+        ],
+        "match": true,
+        "matchReason": "开学季+女性私护场景双契合，非自研品类，性价比适中",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B8%8C%E4%BA%A6ACE%20Pro%E5%86%85%E8%A3%A4%E6%B8%85%E6%B4%97%E6%9C%BA%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "希亦K-lamp灭蚊器",
+        "link": "https://s.taobao.com/search?q=希亦K-lamp灭蚊器",
+        "price": "约100-200元",
+        "brand": "希亦",
+        "shipping": "48小时内",
+        "hotReason": "9月开学夏秋交替蚊虫多，宿舍无化学驱蚊刚需，知乎/搜狐开学榜高频",
+        "goodKeywords": [
+          "无味",
+          "静音",
+          "宿舍可用",
+          "安全"
+        ],
+        "badKeywords": [
+          "效果一般",
+          "需常清理"
+        ],
+        "match": true,
+        "matchReason": "开学季刚需，家庭与学生两用，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B8%8C%E4%BA%A6K-lamp%E7%81%AD%E8%9A%8A%E5%99%A8%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "希亦RM1除螨仪",
+        "link": "https://s.taobao.com/search?q=希亦RM1除螨仪",
+        "price": "约200-400元",
+        "brand": "希亦",
+        "shipping": "48小时内",
+        "hotReason": "换季除螨需求上升，开学季床品清洁刚需，知乎开学清单推荐",
+        "goodKeywords": [
+          "吸力大",
+          "除螨明显",
+          "轻便"
+        ],
+        "badKeywords": [
+          "噪音偏大",
+          "线短"
+        ],
+        "match": true,
+        "matchReason": "换季家居清洁刚需，提升生活质量，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B8%8C%E4%BA%A6RM1%E9%99%A4%E8%9E%A8%E4%BB%AA%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "美的平价空气炸锅",
+        "link": "https://s.taobao.com/search?q=美的空气炸锅",
+        "price": "约150-300元",
+        "brand": "美的",
+        "shipping": "48小时内",
+        "hotReason": "知乎平价好物高赞推荐，厨房小家电性价比标杆，家庭复购与送礼两用",
+        "goodKeywords": [
+          "操作简单",
+          "不粘易洗",
+          "容量够用"
+        ],
+        "badKeywords": [
+          "噪音",
+          "涂层担忧"
+        ],
+        "match": true,
+        "matchReason": "国民品牌高性价比，提升生活质量，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%BE%8E%E7%9A%84%E5%B9%B3%E4%BB%B7%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "飞科入门吹风机",
+        "link": "https://s.taobao.com/search?q=飞科吹风机",
+        "price": "约50-120元",
+        "brand": "飞科",
+        "shipping": "48小时内",
+        "hotReason": "知乎平价品质好物推荐，国民品牌认知度高，价格敏感人群友好",
+        "goodKeywords": [
+          "风力足",
+          "便宜好用",
+          "耐用"
+        ],
+        "badKeywords": [
+          "噪音大",
+          "线短"
+        ],
+        "match": true,
+        "matchReason": "平价个护刚需，品牌认知度高，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A3%9E%E7%A7%91%E5%85%A5%E9%97%A8%E5%90%B9%E9%A3%8E%E6%9C%BA%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "美的手持吸尘器VS04K1-FW",
+        "link": "https://s.taobao.com/search?q=美的手持吸尘器VS04K1-FW",
+        "price": "约199元",
+        "brand": "美的",
+        "shipping": "48小时内",
+        "hotReason": "知乎小家电合集推荐，三种刷头低音降噪，家居清洁刚需平价之选",
+        "goodKeywords": [
+          "轻便",
+          "吸力够",
+          "刷头多"
+        ],
+        "badKeywords": [
+          "续航短",
+          "尘盒小"
+        ],
+        "match": true,
+        "matchReason": "家居清洁刚需，平价实用，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%BE%8E%E7%9A%84%E6%89%8B%E6%8C%81%E5%90%B8%E5%B0%98%E5%99%A8VS04K1-FW%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "天猫",
+        "name": "女性私护凝胶（修护+滋润双效）",
+        "link": "https://s.taobao.com/search?q=女性私护凝胶 修护滋润",
+        "price": "约80-200元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "2026私护市场升级为科学养护，淘宝百科/今日头条榜单高频，微生态养护成趋势",
+        "goodKeywords": [
+          "温和不刺激",
+          "滋润",
+          "包装私密"
+        ],
+        "badKeywords": [
+          "见效慢",
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "女性健康私护非棉品方向，避开自研品类，高复购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A5%B3%E6%80%A7%E7%A7%81%E6%8A%A4%E5%87%9D%E8%83%B6%EF%BC%88%E4%BF%AE%E6%8A%A4%2B%E6%BB%8B%E6%B6%A6%E5%8F%8C%E6%95%88%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "私处护理液（微生态型）",
+        "link": "https://s.taobao.com/search?q=私处护理液 微生态",
+        "price": "约50-120元",
+        "brand": "珂曼朵等",
+        "shipping": "48小时内",
+        "hotReason": "淘江湖2026女性私护榜单推荐，pH匹配菌群友好，日常清洁养护高复购",
+        "goodKeywords": [
+          "温和",
+          "不干涩",
+          "味道清淡"
+        ],
+        "badKeywords": [
+          "泡沫少",
+          "泵头一般"
+        ],
+        "match": true,
+        "matchReason": "私护非棉品方向，日常养护高复购，避开自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%A7%81%E5%A4%84%E6%8A%A4%E7%90%86%E6%B6%B2%EF%BC%88%E5%BE%AE%E7%94%9F%E6%80%81%E5%9E%8B%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "浔至XFINDING香氛沐浴礼盒",
+        "link": "https://s.taobao.com/search?q=浔至香氛沐浴礼盒",
+        "price": "约150-300元",
+        "brand": "浔至",
+        "shipping": "48小时内",
+        "hotReason": "七夕礼物榜单高频，被称东方小香奈，200+博主种草，送礼仪式感强",
+        "goodKeywords": [
+          "香味高级",
+          "包装精致",
+          "送礼有面"
+        ],
+        "badKeywords": [
+          "价格小贵",
+          "留香一般"
+        ],
+        "match": true,
+        "matchReason": "节日送礼体面合宜，个护香氛方向，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%B5%94%E8%87%B3XFINDING%E9%A6%99%E6%B0%9B%E6%B2%90%E6%B5%B4%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "1688",
+        "name": "厨房收纳神器套装",
+        "link": "https://www.1688.com/?keywords=厨房收纳神器套装",
+        "price": "约20-60元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "1688买家百科2026热销厨房小工具，百元内高性价比，抖音厨房好物话题高播放",
+        "goodKeywords": [
+          "实用",
+          "省空间",
+          "便宜"
+        ],
+        "badKeywords": [
+          "材质一般",
+          "尺寸偏小"
+        ],
+        "match": true,
+        "matchReason": "家居收纳刚需，价格敏感友好，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8E%A8%E6%88%BF%E6%94%B6%E7%BA%B3%E7%A5%9E%E5%99%A8%E5%A5%97%E8%A3%85%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-09-10",
     "season": "初秋·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
