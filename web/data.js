@@ -1,5 +1,228 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-14",
+    "season": "初秋·祛湿润燥双养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "浔至XFINDING香氛沐浴礼盒",
+        "platform": "淘宝",
+        "price": "约129-199元",
+        "brand": "浔至XFINDING",
+        "hotReason": "被称“东方小香奈”，200+博主种草，常年居时尚杂志人气榜TOP3，七夕送礼场景持续热销",
+        "image": ""
+      },
+      {
+        "name": "Koizumi×KOKOOKY限量美发随行礼盒",
+        "platform": "友和Yoho",
+        "price": "约199-299元",
+        "brand": "Koizumi",
+        "hotReason": "全球限量300套，含浏海梳+珍珠白云朵发圈，七夕礼物排行榜推荐，女生打扮场景刚需",
+        "image": ""
+      },
+      {
+        "name": "希亦K-lamp灭蚊器",
+        "platform": "淘宝",
+        "price": "约99-159元",
+        "brand": "希亦",
+        "hotReason": "开学季宿舍刚需，夏秋交替蚊虫多，知乎/搜狐多篇开学好物清单推荐",
+        "image": ""
+      },
+      {
+        "name": "希亦RM1除螨仪",
+        "platform": "京东",
+        "price": "约499元",
+        "brand": "希亦",
+        "hotReason": "开学季床铺清洁刚需，双杯尘气分离设计，知乎开学好物推荐高频出现",
+        "image": ""
+      },
+      {
+        "name": "SADULT翻滚吧啵啵牛奶杯",
+        "platform": "淘宝",
+        "price": "约39-69元",
+        "brand": "SADULT",
+        "hotReason": "高硼硅玻璃450ml仅140g，开学季早餐神器，知乎学生好物推荐",
+        "image": ""
+      },
+      {
+        "name": "药食同源祛湿养生茶",
+        "platform": "淘宝",
+        "price": "约29-89元",
+        "brand": "多品牌",
+        "hotReason": "广东省中医院推出22款药食同源茶饮，夏秋祛湿需求旺盛，百度健康/39健康网高频推荐",
+        "image": ""
+      },
+      {
+        "name": "女性私处益生菌",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "细莫严选等社交电商平台女性益生菌持续热销，私护健康意识提升，复购率高",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩仪",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "多品牌",
+        "hotReason": "送长辈父母热门礼品，知乎小家电推荐高频品类，开学季/节日送礼两相宜",
+        "image": ""
+      },
+      {
+        "name": "迷你电煮锅",
+        "platform": "拼多多",
+        "price": "约49-99元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍刚需小家电，学生党平价好物清单常客，拼多多销量领先",
+        "image": ""
+      },
+      {
+        "name": "足浴盆",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "多品牌",
+        "hotReason": "送长辈父母经典礼品，初秋祛湿温养场景，京东健康家电榜单常客",
+        "image": ""
+      },
+      {
+        "name": "枸杞原浆",
+        "platform": "拼多多",
+        "price": "约39-79元",
+        "brand": "多品牌",
+        "hotReason": "药食同源内服养颜趋势品，细莫严选等平台热销，女性养生复购率高",
+        "image": ""
+      },
+      {
+        "name": "便携小风扇",
+        "platform": "拼多多",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "hotReason": "开学季军训刚需，初秋余热未消，学生党平价好物高频推荐",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初秋祛湿润燥·开学季宿舍焕新·七夕余温送礼",
+      "reason": "9月中旬正值夏秋交替，湿气未退燥气渐起，祛湿+润燥双线养生需求旺盛；开学季宿舍小家电/收纳/个护刚需集中释放；七夕余温延续，体面送礼场景仍有机会",
+      "zones": [
+        {
+          "zone": "祛湿润燥养生专区",
+          "products": [
+            "药食同源祛湿茶",
+            "百合麦冬玉竹茶",
+            "秋梨膏",
+            "枸杞原浆",
+            "足浴盆"
+          ]
+        },
+        {
+          "zone": "开学季宿舍焕新专区",
+          "products": [
+            "迷你电煮锅",
+            "便携小风扇",
+            "LED护眼台灯",
+            "宿舍日式收纳套组",
+            "便携榨汁杯"
+          ]
+        },
+        {
+          "zone": "七夕余温·体面送礼专区",
+          "products": [
+            "浔至XFINDING香氛沐浴礼盒",
+            "颈椎按摩仪",
+            "香薰花束礼盒",
+            "永生花小夜灯礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "药食同源祛湿养生茶",
+          "platform": "淘宝",
+          "price": "约29-89元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "初秋祛湿需求旺盛，广东省中医院背书药食同源概念，价格敏感友好，复购率高",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8D%AF%E9%A3%9F%E5%90%8C%E6%BA%90%E7%A5%9B%E6%B9%BF%E5%85%BB%E7%94%9F%E8%8C%B6%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "迷你电煮锅",
+          "platform": "拼多多",
+          "price": "约49-99元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍刚需小家电，学生党平价好物，拼多多价格优势明显",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%BF%B7%E4%BD%A0%E7%94%B5%E7%85%AE%E9%94%85%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "SADULT翻滚吧啵啵牛奶杯",
+        "link": "https://s.taobao.com/search?q=SADULT翻滚吧啵啵牛奶杯",
+        "price": "约39-69元",
+        "brand": "SADULT",
+        "shipping": "48小时内",
+        "hotReason": "高硼硅玻璃450ml仅140g，开学季早餐神器，知乎学生好物推荐",
+        "goodKeywords": [
+          "轻便",
+          "高硼硅玻璃",
+          "图案不掉漆",
+          "容量够用"
+        ],
+        "badKeywords": [
+          "易碎"
+        ],
+        "match": true,
+        "matchReason": "开学季学生党平价好物，实用性强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ESADULT%E7%BF%BB%E6%BB%9A%E5%90%A7%E5%95%B5%E5%95%B5%E7%89%9B%E5%A5%B6%E6%9D%AF%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "药食同源祛湿养生茶",
+        "link": "https://s.taobao.com/search?q=药食同源祛湿养生茶",
+        "price": "约29-89元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "广东省中医院推出22款药食同源茶饮，夏秋祛湿需求旺盛，百度健康/39健康网高频推荐",
+        "goodKeywords": [
+          "祛湿效果好",
+          "口感好",
+          "独立包装",
+          "方便冲泡"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "初秋祛湿温养场景，药食同源概念，价格敏感友好，复购率高",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8D%AF%E9%A3%9F%E5%90%8C%E6%BA%90%E7%A5%9B%E6%B9%BF%E5%85%BB%E7%94%9F%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "迷你电煮锅",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=迷你电煮锅",
+        "price": "约49-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍刚需小家电，学生党平价好物清单常客，拼多多销量领先",
+        "goodKeywords": [
+          "小巧",
+          "不粘锅",
+          "功率合适",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍刚需，平价实用小家电，价格敏感友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%BF%B7%E4%BD%A0%E7%94%B5%E7%85%AE%E9%94%85%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-09-11",
     "season": "初秋·开学焕新与祛湿润养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
