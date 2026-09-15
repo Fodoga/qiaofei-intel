@@ -1,5 +1,257 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-15",
+    "season": "初秋·开学季祛湿润养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "希亦K-lamp灭蚊器",
+        "platform": "淘宝",
+        "price": "约99-159元",
+        "brand": "希亦",
+        "hotReason": "开学季宿舍刚需，9月夏秋交替蚊虫仍活跃，多篇开学好物清单集中推荐，物理灭蚊无化学气味适合密闭宿舍",
+        "image": ""
+      },
+      {
+        "name": "希亦RM1除螨仪",
+        "platform": "京东",
+        "price": "约499元",
+        "brand": "希亦",
+        "hotReason": "开学季床铺清洁需求集中释放，双杯尘气分离设计成卖点，知乎/头条多篇开学清单收录",
+        "image": ""
+      },
+      {
+        "name": "药食同源祛湿养生茶",
+        "platform": "淘宝",
+        "price": "约29-89元",
+        "brand": "多品牌（贡润祥、同仁堂等）",
+        "hotReason": "初秋祛湿温养季叠加药食同源概念走热，广东省中医院22款养生茶饮带动品类关注，淘宝该类目在架超千件",
+        "image": ""
+      },
+      {
+        "name": "女性私处益生菌",
+        "platform": "淘宝",
+        "price": "约109-219元",
+        "brand": "因贝森、Garden of Life等",
+        "hotReason": "2026年私护从清洁升级为菌群平衡全维度养护，女性益生菌成高频复购品类，淘宝女性护理类目销量靠前",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约50-80元",
+        "brand": "多品牌",
+        "hotReason": "2026十大平价幸福感好物榜单收录，适合上班族与学生党，秋冬临近饮水保温需求上升",
+        "image": ""
+      },
+      {
+        "name": "美的手持式吸尘器VS04K1-FW",
+        "platform": "京东",
+        "price": "约199元",
+        "brand": "美的",
+        "hotReason": "平价小家电榜单常客，百元级基础款核心功能达标率高，适合县城家庭日常清洁",
+        "image": ""
+      },
+      {
+        "name": "西圣Find可视挖耳勺",
+        "platform": "淘宝",
+        "price": "约69-129元",
+        "brand": "西圣",
+        "hotReason": "开学季实用好物清单推荐，可视化安全掏耳适合学生宿舍与家庭长辈使用",
+        "image": ""
+      },
+      {
+        "name": "SADULT翻滚吧啵啵牛奶杯",
+        "platform": "淘宝",
+        "price": "约39-69元",
+        "brand": "SADULT",
+        "hotReason": "高硼硅玻璃轻量早餐杯，知乎开学好物问答热度高，颜值+实用双驱动",
+        "image": ""
+      },
+      {
+        "name": "南极磷虾油凝胶糖果",
+        "platform": "细莫严选",
+        "price": "约104元/瓶",
+        "brand": "细莫严选",
+        "hotReason": "社交电商平台大健康类目主推，适合送长辈父母，中老年心脑血管养护认知度高",
+        "image": ""
+      },
+      {
+        "name": "智能感应灯",
+        "platform": "拼多多",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "hotReason": "家居幸福感好物榜单高频出现，玄关/床底/衣柜场景刚需，低价高感知",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩仪",
+        "platform": "京东",
+        "price": "约99-299元",
+        "brand": "多品牌",
+        "hotReason": "提升幸福感小家电攻略常推，久坐人群与送长辈场景双适配，评论区热度高",
+        "image": ""
+      },
+      {
+        "name": "药食同源养生礼盒",
+        "platform": "淘宝",
+        "price": "约89-199元",
+        "brand": "同仁堂、鹤鸣堂等",
+        "hotReason": "2026药食同源十大品牌盘点带动礼盒化趋势，适合节日送长辈，兼具体面与健康属性",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学焕新·初秋祛湿润养周",
+      "reason": "9月中旬正值开学季与夏秋交替，宿舍清洁除螨、灭蚊、桌面收纳需求集中；同时初秋湿气未退，祛湿茶饮、温养食补进入旺季，县城女性兼顾自身养护与为家人、长辈备礼，主打平价高性价比与48小时内发货",
+      "zones": [
+        {
+          "zone": "开学宿舍焕新专区",
+          "products": [
+            "希亦K-lamp灭蚊器",
+            "希亦RM1除螨仪",
+            "西圣Find可视挖耳勺",
+            "宿舍可调光床头灯",
+            "桌面吸尘器"
+          ]
+        },
+        {
+          "zone": "初秋祛湿润养专区",
+          "products": [
+            "药食同源祛湿养生茶",
+            "红豆薏米茯苓茶",
+            "百合茯苓膏",
+            "枸杞原浆",
+            "秋梨膏"
+          ]
+        },
+        {
+          "zone": "送长辈体面健康礼专区",
+          "products": [
+            "南极磷虾油凝胶糖果",
+            "南京同仁堂阿胶糕礼盒",
+            "药食同源养生礼盒",
+            "颈椎按摩仪",
+            "足浴盆"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "西圣Find可视挖耳勺",
+          "platform": "淘宝",
+          "price": "约69-129元",
+          "brand": "西圣",
+          "shipping": "48小时内",
+          "reason": "可视化安全掏耳，学生宿舍与长辈家庭双场景适配，开学季实用好物清单高频出现",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%A5%BF%E5%9C%A3Find%E5%8F%AF%E8%A7%86%E6%8C%96%E8%80%B3%E5%8B%BA%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "西圣Find可视挖耳勺",
+        "link": "https://s.taobao.com/search?q=西圣Find可视挖耳勺",
+        "price": "约69-129元",
+        "brand": "西圣",
+        "shipping": "48小时内",
+        "hotReason": "开学季实用好物清单推荐，可视化安全掏耳，学生宿舍与长辈家庭双场景适配",
+        "goodKeywords": [
+          "看得清",
+          "安全不伤耳",
+          "操作简单"
+        ],
+        "badKeywords": [
+          "连接偶有延迟"
+        ],
+        "match": true,
+        "matchReason": "平价实用小工具，适合学生与送长辈，契合家庭健康护理场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%A5%BF%E5%9C%A3Find%E5%8F%AF%E8%A7%86%E6%8C%96%E8%80%B3%E5%8B%BA%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "美的手持式吸尘器VS04K1-FW",
+        "link": "https://s.taobao.com/search?q=美的手持式吸尘器VS04K1-FW",
+        "price": "约199元",
+        "brand": "美的",
+        "shipping": "48小时内",
+        "hotReason": "平价小家电榜单常客，百元级基础款核心功能达标率高，品牌背书强，适合家庭日常清洁",
+        "goodKeywords": [
+          "轻便",
+          "吸力够用",
+          "品牌可靠"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "知名品牌平价小家电，提升居家清洁效率，契合家庭场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%BE%8E%E7%9A%84%E6%89%8B%E6%8C%81%E5%BC%8F%E5%90%B8%E5%B0%98%E5%99%A8VS04K1-FW%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "智能感应灯",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=智能感应灯",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "家居幸福感好物榜单高频出现，玄关/床底/衣柜场景刚需，低价高感知",
+        "goodKeywords": [
+          "感应灵敏",
+          "安装方便",
+          "便宜实用"
+        ],
+        "badKeywords": [
+          "电池续航短"
+        ],
+        "match": true,
+        "matchReason": "低价提升居家幸福感，适合县城家庭多场景使用",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%99%BA%E8%83%BD%E6%84%9F%E5%BA%94%E7%81%AF%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "药食同源养生礼盒",
+        "link": "https://s.taobao.com/search?q=药食同源养生礼盒",
+        "price": "约89-199元",
+        "brand": "同仁堂、鹤鸣堂等",
+        "shipping": "48小时内",
+        "hotReason": "2026药食同源十大品牌盘点带动礼盒化趋势，适合节日送长辈，兼具体面与健康属性",
+        "goodKeywords": [
+          "包装体面",
+          "送长辈有面子",
+          "食材放心"
+        ],
+        "badKeywords": [
+          "部分口味一般"
+        ],
+        "match": true,
+        "matchReason": "契合送长辈父母场景，体面合宜且健康属性强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8D%AF%E9%A3%9F%E5%90%8C%E6%BA%90%E5%85%BB%E7%94%9F%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红豆薏米茯苓茶",
+        "link": "https://s.taobao.com/search?q=红豆薏米茯苓茶",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "初秋祛湿经典配方，药食同源食材认知度高，价格亲民，适合日常冲泡复购",
+        "goodKeywords": [
+          "祛湿",
+          "价格实惠",
+          "独立茶包"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "平价祛湿食补，契合县城女性日常养生，高复购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%BA%A2%E8%B1%86%E8%96%8F%E7%B1%B3%E8%8C%AF%E8%8B%93%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-09-14",
     "season": "初秋·祛湿润燥双养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
