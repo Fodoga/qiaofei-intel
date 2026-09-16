@@ -1,5 +1,333 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-16",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类与黑名单品牌",
+    "trending": [
+      {
+        "name": "五指毛桃茯苓茶（祛湿调理）",
+        "platform": "淘宝",
+        "price": "约39-79元/盒",
+        "brand": "万山映色",
+        "hotReason": "2026年新上市战略级养生茶线，主打祛湿调理，独立茶包适配办公差旅，契合盛夏祛湿需求，多篇品牌盘点文章集中推荐",
+        "image": ""
+      },
+      {
+        "name": "茯苓酸枣仁百合茶（安神助眠）",
+        "platform": "淘宝",
+        "price": "约39-79元/盒",
+        "brand": "万山映色",
+        "hotReason": "药食同源安神场景热销，2026年养生茶赛道新品，针对熬夜失眠人群，内容平台讨论度高",
+        "image": ""
+      },
+      {
+        "name": "金银花胖大海菊花茶（润喉清火）",
+        "platform": "淘宝",
+        "price": "约35-69元/盒",
+        "brand": "万山映色",
+        "hotReason": "夏秋交替润喉清火刚需，开学季教师与学生群体关注度高，独立茶包便携",
+        "image": ""
+      },
+      {
+        "name": "素颜女神茶（药食同源）",
+        "platform": "淘宝",
+        "price": "约59-129元/盒",
+        "brand": "万山红",
+        "hotReason": "2024年首发即成为养生茶赛道代表单品，主打女性内服养颜，复购口碑稳定",
+        "image": ""
+      },
+      {
+        "name": "蔓越莓女性益生菌（私密护理）",
+        "platform": "天猫",
+        "price": "约149-223元/盒",
+        "brand": "因贝森",
+        "hotReason": "淘宝女性护理类目销量榜前列，蔓越莓+乳酸杆菌配方，私密菌群平衡需求上升，已售100+评价900+",
+        "image": ""
+      },
+      {
+        "name": "女性私密保湿修护凝胶",
+        "platform": "天猫",
+        "price": "约89-199元/3盒",
+        "brand": "国货医研品牌",
+        "hotReason": "2026年私护市场精细化升级，修护+滋润双效凝胶成日常护理新基准，行业规模约439亿元",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约50-80元",
+        "brand": "多品牌",
+        "hotReason": "2026十大平价幸福感好物榜单推荐，上班族学生党刚需，55度恒温实用性强",
+        "image": ""
+      },
+      {
+        "name": "希亦W1擦窗机器人",
+        "platform": "淘宝",
+        "price": "约300-500元",
+        "brand": "希亦",
+        "hotReason": "2026家居好物榜单TOP1，解决高层擦窗痛点，家庭清洁小家电热度持续",
+        "image": ""
+      },
+      {
+        "name": "飞利浦电动牙刷（长辈友好款）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "飞利浦",
+        "hotReason": "2026高性价比小家电清单推荐，品控稳定操作简单，送长辈实用礼品首选",
+        "image": ""
+      },
+      {
+        "name": "希亦K-lamp灭蚊器",
+        "platform": "淘宝",
+        "price": "约99-159元",
+        "brand": "希亦",
+        "hotReason": "盛夏蚊虫高发季刚需，2026小家电推荐清单常客，静音设计适合卧室",
+        "image": ""
+      },
+      {
+        "name": "南极磷虾油凝胶糖果",
+        "platform": "细莫严选",
+        "price": "约104元/瓶",
+        "brand": "细莫自营",
+        "hotReason": "社交电商平台自营大健康类热销，中老年心脑血管养护需求，家庭复购型产品",
+        "image": ""
+      },
+      {
+        "name": "厨房平价收纳好物套装",
+        "platform": "拼多多",
+        "price": "约19-59元",
+        "brand": "多品牌",
+        "hotReason": "PDD宝藏好物合集高频推荐，租房党小户型刚需，低成本提升居家整洁度",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季·祛湿温养+送长辈关怀周",
+      "reason": "9月中旬正值夏秋交替，湿气未退而秋燥渐起，祛湿温养茶饮与润燥食补需求叠加；开学季带动学生宿舍小家电与便携养生需求，同时中秋临近，送长辈父母的健康礼品进入采购窗口，主打平价高性价比与体面实用",
+      "zones": [
+        {
+          "zone": "祛湿温养茶饮专区",
+          "products": [
+            "五指毛桃茯苓茶",
+            "茯苓酸枣仁百合茶",
+            "金银花胖大海菊花茶",
+            "素颜女神茶"
+          ]
+        },
+        {
+          "zone": "开学季宿舍好物专区",
+          "products": [
+            "智能恒温保温杯垫",
+            "迷你电煮锅",
+            "LED护眼台灯",
+            "便携保温杯"
+          ]
+        },
+        {
+          "zone": "送长辈健康关怀专区",
+          "products": [
+            "南极磷虾油凝胶糖果",
+            "飞利浦电动牙刷",
+            "即食花胶",
+            "足浴盆"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "五指毛桃茯苓茶",
+          "platform": "淘宝",
+          "price": "约39-79元/盒",
+          "brand": "万山映色",
+          "shipping": "48小时内",
+          "reason": "2026年祛湿调理新品，独立茶包便捷，契合盛夏祛湿温养季主题，女性养生刚需",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BA%94%E6%8C%87%E6%AF%9B%E6%A1%83%E8%8C%AF%E8%8B%93%E8%8C%B6%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "蔓越莓女性益生菌",
+          "platform": "天猫",
+          "price": "约149-223元/盒",
+          "brand": "因贝森",
+          "shipping": "48小时内",
+          "reason": "女性私密菌群平衡热门单品，淘宝女性护理类目销量靠前，复购率高，非棉品非自研方向",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%94%93%E8%B6%8A%E8%8E%93%E5%A5%B3%E6%80%A7%E7%9B%8A%E7%94%9F%E8%8F%8C%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "飞利浦电动牙刷",
+          "platform": "京东",
+          "price": "约199-399元",
+          "brand": "飞利浦",
+          "shipping": "24小时内",
+          "reason": "品控稳定操作简单，长辈一学就会，中秋送父母体面实用，高性价比礼品",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A3%9E%E5%88%A9%E6%B5%A6%E7%94%B5%E5%8A%A8%E7%89%99%E5%88%B7%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "五指毛桃茯苓茶",
+        "link": "https://s.taobao.com/search?q=五指毛桃茯苓茶",
+        "price": "约39-79元/盒",
+        "brand": "万山映色",
+        "shipping": "48小时内",
+        "hotReason": "2026年养生茶战略新品，主打祛湿调理，多篇品牌盘点文章推荐，独立茶包适配办公差旅",
+        "goodKeywords": [
+          "祛湿效果好",
+          "口感温和",
+          "独立包装方便",
+          "回购"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "契合盛夏祛湿温养季，女性养生刚需，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BA%94%E6%8C%87%E6%AF%9B%E6%A1%83%E8%8C%AF%E8%8B%93%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "茯苓酸枣仁百合茶",
+        "link": "https://s.taobao.com/search?q=茯苓酸枣仁百合茶",
+        "price": "约39-79元/盒",
+        "brand": "万山映色",
+        "shipping": "48小时内",
+        "hotReason": "药食同源安神助眠场景热销，2026年新品，针对熬夜失眠人群，内容平台讨论度高",
+        "goodKeywords": [
+          "助眠",
+          "口感好",
+          "睡前喝舒服"
+        ],
+        "badKeywords": [
+          "见效慢"
+        ],
+        "match": true,
+        "matchReason": "女性熬夜失眠调理需求，药食同源方向，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%8C%AF%E8%8B%93%E9%85%B8%E6%9E%A3%E4%BB%81%E7%99%BE%E5%90%88%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "金银花胖大海菊花茶",
+        "link": "https://s.taobao.com/search?q=金银花胖大海菊花茶",
+        "price": "约35-69元/盒",
+        "brand": "万山映色",
+        "shipping": "48小时内",
+        "hotReason": "夏秋交替润喉清火刚需，开学季教师学生群体关注，独立茶包便携",
+        "goodKeywords": [
+          "润喉",
+          "清火",
+          "适合老师"
+        ],
+        "badKeywords": [
+          "偏凉性"
+        ],
+        "match": true,
+        "matchReason": "开学季润喉清火场景匹配，非自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%87%91%E9%93%B6%E8%8A%B1%E8%83%96%E5%A4%A7%E6%B5%B7%E8%8F%8A%E8%8A%B1%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "天猫",
+        "name": "蔓越莓女性益生菌",
+        "link": "https://s.taobao.com/search?q=蔓越莓女性益生菌",
+        "price": "约149-223元/盒",
+        "brand": "因贝森",
+        "shipping": "48小时内",
+        "hotReason": "淘宝女性护理类目销量榜前列，蔓越莓+乳酸杆菌配方，已售100+评价900+，私密菌群平衡需求上升",
+        "goodKeywords": [
+          "私密舒适",
+          "复购",
+          "独立条装"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "女性私护益生菌方向，非棉品非自研，高复购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%94%93%E8%B6%8A%E8%8E%93%E5%A5%B3%E6%80%A7%E7%9B%8A%E7%94%9F%E8%8F%8C%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "天猫",
+        "name": "女性私密保湿修护凝胶",
+        "link": "https://s.taobao.com/search?q=女性私密保湿修护凝胶",
+        "price": "约89-199元/3盒",
+        "brand": "国货医研品牌",
+        "shipping": "48小时内",
+        "hotReason": "2026年私护市场精细化升级，修护+滋润双效凝胶成日常护理新基准，行业规模约439亿元",
+        "goodKeywords": [
+          "滋润",
+          "温和不刺激",
+          "周期装划算"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "私护凝胶非棉品方向，女性健康刚需，非自研",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A5%B3%E6%80%A7%E7%A7%81%E5%AF%86%E4%BF%9D%E6%B9%BF%E4%BF%AE%E6%8A%A4%E5%87%9D%E8%83%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "飞利浦电动牙刷",
+        "link": "https://search.jd.com/Search?keyword=飞利浦电动牙刷",
+        "price": "约199-399元",
+        "brand": "飞利浦",
+        "shipping": "24小时内",
+        "hotReason": "2026高性价比小家电清单推荐，品控稳定操作简单，送长辈实用礼品首选",
+        "goodKeywords": [
+          "长辈易上手",
+          "清洁力好",
+          "品牌可靠"
+        ],
+        "badKeywords": [
+          "刷头耗材贵"
+        ],
+        "match": true,
+        "matchReason": "送长辈父母体面实用礼品，高性价比，非黑名单品牌",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A3%9E%E5%88%A9%E6%B5%A6%E7%94%B5%E5%8A%A8%E7%89%99%E5%88%B7%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "希亦W1擦窗机器人",
+        "link": "https://s.taobao.com/search?q=希亦W1擦窗机器人",
+        "price": "约300-500元",
+        "brand": "希亦",
+        "shipping": "48小时内",
+        "hotReason": "2026家居好物榜单TOP1，解决高层擦窗痛点，家庭清洁小家电热度持续",
+        "goodKeywords": [
+          "擦得干净",
+          "省力",
+          "安全"
+        ],
+        "badKeywords": [
+          "边角擦不到"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量家居小家电，家庭清洁刚需",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B8%8C%E4%BA%A6W1%E6%93%A6%E7%AA%97%E6%9C%BA%E5%99%A8%E4%BA%BA%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "厨房平价收纳好物套装",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=厨房收纳好物套装",
+        "price": "约19-59元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "PDD宝藏好物合集高频推荐，租房党小户型刚需，低成本提升居家整洁度",
+        "goodKeywords": [
+          "实用",
+          "便宜",
+          "收纳方便"
+        ],
+        "badKeywords": [
+          "材质一般"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量家居好物，价格敏感友好，高性价比",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8E%A8%E6%88%BF%E5%B9%B3%E4%BB%B7%E6%94%B6%E7%BA%B3%E5%A5%BD%E7%89%A9%E5%A5%97%E8%A3%85%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-09-15",
     "season": "初秋·开学季祛湿润养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
