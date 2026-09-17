@@ -1,5 +1,269 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-17",
+    "season": "初秋·祛湿润养季（暑热未退、秋燥渐起，兼顾七夕余温与开学季送礼）",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类（卫生巾/安心裤/湿巾/艾灸贴/小罐灸/私护套盒/舒节霜/三参源气饮等）",
+    "trending": [
+      {
+        "name": "女性私处益生菌（口服菌群平衡型）",
+        "platform": "天猫",
+        "price": "约99-199元/盒",
+        "brand": "多品牌（月神/珂曼朵等）",
+        "hotReason": "2026年私护市场精细化升级，口服益生菌成菌群平衡新刚需，多份年度榜单将其列为私护Top品类，复购率高",
+        "image": ""
+      },
+      {
+        "name": "私密修护滋润双效凝胶",
+        "platform": "天猫",
+        "price": "约69-159元/支",
+        "brand": "多品牌国货",
+        "hotReason": "2026年《女性私密健康居家护理指导建议》推动周期化护理，修护+滋润双效凝胶成日常护理新基准，榜单高频出现",
+        "image": ""
+      },
+      {
+        "name": "微生态型私处护理液",
+        "platform": "淘宝",
+        "price": "约39-89元/瓶",
+        "brand": "珂曼朵等",
+        "hotReason": "私护从单一清洁升级为微生态精准养护，护理液为入门高频消耗品，价格敏感友好、复购强",
+        "image": ""
+      },
+      {
+        "name": "智能恒温保温杯垫",
+        "platform": "拼多多",
+        "price": "约50-80元",
+        "brand": "多品牌",
+        "hotReason": "2026十大平价幸福感好物榜首，适合上班族/学生党，开学季与秋冬饮水场景驱动，抖音种草量大",
+        "image": ""
+      },
+      {
+        "name": "除湿机/空气循环扇",
+        "platform": "1688",
+        "price": "约99元起",
+        "brand": "多品牌",
+        "hotReason": "初秋南方回潮与闷热并存，1688春季焕新促销主推除湿机、空气循环扇，低至99元，性价比突出",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩仪",
+        "platform": "京东",
+        "price": "约129-299元",
+        "brand": "多品牌",
+        "hotReason": "送长辈/送父母场景刚需，久坐低头人群扩大，京东评论量高，开学季与中秋送礼叠加",
+        "image": ""
+      },
+      {
+        "name": "香薰花束礼盒",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "IMVE等",
+        "hotReason": "七夕余温延续，京东热item榜评论超万条，鲜花+香薰组合体面不贵，适合县城女性送礼",
+        "image": ""
+      },
+      {
+        "name": "浔至XFINDING香氛沐浴礼盒",
+        "platform": "淘宝",
+        "price": "约129-199元",
+        "brand": "浔至XFINDING",
+        "hotReason": "被称东方小香奈，200+博主种草，常年居时尚杂志人气榜TOP3，七夕送女友/闺蜜热门",
+        "image": ""
+      },
+      {
+        "name": "九阳太空旗舰豆浆机K7 Pro",
+        "platform": "京东",
+        "price": "约399-599元",
+        "brand": "九阳",
+        "hotReason": "2026实测热门厨房小家电，早餐饮品场景刚需，开学季家庭采购与送长辈实用礼品双驱动",
+        "image": ""
+      },
+      {
+        "name": "希亦RM1除螨仪",
+        "platform": "京东",
+        "price": "约299-399元",
+        "brand": "希亦",
+        "hotReason": "家庭清洁小卫士，过敏/养宠家庭刚需，知乎小家电攻略高频推荐，初秋换季除螨需求上升",
+        "image": ""
+      },
+      {
+        "name": "南极磷虾油凝胶糖果",
+        "platform": "细莫严选",
+        "price": "约104元/瓶",
+        "brand": "细莫自营",
+        "hotReason": "细莫严选大健康类目热销，送长辈父母场景适配，磷虾油为近年心脑血管养护热门成分",
+        "image": ""
+      },
+      {
+        "name": "智能感应灯",
+        "platform": "拼多多",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "hotReason": "平价居家好物常青款，走廊/衣柜/起夜场景刚需，拼多多低价走量，抖音家居合集高频出现",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初秋祛湿润养·开学季&送长辈双场景专区",
+      "reason": "9月中旬暑热未退、秋燥渐起，县城女性既要祛湿温养自身，又要为开学季孩子与送长辈父母备礼；选品聚焦药食同源食补、私护非棉品、平价家居小家电与体面礼盒，价格敏感友好、复购强",
+      "zones": [
+        {
+          "zone": "祛湿润养食补区",
+          "products": [
+            "红豆薏米茯苓茶",
+            "陈皮茯苓茶",
+            "即食花胶",
+            "秋梨膏",
+            "百合茯苓膏"
+          ]
+        },
+        {
+          "zone": "女性私护非棉品区",
+          "products": [
+            "女性私处益生菌",
+            "私密修护滋润双效凝胶",
+            "微生态型私处护理液"
+          ]
+        },
+        {
+          "zone": "开学季&送长辈好物区",
+          "products": [
+            "智能恒温保温杯垫",
+            "颈椎按摩仪",
+            "九阳太空旗舰豆浆机K7 Pro",
+            "香薰花束礼盒",
+            "南极磷虾油凝胶糖果"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "陈皮茯苓茶",
+          "platform": "淘宝",
+          "price": "约29-59元/盒",
+          "brand": "多品牌药食同源",
+          "shipping": "48小时内",
+          "reason": "初秋祛湿经典组合，陈皮理气+茯苓健脾，口感温和适合县城女性日常冲泡，价格敏感友好、复购高",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%99%88%E7%9A%AE%E8%8C%AF%E8%8B%93%E8%8C%B6%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "女性私处益生菌",
+          "platform": "天猫",
+          "price": "约99-199元/盒",
+          "brand": "多品牌（月神/珂曼朵等）",
+          "shipping": "48小时内",
+          "reason": "2026私护榜单高频品类，口服菌群平衡非棉品方向，避开自研私护套盒，日常养护复购强",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A5%B3%E6%80%A7%E7%A7%81%E5%A4%84%E7%9B%8A%E7%94%9F%E8%8F%8C%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "陈皮茯苓茶",
+        "link": "https://s.taobao.com/search?q=陈皮茯苓茶",
+        "price": "约29-59元/盒",
+        "brand": "多品牌药食同源",
+        "shipping": "48小时内",
+        "hotReason": "初秋祛湿热门组合，药食同源榜单常客，陈皮理气+茯苓健脾，冲泡方便，县城女性日常养生复购高",
+        "goodKeywords": [
+          "口感温和",
+          "祛湿舒服",
+          "独立小包",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "祛湿润养季核心食补，价格敏感友好、复购强，避开自研品类",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%99%88%E7%9A%AE%E8%8C%AF%E8%8B%93%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "天猫",
+        "name": "女性私处益生菌",
+        "link": "https://s.taobao.com/search?q=女性私处益生菌",
+        "price": "约99-199元/盒",
+        "brand": "多品牌（月神/珂曼朵等）",
+        "shipping": "48小时内",
+        "hotReason": "2026私护市场精细化升级，口服菌群平衡成新刚需，多份年度榜单列为私护Top品类，复购率高",
+        "goodKeywords": [
+          "菌群平衡",
+          "独立条装",
+          "温和不刺激",
+          "复购"
+        ],
+        "badKeywords": [
+          "见效慢"
+        ],
+        "match": true,
+        "matchReason": "私护非棉品方向，避开自研私护套盒，匹配女性健康养护需求",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%A5%B3%E6%80%A7%E7%A7%81%E5%A4%84%E7%9B%8A%E7%94%9F%E8%8F%8C%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "微生态型私处护理液",
+        "link": "https://s.taobao.com/search?q=微生态私处护理液",
+        "price": "约39-89元/瓶",
+        "brand": "珂曼朵等",
+        "shipping": "48小时内",
+        "hotReason": "私护从单一清洁升级为微生态精准养护，护理液为入门高频消耗品，价格敏感友好、复购强",
+        "goodKeywords": [
+          "温和",
+          "不紧绷",
+          "泡沫细腻",
+          "日常可用"
+        ],
+        "badKeywords": [
+          "香味偏重"
+        ],
+        "match": true,
+        "matchReason": "私护非棉品、非自研方向，日常高频消耗，匹配县城女性私护刚需",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%BE%AE%E7%94%9F%E6%80%81%E5%9E%8B%E7%A7%81%E5%A4%84%E6%8A%A4%E7%90%86%E6%B6%B2%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳太空旗舰豆浆机K7 Pro",
+        "link": "https://search.jd.com/Search?keyword=九阳豆浆机K7Pro",
+        "price": "约399-599元",
+        "brand": "九阳",
+        "shipping": "24-48小时",
+        "hotReason": "2026实测热门厨房小家电，早餐饮品场景刚需，开学季家庭采购与送长辈实用礼品双驱动",
+        "goodKeywords": [
+          "免手洗",
+          "出浆细腻",
+          "静音",
+          "早餐神器"
+        ],
+        "badKeywords": [
+          "体积偏大"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，开学季与送长辈场景适配，品牌知名度高",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%B9%9D%E9%98%B3%E5%A4%AA%E7%A9%BA%E6%97%97%E8%88%B0%E8%B1%86%E6%B5%86%E6%9C%BAK7%20Pro%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "即食花胶",
+        "link": "https://s.taobao.com/search?q=即食花胶",
+        "price": "约99-199元/盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "女性养颜食补热门，开盖即食方便，送长辈/自用两相宜，天猫滋补类目销量稳定",
+        "goodKeywords": [
+          "口感好",
+          "无腥味",
+          "方便",
+          "养颜"
+        ],
+        "badKeywords": [
+          "分量偏少"
+        ],
+        "match": true,
+        "matchReason": "养生食补+女性养颜，价格敏感友好，复购强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E8%8A%B1%E8%83%B6%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-09-16",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类与黑名单品牌",
