@@ -1,5 +1,384 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-21",
+    "season": "初秋·祛湿润养季（暑气未消、秋燥渐起，兼顾开学季与中秋送礼）",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "同仁堂西洋参礼盒",
+        "platform": "淘宝",
+        "price": "约150-300元",
+        "brand": "同仁堂",
+        "hotReason": "中秋送长辈走亲访友刚需，三百年老字号背书，知乎送礼攻略高频推荐，节前搜索量攀升",
+        "image": ""
+      },
+      {
+        "name": "艾草锤礼盒",
+        "platform": "1688",
+        "price": "约38元",
+        "brand": "临沂隆仕达等白牌",
+        "hotReason": "教师节/中秋创意实用礼品，1688成交活跃，养生+送礼双属性，性价比高",
+        "image": ""
+      },
+      {
+        "name": "九阳全玻璃沸萃养生壶",
+        "platform": "京东",
+        "price": "约200-400元",
+        "brand": "九阳",
+        "hotReason": "2026厨房小家电高性价比榜单常客，秋季煮茶炖汤需求上升，0涂层健康卖点契合养生人群",
+        "image": ""
+      },
+      {
+        "name": "徕芬高速吹风机",
+        "platform": "淘宝",
+        "price": "约200-400元",
+        "brand": "徕芬",
+        "hotReason": "个护小家电反向海淘热门，媲美高端品牌性能、价格亲民，开学季宿舍与送礼场景双驱动",
+        "image": ""
+      },
+      {
+        "name": "桂格营养麦片全家福礼盒",
+        "platform": "淘宝",
+        "price": "约60-100元",
+        "brand": "桂格",
+        "hotReason": "送妈妈/女性长辈七夕中秋礼品清单常客，4种口味家庭装，健康食补属性强",
+        "image": ""
+      },
+      {
+        "name": "红帽子日本进口糕点什锦饼干礼盒",
+        "platform": "淘宝",
+        "price": "约100-200元",
+        "brand": "红帽子",
+        "hotReason": "11种口味粉帽礼盒，节日送礼颜值与体面兼具，女性长辈礼品推荐榜高频出现",
+        "image": ""
+      },
+      {
+        "name": "杏花楼糕点礼盒",
+        "platform": "淘宝",
+        "price": "约80-150元",
+        "brand": "杏花楼",
+        "hotReason": "老上海老字号中秋送礼，4盒装点心组合，走亲访友体面实惠",
+        "image": ""
+      },
+      {
+        "name": "触摸式迷你节能灯（USB充电冷暖双光源）",
+        "platform": "淘宝",
+        "price": "约20-50元",
+        "brand": "白牌",
+        "hotReason": "开学季宿舍必备小电器榜单推荐，USB充电冷暖光切换，学生党高性价比刚需",
+        "image": ""
+      },
+      {
+        "name": "多功能收纳盒（文具分类）",
+        "platform": "淘宝",
+        "price": "约15-40元",
+        "brand": "白牌",
+        "hotReason": "开学季学生用品热搜，多规格分类收纳，宿舍桌面整理刚需",
+        "image": ""
+      },
+      {
+        "name": "南卡Z2枕中宝",
+        "platform": "京东",
+        "price": "约200-300元",
+        "brand": "南卡",
+        "hotReason": "开学季实用好物榜单推荐，睡眠辅助小电器，学生与长辈均适用",
+        "image": ""
+      },
+      {
+        "name": "九阳小旋风破壁机B70",
+        "platform": "京东",
+        "price": "约300-500元",
+        "brand": "九阳",
+        "hotReason": "2026厨房小家电高性价比榜单，秋季五谷养生糊需求上升，家庭早餐场景高频",
+        "image": ""
+      },
+      {
+        "name": "智能扫地机器人（入门款）",
+        "platform": "京东",
+        "price": "约500-1000元",
+        "brand": "科沃斯/小米等",
+        "hotReason": "高性价比小家电选购指南推荐，智能化便捷化需求增长，解放双手提升生活质量",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初秋润养·中秋送长辈与开学焕新双专区",
+      "reason": "9月下旬暑湿未退、秋燥渐起，祛湿与润燥并重；同时中秋临近与开学季叠加，送礼与宿舍焕新需求集中释放，选品兼顾女性养生、家居小电与体面礼品",
+      "zones": [
+        {
+          "zone": "初秋祛湿润养专区",
+          "products": [
+            "陈皮茯苓茶",
+            "五指毛桃茯苓茶",
+            "红豆薏米芡实茶",
+            "百合麦冬玉竹茶",
+            "药食同源养生茶饮"
+          ]
+        },
+        {
+          "zone": "中秋送长辈体面礼专区",
+          "products": [
+            "同仁堂西洋参礼盒",
+            "南京同仁堂阿胶糕礼盒",
+            "桂格营养麦片全家福礼盒",
+            "红帽子糕点什锦礼盒",
+            "艾草锤礼盒"
+          ]
+        },
+        {
+          "zone": "开学季宿舍焕新专区",
+          "products": [
+            "触摸式迷你节能灯",
+            "多功能收纳盒",
+            "便携挂脖风扇",
+            "迷你电煮锅",
+            "USB充电小夜灯"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "同仁堂西洋参礼盒",
+          "platform": "淘宝",
+          "price": "约150-300元",
+          "brand": "同仁堂",
+          "shipping": "48小时内",
+          "reason": "中秋送长辈闭眼入的老字号健康礼，体面且实用，契合县城女性为父母长辈购置场景",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i2/2215610698024/O1CN01WoNmt629939S4Yp5F_!!4611686018427382056-0-item_pic.jpg"
+        },
+        {
+          "name": "艾草锤礼盒",
+          "platform": "1688",
+          "price": "约38元",
+          "brand": "白牌",
+          "shipping": "48小时内",
+          "reason": "养生+送礼双属性，价格敏感友好，中秋教师节创意实用礼品，成交活跃",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/2219467764548/O1CN01gn1pzZ1jT2O5FBh7P_!!2219467764548.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "触摸式迷你节能灯",
+          "platform": "淘宝",
+          "price": "约20-50元",
+          "brand": "白牌",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍刚需小电器，USB充电冷暖双光源，学生党高性价比之选",
+          "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/1910428157/O1CN01LRa7wG2A7xRr6OvlP_!!0-item_pic.jpg_360x360q90.jpg"
+        },
+        {
+          "name": "桂格营养麦片全家福礼盒",
+          "platform": "淘宝",
+          "price": "约60-100元",
+          "brand": "桂格",
+          "shipping": "48小时内",
+          "reason": "送妈妈/女性长辈健康食补礼，4种口味家庭装，价格友好复购潜力高",
+          "image": "https://img.youzili.com/Upload/Img103/106176-1349926250984480-5516652.jpg?_uptime=20241204164545"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "同仁堂西洋参礼盒",
+        "link": "https://s.taobao.com/search?q=同仁堂西洋参礼盒",
+        "price": "约150-300元",
+        "brand": "同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "中秋送长辈走亲访友刚需，三百年老字号背书，知乎送礼攻略高频推荐",
+        "goodKeywords": [
+          "老字号放心",
+          "包装体面",
+          "送长辈有面子"
+        ],
+        "badKeywords": [
+          "价格略高"
+        ],
+        "match": true,
+        "matchReason": "契合县城女性为父母长辈购置体面健康礼的核心场景",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i2/2215610698024/O1CN01WoNmt629939S4Yp5F_!!4611686018427382056-0-item_pic.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "艾草锤礼盒",
+        "link": "https://www.1688.com/?keywords=艾草锤礼盒",
+        "price": "约38元",
+        "brand": "白牌",
+        "shipping": "48小时内",
+        "hotReason": "教师节/中秋创意实用礼品，1688成交活跃，养生+送礼双属性",
+        "goodKeywords": [
+          "性价比高",
+          "创意实用",
+          "送长辈合适"
+        ],
+        "badKeywords": [
+          "做工一般"
+        ],
+        "match": true,
+        "matchReason": "价格敏感友好，养生送礼两相宜，契合节日场景",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/2219467764548/O1CN01gn1pzZ1jT2O5FBh7P_!!2219467764548.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "桂格营养麦片全家福礼盒",
+        "link": "https://s.taobao.com/search?q=桂格营养麦片全家福礼盒",
+        "price": "约60-100元",
+        "brand": "桂格",
+        "shipping": "48小时内",
+        "hotReason": "送妈妈/女性长辈礼品清单常客，4种口味家庭装，健康食补属性强",
+        "goodKeywords": [
+          "口味多",
+          "健康早餐",
+          "送长辈实惠"
+        ],
+        "badKeywords": [
+          "含糖偏高"
+        ],
+        "match": true,
+        "matchReason": "健康食补礼，价格友好，适合为家人购置",
+        "image": "https://img.youzili.com/Upload/Img103/106176-1349926250984480-5516652.jpg?_uptime=20241204164545"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红帽子日本进口糕点什锦饼干礼盒",
+        "link": "https://s.taobao.com/search?q=红帽子日本进口糕点什锦饼干礼盒",
+        "price": "约100-200元",
+        "brand": "红帽子",
+        "shipping": "48小时内",
+        "hotReason": "11种口味粉帽礼盒，节日送礼颜值与体面兼具，女性长辈礼品推荐高频",
+        "goodKeywords": [
+          "包装精美",
+          "口味丰富",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "体面合宜的节日送礼礼品，契合女性长辈场景",
+        "image": "https://img.youzigifts.com/Upload/Img103/106152-1272403259940600-5791819.jpg?_uptime=20240426131231"
+      },
+      {
+        "platform": "淘宝",
+        "name": "杏花楼糕点礼盒",
+        "link": "https://s.taobao.com/search?q=杏花楼糕点礼盒",
+        "price": "约80-150元",
+        "brand": "杏花楼",
+        "shipping": "48小时内",
+        "hotReason": "老上海老字号中秋送礼，4盒装点心组合，走亲访友体面实惠",
+        "goodKeywords": [
+          "老字号",
+          "包装大气",
+          "送礼合适"
+        ],
+        "badKeywords": [
+          "保质期偏短"
+        ],
+        "match": true,
+        "matchReason": "中秋送礼体面实惠，契合走亲访友场景",
+        "image": "https://img.youzigifts.com/pic/106/B/844.jpg?_uptime=20250905151922"
+      },
+      {
+        "platform": "淘宝",
+        "name": "触摸式迷你节能灯",
+        "link": "https://s.taobao.com/search?q=触摸式迷你节能灯USB充电",
+        "price": "约20-50元",
+        "brand": "白牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍必备小电器榜单推荐，USB充电冷暖光切换",
+        "goodKeywords": [
+          "便宜好用",
+          "冷暖光可调",
+          "宿舍必备"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "开学季学生刚需，价格敏感友好，实用性强",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/1910428157/O1CN01LRa7wG2A7xRr6OvlP_!!0-item_pic.jpg_360x360q90.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "多功能收纳盒（文具分类）",
+        "link": "https://s.taobao.com/search?q=多功能文具收纳盒",
+        "price": "约15-40元",
+        "brand": "白牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季学生用品热搜，多规格分类收纳，宿舍桌面整理刚需",
+        "goodKeywords": [
+          "容量大",
+          "分类合理",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "材质偏薄"
+        ],
+        "match": true,
+        "matchReason": "开学季实用好物，价格友好，家庭与学生均适用",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2114649867/O1CN0199LtAV2Ml8jQo0btp_!!0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "南卡Z2枕中宝",
+        "link": "https://search.jd.com/Search?keyword=南卡Z2枕中宝",
+        "price": "约200-300元",
+        "brand": "南卡",
+        "shipping": "48小时内",
+        "hotReason": "开学季实用好物榜单推荐，睡眠辅助小电器，学生与长辈均适用",
+        "goodKeywords": [
+          "助眠效果好",
+          "不扰人",
+          "便携"
+        ],
+        "badKeywords": [
+          "音量偏小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的小电器，适合学生与长辈，契合健康养生方向",
+        "image": "https://img.alicdn.com/imgextra/O1CN01Df3K3E1sfhv9GbRhK_!!6000000005794-2-yinhe.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳小旋风破壁机B70",
+        "link": "https://search.jd.com/Search?keyword=九阳小旋风破壁机B70",
+        "price": "约300-500元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "2026厨房小家电高性价比榜单，秋季五谷养生糊需求上升",
+        "goodKeywords": [
+          "打浆细腻",
+          "清洗方便",
+          "早餐神器"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "养生食补场景高频，品牌知名度高，提升生活质量",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i2/2214138098213/O1CN01n9je902AXc2MtxGzI_!!2214138098213.png_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "智能扫地机器人（入门款）",
+        "link": "https://search.jd.com/Search?keyword=智能扫地机器人入门款",
+        "price": "约500-1000元",
+        "brand": "科沃斯/小米等",
+        "shipping": "48小时内",
+        "hotReason": "高性价比小家电选购指南推荐，智能化便捷化需求增长",
+        "goodKeywords": [
+          "解放双手",
+          "清扫干净",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "边角清扫一般"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的家居好物，适合家庭购置，避开高奢高客单",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/3178142203/O1CN01Qe4Fa83ANKG1chua_!!3178142203.jpg_360x360q90.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-09-18",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
