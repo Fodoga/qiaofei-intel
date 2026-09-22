@@ -1,5 +1,341 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-22",
+    "season": "初秋·开学焕新×祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "药食同源祛湿茶（红豆薏米茯苓/五指毛桃）",
+        "platform": "淘宝",
+        "price": "约19.9-59元",
+        "brand": "同仁堂/福东海/东方补者等",
+        "hotReason": "初秋换季湿气重，药食同源养生茶持续热销，某平台祛湿茶单款销量达7万+件，契合县城女性祛湿温养需求",
+        "image": ""
+      },
+      {
+        "name": "宿舍迷你电煮锅/多功能小电锅",
+        "platform": "拼多多",
+        "price": "约39-99元",
+        "brand": "美的/小熊/苏泊尔等",
+        "hotReason": "开学季学生宿舍刚需，2026开学好物榜单高频出现，便宜好用、使用频率高",
+        "image": ""
+      },
+      {
+        "name": "USB充电触摸式迷你节能灯",
+        "platform": "淘宝",
+        "price": "约15-39元",
+        "brand": "多品牌白牌",
+        "hotReason": "开学季宿舍必备小电器，冷/暖双光源、USB充电，红网推荐榜单常客",
+        "image": ""
+      },
+      {
+        "name": "清凉床品/凉感记忆薄垫",
+        "platform": "淘宝",
+        "price": "约59-159元",
+        "brand": "多品牌",
+        "hotReason": "《消费主张》报道清凉消费爆发，夏末初秋清凉床品仍是居家新宠，宿舍与家庭双场景",
+        "image": ""
+      },
+      {
+        "name": "药食同源养生膏方/固体饮料礼盒",
+        "platform": "淘宝",
+        "price": "约49-199元",
+        "brand": "同仁堂/福东海等",
+        "hotReason": "传统滋补向便携化、科学养生转型，养生膏方与中式养生茶礼盒成货架热门，送礼自用两宜",
+        "image": ""
+      },
+      {
+        "name": "女性私处益生菌（蔓越莓/乳酸杆菌）",
+        "platform": "天猫",
+        "price": "约69-199元",
+        "brand": "多品牌",
+        "hotReason": "私护市场年均增速10.4%，需求从基础清洁转向科学养护，成分安全、PH平衡成选购关键词",
+        "image": ""
+      },
+      {
+        "name": "无线静音蓝牙鼠标/笔记本收纳包",
+        "platform": "淘宝",
+        "price": "约29-89元",
+        "brand": "罗技/多品牌",
+        "hotReason": "开学季大学生必备数码小物，2026开学必买清单高频出现，性价比高",
+        "image": ""
+      },
+      {
+        "name": "破壁粉剂类食补（药食同源粉）",
+        "platform": "淘宝",
+        "price": "约39-129元",
+        "brand": "多品牌",
+        "hotReason": "破壁粉剂提升吸收率、即冲即饮便携，年轻人食补新趋势，复购属性强",
+        "image": ""
+      },
+      {
+        "name": "泡脚包/艾草足浴包",
+        "platform": "拼多多",
+        "price": "约9.9-39元",
+        "brand": "多品牌",
+        "hotReason": "线上养生茶包、泡脚包备受青睐，初秋祛湿温养场景强，价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "平价生活家居好物（多功能神锅等）",
+        "platform": "拼多多",
+        "price": "约19-79元",
+        "brand": "多品牌白牌",
+        "hotReason": "短视频平台平价家居好物合集持续走红，实用高频、性价比突出，契合县城家庭",
+        "image": ""
+      },
+      {
+        "name": "养生水/中药茶饮（姜黄肉桂、百合红枣）",
+        "platform": "抖音",
+        "price": "约19-69元",
+        "brand": "多品牌",
+        "hotReason": "国潮养生融入年轻一代，药食同源养生水成新消费热点，内容平台种草带动销量",
+        "image": ""
+      },
+      {
+        "name": "开学季实用礼品（保温杯/收纳套装）",
+        "platform": "淘宝",
+        "price": "约29-99元",
+        "brand": "多品牌",
+        "hotReason": "2026开学十大实用礼物榜单推荐，兼顾实用性、颜值与性价比，送礼场景明确",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学焕新×初秋祛湿温养双专区",
+      "reason": "9月下旬正值开学季尾声与初秋换季，学生宿舍实用好物与家庭祛湿温养需求叠加；县城女性既为子女备开学用品，也为父母和自己备换季养生，价格敏感、重性价比，故以实用小家电+药食同源食补+私护养护组合选品",
+      "zones": [
+        {
+          "zone": "开学焕新·宿舍实用好物",
+          "products": [
+            "USB充电触摸式迷你节能灯",
+            "宿舍迷你电煮锅",
+            "无线静音蓝牙鼠标",
+            "笔记本收纳包",
+            "凉感记忆薄垫"
+          ]
+        },
+        {
+          "zone": "初秋祛湿·药食同源温养",
+          "products": [
+            "红豆薏米茯苓茶",
+            "五指毛桃茯苓茶",
+            "药食同源破壁粉剂",
+            "陈皮茯苓茶",
+            "养生膏方礼盒"
+          ]
+        },
+        {
+          "zone": "女性私护·科学养护",
+          "products": [
+            "女性私处益生菌",
+            "微生态型私处护理液",
+            "私密保湿修护凝胶"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "USB充电触摸式迷你节能灯",
+          "platform": "淘宝",
+          "price": "约15-39元",
+          "brand": "多品牌白牌",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍刚需，冷/暖双光源、USB充电，红网推荐榜单常客，价格敏感友好",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/3249983173/O1CN01XHHif01ZJHfYupCf2_!!3249983173.png_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "宿舍迷你电煮锅",
+          "platform": "拼多多",
+          "price": "约39-99元",
+          "brand": "美的/小熊/苏泊尔等",
+          "shipping": "48小时内",
+          "reason": "2026开学好物榜单高频，学生宿舍刚需，使用频率高、性价比突出",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2216333611029/O1CN01FzBfwh1JTKhgtzmJ8_!!2216333611029.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "药食同源破壁粉剂",
+          "platform": "淘宝",
+          "price": "约39-129元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "破壁粉剂吸收率高、即冲即饮便携，年轻人食补新趋势，适合送长辈父母",
+          "image": "https://q8.itc.cn/q_70/images03/20260711/859246639b6b4734a394a113af26bb03.jpeg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "USB充电触摸式迷你节能灯",
+        "link": "https://s.taobao.com/search?q=USB充电触摸式迷你节能灯",
+        "price": "约15-39元",
+        "brand": "多品牌白牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍必备小电器，红网推荐榜单常客，冷/暖双光源、USB充电，销量稳定",
+        "goodKeywords": [
+          "亮度够用",
+          "充电方便",
+          "颜值高",
+          "宿舍神器"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍刚需，价格敏感友好，契合为子女备开学用品场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EUSB%E5%85%85%E7%94%B5%E8%A7%A6%E6%91%B8%E5%BC%8F%E8%BF%B7%E4%BD%A0%E8%8A%82%E8%83%BD%E7%81%AF%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "宿舍迷你电煮锅",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=宿舍迷你电煮锅",
+        "price": "约39-99元",
+        "brand": "美的/小熊/苏泊尔等",
+        "shipping": "48小时内",
+        "hotReason": "2026开学好物榜单高频出现，学生宿舍刚需，便宜好用、使用频率高",
+        "goodKeywords": [
+          "小巧不占地",
+          "加热快",
+          "好清洗",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "功率偏小"
+        ],
+        "match": true,
+        "matchReason": "开学季实用小家电，价格友好、高频使用，契合县城家庭为子女购置",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2216333611029/O1CN01FzBfwh1JTKhgtzmJ8_!!2216333611029.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "无线静音蓝牙鼠标",
+        "link": "https://s.taobao.com/search?q=无线静音蓝牙鼠标",
+        "price": "约29-89元",
+        "brand": "罗技/多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季大学生必备数码小物，2026开学必买清单高频出现，性价比高",
+        "goodKeywords": [
+          "静音",
+          "连接稳定",
+          "手感好",
+          "续航久"
+        ],
+        "badKeywords": [
+          "偶有延迟"
+        ],
+        "match": true,
+        "matchReason": "开学季学生实用好物，知名品牌背书，价格敏感友好",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i4/2207776648106/O1CN01DSx6Cv29kbeOWpIDb_!!4611686018427382698-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "笔记本收纳包",
+        "link": "https://s.taobao.com/search?q=笔记本收纳包",
+        "price": "约29-79元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "2026开学必买清单推荐，大学生必备，兼顾实用性与颜值",
+        "goodKeywords": [
+          "容量大",
+          "防震",
+          "颜值高",
+          "做工好"
+        ],
+        "badKeywords": [
+          "拉链一般"
+        ],
+        "match": true,
+        "matchReason": "开学季实用好物，价格友好，契合学生与家庭购置场景",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i1/2561330108/O1CN01Ec2Tru1CfVsUJEfac_!!2561330108.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "凉感记忆薄垫",
+        "link": "https://s.taobao.com/search?q=凉感记忆薄垫",
+        "price": "约59-159元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "《消费主张》报道清凉消费爆发，夏末初秋清凉床品仍是居家新宠，宿舍与家庭双场景",
+        "goodKeywords": [
+          "凉感明显",
+          "柔软舒适",
+          "易收纳",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "偏薄"
+        ],
+        "match": true,
+        "matchReason": "初秋清凉床品，宿舍与家庭双场景，提升生活质量",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2215726188813/O1CN016I7cjN2EyPY8Zt6ey_!!2215726188813.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "药食同源破壁粉剂",
+        "link": "https://s.taobao.com/search?q=药食同源破壁粉剂",
+        "price": "约39-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "破壁粉剂提升吸收率、即冲即饮便携，年轻人食补新趋势，复购属性强",
+        "goodKeywords": [
+          "吸收好",
+          "冲泡方便",
+          "口感细腻",
+          "便携"
+        ],
+        "badKeywords": [
+          "略有颗粒感"
+        ],
+        "match": true,
+        "matchReason": "药食同源食补新形态，便携易存，适合自用与送长辈",
+        "image": "https://q8.itc.cn/q_70/images03/20260711/859246639b6b4734a394a113af26bb03.jpeg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "养生膏方礼盒",
+        "link": "https://s.taobao.com/search?q=养生膏方礼盒",
+        "price": "约49-199元",
+        "brand": "同仁堂/福东海等",
+        "shipping": "48小时内",
+        "hotReason": "传统滋补向便携化、科学养生转型，养生膏方成货架热门，送礼自用两宜",
+        "goodKeywords": [
+          "包装体面",
+          "口感好",
+          "用料足",
+          "送礼合适"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "体面合宜的送长辈礼品，药食同源，契合节日送礼场景",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2211314413196/O1CN015Vcxdu1ZToxa9jajg_!!4611686018427383436-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "天猫",
+        "name": "私密保湿修护凝胶",
+        "link": "https://s.taobao.com/search?q=私密保湿修护凝胶",
+        "price": "约59-159元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "私护市场科学养护趋势，修护+滋润双效概念受关注，复购属性强",
+        "goodKeywords": [
+          "温和",
+          "滋润",
+          "独立包装",
+          "使用方便"
+        ],
+        "badKeywords": [
+          "偏黏"
+        ],
+        "match": true,
+        "matchReason": "私护凝胶方向，非棉品非自研，契合女性健康养护需求",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/2209338004431/O1CN01VXnAx11ibS4RBojq4_!!2209338004431.jpg_360x360q90.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-09-21",
     "season": "初秋·祛湿润养季（暑气未消、秋燥渐起，兼顾开学季与中秋送礼）",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
