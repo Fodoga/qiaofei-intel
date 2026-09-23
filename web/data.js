@@ -1,5 +1,256 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-23",
+    "season": "初秋·润燥养肺季（暑湿未退，秋燥渐起）",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "药食同源固体饮料/破壁粉剂",
+        "platform": "淘宝",
+        "price": "约39-129元",
+        "brand": "同仁堂/福东海/老金磨方",
+        "hotReason": "新华网与行业媒体多次报道年轻人追捧药食同源养生，粉剂便携即冲，淘宝药食同源榜单持续在售，秋季润燥需求上升",
+        "image": ""
+      },
+      {
+        "name": "中式养生茶礼盒（祛湿/润燥）",
+        "platform": "淘宝",
+        "price": "约29-99元",
+        "brand": "福东海/同仁堂/东方补者",
+        "hotReason": "祛湿茶单链接销量达数万件，秋季换季祛湿润燥双需求，礼盒装适配送长辈场景",
+        "image": ""
+      },
+      {
+        "name": "五指毛桃茯苓祛湿汤料包",
+        "platform": "淘宝",
+        "price": "约19-59元",
+        "brand": "广东本地食材品牌",
+        "hotReason": "淘宝药食同源Top榜常见款，南方煲汤文化带动，秋季祛湿温养刚需",
+        "image": ""
+      },
+      {
+        "name": "养生壶/全玻璃沸萃养生壶",
+        "platform": "京东",
+        "price": "约99-299元",
+        "brand": "九阳/美的/苏泊尔",
+        "hotReason": "新华网报道养生壶位列线上小家电十大热门，秋季煮茶炖汤场景高频",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机",
+        "platform": "淘宝",
+        "price": "约199-399元",
+        "brand": "徕芬/追觅",
+        "hotReason": "个护小家电性价比突出，海外与国内社媒持续种草，换季护发需求上升",
+        "image": ""
+      },
+      {
+        "name": "电动牙刷",
+        "platform": "京东",
+        "price": "约99-299元",
+        "brand": "飞利浦/素士/usmile",
+        "hotReason": "线上小家电热门品类，家庭装与送礼场景双驱动，好评率高",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "美的/九阳/苏泊尔",
+        "hotReason": "小家电销量大幅增长品类，开学季与家庭厨房升级需求叠加",
+        "image": ""
+      },
+      {
+        "name": "女性私处益生菌",
+        "platform": "天猫",
+        "price": "约99-259元",
+        "brand": "Swisse/汤臣倍健/蔓越莓类",
+        "hotReason": "私护市场年增速约10%，需求从清洁转向科学养护，益生菌为高复购方向",
+        "image": ""
+      },
+      {
+        "name": "艾草足浴包/泡脚包",
+        "platform": "拼多多",
+        "price": "约9.9-39元",
+        "brand": "多品牌白牌",
+        "hotReason": "线上养生茶包与泡脚包受青睐，秋季温养驱寒刚需，价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩仪",
+        "platform": "京东",
+        "price": "约129-399元",
+        "brand": "SKG/倍轻松",
+        "hotReason": "送长辈与办公族高频礼品，健康小家电榜单常客",
+        "image": ""
+      },
+      {
+        "name": "即食花胶/即食银耳羹",
+        "platform": "淘宝",
+        "price": "约39-129元",
+        "brand": "官栈/燕之屋/白牌",
+        "hotReason": "药食同源滋补便携化趋势，秋季润燥养颜，女性自用与送礼兼顾",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初秋润燥·祛湿温养双线专区",
+      "reason": "9月下旬暑湿未退、秋燥渐起，三四线女性既要祛湿温养，也要润燥养肺；同时开学季与送长辈场景带动小家电与养生礼盒，价格敏感友好、高复购优先",
+      "zones": [
+        {
+          "zone": "祛湿温养·药食同源茶饮",
+          "products": [
+            "陈皮茯苓茶",
+            "五指毛桃茯苓汤料包",
+            "红豆薏米芡实茶",
+            "艾草足浴包"
+          ]
+        },
+        {
+          "zone": "润燥养颜·即食滋补",
+          "products": [
+            "即食花胶",
+            "即食冻干银耳羹",
+            "百合麦冬玉竹茶",
+            "老金磨方芝麻丸"
+          ]
+        },
+        {
+          "zone": "开学季·实用小家电与家居",
+          "products": [
+            "养生壶",
+            "空气炸锅",
+            "电动牙刷",
+            "颈椎按摩仪"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "陈皮茯苓祛湿茶",
+          "platform": "淘宝",
+          "price": "约29-69元",
+          "brand": "福东海/同仁堂",
+          "shipping": "48小时内",
+          "reason": "秋季祛湿温养刚需，药食同源榜单常青款，价格敏感友好、复购高",
+          "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2220070985680/O1CN01tlmmQx1rpUoHYkJXD_!!4611686018427387856-0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "全玻璃沸萃养生壶",
+          "platform": "京东",
+          "price": "约99-199元",
+          "brand": "九阳",
+          "shipping": "48小时内",
+          "reason": "秋季煮茶炖汤高频，小家电热门品类，送长辈与自用兼顾",
+          "image": "https://img.alicdn.com/imgextra/i3/4244469338/O1CN01KkuMxA2IqrbKakdM3_!!4611686018427385434-2-item_pic.png_q50.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "陈皮茯苓祛湿茶",
+        "link": "https://s.taobao.com/search?q=陈皮茯苓祛湿茶",
+        "price": "约29-69元",
+        "brand": "福东海/同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "药食同源祛湿茶线上销量达数万件，秋季祛湿温养刚需，榜单常青",
+        "goodKeywords": [
+          "味道清香",
+          "祛湿有效",
+          "独立包装",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "契合秋季祛湿温养与价格敏感人群，高复购",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2220070985680/O1CN01tlmmQx1rpUoHYkJXD_!!4611686018427387856-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "五指毛桃茯苓汤料包",
+        "link": "https://s.taobao.com/search?q=五指毛桃茯苓汤料包",
+        "price": "约19-59元",
+        "brand": "广东本地食材品牌",
+        "shipping": "48小时内",
+        "hotReason": "淘宝药食同源Top榜常见款，南方煲汤文化带动，秋季祛湿刚需",
+        "goodKeywords": [
+          "汤味鲜甜",
+          "材料足",
+          "煲汤方便"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "家庭煲汤场景高频，价格友好，适合送长辈",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2215924417354/O1CN01rJf0RT24CBniTnMKT_!!4611686018427380554-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "全玻璃沸萃养生壶",
+        "link": "https://search.jd.com/Search?keyword=全玻璃沸萃养生壶",
+        "price": "约99-199元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "新华网报道养生壶位列线上小家电十大热门，秋季煮茶炖汤高频",
+        "goodKeywords": [
+          "玻璃无异味",
+          "易清洗",
+          "加热快"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的小家电，送长辈与自用兼顾",
+        "image": "https://img.alicdn.com/imgextra/i3/4244469338/O1CN01KkuMxA2IqrbKakdM3_!!4611686018427385434-2-item_pic.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "空气炸锅",
+        "link": "https://search.jd.com/Search?keyword=空气炸锅",
+        "price": "约199-399元",
+        "brand": "美的/九阳",
+        "shipping": "48小时内",
+        "hotReason": "小家电销量大幅增长品类，开学季与家庭厨房升级需求叠加",
+        "goodKeywords": [
+          "操作简单",
+          "少油健康",
+          "容量合适"
+        ],
+        "badKeywords": [
+          "清洗略麻烦"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，家庭高频使用，性价比高",
+        "image": "https://consumer.panasonic.cn/static/upload/image/20230209/1675929012828758.png"
+      },
+      {
+        "platform": "京东",
+        "name": "电动牙刷",
+        "link": "https://search.jd.com/Search?keyword=电动牙刷",
+        "price": "约99-299元",
+        "brand": "飞利浦/素士",
+        "shipping": "48小时内",
+        "hotReason": "线上小家电热门品类，家庭装与送礼场景双驱动，好评率高",
+        "goodKeywords": [
+          "清洁力强",
+          "续航久",
+          "刷头柔软"
+        ],
+        "badKeywords": [
+          "震动偏强"
+        ],
+        "match": true,
+        "matchReason": "个护小家电，开学季与家庭健康场景适配",
+        "image": "https://consumer.panasonic.cn/static/upload/image/20230725/1690249874235410.png"
+      }
+    ]
+  },
+  {
     "date": "2026-09-22",
     "season": "初秋·开学焕新×祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
