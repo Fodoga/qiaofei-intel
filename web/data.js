@@ -1,5 +1,194 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-24",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "清凉床品（凉感被/冰丝四件套）",
+        "platform": "淘宝",
+        "price": "约59-199元",
+        "brand": "多品牌",
+        "hotReason": "央视《消费主张》20250714报道炎夏清凉床品成居家新宠，清凉消费爆发式增长",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机（徕芬等）",
+        "platform": "淘宝",
+        "price": "约199-399元",
+        "brand": "徕芬",
+        "hotReason": "2026反向海淘指南提及国产个护小家电凭性能与性价比在海外社媒走红，国内持续热销",
+        "image": ""
+      },
+      {
+        "name": "不用手洗破壁机/豆浆机",
+        "platform": "京东",
+        "price": "约299-599元",
+        "brand": "九阳",
+        "hotReason": "2026厨房小家电高性价比榜单与多篇导购反复推荐，懒人养生需求驱动",
+        "image": ""
+      },
+      {
+        "name": "多功能料理锅/懒人小家电",
+        "platform": "1688",
+        "price": "约99-299元",
+        "brand": "源头工厂",
+        "hotReason": "1688源头工厂现货直发，抖音爆款同步，懒人小家电需求激增",
+        "image": ""
+      },
+      {
+        "name": "明洞风韩系小家电",
+        "platform": "1688",
+        "price": "约49-199元",
+        "brand": "源头工厂",
+        "hotReason": "1688平台快反趋势，韩系明洞风小家电成新消费热点，7天跟趋势",
+        "image": ""
+      },
+      {
+        "name": "智能扫地机器人（入门款）",
+        "platform": "京东",
+        "price": "约599-1299元",
+        "brand": "多品牌",
+        "hotReason": "2026实用家电指南指出智能化便捷化小家电销量大幅增长",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅",
+        "platform": "京东",
+        "price": "约129-299元",
+        "brand": "美的/九阳",
+        "hotReason": "懒人厨房小家电高频推荐，性价比高、使用频率高",
+        "image": ""
+      },
+      {
+        "name": "香氛水氧机/蓝牙音响",
+        "platform": "淘宝",
+        "price": "约69-199元",
+        "brand": "多品牌",
+        "hotReason": "马卡龙色生活小家电推荐，集颜值与实用于一体，少女必备",
+        "image": ""
+      },
+      {
+        "name": "养生壶（全玻璃沸萃）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "九阳",
+        "hotReason": "2026厨房小家电榜单推荐，祛湿温养季煮茶煮汤刚需",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩仪",
+        "platform": "京东",
+        "price": "约99-299元",
+        "brand": "多品牌",
+        "hotReason": "送礼与自用两相宜，健康小家电持续热销",
+        "image": ""
+      },
+      {
+        "name": "陶瓷茶叶罐/储物罐",
+        "platform": "1688",
+        "price": "约42-136元",
+        "brand": "德化陶瓷",
+        "hotReason": "1688家居百货市场30天成交活跃，礼盒装茶具走俏",
+        "image": ""
+      },
+      {
+        "name": "即食花胶/养生食补",
+        "platform": "淘宝",
+        "price": "约99-299元",
+        "brand": "多品牌",
+        "hotReason": "药食同源养生食补需求上升，女性养颜与送长辈场景驱动",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "祛湿温养·开学焕新·中秋送礼前置周",
+      "reason": "9月下旬仍处盛夏余热与秋燥交替，祛湿温养茶饮与艾灸类需求延续；开学季家居收纳与小家电焕新；中秋临近，体面送礼礼盒进入备货期，三四线县城女性兼顾自用与家人送礼",
+      "zones": [
+        {
+          "zone": "祛湿温养茶饮专区",
+          "products": [
+            "陈皮茯苓祛湿茶",
+            "五指毛桃茯苓汤料包",
+            "红豆薏米芡实茶",
+            "茯苓酸枣仁百合茶"
+          ]
+        },
+        {
+          "zone": "开学季家居焕新专区",
+          "products": [
+            "厨房平价收纳好物套装",
+            "智能感应灯",
+            "桌面循环扇",
+            "保温杯焖烧杯"
+          ]
+        },
+        {
+          "zone": "中秋体面送礼专区",
+          "products": [
+            "同仁堂西洋参礼盒",
+            "艾草锤礼盒",
+            "香薰花束礼盒",
+            "养生膏方礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "九阳全玻璃沸萃养生壶",
+          "platform": "京东",
+          "price": "约199-399元",
+          "brand": "九阳",
+          "shipping": "48小时内",
+          "reason": "祛湿温养季煮茶煮汤刚需，九阳品牌背书，厨房小家电榜单常客",
+          "image": "https://y.zdmimg.com/202607/17/6a59f49058c563606.jpg_a640.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "九阳全玻璃沸萃养生壶",
+        "link": "https://search.jd.com/Search?keyword=九阳全玻璃沸萃养生壶",
+        "price": "约199-399元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "2026厨房小家电榜单推荐，煮茶煮汤刚需",
+        "goodKeywords": [
+          "玻璃材质安全",
+          "煮茶方便",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养季煮养生茶刚需，品牌可靠",
+        "image": "https://y.zdmimg.com/202607/17/6a59f49058c563606.jpg_a640.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "高速吹风机（徕芬）",
+        "link": "https://s.taobao.com/search?q=徕芬高速吹风机",
+        "price": "约199-399元",
+        "brand": "徕芬",
+        "shipping": "48小时内",
+        "hotReason": "国产个护小家电性价比高，海外社媒走红",
+        "goodKeywords": [
+          "风力大",
+          "干发快",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "价格略高"
+        ],
+        "match": true,
+        "matchReason": "女性个护小家电，提升生活质量",
+        "image": "https://gw-static.laifen.net/media/hairdryer-se-2/technical-specifications/view.webp?x-oss-process=image/resize,w_960/quality,Q_100"
+      }
+    ]
+  },
+  {
     "date": "2026-09-23",
     "season": "初秋·润燥养肺季（暑湿未退，秋燥渐起）",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
