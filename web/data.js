@@ -1,5 +1,455 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-25",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "碧然德滤水壶",
+        "platform": "京东",
+        "price": "约50-200元",
+        "brand": "碧然德",
+        "hotReason": "净饮机测评榜单高频推荐，免安装易操作，改善水质减少水垢，适合1-2人小家庭，性价比极高",
+        "image": ""
+      },
+      {
+        "name": "苏泊尔远红外电饭煲",
+        "platform": "京东",
+        "price": "约300-600元",
+        "brand": "苏泊尔",
+        "hotReason": "家居好物榜单推荐，IH电磁加热+远红外立体环绕，煮饭口感提升明显，家庭高频使用",
+        "image": ""
+      },
+      {
+        "name": "宫菱除湿机",
+        "platform": "京东",
+        "price": "约600-1200元",
+        "brand": "宫菱",
+        "hotReason": "盛夏祛湿季刚需，除湿速度快、达母婴特护级标准，南方回南天/梅雨季口碑爆款",
+        "image": ""
+      },
+      {
+        "name": "折叠电煮锅（1-2人迷你款）",
+        "platform": "拼多多",
+        "price": "约39-89元",
+        "brand": "小熊/美的等",
+        "hotReason": "开学季宿舍神器，煮粥煮面火锅三档，食品级不粘涂层，收纳折叠省空间，学生党热抢",
+        "image": ""
+      },
+      {
+        "name": "倍思卡片磁吸充电宝",
+        "platform": "淘宝",
+        "price": "约69-129元",
+        "brand": "倍思",
+        "hotReason": "开学季送礼热门，卡片式轻薄磁吸，学生日常通勤扫码查阅资料刚需，实用贴心",
+        "image": ""
+      },
+      {
+        "name": "晨光×故宫联名文具礼盒",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "晨光",
+        "hotReason": "开学季体面送礼首选，含笔记本钢笔书签文件夹，故宫馆藏设计，预算不高也有面子",
+        "image": ""
+      },
+      {
+        "name": "九华黄精（道地食补）",
+        "platform": "淘宝",
+        "price": "约59-199元",
+        "brand": "九华/同仁堂等",
+        "hotReason": "换季食补好物测评推荐，药食同源，女性养生与送长辈双场景，秋冬温养趋势上升",
+        "image": ""
+      },
+      {
+        "name": "低糖即冲养生冲泡饮品",
+        "platform": "拼多多",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "hotReason": "2026春季热销冲泡饮品延续热度，低糖养生即冲即饮，日均销量高，办公室与家庭常备",
+        "image": ""
+      },
+      {
+        "name": "桌面小功率风扇",
+        "platform": "拼多多",
+        "price": "约19-59元",
+        "brand": "多品牌",
+        "hotReason": "盛夏宿舍/办公刚需，10-50瓦小功率合规，小巧静音，学生党与县城家庭夏季高频购买",
+        "image": ""
+      },
+      {
+        "name": "暖菜板",
+        "platform": "京东",
+        "price": "约89-199元",
+        "brand": "多品牌",
+        "hotReason": "家居好物榜单推荐，价格下探后普及，秋冬饭菜保温实用，家庭主妇好评率高",
+        "image": ""
+      },
+      {
+        "name": "干衣机（小型家用）",
+        "platform": "京东",
+        "price": "约299-699元",
+        "brand": "德尔玛/美的等",
+        "hotReason": "梅雨与盛夏换洗频繁，专业干衣机功能优于洗烘一体，提升生活品质榜单高频出现",
+        "image": ""
+      },
+      {
+        "name": "超声波清洗机",
+        "platform": "淘宝",
+        "price": "约59-159元",
+        "brand": "多品牌",
+        "hotReason": "开学季实用数码小物，清洗眼镜首饰牙刷头，小巧便携，学生与家庭日常清洁新宠",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季·祛湿温养双场景专区",
+      "reason": "9月下旬仍处盛夏余热与换季交替，南方湿气重、北方昼夜温差起，县城女性既要为住校孩子备开学实用好物，也要为家人和自己做祛湿温养食补；同时临近中秋国庆送礼窗口，体面平价礼品需求上升。",
+      "zones": [
+        {
+          "zone": "开学季·宿舍实用好物",
+          "products": [
+            "折叠电煮锅（1-2人迷你款）",
+            "倍思卡片磁吸充电宝",
+            "晨光×故宫联名文具礼盒",
+            "桌面小功率风扇",
+            "超声波清洗机"
+          ]
+        },
+        {
+          "zone": "祛湿温养·食补养生",
+          "products": [
+            "九华黄精",
+            "低糖即冲养生冲泡饮品",
+            "茯苓山药祛湿粉",
+            "红枣桂圆枸杞茶"
+          ]
+        },
+        {
+          "zone": "换季家居·提升幸福感",
+          "products": [
+            "碧然德滤水壶",
+            "苏泊尔远红外电饭煲",
+            "暖菜板",
+            "小型干衣机"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "碧然德滤水壶",
+          "platform": "京东",
+          "price": "约50-200元",
+          "brand": "碧然德",
+          "shipping": "48小时内",
+          "reason": "国际大牌背书，免安装易操作，改善水质减少水垢，县城家庭日常刚需，性价比极高",
+          "image": "https://cdn.brita.cn/.imaging/opt/1654072693899/dam/jcr:0bd68f5a-0563-4c59-88dc-e2d6571bc778/jug-marella.png"
+        },
+        {
+          "name": "折叠电煮锅（1-2人迷你款）",
+          "platform": "拼多多",
+          "price": "约39-89元",
+          "brand": "小熊/美的等",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍神器，三档烹饪折叠收纳，价格敏感友好，学生党与陪读家庭高复购",
+          "image": "https://y.zdmimg.com/202501/23/679211bc3d18f6889.jpg_d480.jpg"
+        },
+        {
+          "name": "九华黄精",
+          "platform": "淘宝",
+          "price": "约59-199元",
+          "brand": "九华/同仁堂等",
+          "shipping": "48小时内",
+          "reason": "药食同源道地食补，换季温养与送长辈双场景，女性养生关注度高，礼盒装体面",
+          "image": "http://objectnsg.oss-cn-beijing.aliyuncs.com/yhdoc/202511/21/202511211356561723841472.png"
+        },
+        {
+          "name": "晨光×故宫联名文具礼盒",
+          "platform": "淘宝",
+          "price": "约59-129元",
+          "brand": "晨光",
+          "shipping": "48小时内",
+          "reason": "开学季体面送礼，故宫联名设计有文化感，预算友好，送孩子送亲戚都合适",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/1647095152/O1CN01W7zUOn1nvfaHqJlEb_!!4611686018427383152-0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "暖菜板",
+          "platform": "京东",
+          "price": "约89-199元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "换季饭菜保温实用，价格下探后普及，家庭主妇好评率高，提升日常幸福感",
+          "image": "https://img.youpin.mi-img.com/youpin_gms/8be59002_03d8_4aa0_8b06_2768a778c238.jpeg@base@tag=imgScale&F=webp&h=1080&w=1080?w=1080&h=1080"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "碧然德滤水壶",
+        "link": "https://s.taobao.com/search?q=碧然德滤水壶",
+        "price": "约50-200元",
+        "brand": "碧然德",
+        "shipping": "48小时内",
+        "hotReason": "净饮机测评榜单高频推荐，国际大牌背书，免安装易操作，有效减少氯水垢重金属，适合1-2人小家庭",
+        "goodKeywords": [
+          "水质改善明显",
+          "免安装方便",
+          "性价比高",
+          "滤芯耐用"
+        ],
+        "badKeywords": [
+          "滤芯更换成本",
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "县城家庭日常饮水健康刚需，价格敏感友好，国际品牌信任度高",
+        "image": "https://cdn.brita.cn/.imaging/opt/1654072693899/dam/jcr:0bd68f5a-0563-4c59-88dc-e2d6571bc778/jug-marella.png"
+      },
+      {
+        "platform": "京东",
+        "name": "苏泊尔远红外电饭煲",
+        "link": "https://s.taobao.com/search?q=苏泊尔远红外电饭煲",
+        "price": "约300-600元",
+        "brand": "苏泊尔",
+        "shipping": "48小时内",
+        "hotReason": "家居好物榜单推荐，IH电磁加热+远红外立体环绕，煮饭口感提升明显，家庭高频使用电器",
+        "goodKeywords": [
+          "米饭口感好",
+          "加热均匀",
+          "操作简单",
+          "大品牌放心"
+        ],
+        "badKeywords": [
+          "内胆偏重",
+          "价格略高"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的厨房小家电，苏泊尔国民品牌，县城家庭换新刚需",
+        "image": "https://imgservice.suning.cn/uimg1/b2c/image/65wjcfCwpKXYR0Q6HdzerA.jpg_800w_800h_4e_80Q_is"
+      },
+      {
+        "platform": "京东",
+        "name": "宫菱除湿机",
+        "link": "https://s.taobao.com/search?q=宫菱除湿机",
+        "price": "约600-1200元",
+        "brand": "宫菱",
+        "shipping": "48小时内",
+        "hotReason": "盛夏祛湿季刚需，除湿速度快、达母婴特护级标准，南方回南天梅雨季口碑爆款",
+        "goodKeywords": [
+          "除湿速度快",
+          "安全放心",
+          "母婴可用",
+          "效果明显"
+        ],
+        "badKeywords": [
+          "价格偏高",
+          "机身偏重"
+        ],
+        "match": true,
+        "matchReason": "南方县城湿气重，祛湿温养季核心家电，母婴级安全标准契合家庭场景",
+        "image": "https://zhongces3.sina.com.cn/product/20231009/f51b45e12ee2f81ca94d845a0fbe8edf.jpeg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "折叠电煮锅（1-2人迷你款）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=折叠电煮锅",
+        "price": "约39-89元",
+        "brand": "小熊/美的等",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍神器，煮粥煮面火锅三档，食品级不粘涂层，收纳折叠省空间，学生党热抢",
+        "goodKeywords": [
+          "小巧方便",
+          "不粘好清洗",
+          "折叠省空间",
+          "价格实惠"
+        ],
+        "badKeywords": [
+          "功率偏小",
+          "容量有限"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍刚需，价格敏感友好，陪读家庭与住校学生高复购",
+        "image": "https://y.zdmimg.com/202501/23/679211bc3d18f6889.jpg_d480.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "倍思卡片磁吸充电宝",
+        "link": "https://s.taobao.com/search?q=倍思卡片磁吸充电宝",
+        "price": "约69-129元",
+        "brand": "倍思",
+        "shipping": "48小时内",
+        "hotReason": "开学季送礼热门，卡片式轻薄磁吸，学生日常通勤扫码查阅资料刚需，实用贴心",
+        "goodKeywords": [
+          "轻薄便携",
+          "磁吸牢固",
+          "充电快",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "容量偏小",
+          "发热"
+        ],
+        "match": true,
+        "matchReason": "开学季实用数码小物，价格友好，送孩子送学生体面又实用",
+        "image": "https://x0.ifengimg.com/res/2026/9ACB9FE53220F9C14C0D6F0C3E635C230B9BFAAB_size12_w600_h400.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "晨光×故宫联名文具礼盒",
+        "link": "https://s.taobao.com/search?q=晨光故宫联名文具礼盒",
+        "price": "约59-129元",
+        "brand": "晨光",
+        "shipping": "48小时内",
+        "hotReason": "开学季体面送礼首选，含笔记本钢笔书签文件夹，故宫馆藏设计，预算不高也有面子",
+        "goodKeywords": [
+          "设计精美",
+          "包装体面",
+          "性价比高",
+          "适合送礼"
+        ],
+        "badKeywords": [
+          "钢笔手感一般",
+          "库存紧张"
+        ],
+        "match": true,
+        "matchReason": "开学季送礼场景契合，国货联名有文化感，县城家庭送孩子体面合宜",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/1647095152/O1CN01W7zUOn1nvfaHqJlEb_!!4611686018427383152-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "九华黄精",
+        "link": "https://s.taobao.com/search?q=九华黄精",
+        "price": "约59-199元",
+        "brand": "九华/同仁堂等",
+        "shipping": "48小时内",
+        "hotReason": "换季食补好物测评推荐，药食同源，女性养生与送长辈双场景，秋冬温养趋势上升",
+        "goodKeywords": [
+          "道地原料",
+          "口感好",
+          "滋补养生",
+          "礼盒体面"
+        ],
+        "badKeywords": [
+          "价格波动",
+          "口感偏苦"
+        ],
+        "match": true,
+        "matchReason": "药食同源食补方向，契合祛湿温养季与送长辈场景，避开自研品类",
+        "image": "http://objectnsg.oss-cn-beijing.aliyuncs.com/yhdoc/202511/21/202511211356561723841472.png"
+      },
+      {
+        "platform": "拼多多",
+        "name": "低糖即冲养生冲泡饮品",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=低糖养生冲泡饮品",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "2026春季热销冲泡饮品延续热度，低糖养生即冲即饮，日均销量高，办公室与家庭常备",
+        "goodKeywords": [
+          "冲泡方便",
+          "低糖健康",
+          "味道好",
+          "价格实惠"
+        ],
+        "badKeywords": [
+          "甜度不稳定",
+          "包装一般"
+        ],
+        "match": true,
+        "matchReason": "养生食补方向，价格敏感友好，县城女性日常冲泡高频复购",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2218605784598/O1CN01T5JkrJ1jpwFy53O7U_!!4611686018427383318-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "桌面小功率风扇",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=桌面小功率风扇",
+        "price": "约19-59元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "盛夏宿舍办公刚需，10-50瓦小功率合规，小巧静音，学生党与县城家庭夏季高频购买",
+        "goodKeywords": [
+          "静音",
+          "风力足",
+          "小巧便携",
+          "价格便宜"
+        ],
+        "badKeywords": [
+          "续航一般",
+          "塑料感"
+        ],
+        "match": true,
+        "matchReason": "盛夏刚需小家电，开学季宿舍合规电器，价格敏感友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%A1%8C%E9%9D%A2%E5%B0%8F%E5%8A%9F%E7%8E%87%E9%A3%8E%E6%89%87%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "暖菜板",
+        "link": "https://s.taobao.com/search?q=暖菜板",
+        "price": "约89-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "家居好物榜单推荐，价格下探后普及，秋冬饭菜保温实用，家庭主妇好评率高",
+        "goodKeywords": [
+          "保温效果好",
+          "操作简单",
+          "易清洁",
+          "实用"
+        ],
+        "badKeywords": [
+          "占桌面",
+          "加热慢"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量家居好物，换季饭菜保温刚需，县城家庭实用高频",
+        "image": "https://img.youpin.mi-img.com/youpin_gms/8be59002_03d8_4aa0_8b06_2768a778c238.jpeg@base@tag=imgScale&F=webp&h=1080&w=1080?w=1080&h=1080"
+      },
+      {
+        "platform": "京东",
+        "name": "小型家用干衣机",
+        "link": "https://s.taobao.com/search?q=小型家用干衣机",
+        "price": "约299-699元",
+        "brand": "德尔玛/美的等",
+        "shipping": "48小时内",
+        "hotReason": "梅雨与盛夏换洗频繁，专业干衣机功能优于洗烘一体，提升生活品质榜单高频出现",
+        "goodKeywords": [
+          "干衣快",
+          "省空间",
+          "除菌",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "噪音偏大",
+          "容量有限"
+        ],
+        "match": true,
+        "matchReason": "换季潮湿刚需家电，提升生活质量，县城家庭实用性强",
+        "image": "https://img12.360buyimg.com/n1/jfs/t1/462024/35/4909/563183/6a38a618F001e955a/008332032043f04e.png"
+      },
+      {
+        "platform": "淘宝",
+        "name": "超声波清洗机",
+        "link": "https://s.taobao.com/search?q=超声波清洗机",
+        "price": "约59-159元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季实用数码小物，清洗眼镜首饰牙刷头，小巧便携，学生与家庭日常清洁新宠",
+        "goodKeywords": [
+          "清洗干净",
+          "小巧方便",
+          "静音",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "容量小",
+          "效果有限"
+        ],
+        "match": true,
+        "matchReason": "开学季实用小物，个护清洁方向，价格友好，学生与家庭双场景",
+        "image": "https://img.directindustry-china.cn/images_di/photo-mg/72254-16420962.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-09-24",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
