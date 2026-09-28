@@ -1,5 +1,359 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-28",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "七夕创意礼品送女友礼盒",
+        "platform": "淘宝",
+        "price": "约39-199元",
+        "brand": "多品牌",
+        "hotReason": "七夕节点临近，淘宝海外七夕礼物送女友创意相关商品约599个，人气/销量筛选热度高，礼盒类目集中爆发",
+        "image": ""
+      },
+      {
+        "name": "永生花香皂花康乃馨礼盒",
+        "platform": "1688",
+        "price": "约19-69元",
+        "brand": "多品牌",
+        "hotReason": "母亲节/送长辈场景常青款，1688母亲节礼品批发页显示永生花、香皂花、康乃馨礼盒成交活跃，适合县城送礼",
+        "image": ""
+      },
+      {
+        "name": "真丝丝巾礼盒送长辈",
+        "platform": "1688",
+        "price": "约65元起",
+        "brand": "多品牌",
+        "hotReason": "母亲生日/送妈妈高档实用礼品，1688页面显示成交270笔，真丝丝巾为送长辈体面刚需",
+        "image": ""
+      },
+      {
+        "name": "摩天轮摆件香水套装礼盒",
+        "platform": "京东",
+        "price": "约99-259元",
+        "brand": "未知气味（Mystery Aroma）",
+        "hotReason": "京东生日礼品女生浪漫榜热销，200条评价，香水+DIY摩天轮材料包组合，七夕/生日送礼氛围感强",
+        "image": ""
+      },
+      {
+        "name": "925银贝壳锁骨链",
+        "platform": "什么值得买",
+        "price": "约126元起",
+        "brand": "缔晶",
+        "hotReason": "送女友浪漫礼物大全收录，一贝子项链寓意好，轻奢价位适合县城女性七夕收礼",
+        "image": ""
+      },
+      {
+        "name": "厨房电器收纳柜",
+        "platform": "淘宝",
+        "price": "约100-500元",
+        "brand": "竹哒哒/宝艺鸿/特勤等",
+        "hotReason": "2026年9月月销口碑榜，1000+真实评价、评分4.42-4.86，厨房收纳升级需求旺盛",
+        "image": ""
+      },
+      {
+        "name": "高性价比32/50/55寸电视",
+        "platform": "京东",
+        "price": "约599-1999元",
+        "brand": "长虹",
+        "hotReason": "开学季+换季家电更新，知乎推荐高性价比电视，画质与价格平衡，适合家庭客厅升级",
+        "image": ""
+      },
+      {
+        "name": "无叶风扇智能感温控风",
+        "platform": "京东",
+        "price": "约300-600元",
+        "brand": "美的/Midea",
+        "hotReason": "盛夏余热+换季，无叶风扇安全柔和，6档风速定时，适合有老人小孩家庭",
+        "image": ""
+      },
+      {
+        "name": "智慧真空保鲜套装",
+        "platform": "双立人官网",
+        "price": "约299-899元",
+        "brand": "双立人",
+        "hotReason": "提升生活质量家居好物，一键真空保鲜减少食物浪费，送礼自用两宜",
+        "image": ""
+      },
+      {
+        "name": "附盖密封罐",
+        "platform": "IKEA",
+        "price": "约19.9-49元",
+        "brand": "KRÖSAMOS 克洛萨莫",
+        "hotReason": "家居收纳常青款，密封留住风味，适合装果酱/腌菜/麦片，性价比高",
+        "image": ""
+      },
+      {
+        "name": "扫地机器人入门款",
+        "platform": "京东",
+        "price": "约599-1299元",
+        "brand": "小米/科沃斯等",
+        "hotReason": "东南亚小家电出海报告显示扫地机品牌声量小米第一、科沃斯靠前，国内入门款持续走量",
+        "image": ""
+      },
+      {
+        "name": "香薰机/超声波清洗机/挂烫机",
+        "platform": "淘宝",
+        "price": "约59-299元",
+        "brand": "多品牌",
+        "hotReason": "生活小电器组合被知乎电视推荐文列为高关注品类，提升生活质量、客单友好",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "换季祛湿温养·开学焕新与七夕体面礼",
+      "reason": "9月末仍处盛夏余热与初秋交替，县城女性重祛湿温养、私护养护；同时开学季家居焕新、七夕/送长辈礼品需求叠加，选品聚焦高性价比、48小时发货、复购型养生食补与体面礼盒",
+      "zones": [
+        {
+          "zone": "祛湿温养食补专区",
+          "products": [
+            "陈皮茯苓祛湿茶",
+            "五指毛桃茯苓汤料包",
+            "红豆薏米芡实茶",
+            "艾草足浴包",
+            "药食同源破壁粉剂"
+          ]
+        },
+        {
+          "zone": "私护养护专区",
+          "products": [
+            "私密保湿修护凝胶",
+            "女性私处益生菌",
+            "微生态型私处护理液",
+            "艾灸坐垫"
+          ]
+        },
+        {
+          "zone": "开学焕新·家居好物专区",
+          "products": [
+            "厨房电器收纳柜",
+            "附盖密封罐",
+            "无叶风扇",
+            "智能感应灯",
+            "保温杯焖烧杯"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "厨房电器收纳柜",
+          "platform": "淘宝",
+          "price": "约100-500元",
+          "brand": "竹哒哒/宝艺鸿/特勤等",
+          "shipping": "48小时内",
+          "reason": "2026年9月月销口碑榜，1000+真实评价、评分4.42-4.86，开学季厨房焕新刚需，客单友好",
+          "image": "https://img12.360buyimg.com/n1/jfs/t1/99517/27/47511/46988/65bc680aF344ec788/30e9a38cd40f7e76.jpg"
+        },
+        {
+          "name": "真丝丝巾礼盒送长辈",
+          "platform": "1688",
+          "price": "约65元起",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "送妈妈/长辈体面实用，1688成交270笔，七夕与日常送礼皆宜，性价比高",
+          "image": "https://img.alicdn.com/imgextra/i4/2212099235170/O1CN01qdCF6o1o3umoptiId_!!4611686018427387234-0-item_pic.jpg_q50.jpg_.webp"
+        },
+        {
+          "name": "摩天轮摆件香水套装礼盒",
+          "platform": "京东",
+          "price": "约99-259元",
+          "brand": "未知气味（Mystery Aroma）",
+          "shipping": "48小时内",
+          "reason": "京东生日礼品榜热销，200条评价，七夕送女友氛围感强，礼盒体面",
+          "image": "https://img.alicdn.com/imgextra/i1/2207617829980/O1CN01uG0N7L2Natkvzj77f_!!2207617829980.jpg"
+        },
+        {
+          "name": "无叶风扇智能感温控风",
+          "platform": "京东",
+          "price": "约300-600元",
+          "brand": "美的/Midea",
+          "shipping": "48小时内",
+          "reason": "盛夏余热+换季，安全柔和适合老人小孩，品牌背书强，提升生活质量",
+          "image": "https://imgservice.suning.cn/uimg1/b2c/image/VpcYNGkY4teOlWuVWPtDaw.jpg_800w_800h_4e_80Q_is"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "厨房电器收纳柜",
+        "link": "https://s.taobao.com/search?q=厨房电器收纳柜",
+        "price": "约100-500元",
+        "brand": "竹哒哒/宝艺鸿/特勤等",
+        "shipping": "48小时内",
+        "hotReason": "2026年9月月销口碑榜，1000+真实评价、评分4.42-4.86，厨房收纳升级需求旺盛",
+        "goodKeywords": [
+          "容量大",
+          "安装简单",
+          "结实耐用",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "板材偏薄",
+          "物流磕碰"
+        ],
+        "match": true,
+        "matchReason": "开学季家居焕新刚需，客单友好且提升生活质量",
+        "image": "https://img12.360buyimg.com/n1/jfs/t1/99517/27/47511/46988/65bc680aF344ec788/30e9a38cd40f7e76.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "真丝丝巾礼盒送长辈",
+        "link": "https://www.1688.com/?keywords=真丝丝巾礼盒送长辈",
+        "price": "约65元起",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "1688母亲节礼品批发页显示成交270笔，送妈妈/长辈体面实用",
+        "goodKeywords": [
+          "质感好",
+          "包装精美",
+          "显档次",
+          "颜色正"
+        ],
+        "badKeywords": [
+          "色差",
+          "偏薄"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面合宜，价格敏感友好，节日与日常皆宜",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%9C%9F%E4%B8%9D%E4%B8%9D%E5%B7%BE%E7%A4%BC%E7%9B%92%E9%80%81%E9%95%BF%E8%BE%88%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "摩天轮摆件香水套装礼盒",
+        "link": "https://so.m.jd.com/pinpai/1672fd5fdf5ed0b1f6e2.html",
+        "price": "约99-259元",
+        "brand": "未知气味（Mystery Aroma）",
+        "shipping": "48小时内",
+        "hotReason": "京东生日礼品女生浪漫榜热销，200条评价，七夕/生日送礼氛围感强",
+        "goodKeywords": [
+          "包装精美",
+          "香味好闻",
+          "仪式感强",
+          "适合送礼"
+        ],
+        "badKeywords": [
+          "香水容量小",
+          "摩天轮需DIY"
+        ],
+        "match": true,
+        "matchReason": "七夕送女友体面礼盒，客单适中，氛围感强",
+        "image": "https://img.alicdn.com/imgextra/i1/2207617829980/O1CN01uG0N7L2Natkvzj77f_!!2207617829980.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "无叶风扇智能感温控风",
+        "link": "https://so.m.jd.com/pinpai/1672387af7c8197a72e6.html",
+        "price": "约300-600元",
+        "brand": "美的/Midea",
+        "shipping": "48小时内",
+        "hotReason": "盛夏余热+换季，无叶风扇安全柔和，6档风速定时，适合有老人小孩家庭",
+        "goodKeywords": [
+          "风力柔和",
+          "安全无叶",
+          "静音",
+          "外观时尚"
+        ],
+        "badKeywords": [
+          "价格偏高",
+          "风力偏小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量小家电，品牌背书强，适合家庭换季",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%97%A0%E5%8F%B6%E9%A3%8E%E6%89%87%E6%99%BA%E8%83%BD%E6%84%9F%E6%B8%A9%E6%8E%A7%E9%A3%8E%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "高性价比32/50/55寸电视",
+        "link": "https://so.m.jd.com/pinpai/1672387af7c8197a72e6.html",
+        "price": "约599-1999元",
+        "brand": "长虹",
+        "shipping": "48小时内",
+        "hotReason": "开学季+换季家电更新，知乎推荐高性价比电视，画质与价格平衡",
+        "goodKeywords": [
+          "画质清晰",
+          "价格实惠",
+          "系统流畅",
+          "适合卧室"
+        ],
+        "badKeywords": [
+          "开机广告",
+          "音响一般"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量家电，客单适中，家庭刚需",
+        "image": "https://pic3.zhimg.com/v2-96e7d0fcc2856a581da5f013428c38de_1440w.jpg"
+      },
+      {
+        "platform": "IKEA",
+        "name": "附盖密封罐",
+        "link": "https://www.ikea.cn/cn/zh/p/40538051/",
+        "price": "约19.9-49元",
+        "brand": "KRÖSAMOS 克洛萨莫",
+        "shipping": "48小时内",
+        "hotReason": "家居收纳常青款，密封留住风味，适合装果酱/腌菜/麦片，性价比高",
+        "goodKeywords": [
+          "密封好",
+          "颜值高",
+          "容量合适",
+          "易清洗"
+        ],
+        "badKeywords": [
+          "盖子偏紧",
+          "易碎"
+        ],
+        "match": true,
+        "matchReason": "家居好物，价格友好，提升生活质量",
+        "image": "https://m.media-amazon.com/images/I/61CRWST5MfL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "扫地机器人入门款",
+        "link": "https://so.m.jd.com/pinpai/1672387af7c8197a72e6.html",
+        "price": "约599-1299元",
+        "brand": "小米/科沃斯等",
+        "shipping": "48小时内",
+        "hotReason": "东南亚小家电出海报告显示扫地机品牌声量小米第一、科沃斯靠前，国内入门款持续走量",
+        "goodKeywords": [
+          "解放双手",
+          "清扫干净",
+          "操作简单",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "避障一般",
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量小家电，入门款价格敏感友好",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2628834716/O1CN01GiGvcT1khySZPmVG9_!!2628834716.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "永生花香皂花康乃馨礼盒",
+        "link": "https://s.taobao.com/search?q=永生花香皂花康乃馨礼盒",
+        "price": "约19-69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "1688母亲节礼品批发页显示永生花、香皂花、康乃馨礼盒成交活跃，适合县城送礼",
+        "goodKeywords": [
+          "包装精美",
+          "香味好",
+          "性价比高",
+          "适合送长辈"
+        ],
+        "badKeywords": [
+          "花偏小",
+          "香皂味浓"
+        ],
+        "match": true,
+        "matchReason": "送长辈/节日体面礼盒，价格敏感友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%B0%B8%E7%94%9F%E8%8A%B1%E9%A6%99%E7%9A%82%E8%8A%B1%E5%BA%B7%E4%B9%83%E9%A6%A8%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-09-25",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
