@@ -1,5 +1,353 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-29",
+    "season": "夏末秋初·开学季与祛湿润养并行",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "折叠电煮锅（1-2人迷你款）",
+        "platform": "拼多多",
+        "price": "约59-129元",
+        "brand": "小熊/美的/九阳等",
+        "hotReason": "开学季宿舍场景刚需，多篇2026开学好物清单将其列为宿舍神器，煮粥煮面火锅三档，收纳可折叠，学生党与陪读家长集中采购",
+        "image": ""
+      },
+      {
+        "name": "桌面小功率风扇",
+        "platform": "拼多多",
+        "price": "约29-89元",
+        "brand": "奥克斯/小米有品/几素等",
+        "hotReason": "夏末余热叠加开学季宿舍降温需求，10-50瓦小功率符合宿舍用电规定，多份开学清单与宿舍电器榜单高频出现",
+        "image": ""
+      },
+      {
+        "name": "儿童电话手表（4G全网通）",
+        "platform": "淘宝",
+        "price": "约199-499元",
+        "brand": "小霸王/华为/小米",
+        "hotReason": "开学季孩子独立活动增多，家长随时联系需求强，2026开学好物推荐中儿童手表被列为实用首选，县城家庭接受度高",
+        "image": ""
+      },
+      {
+        "name": "床上置物架/桌下置物篮等宿舍收纳",
+        "platform": "淘宝",
+        "price": "约19-69元",
+        "brand": "百草园/禧天龙等",
+        "hotReason": "开学季宿舍空间改造刚需，收纳类内容在社交平台与开学清单中集中曝光，单价低、决策快、易凑单",
+        "image": ""
+      },
+      {
+        "name": "九蒸九晒黄精（药食同源）",
+        "platform": "淘宝",
+        "price": "约69-199元",
+        "brand": "旺复堂/九华黄精等",
+        "hotReason": "药食同源赛道持续升温，黄精被多篇2026食补测评列为温和滋补热门，适合女性气血调养与送长辈，复购属性强",
+        "image": ""
+      },
+      {
+        "name": "老红糖姜母茶（药食同源冲饮）",
+        "platform": "淘宝",
+        "price": "约29-79元",
+        "brand": "九吉公/老金磨方等",
+        "hotReason": "夏末秋初祛湿驱寒需求上升，姜母茶、老红糖类冲饮在药食同源成分中占据销售额头部，女性经期与日常温养场景高频",
+        "image": ""
+      },
+      {
+        "name": "黑芝麻丸/黑芝麻糊（经典食补）",
+        "platform": "拼多多",
+        "price": "约19-59元",
+        "brand": "老金磨方/南方黑芝麻等",
+        "hotReason": "魔镜监测显示黑芝麻、枣两大经典成分牢牢占据养生饮品销售额头部，价格敏感友好，适合全家日常食补",
+        "image": ""
+      },
+      {
+        "name": "五指毛桃茯苓汤料包",
+        "platform": "淘宝",
+        "price": "约25-69元",
+        "brand": "粤式汤料/同仁堂健康等",
+        "hotReason": "五指毛桃、陈皮等成分凭借祛湿属性增速明显，夏末秋初煲汤祛湿场景强，县城家庭厨房高频使用",
+        "image": ""
+      },
+      {
+        "name": "迷你加湿器（桌面款）",
+        "platform": "抖音",
+        "price": "约39-99元",
+        "brand": "小米有品/几素等",
+        "hotReason": "TikTok开学返校季选品攻略点名桌面小风扇、迷你加湿器热度上涨快，宿舍与卧室场景通用，颜值与实用兼具",
+        "image": ""
+      },
+      {
+        "name": "除螨仪（家用入门款）",
+        "platform": "京东",
+        "price": "约299-399元",
+        "brand": "希亦/美的/莱克",
+        "hotReason": "2026家居好物清单中除螨仪以300+价位实现千元机效果被反复推荐，换季床品清洁需求上升，宝妈与长辈家庭关注度高",
+        "image": ""
+      },
+      {
+        "name": "滤水壶（免安装入门款）",
+        "platform": "京东",
+        "price": "约50-200元",
+        "brand": "碧然德",
+        "hotReason": "2026净饮机测评推荐碧然德滤水壶为入门高性价比之选，免安装易操作，改善水质减少水垢，适合1-2人及长辈家庭",
+        "image": ""
+      },
+      {
+        "name": "养生壶/全玻璃沸萃壶",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "九阳/苏泊尔",
+        "hotReason": "九阳全场景实用机型推荐中养生壶被列为养生家庭懒人必备，煮茶炖汤一壶多用，契合女性温养与家庭日常",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季宿舍焕新 × 夏末祛湿润养双专区",
+      "reason": "9月末正值开学季尾声与夏秋交替，学生党宿舍小电器、收纳、桌面好物需求集中释放；同时暑湿未退、秋燥渐起，县城女性与长辈家庭对祛湿茶饮、药食同源温养、润燥食补的关注度上升，两类场景客单价友好、复购与凑单属性强，适合本周主推",
+      "zones": [
+        {
+          "zone": "开学季宿舍焕新专区",
+          "products": [
+            "折叠电煮锅（1-2人迷你款）",
+            "桌面小功率风扇",
+            "床上置物架/桌下置物篮",
+            "迷你加湿器（桌面款）",
+            "儿童电话手表（4G全网通）"
+          ]
+        },
+        {
+          "zone": "夏末祛湿润养专区",
+          "products": [
+            "五指毛桃茯苓汤料包",
+            "老红糖姜母茶",
+            "九蒸九晒黄精",
+            "黑芝麻丸",
+            "养生壶/全玻璃沸萃壶"
+          ]
+        },
+        {
+          "zone": "换季家居清洁与饮水健康专区",
+          "products": [
+            "除螨仪（家用入门款）",
+            "滤水壶（免安装入门款）",
+            "迷你加湿器（桌面款）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "老红糖姜母茶（药食同源冲饮）",
+          "platform": "淘宝",
+          "price": "约29-79元",
+          "brand": "九吉公/老金磨方等",
+          "shipping": "48小时内",
+          "reason": "药食同源冲饮销售额头部成分，驱寒祛湿、女性经期温养场景高频，独立小包装适合办公室与居家",
+          "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3984422585833453980"
+        },
+        {
+          "name": "除螨仪（家用入门款）",
+          "platform": "京东",
+          "price": "约299-399元",
+          "brand": "希亦/美的/莱克",
+          "shipping": "48小时内",
+          "reason": "换季床品清洁需求上升，2026家居好物清单高频推荐，300+价位性价比突出，宝妈与送长辈场景皆宜",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2217254400585/O1CN01obRlohgz2LL1chua_!!2217254400585-0-C2M.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "迷你加湿器（桌面款）",
+          "platform": "抖音",
+          "price": "约39-99元",
+          "brand": "小米有品/几素等",
+          "shipping": "48小时内",
+          "reason": "开学返校季选品攻略点名热度上涨，宿舍与卧室通用，颜值高、单价低，适合作为凑单与礼品小件",
+          "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i4/3175118387/O1CN01cAGxRL2BpIucenSbo_!!4611686018427385395-0-item_pic.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "儿童电话手表（4G全网通）",
+        "link": "https://s.taobao.com/search?q=儿童电话手表4G全网通",
+        "price": "约199-499元",
+        "brand": "小霸王/华为/小米",
+        "shipping": "48小时内",
+        "hotReason": "2026开学好物推荐中儿童手表被列为实用首选，开学季孩子独立活动增多，家长随时联系需求强",
+        "goodKeywords": [
+          "定位准",
+          "通话清晰",
+          "续航够用"
+        ],
+        "badKeywords": [
+          "表带偏硬"
+        ],
+        "match": true,
+        "matchReason": "开学季送礼与自用双场景，县城家庭接受度高，客单价适中",
+        "image": "https://img.alicdn.com/imgextra/i1/760711426/O1CN01VX0pT0twIfJ1chua_!!4611686018427382018-2-item_pic.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "床上置物架/桌下置物篮",
+        "link": "https://s.taobao.com/search?q=宿舍床上置物架桌下置物篮",
+        "price": "约19-69元",
+        "brand": "百草园/禧天龙等",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍空间改造刚需，收纳类内容在社交平台与开学清单集中曝光，单价低决策快",
+        "goodKeywords": [
+          "安装简单",
+          "承重可以",
+          "省空间"
+        ],
+        "badKeywords": [
+          "材质偏薄"
+        ],
+        "match": true,
+        "matchReason": "低客单易凑单，宿舍焕新专区引流款，适合搭配小电器组合推荐",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/1092925227/O1CN01W0RJjN1oU1ODJFUut_!!1092925227.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "抖音",
+        "name": "迷你加湿器（桌面款）",
+        "link": "https://www.douyin.com/search/迷你加湿器桌面",
+        "price": "约39-99元",
+        "brand": "小米有品/几素等",
+        "shipping": "48小时内",
+        "hotReason": "TikTok开学返校季选品攻略点名桌面小风扇、迷你加湿器热度上涨快，宿舍与卧室场景通用",
+        "goodKeywords": [
+          "静音",
+          "出雾细腻",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "水箱偏小"
+        ],
+        "match": true,
+        "matchReason": "秋燥渐起加湿需求上升，颜值小件适合作为礼品与凑单",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i4/3175118387/O1CN01cAGxRL2BpIucenSbo_!!4611686018427385395-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "老红糖姜母茶（药食同源冲饮）",
+        "link": "https://s.taobao.com/search?q=老红糖姜母茶",
+        "price": "约29-79元",
+        "brand": "九吉公/老金磨方等",
+        "shipping": "48小时内",
+        "hotReason": "药食同源冲饮中黑芝麻、枣等经典成分占据销售额头部，姜母茶驱寒祛湿，女性经期温养场景高频",
+        "goodKeywords": [
+          "姜味足",
+          "甜度适中",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "女性温养与送长辈双场景，独立小包装适合办公室与居家",
+        "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3984422585833453980"
+      },
+      {
+        "platform": "淘宝",
+        "name": "九蒸九晒黄精",
+        "link": "https://s.taobao.com/search?q=九蒸九晒黄精",
+        "price": "约69-199元",
+        "brand": "旺复堂/九华黄精等",
+        "shipping": "48小时内",
+        "hotReason": "药食同源赛道持续升温，黄精被多篇2026食补测评列为温和滋补热门，适合女性气血调养与送长辈",
+        "goodKeywords": [
+          "口感软糯",
+          "独立包装",
+          "无添加"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "药食同源温养代表，送长辈体面且复购强，符合健康养生定位",
+        "image": "https://q7.itc.cn/images01/20240126/8ce0b6717dd2405b8f915a003c550861.jpeg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "黑芝麻丸",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=黑芝麻丸",
+        "price": "约19-59元",
+        "brand": "老金磨方/南方黑芝麻等",
+        "shipping": "48小时内",
+        "hotReason": "魔镜监测显示黑芝麻、枣两大经典成分牢牢占据养生饮品销售额头部，价格敏感友好，全家日常食补",
+        "goodKeywords": [
+          "芝麻香浓",
+          "不齁甜",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "偏油"
+        ],
+        "match": true,
+        "matchReason": "经典食补低客单，适合日常复购与凑单，县城女性接受度高",
+        "image": "https://cdn.yamibuy.net/item/c430a8b06e9b690b5d1621b0f65c0982_750x750.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "除螨仪（家用入门款）",
+        "link": "https://search.jd.com/Search?keyword=除螨仪家用入门",
+        "price": "约299-399元",
+        "brand": "希亦/美的/莱克",
+        "shipping": "48小时内",
+        "hotReason": "2026家居好物清单中除螨仪以300+价位实现千元机效果被反复推荐，换季床品清洁需求上升",
+        "goodKeywords": [
+          "吸力大",
+          "拍打有力",
+          "尘杯好清理"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "换季家居清洁刚需，宝妈与送长辈场景皆宜，提升生活质量",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2217254400585/O1CN01obRlohgz2LL1chua_!!2217254400585-0-C2M.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "滤水壶（免安装入门款）",
+        "link": "https://search.jd.com/Search?keyword=碧然德滤水壶",
+        "price": "约50-200元",
+        "brand": "碧然德",
+        "shipping": "48小时内",
+        "hotReason": "2026净饮机测评推荐碧然德滤水壶为入门高性价比之选，免安装易操作，改善水质减少水垢",
+        "goodKeywords": [
+          "过滤效果好",
+          "免安装",
+          "滤芯更换方便"
+        ],
+        "badKeywords": [
+          "滤芯需定期购买"
+        ],
+        "match": true,
+        "matchReason": "饮水健康入门款，价格友好，适合1-2人及长辈家庭",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%BB%A4%E6%B0%B4%E5%A3%B6%EF%BC%88%E5%85%8D%E5%AE%89%E8%A3%85%E5%85%A5%E9%97%A8%E6%AC%BE%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "养生壶/全玻璃沸萃壶",
+        "link": "https://search.jd.com/Search?keyword=全玻璃养生壶",
+        "price": "约199-399元",
+        "brand": "九阳/苏泊尔",
+        "shipping": "48小时内",
+        "hotReason": "九阳全场景实用机型推荐中养生壶被列为养生家庭懒人必备，煮茶炖汤一壶多用，契合女性温养与家庭日常",
+        "goodKeywords": [
+          "玻璃无异味",
+          "保温好",
+          "清洗方便"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "温养场景核心小家电，搭配祛湿茶饮组合推荐，提升生活质量",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%85%BB%E7%94%9F%E5%A3%B6/%E5%85%A8%E7%8E%BB%E7%92%83%E6%B2%B8%E8%90%83%E5%A3%B6%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-09-28",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
