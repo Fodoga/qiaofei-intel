@@ -1,5 +1,299 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-09-30",
+    "season": "初秋·祛湿温养季（夏末余湿未消，秋燥渐起，兼顾温养与润燥）",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类（卫生巾/安心裤/湿巾/艾灸贴/小罐灸/私护套盒等）",
+    "trending": [
+      {
+        "name": "九阳不用手洗豆浆机K7 Pro",
+        "platform": "京东",
+        "price": "约899-1299元",
+        "brand": "九阳",
+        "hotReason": "2026年九阳全场景实用机型推荐榜上榜，主打免手洗+养生家庭懒人必备，秋季早餐豆浆需求上升，家电类目高好评",
+        "image": ""
+      },
+      {
+        "name": "九阳小旋风破壁机B70",
+        "platform": "京东",
+        "price": "约399-599元",
+        "brand": "九阳",
+        "hotReason": "被媒体评为全能高性价比家用标杆，秋季五谷糊/药食同源打粉需求带动，破壁机类目持续热销",
+        "image": ""
+      },
+      {
+        "name": "碧然德滤水壶（免安装入门款）",
+        "platform": "京东",
+        "price": "约50-200元",
+        "brand": "碧然德",
+        "hotReason": "2026净饮机测评推荐入门级首选，免安装易操作，改善水质减少水垢，适合1-2人小家庭，性价比极高",
+        "image": ""
+      },
+      {
+        "name": "即热饮水机（台式免安装）",
+        "platform": "京东",
+        "price": "约199-499元",
+        "brand": "多品牌",
+        "hotReason": "老破小家电避坑指南列为低成本高幸福感家电之一，秋季温水冲泡养生饮品需求上升，桌面即热成趋势",
+        "image": ""
+      },
+      {
+        "name": "桌面空气净化器（迷你款）",
+        "platform": "淘宝",
+        "price": "约99-299元",
+        "brand": "多品牌",
+        "hotReason": "换季过敏与秋燥粉尘话题带动，小户型/卧室桌面净化需求增长，被列为高幸福感小家电",
+        "image": ""
+      },
+      {
+        "name": "摩飞多功能锅",
+        "platform": "淘宝",
+        "price": "约399-799元",
+        "brand": "摩飞",
+        "hotReason": "知乎家居好物高赞推荐，1936年英国高端西式厨房小家电品牌，颜值高适合家庭聚餐，秋季火锅季前预热",
+        "image": ""
+      },
+      {
+        "name": "老牌厨具代工厂自有品牌炒锅/汤锅",
+        "platform": "拼多多",
+        "price": "约59-199元",
+        "brand": "三禾/好厨夫等",
+        "hotReason": "1000+用户真实观点PK话题热，宣称与大牌同产线同标准，价格仅1/5，性价比心智强，适合县城家庭",
+        "image": ""
+      },
+      {
+        "name": "肠道清道夫·药食同源祛湿茶饮（陈皮茯苓/红豆薏米类）",
+        "platform": "淘宝",
+        "price": "约19.9-59元",
+        "brand": "多品牌",
+        "hotReason": "微博热搜#6种蔬菜堪称天然刮油高手#带动肠道健康话题，初秋祛湿温养需求延续，冲泡茶饮高复购",
+        "image": ""
+      },
+      {
+        "name": "YUZUMI 类肠道调理益生菌/酵素",
+        "platform": "拼多多",
+        "price": "约69-159元",
+        "brand": "YUZUMI等",
+        "hotReason": "社交平台顾客回购晒单热度高，主打肚子顺/宿便走/油脂带走，女性肠道管理需求旺盛",
+        "image": ""
+      },
+      {
+        "name": "便携挂脖风扇（秋季清仓款）",
+        "platform": "抖音",
+        "price": "约29-69元",
+        "brand": "多品牌",
+        "hotReason": "夏末余热+开学军训场景带动，抖音短视频种草持续，季末清仓价格友好",
+        "image": ""
+      },
+      {
+        "name": "真丝丝巾礼盒（送长辈）",
+        "platform": "1688",
+        "price": "约39-129元",
+        "brand": "多品牌源头厂货",
+        "hotReason": "中秋国庆双节送礼场景延续，1688源头厂货价格优势明显，体面合宜适合送妈妈长辈",
+        "image": ""
+      },
+      {
+        "name": "老红糖姜母茶（药食同源冲饮）",
+        "platform": "淘宝",
+        "price": "约19.9-49元",
+        "brand": "多品牌",
+        "hotReason": "初秋转凉女性温养刚需，冲泡便捷高复购，县城女性养生心智强，节日送礼自用两宜",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初秋祛湿温养·双节送礼与开学焕新专区",
+      "reason": "9月底夏末余湿未消、秋燥渐起，女性温养祛湿与润燥并重；同时中秋国庆双节送礼、开学季家居焕新需求叠加，选品兼顾药食同源养生、体面送礼与提升生活质量的实用小家电，价格带控制在县城女性可接受的性价比区间",
+      "zones": [
+        {
+          "zone": "祛湿温养·药食同源内调区",
+          "products": [
+            "陈皮茯苓祛湿茶",
+            "红豆薏米芡实茶",
+            "老红糖姜母茶",
+            "即食冻干银耳羹",
+            "茯苓酸枣仁百合茶"
+          ]
+        },
+        {
+          "zone": "双节体面送礼·送长辈父母区",
+          "products": [
+            "真丝丝巾礼盒",
+            "同仁堂西洋参礼盒",
+            "艾草锤礼盒",
+            "养生膏方礼盒",
+            "桂格营养麦片全家福礼盒"
+          ]
+        },
+        {
+          "zone": "开学焕新·实用小家电与家居区",
+          "products": [
+            "即热饮水机",
+            "桌面空气净化器",
+            "摩飞多功能锅",
+            "老牌代工厂炒锅",
+            "便携挂脖风扇"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "即热饮水机（台式免安装）",
+          "platform": "京东",
+          "price": "约199-499元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "秋季温水冲泡养生饮品刚需，免安装适合县城小家庭，被列为低成本高幸福感家电，性价比友好",
+          "image": "https://img.alicdn.com/imgextra/i3/2206727254843/O1CN0143goiy1le97IGQCla_!!2-item_pic.png_q50.jpg_.webp"
+        },
+        {
+          "name": "摩飞多功能锅",
+          "platform": "淘宝",
+          "price": "约399-799元",
+          "brand": "摩飞",
+          "shipping": "48小时内",
+          "reason": "知乎高赞家居好物，颜值高适合家庭聚餐，秋季火锅季前预热，送礼自用两宜",
+          "image": "https://www.morphyrichards.net/uploadfiles/2018/09/201809031118421842.jpg"
+        },
+        {
+          "name": "老牌厨具代工厂炒锅/汤锅",
+          "platform": "拼多多",
+          "price": "约59-199元",
+          "brand": "三禾/好厨夫等",
+          "shipping": "48小时内",
+          "reason": "同产线同标准价格仅大牌1/5，性价比心智强，适合县城家庭日常焕新",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2626041685/TB2fdWOqVXXXXXgXXXXXXXXXXXX_!!2626041685.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "桌面空气净化器（迷你款）",
+          "platform": "淘宝",
+          "price": "约99-299元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "换季过敏与秋燥粉尘话题带动，小户型卧室净化需求增长，提升生活质量",
+          "image": "https://img12.360buyimg.com/n1/jfs/t1/444465/5/10625/171023/6a2143c3F5f4f73b4/0083320320b40fd2.jpg"
+        },
+        {
+          "name": "真丝丝巾礼盒（送长辈）",
+          "platform": "1688",
+          "price": "约39-129元",
+          "brand": "多品牌源头厂货",
+          "shipping": "48小时内",
+          "reason": "双节送礼体面合宜，1688源头厂货价格优势明显，适合送妈妈长辈",
+          "image": "https://img.alicdn.com/imgextra/i4/2212099235170/O1CN01qdCF6o1o3umoptiId_!!4611686018427387234-0-item_pic.jpg_q50.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "即热饮水机（台式免安装）",
+        "link": "https://s.taobao.com/search?q=即热饮水机台式免安装",
+        "price": "约199-499元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "老破小家电避坑指南列为低成本高幸福感家电，秋季温水冲泡养生饮品需求上升",
+        "goodKeywords": [
+          "出水快",
+          "免安装",
+          "温度可调",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "水箱偏小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的小家电，价格友好适合县城家庭，秋季温养场景强",
+        "image": "https://img.alicdn.com/imgextra/i3/2206727254843/O1CN0143goiy1le97IGQCla_!!2-item_pic.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "摩飞多功能锅",
+        "link": "https://s.taobao.com/search?q=摩飞多功能锅",
+        "price": "约399-799元",
+        "brand": "摩飞",
+        "shipping": "48小时内",
+        "hotReason": "知乎家居好物高赞推荐，英国高端西式厨房小家电品牌，颜值高适合家庭聚餐",
+        "goodKeywords": [
+          "颜值高",
+          "一锅多用",
+          "不粘",
+          "聚餐神器"
+        ],
+        "badKeywords": [
+          "价格偏高",
+          "配件需另购"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的家居好物，秋季火锅季前预热，送礼自用两宜",
+        "image": "https://www.morphyrichards.net/uploadfiles/2018/09/201809031118421842.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "老牌厨具代工厂炒锅/汤锅",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=三禾炒锅",
+        "price": "约59-199元",
+        "brand": "三禾/好厨夫等",
+        "shipping": "48小时内",
+        "hotReason": "1000+用户真实观点PK话题热，宣称与大牌同产线同标准，价格仅1/5",
+        "goodKeywords": [
+          "不粘",
+          "导热快",
+          "性价比高",
+          "做工扎实"
+        ],
+        "badKeywords": [
+          "包装一般"
+        ],
+        "match": true,
+        "matchReason": "价格敏感友好、高性价比，适合县城家庭日常焕新",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2626041685/TB2fdWOqVXXXXXgXXXXXXXXXXXX_!!2626041685.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "桌面空气净化器（迷你款）",
+        "link": "https://s.taobao.com/search?q=桌面空气净化器迷你",
+        "price": "约99-299元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "换季过敏与秋燥粉尘话题带动，小户型/卧室桌面净化需求增长",
+        "goodKeywords": [
+          "静音",
+          "小巧",
+          "净化效果好",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "滤芯需更换"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的小家电，适合卧室桌面，价格友好",
+        "image": "https://img12.360buyimg.com/n1/jfs/t1/444465/5/10625/171023/6a2143c3F5f4f73b4/0083320320b40fd2.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "真丝丝巾礼盒（送长辈）",
+        "link": "https://www.1688.com/?keywords=真丝丝巾礼盒",
+        "price": "约39-129元",
+        "brand": "多品牌源头厂货",
+        "shipping": "48小时内",
+        "hotReason": "中秋国庆双节送礼场景延续，1688源头厂货价格优势明显，体面合宜",
+        "goodKeywords": [
+          "质感好",
+          "包装体面",
+          "颜色正",
+          "送礼合适"
+        ],
+        "badKeywords": [
+          "色差"
+        ],
+        "match": true,
+        "matchReason": "双节送长辈体面礼品，价格敏感友好",
+        "image": "https://img.alicdn.com/imgextra/i4/2212099235170/O1CN01qdCF6o1o3umoptiId_!!4611686018427387234-0-item_pic.jpg_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "season": "夏末秋初·开学季与祛湿润养并行",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
