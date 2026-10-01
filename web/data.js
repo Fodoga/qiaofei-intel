@@ -1,5 +1,234 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-01",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "九阳不用手洗豆浆机K7Pro",
+        "platform": "京东",
+        "price": "约899-1099元",
+        "brand": "九阳",
+        "hotReason": "2026年九阳全场景实用机型推荐榜常客，主打免手洗+养生饮品自制，契合县城家庭早餐与养生需求，近期家电换新季销量走高",
+        "image": ""
+      },
+      {
+        "name": "九阳小旋风破壁机B70",
+        "platform": "京东",
+        "price": "约399-599元",
+        "brand": "九阳",
+        "hotReason": "被多家媒体列为2026年高性价比家用破壁机标杆，可打五谷粉/药食同源糊，契合祛湿温养季食补场景",
+        "image": ""
+      },
+      {
+        "name": "九阳炫饭煲40N1U（0涂层电饭煲）",
+        "platform": "京东",
+        "price": "约399-599元",
+        "brand": "九阳",
+        "hotReason": "2026年健康煮饭新升级代表机型，0涂层不粘概念受健康人群关注，家庭刚需换新驱动",
+        "image": ""
+      },
+      {
+        "name": "桌面空气净化器（迷你款）",
+        "platform": "淘宝",
+        "price": "约99-299元",
+        "brand": "多品牌",
+        "hotReason": "老破小/租房场景高性价比幸福感家电，近期内容平台测评种草多，适合卧室桌面小空间",
+        "image": ""
+      },
+      {
+        "name": "即热饮水机（台式免安装）",
+        "platform": "京东",
+        "price": "约199-499元",
+        "brand": "多品牌",
+        "hotReason": "被列为低成本高幸福感家电之一，免安装适合县城家庭与租房，冲养生茶饮便捷",
+        "image": ""
+      },
+      {
+        "name": "艾草锤礼盒",
+        "platform": "1688",
+        "price": "约38元起",
+        "brand": "多品牌",
+        "hotReason": "母亲节/教师节/送长辈场景热销，1688成交活跃，实用+仪式感兼具，契合祛湿温养与送礼",
+        "image": ""
+      },
+      {
+        "name": "桂格营养麦片全家福礼盒",
+        "platform": "淘宝",
+        "price": "约59-99元",
+        "brand": "桂格",
+        "hotReason": "送妈妈/女性长辈礼品清单高频出现，4口味组合、价格友好，适合家庭早餐与长辈关怀",
+        "image": ""
+      },
+      {
+        "name": "红帽子日本进口糕点什锦饼干礼盒",
+        "platform": "淘宝",
+        "price": "约99-159元",
+        "brand": "红帽子",
+        "hotReason": "七夕/送长辈礼品清单常客，11种口味粉帽礼盒体面不贵，适合节日送礼",
+        "image": ""
+      },
+      {
+        "name": "杏花楼糕点礼盒",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "杏花楼",
+        "hotReason": "老字号礼盒在送长辈场景稳定热销，4盒组合体面，适合中秋后至重阳送礼延续",
+        "image": ""
+      },
+      {
+        "name": "低糖养生即冲冲泡饮品",
+        "platform": "1688",
+        "price": "约19-59元",
+        "brand": "多品牌",
+        "hotReason": "2026春季饮品原料招商热度高，低糖养生、即冲即饮契合县城女性养生与办公室场景，日均销量表现亮眼（素材称日均8万件，需复核）",
+        "image": ""
+      },
+      {
+        "name": "道地九华黄精",
+        "platform": "淘宝",
+        "price": "约59-199元",
+        "brand": "多品牌",
+        "hotReason": "换季食补好物测评热度上升，药食同源、适合送长辈与自用温养，复购属性强",
+        "image": ""
+      },
+      {
+        "name": "女性私处益生菌",
+        "platform": "天猫",
+        "price": "约99-299元",
+        "brand": "多品牌",
+        "hotReason": "2026有益于女性健康的益生菌品牌讨论度高，私护非棉品方向，契合平台目标人群健康养护需求",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "祛湿温养·开学焕新·送长辈体面礼",
+      "reason": "10月初仍处盛夏尾段、湿气重，县城女性重养生祛湿与温养；开学季带动宿舍/学习小家电与收纳；节日送礼延续七夕与重阳前置需求，优先高性价比、48小时内发货的实用好物",
+      "zones": [
+        {
+          "zone": "祛湿温养食补专区",
+          "products": [
+            "陈皮茯苓祛湿茶",
+            "五指毛桃茯苓汤料包",
+            "九蒸九晒黄精",
+            "低糖即冲养生冲泡饮品"
+          ]
+        },
+        {
+          "zone": "开学焕新·宿舍实用小电专区",
+          "products": [
+            "宿舍迷你电煮锅",
+            "USB充电触摸式迷你节能灯",
+            "便携挂脖风扇",
+            "桌面循环扇"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼专区",
+          "products": [
+            "艾草锤礼盒",
+            "同仁堂西洋参礼盒",
+            "桂格营养麦片全家福礼盒",
+            "真丝丝巾礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "九阳不用手洗豆浆机K7Pro",
+          "platform": "京东",
+          "price": "约899-1099元",
+          "brand": "九阳",
+          "shipping": "48小时内",
+          "reason": "免手洗+养生饮品自制，适合家庭早餐与祛湿食补，九阳品牌认知度高、售后稳",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2818449440/O1CN01kObcbImszxJ1chua_!!2818449440.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "九阳不用手洗豆浆机K7Pro",
+        "link": "https://search.jd.com/Search?keyword=九阳不用手洗豆浆机K7Pro",
+        "price": "约899-1099元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "2026年九阳全场景实用机型推荐榜常客，免手洗+养生饮品自制，家庭早餐刚需",
+        "goodKeywords": [
+          "免手洗",
+          "出浆细腻",
+          "好清洗"
+        ],
+        "badKeywords": [
+          "占地偏大"
+        ],
+        "match": true,
+        "matchReason": "契合县城家庭养生早餐与提升生活质量的小家电需求，品牌认知度高",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2818449440/O1CN01kObcbImszxJ1chua_!!2818449440.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳炫饭煲40N1U（0涂层电饭煲）",
+        "link": "https://search.jd.com/Search?keyword=九阳炫饭煲40N1U",
+        "price": "约399-599元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "2026年健康煮饭新升级代表机型，0涂层不粘概念受健康人群关注",
+        "goodKeywords": [
+          "0涂层",
+          "不粘",
+          "健康"
+        ],
+        "badKeywords": [
+          "内胆偏重"
+        ],
+        "match": true,
+        "matchReason": "家庭刚需换新，健康概念契合目标人群关注点",
+        "image": "https://cdn.pingwest.com/portal/2026/09/28/portal/2026/09/28/TJZ9h1EBmH0a665_sj7bEz87i_cAfJ5x"
+      },
+      {
+        "platform": "1688",
+        "name": "低糖养生即冲冲泡饮品",
+        "link": "https://www.1688.com/?keywords=低糖养生即冲冲泡饮品",
+        "price": "约19-59元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "2026春季饮品原料招商热度高，低糖养生、即冲即饮契合县城女性养生场景",
+        "goodKeywords": [
+          "低糖",
+          "即冲方便",
+          "养生"
+        ],
+        "badKeywords": [
+          "口味偏淡"
+        ],
+        "match": true,
+        "matchReason": "契合养生食补与办公室/居家冲饮，价格敏感友好",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2218605784598/O1CN01T5JkrJ1jpwFy53O7U_!!4611686018427383318-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "道地九华黄精",
+        "link": "https://s.taobao.com/search?q=道地九华黄精",
+        "price": "约59-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "换季食补好物测评热度上升，药食同源、适合送长辈与自用温养",
+        "goodKeywords": [
+          "药食同源",
+          "口感好",
+          "复购"
+        ],
+        "badKeywords": [
+          "价格差异大"
+        ],
+        "match": true,
+        "matchReason": "契合祛湿温养与送长辈食补，复购属性强",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i1/2207906769178/O1CN01t1bszu2HfaEhU7VTn_!!4611686018427382042-0-item_pic.jpg_360x360q90.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-09-30",
     "season": "初秋·祛湿温养季（夏末余湿未消，秋燥渐起，兼顾温养与润燥）",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类（卫生巾/安心裤/湿巾/艾灸贴/小罐灸/私护套盒等）",
