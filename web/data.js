@@ -1,5 +1,284 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-02",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "九阳天净1900多矿泉净水器",
+        "platform": "京东",
+        "price": "约1500-2000元",
+        "brand": "九阳",
+        "hotReason": "2026厨房实用小家电高性价比榜单收录，净水器位列线上小家电十大热门品类，家庭健康饮水需求驱动",
+        "image": ""
+      },
+      {
+        "name": "九阳小旋风破壁机B70",
+        "platform": "京东",
+        "price": "约400-600元",
+        "brand": "九阳",
+        "hotReason": "2026厨房小家电榜单推荐款，破壁机为线上十大热门小家电之一，适合家庭养生打浆",
+        "image": ""
+      },
+      {
+        "name": "智能感应小夜灯",
+        "platform": "淘宝",
+        "price": "约20-60元",
+        "brand": "小米等",
+        "hotReason": "反向海淘指南推荐创意小电器，智能感应提升夜间便利，价格友好适合宿舍与长辈房",
+        "image": ""
+      },
+      {
+        "name": "多功能数据线",
+        "platform": "淘宝",
+        "price": "约15-40元",
+        "brand": "小米等",
+        "hotReason": "反向海淘指南提及的创意小电器，多接口一线多用，开学季学生刚需",
+        "image": ""
+      },
+      {
+        "name": "艾草锤礼盒",
+        "platform": "1688",
+        "price": "约38元",
+        "brand": "临沂隆仕达等",
+        "hotReason": "母亲节/教师节礼品批发热销，成交活跃，送妈妈长辈实用创意礼，契合祛湿温养季",
+        "image": ""
+      },
+      {
+        "name": "桂格营养麦片全家福礼盒",
+        "platform": "淘宝",
+        "price": "约60-100元",
+        "brand": "桂格",
+        "hotReason": "送妈妈/女性长辈礼品清单收录，4包4口味，健康食补属性适合长辈送礼",
+        "image": ""
+      },
+      {
+        "name": "红帽子日本进口糕点什锦饼干礼盒",
+        "platform": "淘宝",
+        "price": "约80-150元",
+        "brand": "红帽子",
+        "hotReason": "送长辈礼品清单收录，11种口味粉帽子礼盒，体面合宜的节日伴手礼",
+        "image": ""
+      },
+      {
+        "name": "杏花楼糕点礼盒",
+        "platform": "淘宝",
+        "price": "约80-160元",
+        "brand": "杏花楼",
+        "hotReason": "老上海4种精美点心礼盒，送长辈经典选择，节庆送礼热度稳定",
+        "image": ""
+      },
+      {
+        "name": "欧普插电小夜灯",
+        "platform": "京东",
+        "price": "约20-50元",
+        "brand": "欧普",
+        "hotReason": "大学生开学必备小电器推荐，宿舍夜间照明刚需，价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "公牛插座转换器",
+        "platform": "京东",
+        "price": "约20-40元",
+        "brand": "公牛",
+        "hotReason": "开学季宿舍好物推荐，安全用电刚需，知名度高好评率高",
+        "image": ""
+      },
+      {
+        "name": "小型电动螺丝刀",
+        "platform": "淘宝",
+        "price": "约30-80元",
+        "brand": "小米/得力等",
+        "hotReason": "大学生开学小电器推荐，宿舍组装家具实用工具，性价比高",
+        "image": ""
+      },
+      {
+        "name": "智能扫地机器人（入门款）",
+        "platform": "京东",
+        "price": "约600-1200元",
+        "brand": "科沃斯/小米等",
+        "hotReason": "2026小家电选购指南提及智能扫地机器人销量大幅增长，解放双手提升生活质量",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季宿舍焕新 + 祛湿温养食补 + 送长辈体面礼",
+      "reason": "10月初正值开学季与夏秋交替，三四线县城女性既要为子女置办宿舍实用好物，也要为家人准备祛湿温养食补与送长辈的体面礼品，价格敏感、重性价比与发货时效",
+      "zones": [
+        {
+          "zone": "开学季宿舍焕新",
+          "products": [
+            "欧普插电小夜灯",
+            "公牛插座转换器",
+            "小型电动螺丝刀",
+            "多功能数据线",
+            "智能感应小夜灯"
+          ]
+        },
+        {
+          "zone": "祛湿温养食补",
+          "products": [
+            "桂格营养麦片全家福礼盒",
+            "红豆薏米芡实茶",
+            "艾草足浴包",
+            "陈皮茯苓祛湿茶"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼",
+          "products": [
+            "艾草锤礼盒",
+            "红帽子日本进口糕点什锦饼干礼盒",
+            "杏花楼糕点礼盒",
+            "真丝丝巾礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "欧普插电小夜灯",
+          "platform": "京东",
+          "price": "约20-50元",
+          "brand": "欧普",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍刚需，知名度高好评率高，价格敏感友好，夜间起夜与长辈房均适用",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/1705956771/O1CN01059m5i1ztAqviZFo2_!!1705956771.jpg_360x360q90.jpg"
+        },
+        {
+          "name": "公牛插座转换器",
+          "platform": "京东",
+          "price": "约20-40元",
+          "brand": "公牛",
+          "shipping": "24小时内",
+          "reason": "开学季宿舍安全用电刚需，品牌背书强，好评率高，价格友好",
+          "image": "https://www.gongniu.cn/uploadfile/2022/1023/20221023101505908.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "欧普插电小夜灯",
+        "link": "https://search.jd.com/Search?keyword=欧普插电小夜灯",
+        "price": "约20-50元",
+        "brand": "欧普",
+        "shipping": "48小时内",
+        "hotReason": "大学生开学必备小电器推荐，宿舍夜间照明刚需，欧普品牌知名度高，好评率高",
+        "goodKeywords": [
+          "亮度合适",
+          "省电",
+          "安装方便"
+        ],
+        "badKeywords": [
+          "线材偏短"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍刚需且价格敏感友好，适合为子女与长辈房购置",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%AC%A7%E6%99%AE%E6%8F%92%E7%94%B5%E5%B0%8F%E5%A4%9C%E7%81%AF%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "公牛插座转换器",
+        "link": "https://search.jd.com/Search?keyword=公牛插座转换器",
+        "price": "约20-40元",
+        "brand": "公牛",
+        "shipping": "24小时内",
+        "hotReason": "开学季宿舍好物推荐，安全用电刚需，公牛品牌背书强，好评率高",
+        "goodKeywords": [
+          "安全",
+          "做工扎实",
+          "插孔多"
+        ],
+        "badKeywords": [
+          "体积偏大"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍安全用电刚需，品牌可靠且价格友好",
+        "image": "https://www.gongniu.cn/uploadfile/2022/1023/20221023101505908.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "小型电动螺丝刀",
+        "link": "https://s.taobao.com/search?q=小型电动螺丝刀",
+        "price": "约30-80元",
+        "brand": "小米/得力等",
+        "shipping": "48小时内",
+        "hotReason": "大学生开学小电器推荐，宿舍组装家具实用工具，性价比高",
+        "goodKeywords": [
+          "省力",
+          "续航够用",
+          "批头齐全"
+        ],
+        "badKeywords": [
+          "扭力偏小"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍实用工具，价格敏感友好，适合家庭常备",
+        "image": "https://img12.360buyimg.com/n1/jfs/t1/436303/13/9389/321040/6a09d7c3Fbdfddf04/00833203206085e2.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "多功能数据线",
+        "link": "https://s.taobao.com/search?q=多功能数据线",
+        "price": "约15-40元",
+        "brand": "小米等",
+        "shipping": "48小时内",
+        "hotReason": "反向海淘指南提及的创意小电器，多接口一线多用，开学季学生刚需",
+        "goodKeywords": [
+          "接口多",
+          "便携",
+          "充电快"
+        ],
+        "badKeywords": [
+          "线材偏硬"
+        ],
+        "match": true,
+        "matchReason": "开学季学生刚需小物，价格友好复购高",
+        "image": "https://img12.360buyimg.com/n1/jfs/t1/505566/23/5691/106689/6a87c00cFaa38d292/0083320320fed303.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "智能感应小夜灯",
+        "link": "https://s.taobao.com/search?q=智能感应小夜灯",
+        "price": "约20-60元",
+        "brand": "小米等",
+        "shipping": "48小时内",
+        "hotReason": "反向海淘指南推荐创意小电器，智能感应提升夜间便利，适合宿舍与长辈房",
+        "goodKeywords": [
+          "感应灵敏",
+          "亮度柔和",
+          "免布线"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的家居好物，价格友好，适合长辈与宿舍场景",
+        "image": "https://cdn.aqara.com/cdn/website/mainland/static/lodash-4.17.15/motion-activated-night-light_app_01.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳天净1900多矿泉净水器",
+        "link": "https://search.jd.com/Search?keyword=九阳天净1900多矿泉净水器",
+        "price": "约1500-2000元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "2026厨房实用小家电高性价比榜单收录，净水器位列线上小家电十大热门品类",
+        "goodKeywords": [
+          "出水快",
+          "滤芯耐用",
+          "安装省心"
+        ],
+        "badKeywords": [
+          "滤芯成本偏高"
+        ],
+        "match": true,
+        "matchReason": "提升家庭健康饮水质量，品牌背书强，适合为家人购置",
+        "image": "https://a.zdmimg.com/202605/19/6a0bed0785d562330.jpg_a320.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-10-01",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
