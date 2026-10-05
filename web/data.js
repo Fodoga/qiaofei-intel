@@ -1,5 +1,263 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-05",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "红豆薏米芡实祛湿茶",
+        "platform": "京东",
+        "price": "约19.9-39.9元/多袋装",
+        "brand": "四五食源/药知源等",
+        "hotReason": "盛夏祛湿刚需，京东养生茶类目搜索热度高，红豆薏米组合为经典祛湿配方，袋泡茶便携复购强",
+        "image": ""
+      },
+      {
+        "name": "九阳不用手洗豆浆机K7Pro",
+        "platform": "京东",
+        "price": "约999-1299元",
+        "brand": "九阳",
+        "hotReason": "2026年九阳全场景机型推荐榜主推款，免手洗+养生家庭场景，家电换新季热销",
+        "image": ""
+      },
+      {
+        "name": "摩飞多功能锅",
+        "platform": "淘宝",
+        "price": "约599-899元",
+        "brand": "摩飞",
+        "hotReason": "知乎家居好物高赞推荐，英伦品牌网红属性强，一锅多用契合家庭聚餐与提升生活质量需求",
+        "image": ""
+      },
+      {
+        "name": "永生花玫瑰小熊抱抱桶礼盒",
+        "platform": "京东",
+        "price": "约99-299元",
+        "brand": "ROSEONLYLOVE/茉蔷",
+        "hotReason": "京东礼品类目评价量500-1000条级爆款，七夕/生日/送女友场景常青，体面不贵",
+        "image": ""
+      },
+      {
+        "name": "摩天轮摆件香水套装礼盒",
+        "platform": "京东",
+        "price": "约129-259元",
+        "brand": "未知气味（Mystery Aroma）",
+        "hotReason": "京东生日礼品榜热销，香水+DIY摩天轮组合创意强，送闺蜜/女友浪漫场景高转化",
+        "image": ""
+      },
+      {
+        "name": "925银贝壳锁骨项链",
+        "platform": "淘宝",
+        "price": "约126元起",
+        "brand": "缔晶",
+        "hotReason": "什么值得买商品百科收录，轻奢平价珠宝七夕/生日送礼高频，银饰不易过敏适合日常佩戴",
+        "image": ""
+      },
+      {
+        "name": "梳子发夹实用礼盒",
+        "platform": "天猫",
+        "price": "约59-129元（券后）",
+        "brand": "禾美家居旗舰店等",
+        "hotReason": "天猫创意礼盒类目热销，送妈妈/闺蜜/女友通用，券后价格敏感友好，实用型礼品复购场景多",
+        "image": ""
+      },
+      {
+        "name": "宿舍迷你电煮锅",
+        "platform": "拼多多",
+        "price": "约39-79元",
+        "brand": "多品牌白牌",
+        "hotReason": "开学季宿舍好物清单高频出现，1-2人小容量+低功率适配宿舍，学生党刚需",
+        "image": ""
+      },
+      {
+        "name": "桌面迷你加湿器",
+        "platform": "抖音",
+        "price": "约29-69元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍小电器推荐榜常客，北方干燥/空调房场景刚需，颜值款短视频种草转化高",
+        "image": ""
+      },
+      {
+        "name": "碧然德滤水壶",
+        "platform": "京东",
+        "price": "约50-200元",
+        "brand": "碧然德",
+        "hotReason": "2026净饮机测评推荐入门款，免安装改善水质，性价比高适合1-2人家庭，健康饮水趋势",
+        "image": ""
+      },
+      {
+        "name": "九阳小旋风破壁机B70",
+        "platform": "京东",
+        "price": "约399-599元",
+        "brand": "九阳",
+        "hotReason": "2026九阳全场景推荐榜全能高性价比家用标杆，养生打浆/辅食/五谷场景覆盖广",
+        "image": ""
+      },
+      {
+        "name": "艾草锤礼盒",
+        "platform": "1688",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "hotReason": "送长辈父母健康礼品趋势品，艾草养生概念+手工锤形态，价格敏感友好适合批量采购",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "盛夏祛湿温养·开学焕新与孝心礼专区",
+      "reason": "10月初仍处盛夏余热与换季交替，三四线县城女性关注祛湿温养、家人健康；叠加开学季宿舍好物与送长辈孝心礼需求，选品聚焦药食同源祛湿、平价养生小家电、体面实用礼盒，兼顾价格敏感与高复购",
+      "zones": [
+        {
+          "zone": "祛湿温养食补区",
+          "products": [
+            "红豆薏米芡实祛湿茶",
+            "陈皮茯苓祛湿茶",
+            "五指毛桃茯苓汤料包",
+            "老红糖姜母茶"
+          ]
+        },
+        {
+          "zone": "开学季宿舍焕新区",
+          "products": [
+            "宿舍迷你电煮锅",
+            "桌面迷你加湿器",
+            "USB充电触摸式迷你节能灯",
+            "多功能收纳盒"
+          ]
+        },
+        {
+          "zone": "孝心体面礼区",
+          "products": [
+            "真丝丝巾礼盒",
+            "艾草锤礼盒",
+            "同仁堂西洋参礼盒",
+            "永生花康乃馨礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "红豆薏米芡实祛湿茶",
+          "platform": "京东",
+          "price": "约19.9-39.9元/多袋装",
+          "brand": "四五食源/药知源等",
+          "shipping": "48小时内",
+          "reason": "盛夏祛湿刚需，袋泡茶便携复购强，价格敏感友好，契合县城女性养生场景",
+          "image": "https://www.marchefutai.ca/image/cache/catalog/2021%E5%B9%B4/02%E6%9C%88/0228/699-shui-800x800.jpg"
+        },
+        {
+          "name": "永生花玫瑰小熊抱抱桶礼盒",
+          "platform": "京东",
+          "price": "约99-299元",
+          "brand": "ROSEONLYLOVE/茉蔷",
+          "shipping": "48小时内",
+          "reason": "七夕/生日/送女友场景常青爆款，体面不贵，京东评价量级背书",
+          "image": "https://cdn01.pinkoi.com/product/fCXKcHbz/0/1/640x530.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "红豆薏米芡实祛湿茶",
+        "link": "https://so.m.jd.com/chanpin/1320aa516a6efcf9ef99.html",
+        "price": "约19.9-39.9元/多袋装",
+        "brand": "四五食源/药知源等",
+        "shipping": "48小时内",
+        "hotReason": "京东养生茶类目搜索热度高，红豆薏米组合为经典祛湿配方，袋泡茶便携复购强",
+        "goodKeywords": [
+          "祛湿效果好",
+          "口感清香",
+          "独立包装方便"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "盛夏祛湿刚需，药食同源方向，价格敏感友好，契合县城女性养生场景",
+        "image": "https://www.marchefutai.ca/image/cache/catalog/2021%E5%B9%B4/02%E6%9C%88/0228/699-shui-800x800.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "老红糖姜母茶",
+        "link": "https://s.taobao.com/search?q=老红糖姜母茶",
+        "price": "约19-39元/盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "女性温养经典冲饮，换季暖身场景刚需，淘宝冲饮类目常青款",
+        "goodKeywords": [
+          "暖身效果好",
+          "姜味足",
+          "独立小包"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "女性温养方向，价格敏感友好，冲饮复购强",
+        "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3992316807381676820"
+      },
+      {
+        "platform": "抖音",
+        "name": "桌面迷你加湿器",
+        "link": "https://www.douyin.com/search/桌面迷你加湿器",
+        "price": "约29-69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍小电器推荐榜常客，北方干燥/空调房场景刚需，颜值款短视频种草转化高",
+        "goodKeywords": [
+          "静音",
+          "出雾细腻",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "水箱偏小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量小家电，价格友好，开学季场景契合",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2552367957/O1CN01wRr7z428eMdhcydA2_!!2552367957.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "永生花玫瑰小熊抱抱桶礼盒",
+        "link": "https://so.m.jd.com/pinpai/167239403f880fe9f58c.html",
+        "price": "约99-299元",
+        "brand": "ROSEONLYLOVE/茉蔷",
+        "shipping": "48小时内",
+        "hotReason": "京东礼品类目评价量500-1000条级爆款，七夕/生日/送女友场景常青，体面不贵",
+        "goodKeywords": [
+          "包装精美",
+          "花材新鲜",
+          "送礼有面子"
+        ],
+        "badKeywords": [
+          "物流偶有压损"
+        ],
+        "match": true,
+        "matchReason": "体面合宜的节日/送礼礼品，契合七夕与送女友场景",
+        "image": "https://cdn01.pinkoi.com/product/fCXKcHbz/0/1/640x530.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "925银贝壳锁骨项链",
+        "link": "https://s.taobao.com/search?q=925银贝壳锁骨项链",
+        "price": "约126元起",
+        "brand": "缔晶",
+        "shipping": "48小时内",
+        "hotReason": "什么值得买商品百科收录，轻奢平价珠宝七夕/生日送礼高频，银饰不易过敏适合日常佩戴",
+        "goodKeywords": [
+          "做工精致",
+          "不易过敏",
+          "百搭"
+        ],
+        "badKeywords": [
+          "链子偏细"
+        ],
+        "match": true,
+        "matchReason": "轻奢平价珠宝礼品，契合七夕送礼与日常佩戴场景",
+        "image": "https://img.alicdn.com/imgextra/i2/3335715358/O1CN01AjcNM31pS1G8E8nms_!!3335715358.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-10-02",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
