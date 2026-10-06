@@ -1,5 +1,217 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-06",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "红豆薏米祛湿茶",
+        "platform": "京东",
+        "price": "约19.9-39.9元/盒",
+        "brand": "四五食源/药知源等",
+        "hotReason": "盛夏祛湿刚需，京东养生茶类目搜索热度持续走高，袋泡茶形态方便日常冲泡，复购率高",
+        "image": ""
+      },
+      {
+        "name": "宿舍迷你电煮锅",
+        "platform": "拼多多",
+        "price": "约29-59元",
+        "brand": "美菱/小熊等",
+        "hotReason": "开学季叠加宿舍场景需求，1-2人小容量、低功率成学生党刚需，拼多多百亿补贴走量明显",
+        "image": ""
+      },
+      {
+        "name": "桌面迷你加湿器",
+        "platform": "抖音",
+        "price": "约19.9-49元",
+        "brand": "小米/几素等",
+        "hotReason": "夏末空调房干燥，桌面小家电颜值高、价格低，抖音直播间冲动消费转化好",
+        "image": ""
+      },
+      {
+        "name": "智能颈椎按摩器",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "SKG等",
+        "hotReason": "送长辈/自用两相宜，SKG品牌认知度高，健康小家电在县城女性中口碑传播强",
+        "image": ""
+      },
+      {
+        "name": "养生壶/全玻璃沸萃壶",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "苏泊尔/九阳等",
+        "hotReason": "炖煮恒温一体，契合药食同源煮茶场景，京东小家电榜常客，送礼体面",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅",
+        "platform": "京东",
+        "price": "约129-299元",
+        "brand": "美的/苏泊尔等",
+        "hotReason": "无油健康烹饪概念深入人心，家庭厨房升级首选，县城家庭渗透率仍在提升",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机",
+        "platform": "淘宝",
+        "price": "约199-399元",
+        "brand": "徕芬等",
+        "hotReason": "国货高速吹风机以性价比替代进口大牌，护发快干卖点受女性用户追捧",
+        "image": ""
+      },
+      {
+        "name": "真丝丝巾礼盒",
+        "platform": "1688",
+        "price": "约39-99元",
+        "brand": "杭州丝绸代工厂",
+        "hotReason": "送长辈父母体面礼品，秋季临近丝巾实用性强，1688源头厂货性价比突出",
+        "image": ""
+      },
+      {
+        "name": "药食同源破壁粉剂",
+        "platform": "淘宝",
+        "price": "约39-89元",
+        "brand": "闻茶纪/养益君等",
+        "hotReason": "药食同源概念升温，破壁粉冲泡便捷，适合送父母日常温养，复购稳定",
+        "image": ""
+      },
+      {
+        "name": "折叠电煮锅",
+        "platform": "拼多多",
+        "price": "约39-79元",
+        "brand": "小熊/荣事达等",
+        "hotReason": "开学季宿舍神器，折叠收纳省空间，低功率适配宿舍限电，学生党热购",
+        "image": ""
+      },
+      {
+        "name": "除螨仪",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "美的/莱克等",
+        "hotReason": "夏末换季除螨需求，健康家居概念驱动，京东家电榜健康小电类目稳定热销",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "夏末祛湿温养·开学季焕新",
+      "reason": "10月初仍处盛夏余温，湿气重、空调房干燥并存，祛湿茶饮与温养食补需求延续；同时开学季宿舍小家电、收纳好物进入采购尾声，送长辈礼品可提前布局秋季丝巾与养生礼盒",
+      "zones": [
+        {
+          "zone": "祛湿温养食补专区",
+          "products": [
+            "红豆薏米祛湿茶",
+            "陈皮茯苓祛湿茶",
+            "五指毛桃茯苓汤料包",
+            "药食同源破壁粉剂",
+            "养生膏方礼盒"
+          ]
+        },
+        {
+          "zone": "开学季宿舍焕新专区",
+          "products": [
+            "宿舍迷你电煮锅",
+            "折叠电煮锅",
+            "USB充电触摸式迷你节能灯",
+            "无线静音蓝牙鼠标",
+            "笔记本收纳包"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼品专区",
+          "products": [
+            "真丝丝巾礼盒",
+            "智能颈椎按摩器",
+            "养生壶/全玻璃沸萃壶",
+            "药食同源破壁粉剂"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "智能颈椎按摩器",
+          "platform": "淘宝",
+          "price": "约99-199元",
+          "brand": "SKG等",
+          "shipping": "48小时内",
+          "reason": "送长辈父母体面实用，健康小家电认知度高，SKG品牌背书强，节日送礼场景契合",
+          "image": "https://m.media-amazon.com/images/I/61MWE-r4DAL.jpg"
+        },
+        {
+          "name": "真丝丝巾礼盒",
+          "platform": "1688",
+          "price": "约39-99元",
+          "brand": "杭州丝绸代工厂",
+          "shipping": "48小时内",
+          "reason": "送长辈父母体面礼品，秋季临近实用性强，源头厂货性价比高，礼盒装显档次",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/731477332/O1CN01V7RysO242764gV9qm_!!4611686018427385172-0-item_pic.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "智能颈椎按摩器",
+        "link": "https://s.taobao.com/search?q=智能颈椎按摩器",
+        "price": "约99-199元",
+        "brand": "SKG等",
+        "shipping": "48小时内",
+        "hotReason": "健康小家电热销，SKG品牌认知度高，送长辈自用两相宜，淘宝按摩器类目销量靠前",
+        "goodKeywords": [
+          "按摩舒服",
+          "轻便",
+          "送礼有面子"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "送长辈父母体面礼品，健康小家电契合人群，非黑名单品牌",
+        "image": "https://m.media-amazon.com/images/I/61MWE-r4DAL.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "折叠电煮锅",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=折叠电煮锅",
+        "price": "约39-79元",
+        "brand": "小熊/荣事达等",
+        "shipping": "48小时内",
+        "hotReason": "折叠收纳省空间，开学季宿舍神器，拼多多小家电类目热销，学生党与租房族共需",
+        "goodKeywords": [
+          "折叠收纳",
+          "加热快",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "涂层易刮花"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍焕新场景，实用小家电，性价比高",
+        "image": "https://cdn.yamibuy.net/item/5ce6364e5d6b93e77fbab4c3e20f9ef1_750x750.webp"
+      },
+      {
+        "platform": "1688",
+        "name": "真丝丝巾礼盒",
+        "link": "https://www.1688.com/?keywords=真丝丝巾礼盒",
+        "price": "约39-99元",
+        "brand": "杭州丝绸代工厂",
+        "shipping": "48小时内",
+        "hotReason": "送长辈父母体面礼品，秋季临近丝巾实用，1688源头厂货性价比突出，礼盒装显档次",
+        "goodKeywords": [
+          "质感好",
+          "包装精美",
+          "颜色正"
+        ],
+        "badKeywords": [
+          "色差轻微"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面礼品，契合家人场景，非黑名单品牌",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/731477332/O1CN01V7RysO242764gV9qm_!!4611686018427385172-0-item_pic.jpg_360x360q90.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
