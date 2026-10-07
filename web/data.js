@@ -1,5 +1,430 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-07",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "老金磨方黑芝麻丸",
+        "platform": "淘宝",
+        "price": "约29-59元",
+        "brand": "老金磨方",
+        "hotReason": "药食同源中式滋补持续走热，芝麻产业链头部品牌，养生丸/粉/茶多品类霸榜，复购率高",
+        "image": ""
+      },
+      {
+        "name": "酸枣仁百合安神茶",
+        "platform": "淘宝",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "hotReason": "药食同源助眠赛道升温，酸枣仁被多篇测评列为温和调理首选，熬夜女性刚需",
+        "image": ""
+      },
+      {
+        "name": "有机多花黄精",
+        "platform": "淘宝",
+        "price": "约39-99元",
+        "brand": "旺复堂等",
+        "hotReason": "道地足龄黄精受养生人群追捧，主打无农残无重金属，送长辈场景强",
+        "image": ""
+      },
+      {
+        "name": "古法酸梅汤原料包",
+        "platform": "拼多多",
+        "price": "约9.9-29元",
+        "brand": "多品牌",
+        "hotReason": "盛夏消暑爆款，葛根百合枸杞药食同源配方，无额外加糖，性价比高",
+        "image": ""
+      },
+      {
+        "name": "红参天麻气血调养组合",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "hotReason": "一通一补理念走红，红参补气配天麻通络，针对久坐头痛与气血不足女性",
+        "image": ""
+      },
+      {
+        "name": "苏泊尔养生壶SW-08Y31",
+        "platform": "京东",
+        "price": "约199-299元",
+        "brand": "苏泊尔",
+        "hotReason": "炖煮+恒温杯垫+暖饮区三合一，颜值与功能兼备，家居小家电榜单常客",
+        "image": ""
+      },
+      {
+        "name": "SKG捶打按摩披肩",
+        "platform": "淘宝",
+        "price": "约199-399元",
+        "brand": "SKG",
+        "hotReason": "居家幸福感小家电推荐高频出现，肩颈放松刚需，送父母体面实用",
+        "image": ""
+      },
+      {
+        "name": "摩飞多功能料理锅",
+        "platform": "淘宝",
+        "price": "约399-599元",
+        "brand": "摩飞",
+        "hotReason": "一锅多用煎烤涮煮，小家庭与租房场景热门，社交平台种草量大",
+        "image": ""
+      },
+      {
+        "name": "海尔无线智能洗地机虎鲸Z6-W",
+        "platform": "京东",
+        "price": "约999-1499元",
+        "brand": "海尔",
+        "hotReason": "洗地机成为家庭清洁升级首选，无线智能款在众测与推荐清单中高频出现",
+        "image": ""
+      },
+      {
+        "name": "VCJ家用迷你洗衣机",
+        "platform": "拼多多",
+        "price": "约199-399元",
+        "brand": "VCJ",
+        "hotReason": "小户型与母婴分洗需求旺盛，性价比高，时尚生活电器推荐常客",
+        "image": ""
+      },
+      {
+        "name": "身体磨砂膏（买二送一）",
+        "platform": "淘宝",
+        "price": "约29-59元",
+        "brand": "多品牌",
+        "hotReason": "夏季露肤季身体护理走量，当天发货+买赠促销拉动转化",
+        "image": ""
+      },
+      {
+        "name": "可折叠暖菜板",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "ACA北美电器等",
+        "hotReason": "厨房小家电新宠，智能3档调节，家庭聚餐保温刚需，实用不占地",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "盛夏祛湿温养·家人关怀周",
+      "reason": "10月仍处暑湿交替，女性易困倦湿重，需祛湿温养与气血调理；同时开学季与送长辈场景叠加，主打药食同源食补+居家舒适小家电+体面礼品组合，价格敏感友好、高复购",
+      "zones": [
+        {
+          "zone": "祛湿温养食补专区",
+          "products": [
+            "陈皮茯苓祛湿茶",
+            "五指毛桃茯苓汤料包",
+            "古法酸梅汤原料包",
+            "红豆薏米芡实祛湿茶"
+          ]
+        },
+        {
+          "zone": "居家舒适小家电专区",
+          "products": [
+            "苏泊尔养生壶SW-08Y31",
+            "可折叠暖菜板",
+            "SKG捶打按摩披肩",
+            "VCJ家用迷你洗衣机"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼品专区",
+          "products": [
+            "有机多花黄精",
+            "红参天麻气血调养组合",
+            "真丝丝巾礼盒",
+            "老金磨方黑芝麻丸"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "苏泊尔养生壶SW-08Y31",
+          "platform": "京东",
+          "price": "约199-299元",
+          "brand": "苏泊尔",
+          "shipping": "48小时内",
+          "reason": "炖煮+恒温杯垫+暖饮区三合一，颜值在线，适合女性日常煮养生茶与温饮，家居幸福感强",
+          "image": "https://imgservice.suning.cn/uimg1/b2c/image/ONDEH12tNZDwKplSq1Vm_w.jpg_800w_800h_4e_80Q_is"
+        },
+        {
+          "name": "有机多花黄精",
+          "platform": "淘宝",
+          "price": "约39-99元",
+          "brand": "旺复堂等",
+          "shipping": "48小时内",
+          "reason": "道地足龄有机黄精，药食同源温养，送长辈父母体面且实用，复购属性强",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/92101766/O1CN01IL9dUQ1OusbXVsf71~crop,0,562,790,790~_!!92101766.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "SKG捶打按摩披肩",
+          "platform": "淘宝",
+          "price": "约199-399元",
+          "brand": "SKG",
+          "shipping": "48小时内",
+          "reason": "肩颈放松刚需，居家幸福感小家电高频推荐，送父母与自用皆宜",
+          "image": "https://imgservice.suning.cn/uimg1/b2c/image/ESRfFxsYNL3wjxS34Hf20A.jpg_800w_800h_4e_80Q_is"
+        },
+        {
+          "name": "古法酸梅汤原料包",
+          "platform": "拼多多",
+          "price": "约9.9-29元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "盛夏消暑爆款，药食同源无添加，价格敏感友好，家庭煮饮高性价比",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2201196863975/O1CN01dLCB731fEbUICgpOd_!!4611686018427380199-0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "老金磨方黑芝麻丸",
+          "platform": "淘宝",
+          "price": "约29-59元",
+          "brand": "老金磨方",
+          "shipping": "48小时内",
+          "reason": "中式滋补头部品牌，芝麻产业链深耕，养生丸复购率高，日常食补与送礼皆宜",
+          "image": "https://static.foodtalks.cn/company/product/images/685/2461.jpeg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "老金磨方黑芝麻丸",
+        "link": "https://s.taobao.com/search?q=老金磨方黑芝麻丸",
+        "price": "约29-59元",
+        "brand": "老金磨方",
+        "shipping": "48小时内",
+        "hotReason": "药食同源中式滋补持续走热，芝麻产业链头部品牌，养生丸多平台榜单常客，复购率高",
+        "goodKeywords": [
+          "香浓不腻",
+          "独立包装",
+          "回购多次"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "药食同源食补，价格敏感友好且高复购，契合女性养生与送长辈场景",
+        "image": "https://static.foodtalks.cn/company/product/images/685/2461.jpeg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "酸枣仁百合安神茶",
+        "link": "https://s.taobao.com/search?q=酸枣仁百合安神茶",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "药食同源助眠赛道升温，酸枣仁被多篇测评列为温和调理首选，熬夜女性刚需",
+        "goodKeywords": [
+          "睡前一杯",
+          "口感温和",
+          "助眠放松"
+        ],
+        "badKeywords": [
+          "见效慢"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护方向，属药食同源养生冲饮，契合女性健康与睡眠调理需求",
+        "image": "https://cdn.yamibuy.net/item/45498bb720a7b158e307bfcf5ab89ba3_750x750.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "有机多花黄精",
+        "link": "https://s.taobao.com/search?q=有机多花黄精",
+        "price": "约39-99元",
+        "brand": "旺复堂等",
+        "shipping": "48小时内",
+        "hotReason": "道地足龄黄精受养生人群追捧，主打无农残无重金属，送长辈场景强",
+        "goodKeywords": [
+          "道地原料",
+          "足龄生长",
+          "泡水回甘"
+        ],
+        "badKeywords": [
+          "价格略高"
+        ],
+        "match": true,
+        "matchReason": "药食同源温养食材，送长辈父母体面实用，符合养生食补定位",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/92101766/O1CN01IL9dUQ1OusbXVsf71~crop,0,562,790,790~_!!92101766.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "古法酸梅汤原料包",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=古法酸梅汤原料包",
+        "price": "约9.9-29元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "盛夏消暑爆款，葛根百合枸杞药食同源配方，无额外加糖，性价比高",
+        "goodKeywords": [
+          "消暑解腻",
+          "配料干净",
+          "煮一锅全家喝"
+        ],
+        "badKeywords": [
+          "需自备冰糖"
+        ],
+        "match": true,
+        "matchReason": "药食同源冲饮，价格敏感友好，适合家庭夏季煮饮",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2201196863975/O1CN01dLCB731fEbUICgpOd_!!4611686018427380199-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红参天麻气血调养组合",
+        "link": "https://s.taobao.com/search?q=红参天麻气血调养组合",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "一通一补理念走红，红参补气配天麻通络，针对久坐头痛与气血不足女性",
+        "goodKeywords": [
+          "气血改善",
+          "头痛缓解",
+          "包装体面"
+        ],
+        "badKeywords": [
+          "红参味重"
+        ],
+        "match": true,
+        "matchReason": "药食同源气血调养，契合女性健康与送长辈场景",
+        "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=28423664160597957"
+      },
+      {
+        "platform": "京东",
+        "name": "苏泊尔养生壶SW-08Y31",
+        "link": "https://s.taobao.com/search?q=苏泊尔养生壶SW-08Y31",
+        "price": "约199-299元",
+        "brand": "苏泊尔",
+        "shipping": "48小时内",
+        "hotReason": "炖煮+恒温杯垫+暖饮区三合一，颜值与功能兼备，家居小家电榜单常客",
+        "goodKeywords": [
+          "颜值高",
+          "恒温实用",
+          "煮茶方便"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的家居小家电，适合女性日常养生煮饮",
+        "image": "https://imgservice.suning.cn/uimg1/b2c/image/ONDEH12tNZDwKplSq1Vm_w.jpg_800w_800h_4e_80Q_is"
+      },
+      {
+        "platform": "淘宝",
+        "name": "SKG捶打按摩披肩",
+        "link": "https://s.taobao.com/search?q=SKG捶打按摩披肩",
+        "price": "约199-399元",
+        "brand": "SKG",
+        "shipping": "48小时内",
+        "hotReason": "居家幸福感小家电推荐高频出现，肩颈放松刚需，送父母体面实用",
+        "goodKeywords": [
+          "捶打舒服",
+          "肩颈放松",
+          "送礼有面子"
+        ],
+        "badKeywords": [
+          "力度偏大"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，送长辈父母与自用皆宜，契合家人关怀场景",
+        "image": "https://imgservice.suning.cn/uimg1/b2c/image/ESRfFxsYNL3wjxS34Hf20A.jpg_800w_800h_4e_80Q_is"
+      },
+      {
+        "platform": "淘宝",
+        "name": "摩飞多功能料理锅",
+        "link": "https://s.taobao.com/search?q=摩飞多功能料理锅",
+        "price": "约399-599元",
+        "brand": "摩飞",
+        "shipping": "48小时内",
+        "hotReason": "一锅多用煎烤涮煮，小家庭与租房场景热门，社交平台种草量大",
+        "goodKeywords": [
+          "一锅多用",
+          "不粘好清洗",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "占地方"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的家居小家电，适合家庭聚餐与日常烹饪",
+        "image": "https://sc02.alicdn.com/kf/Sb230759f066c4bfda7b6ac2fdc42f44dp.png"
+      },
+      {
+        "platform": "京东",
+        "name": "海尔无线智能洗地机虎鲸Z6-W",
+        "link": "https://s.taobao.com/search?q=海尔无线智能洗地机虎鲸Z6-W",
+        "price": "约999-1499元",
+        "brand": "海尔",
+        "shipping": "48小时内",
+        "hotReason": "洗地机成为家庭清洁升级首选，无线智能款在众测与推荐清单中高频出现",
+        "goodKeywords": [
+          "吸拖一体",
+          "省力",
+          "清洁干净"
+        ],
+        "badKeywords": [
+          "自重大"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的家居清洁小家电，品牌知名度高，适合家庭升级",
+        "image": "https://img.alicdn.com/imgextra/i2/2216338147842/O1CN01yhosQZ27nguz5qKHG_!!2216338147842.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "VCJ家用迷你洗衣机",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=VCJ家用迷你洗衣机",
+        "price": "约199-399元",
+        "brand": "VCJ",
+        "shipping": "48小时内",
+        "hotReason": "小户型与母婴分洗需求旺盛，性价比高，时尚生活电器推荐常客",
+        "goodKeywords": [
+          "小巧省地",
+          "分洗卫生",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，价格敏感友好，适合小户型与母婴家庭",
+        "image": "https://img.alicdn.com/imgextra/i4/2616970884/O1CN01yYEeWu1IOvAoC1vf7_!!4611686018427383428-2-item_pic.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "身体磨砂膏（买二送一）",
+        "link": "https://s.taobao.com/search?q=身体磨砂膏",
+        "price": "约29-59元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季露肤季身体护理走量，当天发货+买赠促销拉动转化",
+        "goodKeywords": [
+          "去角质干净",
+          "香味好闻",
+          "皮肤滑嫩"
+        ],
+        "badKeywords": [
+          "颗粒偏粗"
+        ],
+        "match": true,
+        "matchReason": "天然护肤个护方向，价格敏感友好，适合女性身体护理",
+        "image": "https://floroma.net/cdn/shop/files/1080-combo_e_67ebe851-9dbd-400f-997e-d674bfb080b7.jpg?v=1773886739"
+      },
+      {
+        "platform": "京东",
+        "name": "可折叠暖菜板",
+        "link": "https://s.taobao.com/search?q=可折叠暖菜板",
+        "price": "约99-199元",
+        "brand": "ACA北美电器等",
+        "shipping": "48小时内",
+        "hotReason": "厨房小家电新宠，智能3档调节，家庭聚餐保温刚需，实用不占地",
+        "goodKeywords": [
+          "保温效果好",
+          "可折叠收纳",
+          "聚餐实用"
+        ],
+        "badKeywords": [
+          "加热慢"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的家居小家电，适合家庭聚餐与日常使用",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2414470769/O1CN01JcWpK14ZvZB3FPpA_!!2414470769.jpg_360x360q90.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-06",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
