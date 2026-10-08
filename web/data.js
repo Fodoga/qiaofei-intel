@@ -1,5 +1,370 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-08",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "红豆薏米芡实祛湿茶",
+        "platform": "京东",
+        "price": "约29-59元",
+        "brand": "同仁堂/北京同仁堂",
+        "hotReason": "盛夏祛湿刚需，药食同源冲饮长期霸榜养生茶类目，复购率高，县城女性家庭常备",
+        "image": ""
+      },
+      {
+        "name": "艾草足浴包/泡脚药包",
+        "platform": "拼多多",
+        "price": "约9.9-29.9元",
+        "brand": "多品牌白牌",
+        "hotReason": "夏季空调房寒湿重，泡脚祛湿温养需求上升，低价高复购，适合家庭囤货",
+        "image": ""
+      },
+      {
+        "name": "便携折叠小风扇",
+        "platform": "抖音",
+        "price": "约19.9-49元",
+        "brand": "mikibobo等",
+        "hotReason": "盛夏高温驱动，便携风扇为夏季爆款小家电，19.9元速抢类促销频繁上榜",
+        "image": ""
+      },
+      {
+        "name": "桌面迷你加湿器",
+        "platform": "抖音",
+        "price": "约29-69元",
+        "brand": "多品牌",
+        "hotReason": "空调房干燥，桌面加湿器为夏季办公/卧室刚需小家电，颜值款易种草",
+        "image": ""
+      },
+      {
+        "name": "养生壶/全玻璃沸萃壶",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "九阳/苏泊尔",
+        "hotReason": "煮祛湿茶、养生汤高频使用，夏季养生场景带动，品牌背书强、发货快",
+        "image": ""
+      },
+      {
+        "name": "除湿机/小型除湿器",
+        "platform": "京东",
+        "price": "约199-499元",
+        "brand": "宫菱等",
+        "hotReason": "南方梅雨与盛夏潮湿，除湿机搜索量上升，家居健康类目增长明显",
+        "image": ""
+      },
+      {
+        "name": "真丝丝巾礼盒",
+        "platform": "1688",
+        "price": "约39-99元",
+        "brand": "源头工厂",
+        "hotReason": "送长辈父母体面礼品，七夕后延续送礼场景，1688源头工厂平替经济走热",
+        "image": ""
+      },
+      {
+        "name": "黑芝麻丸",
+        "platform": "拼多多",
+        "price": "约19.9-49元",
+        "brand": "老金磨方等",
+        "hotReason": "药食同源养生零食，补气血概念，女性养生复购高，低价易起量",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩器/捶打披肩",
+        "platform": "淘宝",
+        "price": "约99-299元",
+        "brand": "SKG等",
+        "hotReason": "久坐低头族刚需，送父母健康礼品热门，夏季空调房肩颈不适带动",
+        "image": ""
+      },
+      {
+        "name": "厨房电器收纳柜",
+        "platform": "淘宝",
+        "price": "约89-199元",
+        "brand": "多品牌",
+        "hotReason": "小户型收纳刚需，提升生活质量家居好物，县城家庭改善型消费",
+        "image": ""
+      },
+      {
+        "name": "永生花香皂花礼盒",
+        "platform": "淘宝",
+        "price": "约29-79元",
+        "brand": "多品牌",
+        "hotReason": "节日送礼常青款，七夕/教师节/送长辈场景，体面低价",
+        "image": ""
+      },
+      {
+        "name": "益生菌私护凝胶",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "非黑名单品牌",
+        "hotReason": "女性私护非棉品方向，夏季湿热私护需求上升，益生菌概念受关注",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "盛夏祛湿温养·家人健康礼专区",
+      "reason": "10月仍处盛夏余热与潮湿交替，县城女性重祛湿温养、家庭健康与送礼体面，主推药食同源冲饮、养生小家电、送长辈实用礼品，价格敏感友好、高复购",
+      "zones": [
+        {
+          "zone": "祛湿温养食补区",
+          "products": [
+            "红豆薏米芡实祛湿茶",
+            "艾草足浴包",
+            "陈皮茯苓祛湿茶",
+            "山药芡实粉"
+          ]
+        },
+        {
+          "zone": "健康小家电区",
+          "products": [
+            "养生壶",
+            "桌面迷你加湿器",
+            "便携折叠小风扇",
+            "小型除湿器"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼区",
+          "products": [
+            "真丝丝巾礼盒",
+            "颈椎按摩披肩",
+            "永生花香皂花礼盒",
+            "养生冲泡礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "陈皮茯苓祛湿茶",
+          "platform": "淘宝",
+          "price": "约29-59元",
+          "brand": "同仁堂/药食同源品牌",
+          "shipping": "48小时内",
+          "reason": "盛夏祛湿刚需，药食同源，复购高，适合家庭常备",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/2218635727382/O1CN01LKPogW24P0t0dvi64_!!4611686018427384342-0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "艾草足浴包",
+          "platform": "拼多多",
+          "price": "约9.9-29.9元",
+          "brand": "白牌/源头工厂",
+          "shipping": "48小时内",
+          "reason": "低价高复购，空调房祛湿温养，县城女性家庭囤货首选",
+          "image": "https://img.myshopline.com/image/store/1716278620360/A10814-V2(F)-800px.jpeg?w=800&h=800"
+        },
+        {
+          "name": "便携折叠小风扇",
+          "platform": "抖音",
+          "price": "约19.9-49元",
+          "brand": "mikibobo等",
+          "shipping": "48小时内",
+          "reason": "盛夏爆款小家电，19.9元促销易起量，通勤/居家实用",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BE%BF%E6%90%BA%E6%8A%98%E5%8F%A0%E5%B0%8F%E9%A3%8E%E6%89%87%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "养生壶",
+          "platform": "京东",
+          "price": "约99-199元",
+          "brand": "九阳/苏泊尔",
+          "shipping": "24-48小时",
+          "reason": "煮祛湿茶高频使用，品牌背书强，发货快，提升生活质量",
+          "image": "https://md.huarenstore.com/media/350/catalog/product/f/i/file_676_3.jpg.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "陈皮茯苓祛湿茶",
+        "link": "https://s.taobao.com/search?q=陈皮茯苓祛湿茶",
+        "price": "约29-59元",
+        "brand": "同仁堂/药食同源品牌",
+        "shipping": "48小时内",
+        "hotReason": "盛夏祛湿刚需，药食同源冲饮类目热销，复购率高，县城女性家庭常备",
+        "goodKeywords": [
+          "祛湿效果好",
+          "味道清香",
+          "独立包装方便",
+          "复购"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "契合祛湿温养与药食同源方向，价格敏感友好、高复购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%99%88%E7%9A%AE%E8%8C%AF%E8%8B%93%E7%A5%9B%E6%B9%BF%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "艾草足浴包",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=艾草足浴包",
+        "price": "约9.9-29.9元",
+        "brand": "白牌/源头工厂",
+        "shipping": "48小时内",
+        "hotReason": "夏季空调房寒湿重，泡脚祛湿温养需求上升，低价高复购，适合家庭囤货",
+        "goodKeywords": [
+          "性价比高",
+          "艾草味浓",
+          "泡完舒服",
+          "量大"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养刚需，低价高复购，符合价格敏感人群",
+        "image": "https://img.myshopline.com/image/store/1716278620360/A10814-V2(F)-800px.jpeg?w=800&h=800"
+      },
+      {
+        "platform": "抖音",
+        "name": "便携折叠小风扇",
+        "link": "https://www.douyin.com/search/便携折叠小风扇",
+        "price": "约19.9-49元",
+        "brand": "mikibobo等",
+        "shipping": "48小时内",
+        "hotReason": "盛夏高温驱动，便携风扇为夏季爆款小家电，19.9元速抢类促销频繁上榜",
+        "goodKeywords": [
+          "风力大",
+          "小巧便携",
+          "续航久",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "盛夏实用小家电，低价易起量，提升生活质量",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BE%BF%E6%90%BA%E6%8A%98%E5%8F%A0%E5%B0%8F%E9%A3%8E%E6%89%87%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "养生壶",
+        "link": "https://search.jd.com/Search?keyword=养生壶",
+        "price": "约99-199元",
+        "brand": "九阳/苏泊尔",
+        "shipping": "24-48小时",
+        "hotReason": "煮祛湿茶、养生汤高频使用，夏季养生场景带动，品牌背书强、发货快",
+        "goodKeywords": [
+          "煮茶方便",
+          "材质安全",
+          "保温好",
+          "易清洗"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "养生场景刚需小家电，品牌可靠，发货快",
+        "image": "https://md.huarenstore.com/media/350/catalog/product/f/i/file_676_3.jpg.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "小型除湿器",
+        "link": "https://search.jd.com/Search?keyword=小型除湿器",
+        "price": "约199-499元",
+        "brand": "宫菱等",
+        "shipping": "48小时内",
+        "hotReason": "南方梅雨与盛夏潮湿，除湿机搜索量上升，家居健康类目增长明显",
+        "goodKeywords": [
+          "除湿效果好",
+          "静音",
+          "水箱大",
+          "省电"
+        ],
+        "badKeywords": [
+          "体积偏大"
+        ],
+        "match": true,
+        "matchReason": "盛夏潮湿刚需，提升居住质量，适合家庭改善型消费",
+        "image": "https://m.media-amazon.com/images/I/619-IigUC+L._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "颈椎按摩披肩",
+        "link": "https://s.taobao.com/search?q=颈椎按摩披肩",
+        "price": "约99-299元",
+        "brand": "SKG等",
+        "shipping": "48小时内",
+        "hotReason": "久坐低头族刚需，送父母健康礼品热门，夏季空调房肩颈不适带动",
+        "goodKeywords": [
+          "按摩舒服",
+          "力度可调",
+          "送礼合适",
+          "操作简单"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "送父母健康礼品，实用性强，符合家人场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A2%88%E6%A4%8E%E6%8C%89%E6%91%A9%E6%8A%AB%E8%82%A9%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "永生花香皂花礼盒",
+        "link": "https://s.taobao.com/search?q=永生花香皂花礼盒",
+        "price": "约29-79元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "节日送礼常青款，七夕/教师节/送长辈场景，体面低价",
+        "goodKeywords": [
+          "包装精美",
+          "香味好闻",
+          "送礼体面",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "花偏小"
+        ],
+        "match": true,
+        "matchReason": "节日送礼体面低价，符合送礼场景",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i4/2215883938430/O1CN016qAvAk2C8zy2k7OoM_!!2215883938430.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "益生菌私护凝胶",
+        "link": "https://s.taobao.com/search?q=益生菌私护凝胶",
+        "price": "约59-129元",
+        "brand": "非黑名单品牌",
+        "shipping": "48小时内",
+        "hotReason": "女性私护非棉品方向，夏季湿热私护需求上升，益生菌概念受关注",
+        "goodKeywords": [
+          "温和不刺激",
+          "使用方便",
+          "清爽",
+          "复购"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "女性私护非棉品方向，避开自研品类，符合人群需求",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2206875709092/O1CN01R7onso2H2C7Tv9wEN_!!4611686018427383460-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "桌面迷你加湿器",
+        "link": "https://search.jd.com/Search?keyword=桌面迷你加湿器",
+        "price": "约29-69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "空调房干燥，桌面加湿器为夏季办公/卧室刚需小家电，颜值款易种草",
+        "goodKeywords": [
+          "静音",
+          "出雾细腻",
+          "小巧",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "水箱小"
+        ],
+        "match": true,
+        "matchReason": "夏季实用小家电，提升生活质量，价格友好",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2552367957/O1CN01wRr7z428eMdhcydA2_!!2552367957.jpg_360x360q90.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-07",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
