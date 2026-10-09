@@ -1,5 +1,412 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-09",
+    "season": "深秋·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "迷你蓝牙音箱（猫王原子唱机类）",
+        "platform": "淘宝",
+        "price": "约199-399元",
+        "brand": "猫王",
+        "hotReason": "多篇家居好物盘点列为提升幸福感小电器，金属小巧高颜值，节日送礼属性强",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机",
+        "platform": "淘宝",
+        "price": "约199-399元",
+        "brand": "徕芬",
+        "hotReason": "反向海淘指南提及国产个护小家电性价比高，媲美高端品牌性能，社媒热度持续",
+        "image": ""
+      },
+      {
+        "name": "不用手洗破壁机/豆浆机",
+        "platform": "京东",
+        "price": "约399-899元",
+        "brand": "九阳",
+        "hotReason": "华人厨房小家电Top榜常客，自动清洗痛点解决，秋冬热饮需求上升",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅",
+        "platform": "拼多多",
+        "price": "约129-299元",
+        "brand": "美的/九阳",
+        "hotReason": "网红小家电持续走俏，高颜值强功能强社交属性，秋冬家庭烹饪高频",
+        "image": ""
+      },
+      {
+        "name": "养生壶/全玻璃沸萃壶",
+        "platform": "京东",
+        "price": "约99-259元",
+        "brand": "苏泊尔/小熊",
+        "hotReason": "秋冬温养煮茶煮粥高频，多篇小家电推荐榜常驻，价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "除螨仪",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "莱克/小米",
+        "hotReason": "家务家电推荐榜高频，秋冬换季床品清洁需求上升，健康家居属性强",
+        "image": ""
+      },
+      {
+        "name": "智能音箱（小爱音箱Play增强版类）",
+        "platform": "淘宝",
+        "price": "约99-169元",
+        "brand": "小米",
+        "hotReason": "提升生活质量推荐榜常客，语音控制6000+品牌设备，送礼实用",
+        "image": ""
+      },
+      {
+        "name": "私护益生菌/护理凝胶",
+        "platform": "淘宝",
+        "price": "约69-199元",
+        "brand": "多品牌",
+        "hotReason": "2026中国私护市场年均增速10.4%，需求从基础清洁转向科学养护，成分安全PH平衡受关注",
+        "image": ""
+      },
+      {
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "platform": "京东",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "hotReason": "七夕/中秋送礼场景热销，国风养生礼盒兼具实用与体面，送长辈父母适配",
+        "image": ""
+      },
+      {
+        "name": "珍珠项链/真丝丝巾礼盒",
+        "platform": "淘宝",
+        "price": "约89-299元",
+        "brand": "多品牌",
+        "hotReason": "七夕送妈妈浪漫风好物推荐，温婉珍珠与复古真丝提升气质，节日仪式感强",
+        "image": ""
+      },
+      {
+        "name": "宿舍收纳盒/桌面书架",
+        "platform": "淘宝",
+        "price": "约19-69元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍好物推荐重点品类，分格收纳盒与可升降床上小桌高频出现",
+        "image": ""
+      },
+      {
+        "name": "迷你电饭煲/一人食小锅",
+        "platform": "拼多多",
+        "price": "约79-199元",
+        "brand": "小熊/苏泊尔",
+        "hotReason": "网红小家电走俏，一人食场景与宿舍场景双驱动，价格敏感友好",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿温养·居家暖养与体面送礼周",
+      "reason": "深秋湿寒交替，三四线县城女性注重祛湿温养与家人健康；同时开学季余温与送长辈需求叠加，家居暖养小电器与体面礼品兼具实用与性价比，复购与送礼双场景驱动",
+      "zones": [
+        {
+          "zone": "祛湿温养食补专区",
+          "products": [
+            "陈皮茯苓祛湿茶",
+            "红豆薏米芡实祛湿茶",
+            "老红糖姜母茶",
+            "九蒸九晒黄精",
+            "酸枣仁百合安神茶"
+          ]
+        },
+        {
+          "zone": "居家暖养小电器专区",
+          "products": [
+            "养生壶/全玻璃沸萃壶",
+            "除螨仪",
+            "迷你电饭煲/一人食小锅",
+            "桌面迷你加湿器",
+            "暖菜板"
+          ]
+        },
+        {
+          "zone": "体面送礼·送长辈父母专区",
+          "products": [
+            "国风养生艾草锤檀木梳礼盒",
+            "珍珠项链/真丝丝巾礼盒",
+            "西洋参滋补礼盒",
+            "花鸟陶瓷小夜灯"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "国风养生艾草锤檀木梳礼盒",
+          "platform": "京东",
+          "price": "约59-129元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "国风养生礼盒兼具实用与体面，送长辈父母适配，节日送礼场景热销",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2222248677313/O1CN01MW7NrTZxRbC2vH2e_!!4611686018427383745-0-item_pic.jpg"
+        },
+        {
+          "name": "西洋参滋补礼盒",
+          "platform": "淘宝",
+          "price": "约199-499元",
+          "brand": "同仁堂/多品牌",
+          "shipping": "48小时内",
+          "reason": "送长辈实用滋补礼品，药食同源属性强，体面合宜且价格带适中",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2220090655402/O1CN01LwL2zwOyjUB1chua_!!4611686018427380394-0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "迷你电饭煲/一人食小锅",
+          "platform": "拼多多",
+          "price": "约79-199元",
+          "brand": "小熊/苏泊尔",
+          "shipping": "48小时内",
+          "reason": "一人食与宿舍场景双驱动，价格敏感友好，秋冬热食高频使用",
+          "image": "https://img.alicdn.com/imgextra/O1CN01krVWoh1JeJjN7MmdF_!!6000000001053-2-yinhe.png_q50.jpg_.webp"
+        },
+        {
+          "name": "花鸟陶瓷小夜灯",
+          "platform": "淘宝",
+          "price": "约69-159元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "送妈妈/女性长辈温馨雅致好物，家居氛围感强，节日送礼体面",
+          "image": "https://img.youzili.com/Upload/Img103/106983-1874626737215430-1229317.jpg?_uptime=20251209171130"
+        },
+        {
+          "name": "私护益生菌/护理凝胶",
+          "platform": "淘宝",
+          "price": "约69-199元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "女性私护科学养护需求上升，非棉品非自研方向，复购属性强",
+          "image": "https://img.maiyaole.com/img/202512/22/org_20251222082925553_602134.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "link": "https://s.taobao.com/search?q=国风养生艾草锤檀木梳礼盒",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "七夕/中秋送礼场景热销，国风养生礼盒兼具实用与体面，送长辈父母适配",
+        "goodKeywords": [
+          "包装精美",
+          "送长辈有面子",
+          "实用"
+        ],
+        "badKeywords": [
+          "物流慢"
+        ],
+        "match": true,
+        "matchReason": "送长辈父母体面礼品，国风养生属性契合目标人群",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2222248677313/O1CN01MW7NrTZxRbC2vH2e_!!4611686018427383745-0-item_pic.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "西洋参滋补礼盒",
+        "link": "https://s.taobao.com/search?q=西洋参滋补礼盒",
+        "price": "约199-499元",
+        "brand": "同仁堂/多品牌",
+        "shipping": "48小时内",
+        "hotReason": "送长辈实用滋补礼品，药食同源属性强，体面合宜且价格带适中",
+        "goodKeywords": [
+          "滋补养生",
+          "送长辈合适",
+          "品质好"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "药食同源滋补礼品，契合送长辈父母场景",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2220090655402/O1CN01LwL2zwOyjUB1chua_!!4611686018427380394-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "迷你电饭煲/一人食小锅",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=迷你电饭煲一人食小锅",
+        "price": "约79-199元",
+        "brand": "小熊/苏泊尔",
+        "shipping": "48小时内",
+        "hotReason": "网红小家电走俏，一人食场景与宿舍场景双驱动，价格敏感友好",
+        "goodKeywords": [
+          "小巧实用",
+          "煮饭快",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，价格敏感友好，秋冬热食高频",
+        "image": "https://img.alicdn.com/imgextra/O1CN01krVWoh1JeJjN7MmdF_!!6000000001053-2-yinhe.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "花鸟陶瓷小夜灯",
+        "link": "https://s.taobao.com/search?q=花鸟陶瓷小夜灯",
+        "price": "约69-159元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "送妈妈/女性长辈温馨雅致好物，家居氛围感强，节日送礼体面",
+        "goodKeywords": [
+          "氛围感好",
+          "送妈妈合适",
+          "做工精致"
+        ],
+        "badKeywords": [
+          "亮度一般"
+        ],
+        "match": true,
+        "matchReason": "送长辈父母体面礼品，家居氛围好物",
+        "image": "https://img.youzili.com/Upload/Img103/106983-1874626737215430-1229317.jpg?_uptime=20251209171130"
+      },
+      {
+        "platform": "淘宝",
+        "name": "私护益生菌/护理凝胶",
+        "link": "https://s.taobao.com/search?q=私护益生菌护理凝胶",
+        "price": "约69-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "2026中国私护市场年均增速10.4%，需求从基础清洁转向科学养护，成分安全PH平衡受关注",
+        "goodKeywords": [
+          "温和不刺激",
+          "成分安全",
+          "复购"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "女性私护科学养护，非棉品非自研方向，复购属性强",
+        "image": "https://img.maiyaole.com/img/202512/22/org_20251222082925553_602134.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "高速吹风机",
+        "link": "https://search.jd.com/Search?keyword=高速吹风机",
+        "price": "约199-399元",
+        "brand": "徕芬",
+        "shipping": "48小时内",
+        "hotReason": "反向海淘指南提及国产个护小家电性价比高，媲美高端品牌性能，社媒热度持续",
+        "goodKeywords": [
+          "风力大",
+          "干发快",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "个护小家电，提升生活质量，价格敏感友好",
+        "image": "https://consumer.panasonic.cn/static/upload/image/20231204/1701664955271525.png"
+      },
+      {
+        "platform": "京东",
+        "name": "除螨仪",
+        "link": "https://search.jd.com/Search?keyword=除螨仪",
+        "price": "约199-399元",
+        "brand": "莱克/小米",
+        "shipping": "48小时内",
+        "hotReason": "家务家电推荐榜高频，秋冬换季床品清洁需求上升，健康家居属性强",
+        "goodKeywords": [
+          "吸力大",
+          "除螨效果好",
+          "轻便"
+        ],
+        "badKeywords": [
+          "线短"
+        ],
+        "match": true,
+        "matchReason": "健康家居好物，秋冬换季清洁刚需",
+        "image": "https://consumer.panasonic.cn/static/upload/image/20240826/1724654970247082.png"
+      },
+      {
+        "platform": "淘宝",
+        "name": "智能音箱（小爱音箱Play增强版类）",
+        "link": "https://s.taobao.com/search?q=小爱音箱Play增强版",
+        "price": "约99-169元",
+        "brand": "小米",
+        "shipping": "48小时内",
+        "hotReason": "提升生活质量推荐榜常客，语音控制6000+品牌设备，送礼实用",
+        "goodKeywords": [
+          "语音控制方便",
+          "音质好",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "偶尔断连"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量小家电，送礼实用",
+        "image": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1627877128.27218674.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "空气炸锅",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=空气炸锅",
+        "price": "约129-299元",
+        "brand": "美的/九阳",
+        "shipping": "48小时内",
+        "hotReason": "网红小家电持续走俏，高颜值强功能强社交属性，秋冬家庭烹饪高频",
+        "goodKeywords": [
+          "无油健康",
+          "操作简单",
+          "容量大"
+        ],
+        "badKeywords": [
+          "清洗麻烦"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，提升生活质量，价格敏感友好",
+        "image": "https://consumer.panasonic.cn/static/upload/image/20230209/1675929012828758.png"
+      },
+      {
+        "platform": "淘宝",
+        "name": "珍珠项链/真丝丝巾礼盒",
+        "link": "https://s.taobao.com/search?q=珍珠项链真丝丝巾礼盒",
+        "price": "约89-299元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "七夕送妈妈浪漫风好物推荐，温婉珍珠与复古真丝提升气质，节日仪式感强",
+        "goodKeywords": [
+          "显气质",
+          "送妈妈合适",
+          "包装精美"
+        ],
+        "badKeywords": [
+          "色差"
+        ],
+        "match": true,
+        "matchReason": "送长辈父母体面礼品，节日仪式感强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%8F%8D%E7%8F%A0%E9%A1%B9%E9%93%BE/%E7%9C%9F%E4%B8%9D%E4%B8%9D%E5%B7%BE%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "宿舍收纳盒/桌面书架",
+        "link": "https://s.taobao.com/search?q=宿舍收纳盒桌面书架",
+        "price": "约19-69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍好物推荐重点品类，分格收纳盒与可升降床上小桌高频出现",
+        "goodKeywords": [
+          "收纳方便",
+          "结实",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "尺寸偏小"
+        ],
+        "match": true,
+        "matchReason": "开学季家居好物，价格敏感友好",
+        "image": "https://img.alicdn.com/imgextra/i1/70107608/O1CN01DOAPng264WIwgVH3j_!!70107608.jpg_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-08",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
