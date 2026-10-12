@@ -1,5 +1,428 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-12",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "艾草颈椎贴/暖颈贴",
+        "platform": "淘宝",
+        "price": "约19.9-39.9元/盒",
+        "brand": "多品牌（非黑名单品牌）",
+        "hotReason": "盛夏空调房颈肩受凉高发，祛湿温养季叠加久坐办公人群需求，站内搜索与回购热度高",
+        "image": ""
+      },
+      {
+        "name": "五指毛桃茯苓祛湿茶",
+        "platform": "拼多多",
+        "price": "约29.9-59.9元/袋",
+        "brand": "多品牌（药食同源代用茶）",
+        "hotReason": "南方湿热季节祛湿需求强，药食同源冲饮在县域女性中复购稳定，性价比突出",
+        "image": ""
+      },
+      {
+        "name": "迷你破壁豆浆机（一人食）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "九阳/美的等",
+        "hotReason": "开学季与一人食小家电趋势延续，早餐养生场景带动，48小时内发货为主",
+        "image": ""
+      },
+      {
+        "name": "蒸汽眼罩（热敷助眠）",
+        "platform": "淘宝",
+        "price": "约29.9-69.9元/盒",
+        "brand": "多品牌（非黑名单品牌）",
+        "hotReason": "熬夜与用眼疲劳普遍，助眠个护类高复购，适合女性自用与送闺蜜",
+        "image": ""
+      },
+      {
+        "name": "折叠泡脚桶（可折叠足浴盆）",
+        "platform": "拼多多",
+        "price": "约39.9-89元",
+        "brand": "多品牌",
+        "hotReason": "祛湿温养季泡脚场景高频，收纳友好适合小户型，价格敏感人群友好",
+        "image": ""
+      },
+      {
+        "name": "银耳羹/即食花胶羹",
+        "platform": "淘宝",
+        "price": "约49.9-129元/箱",
+        "brand": "多品牌（即食滋补）",
+        "hotReason": "女性养生食补趋势，开盖即食降低门槛，送礼与自用两相宜",
+        "image": ""
+      },
+      {
+        "name": "桌面循环扇（静音）",
+        "platform": "抖音",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "hotReason": "盛夏持续高温，办公/床头静音小风扇需求旺，短视频种草转化高",
+        "image": ""
+      },
+      {
+        "name": "真丝眼罩（桑蚕丝）",
+        "platform": "淘宝",
+        "price": "约29.9-79元",
+        "brand": "多品牌",
+        "hotReason": "助眠与精致个护结合，七夕后礼品余温与开学季宿舍场景带动",
+        "image": ""
+      },
+      {
+        "name": "厨房沥水置物架（不锈钢）",
+        "platform": "拼多多",
+        "price": "约39.9-99元",
+        "brand": "多品牌",
+        "hotReason": "提升生活质量家居好物，县域家庭厨房改造需求稳定，性价比高",
+        "image": ""
+      },
+      {
+        "name": "护颈记忆棉枕",
+        "platform": "京东",
+        "price": "约69-159元",
+        "brand": "多品牌",
+        "hotReason": "颈椎健康关注度上升，送长辈与自用兼顾，物流时效稳定",
+        "image": ""
+      },
+      {
+        "name": "便携榨汁杯（无线充电款）",
+        "platform": "抖音",
+        "price": "约49-99元",
+        "brand": "多品牌",
+        "hotReason": "夏季果蔬饮场景，宿舍/办公室便携小家电趋势，短视频带货热度高",
+        "image": ""
+      },
+      {
+        "name": "香薰蜡烛/无火香薰礼盒",
+        "platform": "淘宝",
+        "price": "约39.9-129元",
+        "brand": "多品牌",
+        "hotReason": "提升居家氛围与送礼体面感，七夕后礼品延续，女性用户偏好明显",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "祛湿温养·居家轻养生周",
+      "reason": "盛夏湿热叠加空调房久坐，县域女性对祛湿、颈肩温养、泡脚助眠需求集中；同时开学季与送长辈场景带动实用小家电与体面礼品，优先高性价比、48小时内发货",
+      "zones": [
+        {
+          "zone": "祛湿温养内调区",
+          "products": [
+            "五指毛桃茯苓祛湿茶",
+            "即食银耳羹/花胶羹",
+            "老红糖姜母茶（非黑名单品牌）"
+          ]
+        },
+        {
+          "zone": "居家轻养生小电区",
+          "products": [
+            "折叠泡脚桶",
+            "迷你破壁豆浆机",
+            "护颈记忆棉枕"
+          ]
+        },
+        {
+          "zone": "体面送礼·家人关怀区",
+          "products": [
+            "真丝眼罩礼盒",
+            "香薰蜡烛/无火香薰礼盒",
+            "蒸汽眼罩"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "五指毛桃茯苓祛湿茶",
+          "platform": "拼多多",
+          "price": "约29.9-59.9元/袋",
+          "brand": "多品牌（药食同源代用茶）",
+          "shipping": "48小时内",
+          "reason": "祛湿温养季刚需冲饮，价格敏感友好，复购稳定，适合县域女性日常养生",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BA%94%E6%8C%87%E6%AF%9B%E6%A1%83%E8%8C%AF%E8%8B%93%E7%A5%9B%E6%B9%BF%E8%8C%B6%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "折叠泡脚桶",
+          "platform": "拼多多",
+          "price": "约39.9-89元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "泡脚祛湿高频场景，折叠收纳适合小户型，性价比高易转化",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%8A%98%E5%8F%A0%E6%B3%A1%E8%84%9A%E6%A1%B6%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "护颈记忆棉枕",
+          "platform": "京东",
+          "price": "约69-159元",
+          "brand": "多品牌",
+          "shipping": "24-48小时",
+          "reason": "颈肩健康与送长辈兼顾，京东物流时效稳定，体面实用",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%8A%A4%E9%A2%88%E8%AE%B0%E5%BF%86%E6%A3%89%E6%9E%95%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "蒸汽眼罩（热敷助眠）",
+          "platform": "淘宝",
+          "price": "约29.9-69.9元/盒",
+          "brand": "多品牌（非黑名单品牌）",
+          "shipping": "48小时内",
+          "reason": "助眠个护高复购，女性自用与送礼皆宜，客单低易起量",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%92%B8%E6%B1%BD%E7%9C%BC%E7%BD%A9%EF%BC%88%E7%83%AD%E6%95%B7%E5%8A%A9%E7%9C%A0%EF%BC%89%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "香薰蜡烛/无火香薰礼盒",
+          "platform": "淘宝",
+          "price": "约39.9-129元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "提升居家氛围与送礼体面感，契合女性审美，节日余温带动",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E8%96%B0%E8%9C%A1%E7%83%9B/%E6%97%A0%E7%81%AB%E9%A6%99%E8%96%B0%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "五指毛桃茯苓祛湿茶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=五指毛桃茯苓祛湿茶",
+        "price": "约29.9-59.9元/袋",
+        "brand": "多品牌（药食同源代用茶）",
+        "shipping": "48小时内",
+        "hotReason": "盛夏祛湿需求集中，药食同源冲饮在县域女性中复购稳定，价格敏感友好",
+        "goodKeywords": [
+          "祛湿",
+          "口感好",
+          "独立包装",
+          "回购"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养季刚需内调冲饮，高性价比高复购，符合目标人群养生需求",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BA%94%E6%8C%87%E6%AF%9B%E6%A1%83%E8%8C%AF%E8%8B%93%E7%A5%9B%E6%B9%BF%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "折叠泡脚桶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=折叠泡脚桶",
+        "price": "约39.9-89元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "泡脚祛湿高频场景，折叠收纳适合小户型，站内销量与评价热度高",
+        "goodKeywords": [
+          "收纳方便",
+          "保温",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "材质偏薄"
+        ],
+        "match": true,
+        "matchReason": "居家轻养生实用好物，价格友好，契合祛湿温养主题",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%8A%98%E5%8F%A0%E6%B3%A1%E8%84%9A%E6%A1%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "护颈记忆棉枕",
+        "link": "https://search.jd.com/Search?keyword=护颈记忆棉枕",
+        "price": "约69-159元",
+        "brand": "多品牌",
+        "shipping": "24-48小时",
+        "hotReason": "颈椎健康关注度上升，送长辈与自用兼顾，京东物流时效稳定",
+        "goodKeywords": [
+          "支撑好",
+          "回弹快",
+          "送长辈合适"
+        ],
+        "badKeywords": [
+          "偏高/偏低"
+        ],
+        "match": true,
+        "matchReason": "健康家居好物，送长辈体面实用，符合家人关怀场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%8A%A4%E9%A2%88%E8%AE%B0%E5%BF%86%E6%A3%89%E6%9E%95%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "蒸汽眼罩（热敷助眠）",
+        "link": "https://s.taobao.com/search?q=蒸汽眼罩",
+        "price": "约29.9-69.9元/盒",
+        "brand": "多品牌（非黑名单品牌）",
+        "shipping": "48小时内",
+        "hotReason": "熬夜与用眼疲劳普遍，助眠个护类高复购，女性自用与送礼皆宜",
+        "goodKeywords": [
+          "发热均匀",
+          "助眠",
+          "香味舒适"
+        ],
+        "badKeywords": [
+          "温度偏低"
+        ],
+        "match": true,
+        "matchReason": "个护助眠高复购，客单低易起量，契合女性健康养护方向",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%92%B8%E6%B1%BD%E7%9C%BC%E7%BD%A9%EF%BC%88%E7%83%AD%E6%95%B7%E5%8A%A9%E7%9C%A0%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "真丝眼罩（桑蚕丝）",
+        "link": "https://s.taobao.com/search?q=真丝眼罩",
+        "price": "约29.9-79元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "助眠与精致个护结合，开学季宿舍与送礼场景带动，搜索热度稳定",
+        "goodKeywords": [
+          "亲肤",
+          "遮光好",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "易滑落"
+        ],
+        "match": true,
+        "matchReason": "天然材质个护好物，适合自用与送闺蜜/长辈，体面合宜",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%9C%9F%E4%B8%9D%E7%9C%BC%E7%BD%A9%EF%BC%88%E6%A1%91%E8%9A%95%E4%B8%9D%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "香薰蜡烛/无火香薰礼盒",
+        "link": "https://s.taobao.com/search?q=无火香薰礼盒",
+        "price": "约39.9-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "提升居家氛围与送礼体面感，女性用户偏好明显，节日余温带动",
+        "goodKeywords": [
+          "香味高级",
+          "包装精美",
+          "送礼合适"
+        ],
+        "badKeywords": [
+          "香味偏浓"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量家居好物兼体面礼品，契合女性审美与送礼场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A6%99%E8%96%B0%E8%9C%A1%E7%83%9B/%E6%97%A0%E7%81%AB%E9%A6%99%E8%96%B0%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "迷你破壁豆浆机（一人食）",
+        "link": "https://search.jd.com/Search?keyword=迷你破壁豆浆机",
+        "price": "约199-399元",
+        "brand": "九阳/美的等",
+        "shipping": "24-48小时",
+        "hotReason": "开学季与一人食小家电趋势延续，早餐养生场景带动，品牌背书强",
+        "goodKeywords": [
+          "免滤",
+          "易清洗",
+          "容量合适"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "实用小家电提升生活质量，适合一人食与家庭早餐养生",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%BF%B7%E4%BD%A0%E7%A0%B4%E5%A3%81%E8%B1%86%E6%B5%86%E6%9C%BA%EF%BC%88%E4%B8%80%E4%BA%BA%E9%A3%9F%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "桌面循环扇（静音）",
+        "link": "https://www.douyin.com/search/桌面循环扇",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "盛夏持续高温，办公/床头静音小风扇需求旺，短视频种草转化高",
+        "goodKeywords": [
+          "静音",
+          "风力足",
+          "小巧"
+        ],
+        "badKeywords": [
+          "档位少"
+        ],
+        "match": true,
+        "matchReason": "盛夏实用小家电，价格友好，适合县域家庭与宿舍场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%A1%8C%E9%9D%A2%E5%BE%AA%E7%8E%AF%E6%89%87%EF%BC%88%E9%9D%99%E9%9F%B3%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "厨房沥水置物架（不锈钢）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=厨房沥水置物架",
+        "price": "约39.9-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "提升生活质量家居好物，县域家庭厨房改造需求稳定，性价比高",
+        "goodKeywords": [
+          "结实",
+          "容量大",
+          "安装简单"
+        ],
+        "badKeywords": [
+          "易生锈"
+        ],
+        "match": true,
+        "matchReason": "家居实用好物，价格敏感友好，符合提升生活质量需求",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8E%A8%E6%88%BF%E6%B2%A5%E6%B0%B4%E7%BD%AE%E7%89%A9%E6%9E%B6%EF%BC%88%E4%B8%8D%E9%94%88%E9%92%A2%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "即食银耳羹/花胶羹",
+        "link": "https://s.taobao.com/search?q=即食银耳羹",
+        "price": "约49.9-129元/箱",
+        "brand": "多品牌（即食滋补）",
+        "shipping": "48小时内",
+        "hotReason": "女性养生食补趋势，开盖即食降低门槛，送礼与自用两相宜",
+        "goodKeywords": [
+          "方便",
+          "口感好",
+          "配料干净"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "药食同源养生食补，适合女性日常与送长辈，体面实用",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E9%93%B6%E8%80%B3%E7%BE%B9/%E8%8A%B1%E8%83%B6%E7%BE%B9%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "便携榨汁杯（无线充电款）",
+        "link": "https://www.douyin.com/search/便携榨汁杯",
+        "price": "约49-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季果蔬饮场景，宿舍/办公室便携小家电趋势，短视频带货热度高",
+        "goodKeywords": [
+          "便携",
+          "易清洗",
+          "续航够用"
+        ],
+        "badKeywords": [
+          "动力偏弱"
+        ],
+        "match": true,
+        "matchReason": "实用小家电提升生活质量，适合开学季宿舍与办公室场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BE%BF%E6%90%BA%E6%A6%A8%E6%B1%81%E6%9D%AF%EF%BC%88%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E6%AC%BE%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "艾草颈椎贴/暖颈贴",
+        "link": "https://s.taobao.com/search?q=艾草颈椎贴",
+        "price": "约19.9-39.9元/盒",
+        "brand": "多品牌（非黑名单品牌）",
+        "shipping": "48小时内",
+        "hotReason": "空调房颈肩受凉高发，祛湿温养季叠加久坐办公人群需求，回购热度高",
+        "goodKeywords": [
+          "发热持久",
+          "贴合",
+          "草本味"
+        ],
+        "badKeywords": [
+          "粘性一般"
+        ],
+        "match": true,
+        "matchReason": "温养类个护好物，价格友好高复购，契合祛湿温养主题（非自研艾灸贴品类）",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E9%A2%88%E6%A4%8E%E8%B4%B4/%E6%9A%96%E9%A2%88%E8%B4%B4%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-10-09",
     "season": "深秋·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
