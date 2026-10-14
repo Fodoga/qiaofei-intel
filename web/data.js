@@ -1,5 +1,259 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-14",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "五指毛桃茯苓祛湿茶",
+        "platform": "拼多多",
+        "price": "约19.9-39.9元/盒",
+        "brand": "多品牌（同仁堂/修正等）",
+        "hotReason": "盛夏祛湿刚需，药食同源配方，拼多多养生茶饮榜常客，复购率高",
+        "image": ""
+      },
+      {
+        "name": "艾草足浴包/泡脚包",
+        "platform": "拼多多",
+        "price": "约9.9-29.9元/30包",
+        "brand": "多品牌",
+        "hotReason": "夏季空调房祛湿驱寒，睡前泡脚助眠，价格敏感友好，家庭装热销",
+        "image": ""
+      },
+      {
+        "name": "便携挂脖风扇（无叶静音）",
+        "platform": "抖音",
+        "price": "约29.9-69元",
+        "brand": "多品牌",
+        "hotReason": "盛夏出行降温刚需，抖音直播间爆款，轻便静音，女性通勤/带娃场景热销",
+        "image": ""
+      },
+      {
+        "name": "蒸汽眼罩（热敷助眠）",
+        "platform": "淘宝",
+        "price": "约19.9-49元/盒",
+        "brand": "珍视明/闪亮等",
+        "hotReason": "熬夜护眼+助眠，夏季空调房眼干，女性自用及送长辈皆宜，复购高",
+        "image": ""
+      },
+      {
+        "name": "小型除湿器（家用静音）",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "南方梅雨/回南天及夏季潮湿，衣柜/卧室除湿需求，小家电榜上升",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩披肩（捶打热敷）",
+        "platform": "淘宝",
+        "price": "约129-299元",
+        "brand": "SKG/倍轻松等",
+        "hotReason": "久坐低头族肩颈酸痛，送父母长辈体面实用，节日礼品属性强",
+        "image": ""
+      },
+      {
+        "name": "即食银耳羹/花胶羹",
+        "platform": "淘宝",
+        "price": "约39.9-99元/箱",
+        "brand": "多品牌",
+        "hotReason": "懒人养生食补，开盖即食，女性滋补养颜，夏季冷藏口感佳，复购高",
+        "image": ""
+      },
+      {
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "platform": "淘宝",
+        "price": "约49-129元",
+        "brand": "多品牌",
+        "hotReason": "送长辈/闺蜜体面礼品，国风审美，艾草养生概念，节日送礼热销",
+        "image": ""
+      },
+      {
+        "name": "迷你养生壶（办公室煮茶款）",
+        "platform": "京东",
+        "price": "约79-159元",
+        "brand": "苏泊尔/九阳等",
+        "hotReason": "办公室养生煮茶/炖煮，一人食小家电，夏季花果茶饮场景热销",
+        "image": ""
+      },
+      {
+        "name": "真丝丝巾礼盒（送长辈）",
+        "platform": "1688",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "hotReason": "送妈妈/长辈体面礼品，真丝质感，七夕/中秋/重阳送礼场景，性价比高",
+        "image": ""
+      },
+      {
+        "name": "桌面循环扇（静音涡轮款）",
+        "platform": "抖音",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "hotReason": "夏季桌面降温，静音循环风，办公室/宿舍场景，抖音小家电榜热销",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "盛夏祛湿温养·家人关怀周",
+      "reason": "10月仍处盛夏余热与湿气交替期，三四线县城女性注重祛湿温养、私护健康，同时为家人购置实用小家电与体面礼品；选品聚焦高性价比、高复购、48小时内发货的养生食补、家居好物与送礼佳品，避开爱善天使自研品类。",
+      "zones": [
+        {
+          "zone": "祛湿温养·养生食补专区",
+          "products": [
+            "五指毛桃茯苓祛湿茶",
+            "艾草足浴包/泡脚包",
+            "即食银耳羹/花胶羹",
+            "陈皮茯苓祛湿茶"
+          ]
+        },
+        {
+          "zone": "女性私护·健康养护专区",
+          "products": [
+            "私护益生菌/护理凝胶",
+            "私密灸/护理液",
+            "蒸汽眼罩（热敷助眠）"
+          ]
+        },
+        {
+          "zone": "家人关怀·体面礼品专区",
+          "products": [
+            "颈椎按摩披肩（捶打热敷）",
+            "国风养生艾草锤檀木梳礼盒",
+            "真丝丝巾礼盒（送长辈）",
+            "迷你养生壶（办公室煮茶款）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "艾草足浴包/泡脚包",
+          "platform": "拼多多",
+          "price": "约9.9-29.9元/30包",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "夏季空调房祛湿驱寒，睡前泡脚助眠，家庭装高性价比，女性及送长辈皆宜",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E8%B6%B3%E6%B5%B4%E5%8C%85/%E6%B3%A1%E8%84%9A%E5%8C%85%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "颈椎按摩披肩（捶打热敷）",
+          "platform": "淘宝",
+          "price": "约129-299元",
+          "brand": "SKG/倍轻松等",
+          "shipping": "48小时内",
+          "reason": "久坐低头族肩颈酸痛，送父母长辈体面实用，节日礼品属性强，好评率高",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A2%88%E6%A4%8E%E6%8C%89%E6%91%A9%E6%8A%AB%E8%82%A9%EF%BC%88%E6%8D%B6%E6%89%93%E7%83%AD%E6%95%B7%EF%BC%89%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "艾草足浴包/泡脚包",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=艾草足浴包",
+        "price": "约9.9-29.9元/30包",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季空调房祛湿驱寒，睡前泡脚助眠，家庭装热销，价格敏感友好",
+        "goodKeywords": [
+          "艾草味浓",
+          "泡完舒服",
+          "量大实惠",
+          "助眠"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养刚需，家庭装高性价比，女性及送长辈皆宜",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E8%B6%B3%E6%B5%B4%E5%8C%85/%E6%B3%A1%E8%84%9A%E5%8C%85%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "颈椎按摩披肩（捶打热敷）",
+        "link": "https://s.taobao.com/search?q=颈椎按摩披肩",
+        "price": "约129-299元",
+        "brand": "SKG/倍轻松等",
+        "shipping": "48小时内",
+        "hotReason": "久坐低头族肩颈酸痛，送父母长辈体面实用，节日礼品属性强，好评率高",
+        "goodKeywords": [
+          "捶打舒服",
+          "热敷好",
+          "送长辈有面子",
+          "操作简单"
+        ],
+        "badKeywords": [
+          "力度偏轻"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面礼品，实用小家电，契合家人关怀场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%A2%88%E6%A4%8E%E6%8C%89%E6%91%A9%E6%8A%AB%E8%82%A9%EF%BC%88%E6%8D%B6%E6%89%93%E7%83%AD%E6%95%B7%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "小型除湿器（家用静音）",
+        "link": "https://search.jd.com/Search?keyword=小型除湿器",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "南方梅雨/回南天及夏季潮湿，衣柜/卧室除湿需求，小家电榜上升",
+        "goodKeywords": [
+          "除湿效果好",
+          "静音",
+          "小巧",
+          "水箱容量大"
+        ],
+        "badKeywords": [
+          "除湿量偏小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的家居小家电，契合潮湿季节需求",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B0%8F%E5%9E%8B%E9%99%A4%E6%B9%BF%E5%99%A8%EF%BC%88%E5%AE%B6%E7%94%A8%E9%9D%99%E9%9F%B3%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "陈皮茯苓祛湿茶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=陈皮茯苓祛湿茶",
+        "price": "约15.9-35.9元/盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季祛湿健脾，药食同源，陈皮理气，拼多多养生茶热销",
+        "goodKeywords": [
+          "祛湿健脾",
+          "口感好",
+          "独立茶包",
+          "实惠"
+        ],
+        "badKeywords": [
+          "味道偏苦"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养食补方向，价格敏感友好，高复购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%99%88%E7%9A%AE%E8%8C%AF%E8%8B%93%E7%A5%9B%E6%B9%BF%E8%8C%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "抖音",
+        "name": "便携挂脖风扇（无叶静音）",
+        "link": "https://www.douyin.com/search/便携挂脖风扇",
+        "price": "约29.9-69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "盛夏出行降温刚需，抖音直播间爆款，轻便静音，女性通勤/带娃场景热销",
+        "goodKeywords": [
+          "风力大",
+          "静音",
+          "轻便",
+          "续航久"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "夏季实用小家电，女性通勤带娃场景，价格友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23111418%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23111418%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23111418%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BE%BF%E6%90%BA%E6%8C%82%E8%84%96%E9%A3%8E%E6%89%87%EF%BC%88%E6%97%A0%E5%8F%B6%E9%9D%99%E9%9F%B3%EF%BC%89%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-10-13",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
