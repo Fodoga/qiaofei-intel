@@ -1,5 +1,191 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-16",
+    "season": "盛夏·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "五指毛桃茯苓祛湿茶（独立茶包）",
+        "platform": "拼多多",
+        "price": "约19.9-39.9元/盒",
+        "brand": "多品牌（如修正、同仁堂健康类）",
+        "hotReason": "盛夏祛湿需求高峰，五指毛桃+茯苓组合在养生茶类目搜索量持续走高，独立茶包便携，县城女性日常养生复购强",
+        "image": ""
+      },
+      {
+        "name": "艾草暖颈贴/肩颈热敷贴",
+        "platform": "淘宝",
+        "price": "约9.9-29.9元/盒",
+        "brand": "多品牌",
+        "hotReason": "空调房久坐+低头族肩颈不适高发，艾草热敷贴夏季空调病场景热销，单价低易冲动购买",
+        "image": ""
+      },
+      {
+        "name": "迷你养生壶（办公室煮茶款）",
+        "platform": "京东",
+        "price": "约69-129元",
+        "brand": "苏泊尔/九阳/小熊等",
+        "hotReason": "办公室养生场景流行，煮花茶/祛湿茶一壶搞定，小容量适合一人食，京东发货快",
+        "image": ""
+      },
+      {
+        "name": "折叠泡脚桶（可折叠便携）",
+        "platform": "拼多多",
+        "price": "约19.9-49.9元",
+        "brand": "多品牌",
+        "hotReason": "夏季泡脚祛湿+冬病夏治概念带动，折叠款省空间，价格敏感友好，家庭多场景使用",
+        "image": ""
+      },
+      {
+        "name": "蒸汽眼罩（热敷助眠）",
+        "platform": "淘宝",
+        "price": "约19.9-49.9元/盒",
+        "brand": "多品牌",
+        "hotReason": "助眠+缓解眼疲劳，夏季空调房干燥场景，女性自用及送长辈均合适，复购稳定",
+        "image": ""
+      },
+      {
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "platform": "淘宝",
+        "price": "约39-89元/套",
+        "brand": "多品牌",
+        "hotReason": "国潮养生礼品趋势，艾草锤+檀木梳组合体面实用，适合送长辈父母，节日送礼场景强",
+        "image": ""
+      },
+      {
+        "name": "即食银耳羹/花胶羹",
+        "platform": "淘宝",
+        "price": "约29.9-69.9元/箱",
+        "brand": "多品牌",
+        "hotReason": "懒人养生食补趋势，开盖即食，夏季冷藏口感佳，女性滋补复购高",
+        "image": ""
+      },
+      {
+        "name": "桌面循环扇（静音涡轮款）",
+        "platform": "抖音",
+        "price": "约49-99元",
+        "brand": "多品牌",
+        "hotReason": "盛夏降温刚需，静音涡轮设计适合办公/卧室，抖音直播间爆款频出",
+        "image": ""
+      },
+      {
+        "name": "真丝眼罩+发圈礼盒（送闺蜜/长辈）",
+        "platform": "淘宝",
+        "price": "约39-99元/套",
+        "brand": "多品牌",
+        "hotReason": "体面小礼品，桑蚕丝材质显档次，七夕/送长辈场景适配，包装精美易出单",
+        "image": ""
+      },
+      {
+        "name": "小型除湿器（家用静音）",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "南方梅雨/回南天+夏季湿热，除湿需求上升，静音款适合卧室，京东物流快",
+        "image": ""
+      },
+      {
+        "name": "老红糖姜母茶",
+        "platform": "淘宝",
+        "price": "约19.9-39.9元/盒",
+        "brand": "多品牌",
+        "hotReason": "女性经期温养+夏季空调受寒场景，红糖姜茶经典复购品，价格敏感友好",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "盛夏祛湿温养·家人关怀周",
+      "reason": "10月虽已入秋但余暑未消，湿热交蒸，县城女性注重祛湿温养；同时开学季+送长辈需求叠加，选品兼顾女性自身养护与家庭关怀，突出高性价比与体面送礼",
+      "zones": [
+        {
+          "zone": "祛湿温养专区",
+          "products": [
+            "五指毛桃茯苓祛湿茶",
+            "陈皮茯苓祛湿茶",
+            "老红糖姜母茶",
+            "折叠泡脚桶",
+            "艾草足浴包"
+          ]
+        },
+        {
+          "zone": "家人关怀送礼专区",
+          "products": [
+            "国风养生艾草锤檀木梳礼盒",
+            "西洋参滋补礼盒",
+            "真丝眼罩+发圈礼盒",
+            "蒸汽眼罩",
+            "护颈记忆棉枕"
+          ]
+        },
+        {
+          "zone": "居家舒爽小电专区",
+          "products": [
+            "迷你养生壶",
+            "小型除湿器",
+            "桌面循环扇",
+            "加湿器",
+            "颈椎按摩仪"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "五指毛桃茯苓祛湿茶（独立茶包）",
+          "platform": "拼多多",
+          "price": "约19.9-39.9元/盒",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "盛夏祛湿刚需，独立茶包便携，价格敏感友好，复购率高，县城女性日常养生首选",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BA%94%E6%8C%87%E6%AF%9B%E6%A1%83%E8%8C%AF%E8%8B%93%E7%A5%9B%E6%B9%BF%E8%8C%B6%EF%BC%88%E7%8B%AC%E7%AB%8B%E8%8C%B6%E5%8C%85%EF%BC%89%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "五指毛桃茯苓祛湿茶（独立茶包）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=五指毛桃茯苓祛湿茶",
+        "price": "约19.9-39.9元/盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "盛夏祛湿需求高峰，五指毛桃+茯苓组合搜索量持续走高，独立茶包便携，复购强",
+        "goodKeywords": [
+          "祛湿效果好",
+          "味道清香",
+          "独立包装方便",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "契合县城女性祛湿温养需求，价格敏感友好，高复购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BA%94%E6%8C%87%E6%AF%9B%E6%A1%83%E8%8C%AF%E8%8B%93%E7%A5%9B%E6%B9%BF%E8%8C%B6%EF%BC%88%E7%8B%AC%E7%AB%8B%E8%8C%B6%E5%8C%85%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "折叠泡脚桶（可折叠便携）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=折叠泡脚桶",
+        "price": "约19.9-49.9元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "夏季泡脚祛湿+冬病夏治概念带动，折叠款省空间，价格敏感友好，家庭多场景使用",
+        "goodKeywords": [
+          "折叠省空间",
+          "材质厚实",
+          "保温好",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "折叠处易漏水"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养场景刚需，价格敏感友好，家庭适用",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%8A%98%E5%8F%A0%E6%B3%A1%E8%84%9A%E6%A1%B6%EF%BC%88%E5%8F%AF%E6%8A%98%E5%8F%A0%E4%BE%BF%E6%90%BA%EF%BC%89%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-10-15",
     "season": "深秋·润燥温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
