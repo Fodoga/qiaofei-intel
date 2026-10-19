@@ -1,5 +1,398 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-19",
+    "season": "深秋·祛湿润燥双养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "南京同仁堂阿胶糕礼盒（送长辈/送妈妈）",
+        "platform": "京东",
+        "price": "约99-159元/2盒装",
+        "brand": "南京同仁堂",
+        "hotReason": "京东同类链接累计2万+条评价，秋冬滋补+送长辈场景双驱动，老字号背书转化高",
+        "image": ""
+      },
+      {
+        "name": "沃隆锦绣华年坚果礼盒（8罐纯坚果）",
+        "platform": "淘宝",
+        "price": "约129-199元",
+        "brand": "沃隆",
+        "hotReason": "节日送礼榜单常客，坚果礼盒在送长辈/走亲场景搜索热度持续，客单适中体面",
+        "image": ""
+      },
+      {
+        "name": "桂格营养麦片全家福（4包4口味）",
+        "platform": "淘宝",
+        "price": "约59-89元",
+        "brand": "桂格",
+        "hotReason": "全家共享型健康早餐，送长辈实用不踩雷，秋冬早餐场景搜索上升",
+        "image": ""
+      },
+      {
+        "name": "药食同源养生茶（红豆薏米茯苓/陈皮类）",
+        "platform": "淘宝",
+        "price": "约19-49元/盒",
+        "brand": "多品牌",
+        "hotReason": "新华网财经观察点名药食同源茶饮赛道升温，祛湿成分为秋冬高频搜索词，淘宝相关商品超5000件",
+        "image": ""
+      },
+      {
+        "name": "破壁机/静音豆浆机（家用多功能）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "膳魔师/苏泊尔等",
+        "hotReason": "京东小家电品牌榜热销，秋冬打米糊、养生汤需求上升，免洗免滤款好评集中",
+        "image": ""
+      },
+      {
+        "name": "暖菜板（可折叠保温）",
+        "platform": "京东",
+        "price": "约89-169元",
+        "brand": "多品牌",
+        "hotReason": "秋冬餐桌刚需，价格下探后进入县镇家庭普及期，实用小家电榜单上升明显",
+        "image": ""
+      },
+      {
+        "name": "宿舍迷你节能灯（USB充电双光源）",
+        "platform": "淘宝",
+        "price": "约15-39元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍好物清单高频出现，低价高实用，学生与租房人群双覆盖",
+        "image": ""
+      },
+      {
+        "name": "电动搅拌杯（磁力自动搅拌）",
+        "platform": "淘宝",
+        "price": "约49-99元",
+        "brand": "乐扣等",
+        "hotReason": "开学季/办公室冲泡饮品场景热推，解决结块沉淀痛点，实用小电器测评高频提及",
+        "image": ""
+      },
+      {
+        "name": "珍珠项链/真丝丝巾礼盒（送妈妈浪漫风）",
+        "platform": "淘宝",
+        "price": "约69-199元",
+        "brand": "多品牌",
+        "hotReason": "七夕/节日送妈妈礼物榜单热销，体面轻奢感+价格友好，县镇送礼场景强",
+        "image": ""
+      },
+      {
+        "name": "花饽饽寿桃馒头礼盒（中式贺寿）",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "送长辈过寿场景差异化礼品，中式仪式感强，节日礼品搜索中曝光上升",
+        "image": ""
+      },
+      {
+        "name": "除螨仪（家用床上除螨）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "多品牌",
+        "hotReason": "秋冬换季床品清洁需求上升，开学季宿舍/家庭清洁小电器推荐清单常客",
+        "image": ""
+      },
+      {
+        "name": "筋膜枪（迷你便携款）",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "家用小电器热门测评单品，送父母/自用放松场景，价格下探后销量走高",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿温养·送长辈体面礼",
+      "reason": "10月中下旬昼夜温差拉大，县镇女性家庭同时存在祛湿健脾、润燥养生的需求；叠加节后走亲与送长辈场景，选品以药食同源食补、温养小家电、体面不贵的礼盒为主线，价格带控制在百元上下，契合价格敏感人群",
+      "zones": [
+        {
+          "zone": "祛湿健脾·药食同源",
+          "products": [
+            "茯苓薏米祛湿茶包",
+            "陈皮红豆薏米茶",
+            "山药芡实茯苓粉"
+          ]
+        },
+        {
+          "zone": "温养小家电·提升生活品质",
+          "products": [
+            "静音破壁豆浆机",
+            "可折叠暖菜板",
+            "迷你筋膜枪"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼·百元档",
+          "products": [
+            "阿胶糕礼盒",
+            "坚果礼盒",
+            "珍珠项链礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "南京同仁堂阿胶糕礼盒（2盒装）",
+          "platform": "京东",
+          "price": "约99-159元",
+          "brand": "南京同仁堂",
+          "shipping": "48小时内",
+          "reason": "老字号背书+2万级评价，秋冬滋补送妈妈/长辈体面且价格友好，复购与转介绍潜力高",
+          "image": "https://img.alicdn.com/imgextra/O1CN019YixJb1ttHHCDpRHa_!!6000000005959-2-yinhe.png_q50.jpg_.webp"
+        },
+        {
+          "name": "静音破壁豆浆机（免滤可自清洗）",
+          "platform": "京东",
+          "price": "约199-399元",
+          "brand": "膳魔师/苏泊尔等",
+          "shipping": "48小时内",
+          "reason": "秋冬打米糊养生汤刚需，免洗免滤降低使用门槛，县镇家庭厨房升级首选",
+          "image": "https://cdn.yamibuy.net/item/14ed3b5cbb7d33bd38d4a86aa129aea0_750x750.webp"
+        },
+        {
+          "name": "茯苓薏米祛湿茶包（独立装）",
+          "platform": "拼多多",
+          "price": "约19-39元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "药食同源赛道升温，祛湿为秋冬高频搜索词，低价高频复购，适合专区引流",
+          "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/6000000002715/O1CN01ITGcWaFJ2MI1chua_!!6000000002715-0-sm.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "珍珠项链礼盒（送妈妈）",
+          "platform": "淘宝",
+          "price": "约69-199元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "节日送妈妈榜单热销，体面轻奢感强、客单可控，契合县镇送礼决策心理",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2207786606301/O1CN01cZPaOt1wPuYEAag5v_!!2207786606301.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "南京同仁堂阿胶糕礼盒（2盒装）",
+        "link": "https://search.jd.com/Search?keyword=南京同仁堂阿胶糕礼盒",
+        "price": "约99-159元",
+        "brand": "南京同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "京东同类链接累计约2万条评价，秋冬滋补+送长辈场景双驱动，老字号品牌背书",
+        "goodKeywords": [
+          "包装体面",
+          "口感好",
+          "送长辈有面子"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "药食同源滋补礼盒，契合送长辈与女性养生双场景，价格带友好",
+        "image": "https://img.alicdn.com/imgextra/O1CN019YixJb1ttHHCDpRHa_!!6000000005959-2-yinhe.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "沃隆锦绣华年坚果礼盒（8罐纯坚果）",
+        "link": "https://s.taobao.com/search?q=沃隆锦绣华年坚果礼盒",
+        "price": "约129-199元",
+        "brand": "沃隆",
+        "shipping": "48小时内",
+        "hotReason": "节日送礼榜单常客，纯坚果配置体面实用，送长辈/走亲场景搜索热度稳定",
+        "goodKeywords": [
+          "坚果新鲜",
+          "礼盒大气",
+          "送人有面子"
+        ],
+        "badKeywords": [
+          "个别罐装偏少"
+        ],
+        "match": true,
+        "matchReason": "百元档体面送礼刚需，健康食补属性强，适合节日专区",
+        "image": "https://img.youzigifts.com/Upload/Img104/107110-1904833731512100-5624773.jpg?_uptime=20260506084815"
+      },
+      {
+        "platform": "淘宝",
+        "name": "桂格营养麦片全家福（4包4口味）",
+        "link": "https://s.taobao.com/search?q=桂格营养麦片全家福",
+        "price": "约59-89元",
+        "brand": "桂格",
+        "shipping": "48小时内",
+        "hotReason": "全家共享健康早餐，送长辈实用不踩雷，秋冬早餐场景搜索上升",
+        "goodKeywords": [
+          "口味多",
+          "冲泡方便",
+          "全家都能吃"
+        ],
+        "badKeywords": [
+          "偏甜口"
+        ],
+        "match": true,
+        "matchReason": "低价实用型健康食品，适合家庭囤货与送长辈，复购友好",
+        "image": "https://img.youzili.com/pic/106/M/176a.jpg?_uptime=20240411095739"
+      },
+      {
+        "platform": "拼多多",
+        "name": "茯苓薏米祛湿茶包（独立装）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=茯苓薏米祛湿茶包",
+        "price": "约19-39元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "药食同源茶饮赛道升温，祛湿成分为秋冬高频搜索词，拼多多同类销量靠前",
+        "goodKeywords": [
+          "独立包装方便",
+          "味道清淡",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "祛湿健脾方向药食同源，低价高频复购，适合专区引流",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/6000000002715/O1CN01ITGcWaFJ2MI1chua_!!6000000002715-0-sm.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "陈皮红豆薏米茶（独立茶包）",
+        "link": "https://s.taobao.com/search?q=陈皮红豆薏米茶",
+        "price": "约25-49元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "陈皮+红豆+薏米为祛湿经典配伍，淘宝药食同源茶相关商品超5000件，秋冬搜索走高",
+        "goodKeywords": [
+          "陈皮香明显",
+          "喝着舒服",
+          "包装干净"
+        ],
+        "badKeywords": [
+          "薏米味偏重"
+        ],
+        "match": true,
+        "matchReason": "经典祛湿配伍，口感接受度高，适合日常养生复购",
+        "image": "https://cdn.yamibuy.net/item/bfc665b1a84b3408a0c4deb4bcf2b8d2_0x0.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "静音破壁豆浆机（免滤可自清洗）",
+        "link": "https://search.jd.com/Search?keyword=静音破壁豆浆机免滤自清洗",
+        "price": "约199-399元",
+        "brand": "膳魔师/苏泊尔等",
+        "shipping": "48小时内",
+        "hotReason": "京东小家电品牌榜热销，秋冬米糊养生汤需求上升，免洗免滤款好评集中",
+        "goodKeywords": [
+          "静音",
+          "免滤细腻",
+          "自清洗省事"
+        ],
+        "badKeywords": [
+          "体积偏大"
+        ],
+        "match": true,
+        "matchReason": "提升生活品质的实用小家电，秋冬养生刚需，价格带可控",
+        "image": "https://cdn.yamibuy.net/item/14ed3b5cbb7d33bd38d4a86aa129aea0_750x750.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "迷你筋膜枪（便携款）",
+        "link": "https://s.taobao.com/search?q=迷你筋膜枪便携",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "家用小电器热门测评单品，送父母/自用放松场景，价格下探后销量走高",
+        "goodKeywords": [
+          "小巧便携",
+          "力度够用",
+          "送父母合适"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "送长辈与自用放松兼顾，百元档实用小家电，体面不贵",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i4/2200664142537/O1CN01yAbAnm1UbzvaGTx6H_!!2200664142537.png_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "珍珠项链礼盒（送妈妈）",
+        "link": "https://s.taobao.com/search?q=珍珠项链礼盒送妈妈",
+        "price": "约69-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "节日送妈妈礼物榜单热销，浪漫风好物推荐高频出现，体面轻奢感强",
+        "goodKeywords": [
+          "包装精致",
+          "戴着显气质",
+          "送妈妈喜欢"
+        ],
+        "badKeywords": [
+          "光泽一般"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面礼品，客单可控，契合县镇送礼决策",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2207786606301/O1CN01cZPaOt1wPuYEAag5v_!!2207786606301.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "花饽饽寿桃馒头礼盒（中式贺寿）",
+        "link": "https://s.taobao.com/search?q=花饽饽寿桃馒头礼盒",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "送长辈过寿差异化礼品，中式仪式感强，节日礼品搜索曝光上升",
+        "goodKeywords": [
+          "造型喜庆",
+          "长辈喜欢",
+          "仪式感足"
+        ],
+        "badKeywords": [
+          "保质期短"
+        ],
+        "match": true,
+        "matchReason": "送长辈父母场景差异化强，体面有心意，适合节日专区",
+        "image": "https://img.youzigifts.com/Upload/Img103/106987-1875275898952420-9953643.jpg?_uptime=20251210110230"
+      },
+      {
+        "platform": "京东",
+        "name": "除螨仪（家用床上除螨）",
+        "link": "https://search.jd.com/Search?keyword=家用除螨仪床上",
+        "price": "约199-399元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "秋冬换季床品清洁需求上升，开学季/家庭清洁小电器推荐清单常客",
+        "goodKeywords": [
+          "吸力大",
+          "除螨明显",
+          "家里有娃必备"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "提升家庭生活品质的清洁小家电，秋冬换季刚需",
+        "image": "https://img06.weeecdn.com/item/image/286/424/CEEC4CB06EE808E.jpeg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "电动搅拌杯（磁力自动搅拌）",
+        "link": "https://s.taobao.com/search?q=电动搅拌杯磁力自动",
+        "price": "约49-99元",
+        "brand": "乐扣等",
+        "shipping": "48小时内",
+        "hotReason": "开学季/办公室冲泡饮品场景热推，解决结块沉淀痛点，实用小电器测评高频提及",
+        "goodKeywords": [
+          "搅拌均匀",
+          "清洗方便",
+          "冲泡省事"
+        ],
+        "badKeywords": [
+          "电池续航一般"
+        ],
+        "match": true,
+        "matchReason": "低价实用小电器，覆盖学生与办公室人群，适合开学季专区",
+        "image": "https://cdn.yamibuy.net/item/63976080759d84fe6005eb14a9cc175d_750x750.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-16",
     "season": "盛夏·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
