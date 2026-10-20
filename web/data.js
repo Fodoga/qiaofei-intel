@@ -1,5 +1,384 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-20",
+    "season": "深秋·祛湿温养与开学季叠加",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "触摸式USB充电迷你节能灯（冷暖双光源）",
+        "platform": "淘宝",
+        "price": "约15-39元",
+        "brand": "多品牌白牌",
+        "hotReason": "开学季宿舍必备小电器榜单高频出现，USB充电+双色温，价格友好、使用频率高",
+        "image": ""
+      },
+      {
+        "name": "乐扣乐扣电动磁力搅拌杯",
+        "platform": "淘宝",
+        "price": "约59-99元",
+        "brand": "乐扣乐扣",
+        "hotReason": "开学季宿舍冲泡饮品场景热推，解决粉类结块痛点，品牌认知度高",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌（纯净配方）",
+        "platform": "淘宝",
+        "price": "约69-159元",
+        "brand": "月神等",
+        "hotReason": "2026女性健康益生菌品牌排行热度上升，私护+肠道双场景，无香精色素防腐剂卖点受青睐",
+        "image": ""
+      },
+      {
+        "name": "宿舍除螨仪（手持小型）",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍清洁刚需，换季除螨需求上升，注意功率需符合宿舍用电规定",
+        "image": ""
+      },
+      {
+        "name": "自动铅笔+开学文具套装",
+        "platform": "京东",
+        "price": "约9.9-29元",
+        "brand": "晨光/得力",
+        "hotReason": "开学季高频刚需，得力橡皮等单品评价量达20万+，价格极低、复购强",
+        "image": ""
+      },
+      {
+        "name": "女性健康科普图书（炙热的你/身体由我）",
+        "platform": "淘宝",
+        "price": "约49元",
+        "brand": "新华正版",
+        "hotReason": "女性全生命周期健康呵护话题热度上升，礼品化属性强，适合送闺蜜/长辈",
+        "image": ""
+      },
+      {
+        "name": "可升降折叠茶几（小户型）",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "拼多多/淘宝好物攻略热推，小户型与租房场景实用，性价比突出",
+        "image": ""
+      },
+      {
+        "name": "宿舍收纳柜/多层置物架",
+        "platform": "拼多多",
+        "price": "约29-79元",
+        "brand": "多品牌",
+        "hotReason": "开学季租房布置与宿舍收纳刚需，二手/平价收纳在学生群体走红",
+        "image": ""
+      },
+      {
+        "name": "电动搅拌杯/便携榨汁杯（夏日解暑延伸）",
+        "platform": "抖音",
+        "price": "约39-89元",
+        "brand": "多品牌",
+        "hotReason": "学生党夏日解暑高性价比小电器，短视频种草带动销量",
+        "image": ""
+      },
+      {
+        "name": "女性健康养护组合（益生菌+护理凝胶）",
+        "platform": "淘宝",
+        "price": "约79-169元",
+        "brand": "多品牌",
+        "hotReason": "她经济女性健康消费场景从日常护理拓展到全场景，私护非棉品方向热度稳定",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "开学季宿舍焕新 + 深秋祛湿温养双专区",
+      "reason": "10月下旬开学季余温仍在，宿舍小电器/收纳/文具刚需强；同时深秋湿冷，祛湿茶饮、温养食补与送长辈礼品进入旺季，契合县城女性为家人囤货与送礼决策",
+      "zones": [
+        {
+          "zone": "开学季宿舍焕新",
+          "products": [
+            "触摸式USB迷你节能灯",
+            "电动磁力搅拌杯",
+            "宿舍多层收纳置物架",
+            "自动铅笔文具套装"
+          ]
+        },
+        {
+          "zone": "深秋祛湿温养",
+          "products": [
+            "陈皮茯苓祛湿茶",
+            "艾草足浴包",
+            "红枣桂圆枸杞养生茶",
+            "即食银耳羹"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼",
+          "products": [
+            "西洋参滋补礼盒",
+            "真丝丝巾礼盒",
+            "女性健康科普图书"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "触摸式USB充电迷你节能灯",
+          "platform": "淘宝",
+          "price": "约15-39元",
+          "brand": "多品牌白牌",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍刚需，冷暖双光源+USB充电，价格极低易冲动下单，适合引流",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/3249983173/O1CN01XHHif01ZJHfYupCf2_!!3249983173.png_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "乐扣乐扣电动磁力搅拌杯",
+          "platform": "淘宝",
+          "price": "约59-99元",
+          "brand": "乐扣乐扣",
+          "shipping": "48小时内",
+          "reason": "品牌背书强，解决宿舍冲泡结块痛点，开学季热推，性价比合适",
+          "image": "https://static.airchina.com.cn/upload/t/DDXYNixpQSzFnVatwP6GBXkWOJ0=/670x670/img/store/1440/1768802932529.jpg"
+        },
+        {
+          "name": "女性私护益生菌（纯净配方）",
+          "platform": "淘宝",
+          "price": "约69-159元",
+          "brand": "月神等",
+          "shipping": "48小时内",
+          "reason": "女性健康趋势品，非棉品私护方向，复购强，契合目标人群健康养生需求",
+          "image": "https://cdn.yamibuy.net/item/f2f87abea19d006c4ee25f7971f93cff_750x750.webp"
+        },
+        {
+          "name": "陈皮茯苓祛湿茶（独立茶包）",
+          "platform": "拼多多",
+          "price": "约19-39元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "深秋祛湿刚需，独立茶包便携，价格敏感友好，适合家庭囤货",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/2218635727382/O1CN01LKPogW24P0t0dvi64_!!4611686018427384342-0-item_pic.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "触摸式USB充电迷你节能灯",
+        "link": "https://s.taobao.com/search?q=触摸式USB充电迷你节能灯",
+        "price": "约15-39元",
+        "brand": "多品牌白牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍必备小电器榜单高频，USB充电+冷暖双光源，销量与评价基数大",
+        "goodKeywords": [
+          "亮度够用",
+          "充电方便",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍刚需小电器，价格友好、使用频率高，契合性价比选品",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/3249983173/O1CN01XHHif01ZJHfYupCf2_!!3249983173.png_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "乐扣乐扣电动磁力搅拌杯",
+        "link": "https://s.taobao.com/search?q=乐扣乐扣电动磁力搅拌杯",
+        "price": "约59-99元",
+        "brand": "乐扣乐扣",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍冲泡饮品热推，品牌认知度高，解决粉类结块痛点",
+        "goodKeywords": [
+          "搅拌均匀",
+          "好清洗",
+          "品牌靠谱"
+        ],
+        "badKeywords": [
+          "杯体偏重"
+        ],
+        "match": true,
+        "matchReason": "知名品牌小家电，开学季场景强，价格适中适合县城学生家庭",
+        "image": "https://static.airchina.com.cn/upload/t/DDXYNixpQSzFnVatwP6GBXkWOJ0=/670x670/img/store/1440/1768802932529.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "女性私护益生菌（纯净配方）",
+        "link": "https://s.taobao.com/search?q=女性私护益生菌",
+        "price": "约69-159元",
+        "brand": "月神等",
+        "shipping": "48小时内",
+        "hotReason": "2026女性健康益生菌品牌排行热度上升，私护+肠道双场景，纯净配方卖点受青睐",
+        "goodKeywords": [
+          "配方干净",
+          "服用方便",
+          "复购高"
+        ],
+        "badKeywords": [
+          "见效慢"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护方向，契合女性健康养生需求，避开自研品类",
+        "image": "https://cdn.yamibuy.net/item/f2f87abea19d006c4ee25f7971f93cff_750x750.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "手持小型除螨仪（宿舍适用）",
+        "link": "https://search.jd.com/Search?keyword=手持小型除螨仪",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍清洁刚需，换季除螨需求上升，注意功率需符合宿舍用电规定",
+        "goodKeywords": [
+          "吸力足",
+          "轻便",
+          "除螨明显"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "换季家居清洁实用小家电，提升生活质量，价格适中",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%89%8B%E6%8C%81%E5%B0%8F%E5%9E%8B%E9%99%A4%E8%9E%A8%E4%BB%AA%EF%BC%88%E5%AE%BF%E8%88%8D%E9%80%82%E7%94%A8%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "晨光自动铅笔+文具开学套装",
+        "link": "https://search.jd.com/Search?keyword=晨光自动铅笔文具套装",
+        "price": "约9.9-29元",
+        "brand": "晨光",
+        "shipping": "24小时内",
+        "hotReason": "开学季高频刚需，得力/晨光文具评价量巨大，价格极低、复购强",
+        "goodKeywords": [
+          "书写顺滑",
+          "价格实惠",
+          "耐用"
+        ],
+        "badKeywords": [
+          "包装简单"
+        ],
+        "match": true,
+        "matchReason": "开学季刚需文具，价格敏感友好，适合凑单引流",
+        "image": "https://img12.360buyimg.com/n1/jfs/t1/435842/16/12562/69548/6a1029d2F871c098f/0083320320e3bbff.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "女性健康科普图书（炙热的你/身体由我）",
+        "link": "https://s.taobao.com/search?q=炙热的你+身体由我+女性健康",
+        "price": "约49元",
+        "brand": "新华正版",
+        "shipping": "48小时内",
+        "hotReason": "女性全生命周期健康话题热度上升，礼品化属性强，适合送闺蜜/长辈",
+        "goodKeywords": [
+          "内容实用",
+          "正版",
+          "送人有心意"
+        ],
+        "badKeywords": [
+          "物流慢"
+        ],
+        "match": true,
+        "matchReason": "健康养生+送礼场景兼具，体面合宜，契合目标人群",
+        "image": "https://img.caixin.com/2023-04-27/168259147168671.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "可升降折叠茶几（小户型）",
+        "link": "https://s.taobao.com/search?q=可升降折叠茶几",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "拼多多/淘宝好物攻略热推，小户型与租房场景实用，性价比突出",
+        "goodKeywords": [
+          "安装简单",
+          "稳固",
+          "省空间"
+        ],
+        "badKeywords": [
+          "板材一般"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的家居好物，价格敏感友好，适合县城家庭",
+        "image": "https://img.alicdn.com/imgextra/i2/3914596260/O1CN01VqMY2D1w78VGpWeyz_!!3914596260.jpg_q50.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "宿舍多层收纳置物架",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=宿舍多层收纳置物架",
+        "price": "约29-79元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季租房布置与宿舍收纳刚需，平价收纳在学生群体走红",
+        "goodKeywords": [
+          "容量大",
+          "组装方便",
+          "结实"
+        ],
+        "badKeywords": [
+          "承重一般"
+        ],
+        "match": true,
+        "matchReason": "开学季家居收纳刚需，价格极低，适合家庭为学生购置",
+        "image": "https://img.alicdn.com/imgextra/i1/3405017625/O1CN01Eh5gXv26CJ5UuQunu_!!4611686018427384345-2-item_pic.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "陈皮茯苓祛湿茶（独立茶包）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=陈皮茯苓祛湿茶",
+        "price": "约19-39元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "深秋祛湿刚需，独立茶包便携，价格敏感友好，适合家庭囤货",
+        "goodKeywords": [
+          "味道清香",
+          "独立包装",
+          "喝着舒服"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "药食同源养生食补，契合深秋祛湿温养主题",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/2218635727382/O1CN01LKPogW24P0t0dvi64_!!4611686018427384342-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "艾草足浴包（泡脚包）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=艾草足浴包",
+        "price": "约9.9-29元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "深秋温养泡脚场景强，价格极低、复购高，适合送长辈",
+        "goodKeywords": [
+          "出汤快",
+          "味道正",
+          "泡完暖和"
+        ],
+        "badKeywords": [
+          "碎渣多"
+        ],
+        "match": true,
+        "matchReason": "养生温养刚需，价格敏感友好，适合家庭囤货与送长辈",
+        "image": "https://img.cloudimg.in/uploads/shops/42080/products/8d/8deed26f26c066abccb06fc5bc25c8e3.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "真丝丝巾礼盒（送妈妈/长辈）",
+        "link": "https://www.1688.com/?keywords=真丝丝巾礼盒",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "送长辈体面礼品，丝巾礼盒包装精致，1688源头价性价比高",
+        "goodKeywords": [
+          "手感顺滑",
+          "包装精致",
+          "颜色好看"
+        ],
+        "badKeywords": [
+          "色差"
+        ],
+        "match": true,
+        "matchReason": "体面合宜的送礼礼品，价格敏感友好，适合送妈妈长辈",
+        "image": "https://img.alicdn.com/imgextra/i2/2460531061/O1CN01qA4r6E1JhzJFlB6UX_!!2460531061.jpg_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-19",
     "season": "深秋·祛湿润燥双养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
