@@ -1,5 +1,300 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-21",
+    "season": "深秋·祛湿润燥交替季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "红豆薏米芡实祛湿茶（独立茶包）",
+        "platform": "淘宝",
+        "price": "约19-39元/盒",
+        "brand": "方家铺子/同仁堂等",
+        "hotReason": "换季祛湿需求延续，独立茶包便携，办公室与家庭场景双热销，淘宝养生茶类目销量靠前",
+        "image": ""
+      },
+      {
+        "name": "陈皮茯苓祛湿茶",
+        "platform": "拼多多",
+        "price": "约9.9-29元",
+        "brand": "多品牌",
+        "hotReason": "祛湿健脾概念持续走热，拼多多百亿补贴养生茶类目高频复购",
+        "image": ""
+      },
+      {
+        "name": "艾草足浴包/泡脚包",
+        "platform": "拼多多",
+        "price": "约9.9-25元",
+        "brand": "多品牌",
+        "hotReason": "秋冬泡脚养生刚需，价格敏感友好，家庭囤货型高复购",
+        "image": ""
+      },
+      {
+        "name": "即热饮水机（台式多档温控）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "小米/美的等",
+        "hotReason": "小家电好评榜常客，冲奶泡茶多场景，提升生活品质且价格亲民",
+        "image": ""
+      },
+      {
+        "name": "智能浴室镜（带光源除雾）",
+        "platform": "淘宝",
+        "price": "约150-350元",
+        "brand": "多品牌",
+        "hotReason": "家居焕新趋势品，洗漱体验升级，好评率高",
+        "image": ""
+      },
+      {
+        "name": "暖菜板（可折叠）",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "秋冬餐桌刚需，价格下探后销量上升，家庭场景实用",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩披肩（捶打热敷）",
+        "platform": "淘宝",
+        "price": "约89-199元",
+        "brand": "SKG/多品牌",
+        "hotReason": "送长辈与自用双场景，秋冬肩颈养护需求上升",
+        "image": ""
+      },
+      {
+        "name": "蒸汽眼罩（热敷助眠）",
+        "platform": "淘宝",
+        "price": "约29-59元/盒",
+        "brand": "花王/珍视明等",
+        "hotReason": "助眠放松高频复购，送礼自用皆宜，秋冬热敷舒适",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌",
+        "platform": "淘宝",
+        "price": "约69-159元",
+        "brand": "多品牌",
+        "hotReason": "女性健康养护意识提升，非棉品私护方向，复购率高",
+        "image": ""
+      },
+      {
+        "name": "西洋参滋补礼盒",
+        "platform": "淘宝",
+        "price": "约99-259元",
+        "brand": "同仁堂等",
+        "hotReason": "送长辈体面礼品，秋冬滋补季走量，品牌背书强",
+        "image": ""
+      },
+      {
+        "name": "迷你养生壶（办公室煮茶）",
+        "platform": "京东",
+        "price": "约79-159元",
+        "brand": "苏泊尔/小熊等",
+        "hotReason": "办公室养生场景，小容量高性价比，秋冬煮茶热饮需求",
+        "image": ""
+      },
+      {
+        "name": "真丝丝巾礼盒（送长辈）",
+        "platform": "1688",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "hotReason": "节日送礼体面合宜，价格敏感友好，长辈女性高频礼品",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿润燥·家人关怀周",
+      "reason": "深秋换季湿燥交替，祛湿茶饮与润燥食补需求并存；同时临近节日送礼与家人关怀场景，主打高性价比养生食补、实用小家电与体面礼品，契合三四线县城女性决策与家庭采购习惯",
+      "zones": [
+        {
+          "zone": "祛湿润燥茶饮区",
+          "products": [
+            "红豆薏米芡实祛湿茶（独立茶包）",
+            "陈皮茯苓祛湿茶",
+            "红枣桂圆枸杞养生茶（独立茶包）"
+          ]
+        },
+        {
+          "zone": "家人关怀小家电区",
+          "products": [
+            "即热饮水机（台式多档温控）",
+            "暖菜板（可折叠）",
+            "迷你养生壶（办公室煮茶）"
+          ]
+        },
+        {
+          "zone": "体面送礼区",
+          "products": [
+            "西洋参滋补礼盒",
+            "真丝丝巾礼盒（送长辈）",
+            "蒸汽眼罩（热敷助眠）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "红豆薏米芡实祛湿茶（独立茶包）",
+          "platform": "淘宝",
+          "price": "约19-39元/盒",
+          "brand": "方家铺子/同仁堂等",
+          "shipping": "48小时内",
+          "reason": "换季祛湿刚需，独立茶包便携，价格敏感友好，复购率高",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2209155832404/O1CN01bw1mX21Td4tAnScWj_!!0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "即热饮水机（台式多档温控）",
+          "platform": "京东",
+          "price": "约199-399元",
+          "brand": "小米/美的等",
+          "shipping": "48小时内",
+          "reason": "提升生活品质的实用小家电，冲奶泡茶多场景，好评率高",
+          "image": "https://cdn.yamibuy.net/item/283c05e99a84b5b313125a88d037504d_750x750.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "红豆薏米芡实祛湿茶（独立茶包）",
+        "link": "https://s.taobao.com/search?q=红豆薏米芡实祛湿茶",
+        "price": "约19-39元/盒",
+        "brand": "方家铺子/同仁堂等",
+        "shipping": "48小时内",
+        "hotReason": "淘宝养生茶类目销量靠前，换季祛湿需求延续，独立茶包便携",
+        "goodKeywords": [
+          "祛湿效果好",
+          "独立包装方便",
+          "口感清香"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "契合祛湿养生刚需，价格敏感友好，高复购",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2209155832404/O1CN01bw1mX21Td4tAnScWj_!!0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "即热饮水机（台式多档温控）",
+        "link": "https://search.jd.com/Search?keyword=即热饮水机台式",
+        "price": "约199-399元",
+        "brand": "小米/美的等",
+        "shipping": "48小时内",
+        "hotReason": "小家电好评榜常客，冲奶泡茶多场景，提升生活品质",
+        "goodKeywords": [
+          "出水快",
+          "温度档位多",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "水箱偏小"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，提升生活质量，价格亲民",
+        "image": "https://cdn.yamibuy.net/item/283c05e99a84b5b313125a88d037504d_750x750.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "暖菜板（可折叠）",
+        "link": "https://search.jd.com/Search?keyword=暖菜板可折叠",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "秋冬餐桌刚需，价格下探后销量上升",
+        "goodKeywords": [
+          "加热均匀",
+          "折叠收纳方便",
+          "冬天实用"
+        ],
+        "badKeywords": [
+          "升温稍慢"
+        ],
+        "match": true,
+        "matchReason": "家庭场景实用，秋冬刚需，性价比高",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%9A%96%E8%8F%9C%E6%9D%BF%EF%BC%88%E5%8F%AF%E6%8A%98%E5%8F%A0%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "女性私护益生菌",
+        "link": "https://s.taobao.com/search?q=女性私护益生菌",
+        "price": "约69-159元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "女性健康养护意识提升，非棉品私护方向，复购率高",
+        "goodKeywords": [
+          "配方干净",
+          "服用方便",
+          "回购多次"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "女性私护非棉品方向，契合健康养护需求",
+        "image": "https://cdn.yamibuy.net/item/baaf575ba359358645b827768c617370_750x750.webp"
+      },
+      {
+        "platform": "1688",
+        "name": "真丝丝巾礼盒（送长辈）",
+        "link": "https://www.1688.com/?keywords=真丝丝巾礼盒",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "节日送礼体面合宜，价格敏感友好，长辈女性高频礼品",
+        "goodKeywords": [
+          "质感好",
+          "包装精美",
+          "颜色显气质"
+        ],
+        "badKeywords": [
+          "色差"
+        ],
+        "match": true,
+        "matchReason": "体面送礼，价格友好，适合送妈妈长辈",
+        "image": "https://img.alicdn.com/imgextra/i4/2212099235170/O1CN01qdCF6o1o3umoptiId_!!4611686018427387234-0-item_pic.jpg_q50.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "迷你养生壶（办公室煮茶）",
+        "link": "https://search.jd.com/Search?keyword=迷你养生壶办公室",
+        "price": "约79-159元",
+        "brand": "苏泊尔/小熊等",
+        "shipping": "48小时内",
+        "hotReason": "办公室养生场景，小容量高性价比，秋冬煮茶热饮需求",
+        "goodKeywords": [
+          "小巧不占地",
+          "煮茶方便",
+          "静音"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，办公室养生场景，价格亲民",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%BF%B7%E4%BD%A0%E5%85%BB%E7%94%9F%E5%A3%B6%EF%BC%88%E5%8A%9E%E5%85%AC%E5%AE%A4%E7%85%AE%E8%8C%B6%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红枣桂圆枸杞养生茶（独立茶包）",
+        "link": "https://s.taobao.com/search?q=红枣桂圆枸杞养生茶",
+        "price": "约15-35元/盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "气血养护概念，秋冬热饮需求，独立茶包便携",
+        "goodKeywords": [
+          "料足",
+          "甜度自然",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "养生食补方向，女性气血养护，价格友好",
+        "image": "https://img.alicdn.com/imgextra/i3/2271789261/O1CN01BIlBQa2IHb6PrFQgU_!!4611686018427379917-2-item_pic.png_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "season": "深秋·祛湿温养与开学季叠加",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
