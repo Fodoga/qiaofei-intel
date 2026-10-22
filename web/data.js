@@ -1,5 +1,271 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-22",
+    "season": "深秋·祛湿润燥双养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "智能速热饮水机（多档温控）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "美的/沁园",
+        "hotReason": "秋冬换季饮水需求上升，多档温控方便冲奶、泡茶，近期小家电榜单常客",
+        "image": ""
+      },
+      {
+        "name": "空气循环扇（静音涡轮）",
+        "platform": "抖音",
+        "price": "约99-199元",
+        "brand": "艾美特/格力",
+        "hotReason": "秋季室内通风与辅助取暖循环需求，抖音小家电直播热推",
+        "image": ""
+      },
+      {
+        "name": "破壁豆浆机（免滤自清洗）",
+        "platform": "京东",
+        "price": "约299-499元",
+        "brand": "九阳/美的",
+        "hotReason": "早餐养生场景刚需，秋冬豆浆米糊高频使用，好评率高",
+        "image": ""
+      },
+      {
+        "name": "家用除湿机（静音小容量）",
+        "platform": "京东",
+        "price": "约299-599元",
+        "brand": "德业/美的",
+        "hotReason": "南方回南天与秋季潮湿，除湿需求带动小容量机型热销",
+        "image": ""
+      },
+      {
+        "name": "即热式饮水机（台式）",
+        "platform": "淘宝",
+        "price": "约159-299元",
+        "brand": "小米/心想",
+        "hotReason": "小户型与办公室场景热销，即热即饮契合秋冬养生",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌",
+        "platform": "淘宝",
+        "price": "约89-169元",
+        "brand": "月神/康萃乐",
+        "hotReason": "女性健康养护意识提升，私护益生菌搜索与复购双高",
+        "image": ""
+      },
+      {
+        "name": "艾草足浴包（泡脚包）",
+        "platform": "拼多多",
+        "price": "约19.9-39.9元",
+        "brand": "同仁堂/修正",
+        "hotReason": "秋冬泡脚祛湿驱寒，价格敏感友好，拼多多爆款频出",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩披肩（捶打热敷）",
+        "platform": "淘宝",
+        "price": "约129-259元",
+        "brand": "倍轻松/ SKG",
+        "hotReason": "久坐办公与中老年肩颈不适，送礼自用两相宜",
+        "image": ""
+      },
+      {
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "platform": "淘宝",
+        "price": "约49-99元",
+        "brand": "国风文创",
+        "hotReason": "七夕/中秋送礼余温，养生锤+梳子组合体面实用",
+        "image": ""
+      },
+      {
+        "name": "西洋参滋补礼盒",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "同仁堂/康美",
+        "hotReason": "送长辈父母滋补刚需，秋冬进补节点带动销量",
+        "image": ""
+      },
+      {
+        "name": "蒸汽眼罩（热敷助眠）",
+        "platform": "淘宝",
+        "price": "约29.9-59.9元",
+        "brand": "花王/珍视明",
+        "hotReason": "助眠放松，女性与上班族复购高，秋冬热敷舒适",
+        "image": ""
+      },
+      {
+        "name": "迷你电饭煲（一人食）",
+        "platform": "拼多多",
+        "price": "约79-159元",
+        "brand": "小熊/九阳",
+        "hotReason": "小家庭与宿舍场景，开学季后延续热销",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿温养·家人关怀周",
+      "reason": "10月下旬昼夜温差加大，祛湿驱寒与润燥并重；同时临近重阳与秋冬送礼节点，围绕女性养生、家居暖意与送长辈体面礼品做组合，价格敏感友好、高复购。",
+      "zones": [
+        {
+          "zone": "祛湿温养·女性养生",
+          "products": [
+            "艾草足浴包（泡脚包）",
+            "女性私护益生菌",
+            "蒸汽眼罩（热敷助眠）"
+          ]
+        },
+        {
+          "zone": "家居暖意·实用小电",
+          "products": [
+            "智能速热饮水机（多档温控）",
+            "空气循环扇（静音涡轮）",
+            "迷你电饭煲（一人食）"
+          ]
+        },
+        {
+          "zone": "体面送礼·送长辈父母",
+          "products": [
+            "西洋参滋补礼盒",
+            "国风养生艾草锤檀木梳礼盒",
+            "颈椎按摩披肩（捶打热敷）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "智能速热饮水机（多档温控）",
+          "platform": "京东",
+          "price": "约199-399元",
+          "brand": "美的/沁园",
+          "shipping": "48小时内",
+          "reason": "秋冬饮水养生刚需，多档温控适配冲奶泡茶，小家电高好评",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2220449181196/O1CN017kdks91Khopt1y02H_!!4611686018427383308-0-item_pic.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "智能速热饮水机（多档温控）",
+        "link": "https://s.taobao.com/search?q=智能速热饮水机多档温控",
+        "price": "约199-399元",
+        "brand": "美的/沁园",
+        "shipping": "48小时内",
+        "hotReason": "秋冬饮水养生刚需，小家电榜单常客，多档温控适配冲奶泡茶",
+        "goodKeywords": [
+          "出水快",
+          "温控准",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "水箱偏小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的实用小家电，契合秋冬温养与家庭场景",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2220449181196/O1CN017kdks91Khopt1y02H_!!4611686018427383308-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "抖音",
+        "name": "空气循环扇（静音涡轮）",
+        "link": "https://www.douyin.com/search/空气循环扇静音涡轮",
+        "price": "约99-199元",
+        "brand": "艾美特/格力",
+        "shipping": "48小时内",
+        "hotReason": "秋季室内通风与辅助取暖循环，抖音直播热推",
+        "goodKeywords": [
+          "静音",
+          "风力足",
+          "小巧"
+        ],
+        "badKeywords": [
+          "档位少"
+        ],
+        "match": true,
+        "matchReason": "高性价比家居小电，改善室内空气与舒适度",
+        "image": "https://www.suma6.com/uploads/image_143548/202609/08/e6cd20a466f13318a6f6e08d2ebfa255-500x500.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "破壁豆浆机（免滤自清洗）",
+        "link": "https://s.taobao.com/search?q=破壁豆浆机免滤自清洗",
+        "price": "约299-499元",
+        "brand": "九阳/美的",
+        "shipping": "48小时内",
+        "hotReason": "早餐养生场景刚需，秋冬豆浆米糊高频使用，好评率高",
+        "goodKeywords": [
+          "细腻无渣",
+          "自清洗方便",
+          "静音"
+        ],
+        "badKeywords": [
+          "清洗略费时"
+        ],
+        "match": true,
+        "matchReason": "养生食补好帮手，适合家庭早餐与送长辈",
+        "image": "https://md.huarenstore.com/media/1200/catalog/product/1/_/1_538.jpg.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "家用除湿机（静音小容量）",
+        "link": "https://s.taobao.com/search?q=家用除湿机静音小容量",
+        "price": "约299-599元",
+        "brand": "德业/美的",
+        "shipping": "48小时内",
+        "hotReason": "秋季潮湿与回南天除湿需求，小容量机型热销",
+        "goodKeywords": [
+          "除湿快",
+          "静音",
+          "水箱好倒"
+        ],
+        "badKeywords": [
+          "体积偏大"
+        ],
+        "match": true,
+        "matchReason": "改善居家湿度，提升生活质量的家居好物",
+        "image": "https://img10.360buyimg.com/n4/s330x330_jfs/t1/505751/9/11678/104188/6a94e62cF4b9f97cf/00833203200a499d.jpg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "迷你电饭煲（一人食）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=迷你电饭煲一人食",
+        "price": "约79-159元",
+        "brand": "小熊/九阳",
+        "shipping": "48小时内",
+        "hotReason": "小家庭与宿舍场景，开学季后延续热销",
+        "goodKeywords": [
+          "小巧不占地",
+          "不粘内胆",
+          "操作简单"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，适合小家庭与年轻用户",
+        "image": "https://img.alicdn.com/imgextra/O1CN01MyuIGz28UHbJXzanw_!!6000000007935-2-yinhe.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "即食银耳羹/桃胶羹",
+        "link": "https://s.taobao.com/search?q=即食银耳羹桃胶羹",
+        "price": "约39.9-79.9元",
+        "brand": "燕之坊/方家铺子",
+        "shipping": "48小时内",
+        "hotReason": "秋冬润燥养生食补，开盖即食方便，女性复购高",
+        "goodKeywords": [
+          "料足",
+          "不太甜",
+          "方便"
+        ],
+        "badKeywords": [
+          "偏稀"
+        ],
+        "match": true,
+        "matchReason": "药食同源润燥食补，契合女性养生与送礼",
+        "image": "https://cdn.yamibuy.net/item/d1333ed4e15679dbf6be778b10774097_750x750.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-21",
     "season": "深秋·祛湿润燥交替季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
