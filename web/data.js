@@ -1,5 +1,300 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-23",
+    "season": "深秋·祛湿温养与换季进补季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "女性私护益生菌（纯净配方）",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "月神/万益蓝等",
+        "hotReason": "2026女性益生菌品牌排行热度延续，覆盖私护与肠道双场景，无香精色素防腐剂卖点契合县城女性健康养生需求",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机（负离子护发）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "徕芬/小米",
+        "hotReason": "反向海淘与个护小家电榜单常客，媲美高端品牌性能、亲民价格，换季护发刚需",
+        "image": ""
+      },
+      {
+        "name": "免手洗破壁豆浆机",
+        "platform": "京东",
+        "price": "约299-499元",
+        "brand": "九阳",
+        "hotReason": "华人厨房小家电Top榜常驻，自清洗解决清洗痛点，秋冬早餐热饮场景强",
+        "image": ""
+      },
+      {
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "platform": "京东",
+        "price": "约39-89元",
+        "brand": "SWEET CUPID等国风礼盒",
+        "hotReason": "七夕/中秋/送长辈礼盒榜单热销，养生+体面兼顾，价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩披肩（捶打热敷）",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "SKG/倍轻松平替款",
+        "hotReason": "秋冬肩颈养护刚需，送父母长辈高频礼品，站内销量与评价基数大",
+        "image": ""
+      },
+      {
+        "name": "艾草足浴包/泡脚包",
+        "platform": "拼多多",
+        "price": "约9.9-29.9元",
+        "brand": "南京同仁堂/白云山等",
+        "hotReason": "祛湿温养季高复购，秋冬泡脚场景刚需，低价高频适合县城家庭囤货",
+        "image": ""
+      },
+      {
+        "name": "折叠泡脚桶（恒温加热款）",
+        "platform": "拼多多",
+        "price": "约49-99元",
+        "brand": "南极人/志高",
+        "hotReason": "与泡脚包形成组合购，折叠收纳适合小户型，秋冬销量爬升明显",
+        "image": ""
+      },
+      {
+        "name": "小型加湿器（静音大容量）",
+        "platform": "京东",
+        "price": "约59-129元",
+        "brand": "美的/小狗",
+        "hotReason": "换季干燥+供暖前备货，宿舍/卧室场景热销，开学季与秋冬双驱动",
+        "image": ""
+      },
+      {
+        "name": "阿胶糕礼盒（即食固元膏）",
+        "platform": "京东",
+        "price": "约99-199元/2盒",
+        "brand": "南京同仁堂/东阿",
+        "hotReason": "秋冬进补+送长辈体面礼品双场景，老字号背书，礼盒装好评率高",
+        "image": ""
+      },
+      {
+        "name": "西洋参滋补礼盒",
+        "platform": "淘宝",
+        "price": "约89-199元",
+        "brand": "同仁堂/康美",
+        "hotReason": "送父母长辈经典滋补礼品，秋冬进补季搜索热度上升，体面且价格适中",
+        "image": ""
+      },
+      {
+        "name": "宿舍多层收纳置物架",
+        "platform": "拼多多",
+        "price": "约19.9-49元",
+        "brand": "义乌家居工厂款",
+        "hotReason": "开学季余温+小户型收纳刚需，1688/拼多多工厂直供性价比高",
+        "image": ""
+      },
+      {
+        "name": "蒸汽眼罩（热敷助眠）",
+        "platform": "淘宝",
+        "price": "约29-59元/盒",
+        "brand": "珍视明/花王平替",
+        "hotReason": "秋冬助眠+护眼刚需，办公室与宿舍场景热销，复购率高",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿温养·换季进补与送长辈体面礼",
+      "reason": "10月下旬昼夜温差加大、湿寒渐重，县城女性重养生祛湿与秋冬进补；同时开学季余温与送长辈礼品需求叠加，选品以低价高频祛湿泡脚、温养食补、体面滋补礼盒与实用小家电为主，兼顾价格敏感与高复购",
+      "zones": [
+        {
+          "zone": "祛湿温养·泡脚足浴专区",
+          "products": [
+            "艾草足浴包/泡脚包",
+            "折叠泡脚桶（恒温加热款）",
+            "艾草暖膝护腿套"
+          ]
+        },
+        {
+          "zone": "秋冬进补·送长辈体面礼专区",
+          "products": [
+            "阿胶糕礼盒（即食固元膏）",
+            "西洋参滋补礼盒",
+            "国风养生艾草锤檀木梳礼盒"
+          ]
+        },
+        {
+          "zone": "换季生活·实用小家电专区",
+          "products": [
+            "小型加湿器（静音大容量）",
+            "高速吹风机（负离子护发）",
+            "颈椎按摩披肩（捶打热敷）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "阿胶糕礼盒（即食固元膏）",
+          "platform": "京东",
+          "price": "约99-199元/2盒",
+          "brand": "南京同仁堂/东阿",
+          "shipping": "48小时内",
+          "reason": "秋冬进补+送长辈体面礼双场景，老字号背书好评率高",
+          "image": "https://img06.weeecdn.com/item/image/567/291/474607C7A321933F.jpeg"
+        },
+        {
+          "name": "高速吹风机（负离子护发）",
+          "platform": "京东",
+          "price": "约199-399元",
+          "brand": "徕芬/小米",
+          "shipping": "24-48小时",
+          "reason": "个护小家电榜单常客，换季护发刚需，性价比突出",
+          "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/2218357950221/O1CN01b7ORZl1DVGeq1WNWF_!!2218357950221.png_1280x0.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "艾草足浴包/泡脚包（30袋装）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=艾草足浴包泡脚包",
+        "price": "约9.9-29.9元",
+        "brand": "南京同仁堂/白云山等",
+        "shipping": "48小时内",
+        "hotReason": "祛湿温养季高复购刚需，秋冬泡脚场景驱动，站内销量基数大",
+        "goodKeywords": [
+          "味道浓",
+          "泡完暖",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "低价高频祛湿温养，契合县城女性养生与家庭囤货需求",
+        "image": "https://cdn.yamibuy.net/item/04817f3b62480528d4d772d8e10da0c4_750x750.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "折叠泡脚桶（恒温加热款）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=折叠泡脚桶恒温加热",
+        "price": "约49-99元",
+        "brand": "南极人/志高",
+        "shipping": "48小时内",
+        "hotReason": "与泡脚包组合购，折叠收纳适合小户型，秋冬销量爬升",
+        "goodKeywords": [
+          "折叠省空间",
+          "加热快",
+          "恒温好"
+        ],
+        "badKeywords": [
+          "折叠处易漏水"
+        ],
+        "match": true,
+        "matchReason": "秋冬泡脚刚需配套，小户型友好、价格敏感友好",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2215381909051/O1CN01eR2ztE2GjPv8dg0vq_!!2215381909051.png_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "阿胶糕礼盒（即食固元膏2盒装）",
+        "link": "https://search.jd.com/Search?keyword=阿胶糕礼盒即食固元膏",
+        "price": "约99-199元/2盒",
+        "brand": "南京同仁堂/东阿",
+        "shipping": "48小时内",
+        "hotReason": "秋冬进补+送长辈体面礼双场景，老字号背书礼盒好评率高",
+        "goodKeywords": [
+          "料足",
+          "不齁甜",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "秋冬进补与送长辈体面礼兼顾，价格适中",
+        "image": "https://cdn.yamibuy.net/item/b73a9475af38294257b2d0c352a608fb_750x750.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "西洋参滋补礼盒（切片含片）",
+        "link": "https://s.taobao.com/search?q=西洋参滋补礼盒",
+        "price": "约89-199元",
+        "brand": "同仁堂/康美",
+        "shipping": "48小时内",
+        "hotReason": "送父母长辈经典滋补礼品，秋冬进补季搜索热度上升",
+        "goodKeywords": [
+          "片大",
+          "包装体面",
+          "回甘"
+        ],
+        "badKeywords": [
+          "碎末多"
+        ],
+        "match": true,
+        "matchReason": "体面合宜的送长辈滋补礼，价格敏感友好",
+        "image": "https://imgservice.suning.cn/uimg1/b2c/image/pGhmcJRgzeIsn-9GrhDjVQ.jpg_800w_800h_4e_80Q_is"
+      },
+      {
+        "platform": "京东",
+        "name": "高速吹风机（负离子护发）",
+        "link": "https://search.jd.com/Search?keyword=高速吹风机负离子",
+        "price": "约199-399元",
+        "brand": "徕芬/小米",
+        "shipping": "24-48小时",
+        "hotReason": "个护小家电榜单常客，反向海淘热度延续，换季护发刚需",
+        "goodKeywords": [
+          "风力大",
+          "干发快",
+          "不毛躁"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的实用小家电，性价比突出",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/2218357950221/O1CN01b7ORZl1DVGeq1WNWF_!!2218357950221.png_1280x0.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "小型加湿器（静音大容量）",
+        "link": "https://search.jd.com/Search?keyword=小型加湿器静音大容量",
+        "price": "约59-129元",
+        "brand": "美的/小狗",
+        "shipping": "24-48小时",
+        "hotReason": "换季干燥+供暖前备货，宿舍/卧室场景热销",
+        "goodKeywords": [
+          "静音",
+          "雾量大",
+          "好清洗"
+        ],
+        "badKeywords": [
+          "水箱偏小"
+        ],
+        "match": true,
+        "matchReason": "换季提升生活质量的小家电，价格友好",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/2616970884/O1CN01f1inyegruHH49oPo_!!4611686018427383428-2-item_pic.png_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "免手洗破壁豆浆机",
+        "link": "https://search.jd.com/Search?keyword=免手洗破壁豆浆机",
+        "price": "约299-499元",
+        "brand": "九阳",
+        "shipping": "24-48小时",
+        "hotReason": "华人厨房小家电Top榜常驻，自清洗解决清洗痛点，秋冬早餐热饮场景强",
+        "goodKeywords": [
+          "免手洗",
+          "豆浆细腻",
+          "预约方便"
+        ],
+        "badKeywords": [
+          "体积偏大"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的厨房小家电，秋冬早餐场景契合",
+        "image": "https://md.huarenstore.com/media/1200/catalog/product/_/2/_2_137_1.jpg.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "season": "深秋·祛湿润燥双养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
