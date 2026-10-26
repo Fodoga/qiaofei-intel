@@ -1,5 +1,280 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-26",
+    "season": "深秋·祛湿润燥双养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "药食同源养生茶（红豆薏米/陈皮茯苓类）",
+        "platform": "淘宝",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "hotReason": "新华网与行业媒体持续报道中式养生水走热，祛湿类配方（红豆、薏米、茯苓、陈皮）为高频搜索词，独立茶包形态复购高",
+        "image": ""
+      },
+      {
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "platform": "京东",
+        "price": "约39-89元",
+        "brand": "多品牌",
+        "hotReason": "京东七夕/节日礼盒页出现国风养生艾草锤+檀木梳组合，兼具养生与送礼属性，评价量高",
+        "image": ""
+      },
+      {
+        "name": "送妈妈珍珠项链/真丝丝巾礼盒",
+        "platform": "淘宝",
+        "price": "约59-199元",
+        "brand": "多品牌",
+        "hotReason": "七夕送母亲专题页与内容平台集中推荐，珍珠项链、真丝丝巾为长辈送礼高频选项，客单适中体面",
+        "image": ""
+      },
+      {
+        "name": "桂格营养麦片全家福（4包4口味）",
+        "platform": "淘宝",
+        "price": "约39-69元",
+        "brand": "桂格",
+        "hotReason": "礼品专题页收录，知名品牌+全家共享装，适合送长辈与家庭早餐场景，价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "红帽子日本进口糕点什锦饼干礼盒",
+        "platform": "淘宝",
+        "price": "约89-159元",
+        "brand": "红帽子",
+        "hotReason": "进口糕点礼盒在送礼专题中反复出现，包装体面、口味多，适合节日与长辈伴手礼",
+        "image": ""
+      },
+      {
+        "name": "Lindt瑞士莲冰山雪融巧克力",
+        "platform": "京东",
+        "price": "约59-129元",
+        "brand": "瑞士莲",
+        "hotReason": "礼品专题推荐款，品牌认知度高，节日送礼场景稳定热销",
+        "image": ""
+      },
+      {
+        "name": "宿舍迷你节能灯/触摸USB充电灯",
+        "platform": "淘宝",
+        "price": "约15-39元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍好物清单高频出现，USB充电、冷暖双光，学生与租房人群刚需",
+        "image": ""
+      },
+      {
+        "name": "电动磁力搅拌杯",
+        "platform": "淘宝",
+        "price": "约39-89元",
+        "brand": "乐扣乐扣等",
+        "hotReason": "内容平台“相见恨晚平价好物”类视频带动，冲饮搅拌免手摇，办公室与长辈均适用",
+        "image": ""
+      },
+      {
+        "name": "宿舍多层收纳置物架",
+        "platform": "拼多多",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍收纳攻略集中推荐，免打孔、可叠加，价格低决策快",
+        "image": ""
+      },
+      {
+        "name": "手持小型除螨仪（宿舍适用）",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍清洁电器清单推荐，低功率适配宿舍用电，健康清洁需求上升",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌（纯净配方）",
+        "platform": "淘宝",
+        "price": "约69-159元",
+        "brand": "多品牌",
+        "hotReason": "女性健康养护类目持续增长，非棉品私护方向合规可推，复购属性强",
+        "image": ""
+      },
+      {
+        "name": "即食阿胶糕/固元膏礼盒",
+        "platform": "京东",
+        "price": "约69-159元",
+        "brand": "南京同仁堂等",
+        "hotReason": "秋冬滋补季临近，药食同源滋补零食化，礼盒装兼顾自用与送长辈",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿温养·家人体面礼专区",
+      "reason": "10月末昼夜温差加大、湿寒交替，祛湿茶饮与温养小家电需求上升；同时临近节日送礼与开学季尾声，长辈礼品与宿舍实用好物并行，选品以价格敏感、高性价比、48小时内发货为主",
+      "zones": [
+        {
+          "zone": "祛湿润燥茶饮区",
+          "products": [
+            "陈皮茯苓祛湿茶（独立茶包）",
+            "红豆薏米芡实祛湿茶（独立茶包）",
+            "五指毛桃茯苓祛湿茶（独立茶包）"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼区",
+          "products": [
+            "国风养生艾草锤檀木梳礼盒",
+            "桂格营养麦片全家福（4包4口味）",
+            "红帽子日本进口糕点什锦饼干礼盒"
+          ]
+        },
+        {
+          "zone": "开学季宿舍实用区",
+          "products": [
+            "宿舍多层收纳置物架",
+            "触摸式USB充电迷你节能灯",
+            "电动磁力搅拌杯"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "国风养生艾草锤檀木梳礼盒",
+          "platform": "京东",
+          "price": "约39-89元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "养生+送礼双属性，国风包装体面，价格敏感友好，适合送妈妈与长辈",
+          "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i1/2214269466594/O1CN01wlvgU3uuYFH1chua_!!4611686018427385826-0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "电动磁力搅拌杯",
+          "platform": "淘宝",
+          "price": "约39-89元",
+          "brand": "乐扣乐扣等",
+          "shipping": "48小时内",
+          "reason": "冲饮搅拌免手摇，办公室与长辈均适用，内容平台种草带动明显",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/2389794079/O1CN01YH3LEa1g0Eh65bXbX_!!2389794079.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "link": "https://search.jd.com/Search?keyword=国风养生艾草锤檀木梳礼盒",
+        "price": "约39-89元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "京东节日礼盒页收录，国风养生组合兼具按摩与梳头场景，评价量高",
+        "goodKeywords": [
+          "包装体面",
+          "送长辈合适",
+          "做工细致"
+        ],
+        "badKeywords": [
+          "物流慢"
+        ],
+        "match": true,
+        "matchReason": "养生+送礼双属性，契合送妈妈长辈场景且价格友好",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i1/2214269466594/O1CN01wlvgU3uuYFH1chua_!!4611686018427385826-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红帽子日本进口糕点什锦饼干礼盒",
+        "link": "https://s.taobao.com/search?q=红帽子日本进口糕点什锦饼干礼盒",
+        "price": "约89-159元",
+        "brand": "红帽子",
+        "shipping": "48小时内",
+        "hotReason": "送礼专题反复出现的进口糕点礼盒，包装体面、口味丰富",
+        "goodKeywords": [
+          "包装精致",
+          "口味多",
+          "送礼有面子"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "体面合宜的节日/长辈伴手礼，客单适中",
+        "image": "https://img.youzigifts.com/Upload/Img103/106152-1272403287792140-7804253.jpg?_uptime=20240426131231"
+      },
+      {
+        "platform": "京东",
+        "name": "Lindt瑞士莲冰山雪融巧克力",
+        "link": "https://search.jd.com/Search?keyword=瑞士莲冰山雪融巧克力",
+        "price": "约59-129元",
+        "brand": "瑞士莲",
+        "shipping": "48小时内",
+        "hotReason": "礼品专题推荐款，国际品牌认知度高，节日送礼稳定热销",
+        "goodKeywords": [
+          "口感细腻",
+          "品牌有面子",
+          "包装好看"
+        ],
+        "badKeywords": [
+          "易融化"
+        ],
+        "match": true,
+        "matchReason": "知名度高、体面送礼，适合七夕/节日场景",
+        "image": "https://yanxuan-item.nosdn.127.net/4c2a057483555bb5e0066ba2fb1a1bd6.jpg?imageView&quality=75&thumbnail=750x0"
+      },
+      {
+        "platform": "淘宝",
+        "name": "宿舍多层收纳置物架",
+        "link": "https://s.taobao.com/search?q=宿舍多层收纳置物架",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍收纳攻略集中推荐，免打孔可叠加，低价高转化",
+        "goodKeywords": [
+          "安装简单",
+          "结实",
+          "省空间"
+        ],
+        "badKeywords": [
+          "承重一般"
+        ],
+        "match": true,
+        "matchReason": "开学季刚需、价格敏感友好，适合学生与租房家庭",
+        "image": "https://img.alicdn.com/imgextra/i1/3405017625/O1CN01Eh5gXv26CJ5UuQunu_!!4611686018427384345-2-item_pic.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "电动磁力搅拌杯",
+        "link": "https://s.taobao.com/search?q=电动磁力搅拌杯",
+        "price": "约39-89元",
+        "brand": "乐扣乐扣等",
+        "shipping": "48小时内",
+        "hotReason": "内容平台平价好物视频带动，冲饮搅拌免手摇，办公室与长辈适用",
+        "goodKeywords": [
+          "搅拌省力",
+          "好清洗",
+          "送人实用"
+        ],
+        "badKeywords": [
+          "电池续航短"
+        ],
+        "match": true,
+        "matchReason": "实用小家电、价格友好，适合自用与送家人",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/2389794079/O1CN01YH3LEa1g0Eh65bXbX_!!2389794079.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "真丝丝巾礼盒（送妈妈/长辈）",
+        "link": "https://s.taobao.com/search?q=真丝丝巾礼盒送妈妈",
+        "price": "约59-159元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "七夕送母亲专题与内容平台集中推荐，真丝丝巾为长辈送礼高频选项",
+        "goodKeywords": [
+          "质感好",
+          "颜色显气质",
+          "包装体面"
+        ],
+        "badKeywords": [
+          "色差"
+        ],
+        "match": true,
+        "matchReason": "体面合宜的长辈礼品，客单适中、送礼场景明确",
+        "image": "https://img.alicdn.com/imgextra/i2/2460531061/O1CN01qA4r6E1JhzJFlB6UX_!!2460531061.jpg_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-23",
     "season": "深秋·祛湿温养与换季进补季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
