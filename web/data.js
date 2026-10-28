@@ -1,5 +1,275 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-28",
+    "season": "深秋·祛湿润燥交替季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "炒薏米茯苓陈皮祛湿茶",
+        "platform": "淘宝",
+        "price": "约39.8元起",
+        "brand": "多品牌散装/茶包",
+        "hotReason": "淘宝祛湿茶榜单Top5000件，炒薏米+茯苓+陈皮经典组合，深秋祛湿需求延续，秒杀价带动销量",
+        "image": ""
+      },
+      {
+        "name": "赤小豆薏米芡实茯苓组合茶包",
+        "platform": "淘宝",
+        "price": "约20-50元/10-30包",
+        "brand": "多品牌",
+        "hotReason": "祛湿养生茶热搜组合，男女通用、春夏秋冬常备，独立茶包便携，复购率高",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌",
+        "platform": "淘宝",
+        "price": "约60-150元",
+        "brand": "多品牌",
+        "hotReason": "2026女性私密健康消费白皮书显示76.4%都市女性关注私处微生态，私护益生菌成主动购入品类，县城女性健康意识提升",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机（负离子护发）",
+        "platform": "京东",
+        "price": "约150-400元",
+        "brand": "徕芬等",
+        "hotReason": "反向海淘指南点名国产高速吹风机性价比突出，个护小家电持续热销，秋冬护发刚需",
+        "image": ""
+      },
+      {
+        "name": "提升幸福感小家电（养生壶/豆浆机等）",
+        "platform": "京东",
+        "price": "约100-300元",
+        "brand": "多品牌",
+        "hotReason": "什么值得买、知乎多篇小家电推荐榜单，厨房与个护小家电为秋冬居家高频使用，送礼自用两宜",
+        "image": ""
+      },
+      {
+        "name": "厨房小家电批发（电磁炉/电饭煲/豆浆机）",
+        "platform": "1688",
+        "price": "约50-200元",
+        "brand": "多品牌",
+        "hotReason": "1688小家电频道批发热度高，县城家庭与礼品采购性价比首选，发货快",
+        "image": ""
+      },
+      {
+        "name": "药食同源养生茶/中药伴侣",
+        "platform": "淘宝",
+        "price": "约30-80元",
+        "brand": "闻茶纪、养益君等",
+        "hotReason": "药食同源避坑指南类内容带动关注，养生茶与中药伴侣成秋冬调理热门，注重成分与口碑",
+        "image": ""
+      },
+      {
+        "name": "家用吸尘器/除螨清洁小家电",
+        "platform": "京东",
+        "price": "约200-600元",
+        "brand": "小狗等",
+        "hotReason": "居家幸福感家电推荐榜常客，秋冬换季除螨清洁需求上升，县城家庭改善型消费",
+        "image": ""
+      },
+      {
+        "name": "智能马桶/轻智能卫浴",
+        "platform": "京东",
+        "price": "约500-1500元",
+        "brand": "多品牌",
+        "hotReason": "生活必备家电盘点类内容推荐，轻智能马桶性价比高、易清洁，提升居家品质",
+        "image": ""
+      },
+      {
+        "name": "国风养生礼盒（艾草锤/檀木梳）",
+        "platform": "京东",
+        "price": "约50-120元",
+        "brand": "多品牌",
+        "hotReason": "送长辈、送妈妈体面礼品，国风养生概念契合县城送礼场景，秋冬养生话题带动",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿润燥·家人温养周",
+      "reason": "10月末深秋昼夜温差大、湿燥交替，县城女性既要自身祛湿调理，也为父母长辈备温养好物；结合七夕后送礼余温与开学季家人关怀，主推祛湿茶饮、温养小家电与体面养生礼盒，价格敏感友好、高复购",
+      "zones": [
+        {
+          "zone": "祛湿润燥茶饮区",
+          "products": [
+            "炒薏米茯苓陈皮祛湿茶",
+            "赤小豆薏米芡实茯苓茶包",
+            "药食同源中药伴侣"
+          ]
+        },
+        {
+          "zone": "居家温养小家电区",
+          "products": [
+            "高速吹风机（负离子护发）",
+            "迷你养生壶",
+            "家用除螨仪"
+          ]
+        },
+        {
+          "zone": "送长辈体面养生礼区",
+          "products": [
+            "国风养生艾草锤檀木梳礼盒",
+            "即食阿胶糕礼盒",
+            "西洋参滋补礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "炒薏米茯苓陈皮祛湿茶",
+          "platform": "淘宝",
+          "price": "约39.8元起",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "祛湿茶榜单热销，炒制工艺温和不伤胃，深秋祛湿刚需，独立茶包方便上班与居家",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2206584264218/O1CN01N4WkR31h1tjpUXzEv_!!2206584264218-0-C2M.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "炒薏米茯苓陈皮祛湿茶",
+        "link": "https://s.taobao.com/search?q=炒薏米茯苓陈皮祛湿茶",
+        "price": "约39.8元起",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "淘宝祛湿茶榜单Top5000件，炒薏米+茯苓+陈皮经典组合，秒杀价带动销量，深秋祛湿需求延续",
+        "goodKeywords": [
+          "祛湿明显",
+          "味道清香",
+          "独立包装方便"
+        ],
+        "badKeywords": [
+          "偏淡"
+        ],
+        "match": true,
+        "matchReason": "祛湿养生刚需，价格敏感友好，高复购，契合县城女性养生场景",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2206584264218/O1CN01N4WkR31h1tjpUXzEv_!!2206584264218-0-C2M.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "赤小豆薏米芡实茯苓组合茶包",
+        "link": "https://s.taobao.com/search?q=赤小豆薏米芡实茯苓茶包",
+        "price": "约20-50元/10-30包",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "祛湿养生茶热搜组合，男女通用、独立茶包便携，复购率高",
+        "goodKeywords": [
+          "料足",
+          "耐泡",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "包装简单"
+        ],
+        "match": true,
+        "matchReason": "经典祛湿配方，价格友好，适合全家日常饮用",
+        "image": "https://cdn.yamibuy.net/item/8d3acd6e2f152568d7c287b925e9df11_750x750.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "家用除螨仪（床上除螨）",
+        "link": "https://search.jd.com/Search?keyword=家用除螨仪",
+        "price": "约200-500元",
+        "brand": "多品牌",
+        "shipping": "24小时内",
+        "hotReason": "居家幸福感家电推荐榜常客，秋冬换季除螨清洁需求上升",
+        "goodKeywords": [
+          "吸力大",
+          "除螨效果好",
+          "轻便"
+        ],
+        "badKeywords": [
+          "线缆偏短"
+        ],
+        "match": true,
+        "matchReason": "改善居家卫生的实用小家电，县城家庭改善型消费",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/3937219703/O1CN012gr0ciKmYdK1chua_!!3937219703-0-C2M.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "即食阿胶糕礼盒",
+        "link": "https://search.jd.com/Search?keyword=即食阿胶糕礼盒",
+        "price": "约80-200元",
+        "brand": "南京同仁堂等",
+        "shipping": "48小时内",
+        "hotReason": "药食同源滋补礼盒，秋冬进补热门，送妈妈长辈体面实用",
+        "goodKeywords": [
+          "口感好",
+          "独立包装",
+          "送礼有面子"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "滋补养生礼盒，契合送长辈与女性自用场景",
+        "image": "https://img06.weeecdn.com/item/image/567/291/474607C7A321933F.jpeg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "药食同源中药伴侣（养生冲饮）",
+        "link": "https://s.taobao.com/search?q=药食同源中药伴侣",
+        "price": "约30-80元",
+        "brand": "养益君等",
+        "shipping": "48小时内",
+        "hotReason": "药食同源避坑指南类内容带动关注，中药伴侣成秋冬调理热门",
+        "goodKeywords": [
+          "成分干净",
+          "冲泡方便",
+          "口感好"
+        ],
+        "badKeywords": [
+          "口味因人而异"
+        ],
+        "match": true,
+        "matchReason": "药食同源养生冲饮，契合女性调理与日常养生",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2218689149438/O1CN01OcPuu42JafCfV7inN_!!4611686018427386366-0-item_pic.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "轻智能马桶（性价比款）",
+        "link": "https://search.jd.com/Search?keyword=轻智能马桶",
+        "price": "约500-1500元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "生活必备家电盘点推荐，轻智能马桶性价比高、易清洁，提升居家品质",
+        "goodKeywords": [
+          "易清洁",
+          "性价比高",
+          "安装省心"
+        ],
+        "badKeywords": [
+          "安装需预约"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的卫浴小家电，县城家庭改善型消费",
+        "image": "https://am.zdmimg.com/202608/06/6a749803fe2a42224.jpg_e1080.jpg"
+      },
+      {
+        "platform": "1688",
+        "name": "厨房小家电（电磁炉/电饭煲）",
+        "link": "https://www.1688.com/?keywords=厨房小家电",
+        "price": "约50-200元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "1688小家电频道批发热度高，县城家庭与礼品采购性价比首选",
+        "goodKeywords": [
+          "价格实惠",
+          "发货快",
+          "实用"
+        ],
+        "badKeywords": [
+          "包装一般"
+        ],
+        "match": true,
+        "matchReason": "高性价比厨房小家电，契合价格敏感人群与家庭采购",
+        "image": "https://img10.360buyimg.com/n4/s330x330_jfs/t1/430050/31/13843/65083/6a016bf0Fd5007680/0083320320de7b80.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "season": "深秋·祛湿温养与换季囤货季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类。本期素材以开学季、宿舍好物、女性养生、私护益生菌方向为主，部分趋势品依据公开榜单与常识谨慎补充并标注不确定性。",
