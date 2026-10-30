@@ -1,5 +1,418 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-10-30",
+    "season": "深秋·祛湿润燥双养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "智能音箱（全屋智能中枢）",
+        "platform": "京东",
+        "price": "约299-399元",
+        "brand": "小度",
+        "hotReason": "三百元档即可做全屋智能中枢，秋冬宅家场景高频使用，测评类内容持续带量",
+        "image": ""
+      },
+      {
+        "name": "超薄扫拖机器人",
+        "platform": "京东",
+        "price": "约1500-2200元",
+        "brand": "科沃斯",
+        "hotReason": "8.1cm超薄机身可钻沙发底，换季大扫除需求上升，家电测评榜单常客",
+        "image": ""
+      },
+      {
+        "name": "轻智能马桶（性价比款）",
+        "platform": "京东",
+        "price": "约800-1500元",
+        "brand": "多品牌",
+        "hotReason": "轻智能型更实用、性价比高、不易藏污纳垢，家居焕新季热销",
+        "image": ""
+      },
+      {
+        "name": "无线吸尘器（大吸力）",
+        "platform": "京东",
+        "price": "约900-1600元",
+        "brand": "小狗",
+        "hotReason": "大吸力应对毛发灰尘，秋冬换季清洁刚需，测评内容带动搜索",
+        "image": ""
+      },
+      {
+        "name": "高颜值复古小烤箱",
+        "platform": "淘宝",
+        "price": "约200-400元",
+        "brand": "TOFFY",
+        "hotReason": "墨绿复古配色颜值高、体积小巧，秋冬烘焙季与送礼场景双驱动",
+        "image": ""
+      },
+      {
+        "name": "护肝片（熬夜应酬向）",
+        "platform": "淘宝",
+        "price": "约200-300元",
+        "brand": "江中牌",
+        "hotReason": "已售1万+件、1万+评价，'效果明显'口碑词高频，双11爆款榜在列",
+        "image": ""
+      },
+      {
+        "name": "家用真空封口机",
+        "platform": "淘宝",
+        "price": "约80-200元",
+        "brand": "多品牌",
+        "hotReason": "厨房好物社区高频讨论，秋冬囤货腌腊场景实用，百元档性价比高",
+        "image": ""
+      },
+      {
+        "name": "多功能电饭煲（煮粥/低糖）",
+        "platform": "拼多多",
+        "price": "约150-300元",
+        "brand": "美的/苏泊尔",
+        "hotReason": "会自己煮粥的智能款受小家庭欢迎，性价比家电推荐常客",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅（低温慢烤款）",
+        "platform": "京东",
+        "price": "约200-400元",
+        "brand": "多品牌",
+        "hotReason": "少油健康烹饪契合养生需求，秋冬烤红薯板栗场景高频",
+        "image": ""
+      },
+      {
+        "name": "女生私护健康养护组合",
+        "platform": "淘宝",
+        "price": "约100-200元",
+        "brand": "多品牌",
+        "hotReason": "小红书推荐'呵护女性健康做精致女人'，买赠活动带动销量",
+        "image": ""
+      },
+      {
+        "name": "宿舍收纳神器（分层置物架）",
+        "platform": "淘宝",
+        "price": "约20-60元",
+        "brand": "多品牌",
+        "hotReason": "开学季余温+住校刚需，百元内高性价比，学生党口碑推荐",
+        "image": ""
+      },
+      {
+        "name": "净水器/高效净水树脂滤芯",
+        "platform": "京东",
+        "price": "约300-800元",
+        "brand": "多品牌",
+        "hotReason": "家庭实用厨房家电榜单常客，秋冬饮水健康关注度上升",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿润燥·家人暖养周",
+      "reason": "10月末昼夜温差大、秋燥与湿寒交替，三四线女性既要顾自己（私护、气血、润燥），也要为父母备暖养好物；主打百元档高性价比、可复购的食补与家居小电器，兼顾体面送礼",
+      "zones": [
+        {
+          "zone": "祛湿润燥食补区",
+          "products": [
+            "陈皮普洱祛湿茶（独立茶包）",
+            "雪梨百合银耳羹（即食）",
+            "黑芝麻丸（九蒸九晒）"
+          ]
+        },
+        {
+          "zone": "暖养家居小电区",
+          "products": [
+            "暖脚宝（办公室桌下款）",
+            "电热毯（双人双控）",
+            "恒温电热水壶（多档保温）"
+          ]
+        },
+        {
+          "zone": "体面送长辈区",
+          "products": [
+            "西洋参枸杞养生茶礼盒",
+            "驼奶粉（中老年无糖）",
+            "护腰靠垫（记忆棉）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "陈皮普洱祛湿茶（独立茶包）",
+          "platform": "拼多多",
+          "price": "约29-59元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "深秋祛湿刚需，独立茶包便携、复购高，价格敏感友好",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2212541011346/O1CN01kRSlxp1LoWEabZ0LE_!!2212541011346.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "雪梨百合银耳羹（即食）",
+          "platform": "淘宝",
+          "price": "约39-79元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "秋燥润喉场景强，即食免煮适合县城女性日常养生",
+          "image": "https://cdn.yamibuy.net/item/4f5d4e5c5b6023247f7cbd1aa376ead0_750x750.webp"
+        },
+        {
+          "name": "暖脚宝（办公室桌下款）",
+          "platform": "京东",
+          "price": "约59-129元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "降温季刚需小电，桌下暖脚不干燥，自用送长辈皆宜",
+          "image": "https://img.alicdn.com/imgextra/i1/3908544048/O1CN01Xf8O631fm2GjN5085_!!3908544048.jpg_q50.jpg_.webp"
+        },
+        {
+          "name": "驼奶粉（中老年无糖）",
+          "platform": "京东",
+          "price": "约99-199元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "送父母体面又实用，无糖配方契合中老年健康需求",
+          "image": "https://img.alicdn.com/imgextra/i3/721172518/O1CN01SbTQMG1UTIQ08Rvya_!!721172518.jpg_300x300q50.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "陈皮普洱祛湿茶（独立茶包）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=陈皮普洱祛湿茶",
+        "price": "约29-59元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "祛湿茶类目持续热销，独立茶包形态复购率高，秋冬养生搜索上升",
+        "goodKeywords": [
+          "口感醇和",
+          "独立包装方便",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "茶味偏淡"
+        ],
+        "match": true,
+        "matchReason": "祛湿养生刚需且价格友好，避开自研茶饮方向",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2212541011346/O1CN01kRSlxp1LoWEabZ0LE_!!2212541011346.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "雪梨百合银耳羹（即食）",
+        "link": "https://s.taobao.com/search?q=雪梨百合银耳羹即食",
+        "price": "约39-79元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "秋燥润肺场景驱动，即食银耳羹类目在养生食品榜稳定靠前",
+        "goodKeywords": [
+          "免煮方便",
+          "胶质浓稠",
+          "甜度适中"
+        ],
+        "badKeywords": [
+          "分量偏少"
+        ],
+        "match": true,
+        "matchReason": "润燥食补契合季节，女性日常养生高频复购",
+        "image": "https://cdn.yamibuy.net/item/4f5d4e5c5b6023247f7cbd1aa376ead0_750x750.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "黑芝麻丸（九蒸九晒）",
+        "link": "https://s.taobao.com/search?q=黑芝麻丸九蒸九晒",
+        "price": "约29-69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "药食同源经典款，秋冬养发补气血话题带动，独立小包装便携",
+        "goodKeywords": [
+          "芝麻香浓",
+          "不齁甜",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "偏油"
+        ],
+        "match": true,
+        "matchReason": "药食同源高复购，契合女性养气血需求",
+        "image": "https://img.shoplineapp.com/media/image_clips/67ad4e263cac4c000e6e936c/original.jpeg?1739410981"
+      },
+      {
+        "platform": "京东",
+        "name": "暖脚宝（办公室桌下款）",
+        "link": "https://search.jd.com/Search?keyword=暖脚宝桌下",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "降温季取暖小电搜索攀升，桌下暖脚不干燥，自用送长辈两宜",
+        "goodKeywords": [
+          "升温快",
+          "静音",
+          "不干燥"
+        ],
+        "badKeywords": [
+          "线偏短"
+        ],
+        "match": true,
+        "matchReason": "秋冬暖养小电，价格友好且送礼体面",
+        "image": "https://img.alicdn.com/imgextra/i1/3908544048/O1CN01Xf8O631fm2GjN5085_!!3908544048.jpg_q50.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "电热毯（双人双控）",
+        "link": "https://search.jd.com/Search?keyword=电热毯双人双控",
+        "price": "约99-199元",
+        "brand": "彩虹/多品牌",
+        "shipping": "48小时内",
+        "hotReason": "深秋取暖刚需，双控定时款更安全，家纺取暖类目销量稳定",
+        "goodKeywords": [
+          "升温均匀",
+          "定时安全",
+          "双控方便"
+        ],
+        "badKeywords": [
+          "有轻微异味"
+        ],
+        "match": true,
+        "matchReason": "家庭取暖刚需，送父母实用体面",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i1/2206601759702/O1CN012UhAfGLORLB1chua_!!2206601759702.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "恒温电热水壶（多档保温）",
+        "link": "https://search.jd.com/Search?keyword=恒温电热水壶多档保温",
+        "price": "约89-169元",
+        "brand": "美的/苏泊尔",
+        "shipping": "48小时内",
+        "hotReason": "多档保温泡茶冲奶场景广，厨房小电榜单常客，秋冬饮水高频",
+        "goodKeywords": [
+          "保温准",
+          "烧水快",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "壶身偏重"
+        ],
+        "match": true,
+        "matchReason": "实用小家电提升生活质量，性价比高",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/2220924225072/O1CN013h18hC1nL1weVf7NP_!!2220924225072.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "驼奶粉（中老年无糖）",
+        "link": "https://search.jd.com/Search?keyword=驼奶粉中老年无糖",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "送长辈滋补礼热门，无糖配方契合中老年健康，节庆前搜索上升",
+        "goodKeywords": [
+          "奶香纯正",
+          "无糖好喝",
+          "包装体面"
+        ],
+        "badKeywords": [
+          "溶解度一般"
+        ],
+        "match": true,
+        "matchReason": "送父母体面滋补，价格带适中",
+        "image": "https://img.alicdn.com/imgextra/i3/721172518/O1CN01SbTQMG1UTIQ08Rvya_!!721172518.jpg_300x300q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "西洋参枸杞养生茶礼盒",
+        "link": "https://s.taobao.com/search?q=西洋参枸杞养生茶礼盒",
+        "price": "约69-139元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "药食同源送礼组合，独立小袋冲泡方便，秋冬滋补礼盒走量",
+        "goodKeywords": [
+          "包装大气",
+          "冲泡方便",
+          "味道清润"
+        ],
+        "badKeywords": [
+          "参片偏薄"
+        ],
+        "match": true,
+        "matchReason": "体面养生礼盒，送长辈父母合宜",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/4031737569/O1CN01Vpj5NQ25mexi8ePbD_!!4611686018427383521-2-item_pic.png_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "护腰靠垫（记忆棉）",
+        "link": "https://s.taobao.com/search?q=护腰靠垫记忆棉",
+        "price": "约39-89元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "久坐护腰需求普遍，家居好物类目稳定热销，送父母实用",
+        "goodKeywords": [
+          "支撑好",
+          "回弹快",
+          "外套可拆洗"
+        ],
+        "badKeywords": [
+          "偏硬"
+        ],
+        "match": true,
+        "matchReason": "家居实用好物，价格友好且送长辈贴心",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i4/762317531/O1CN01Fa38Qc25VFtPMv9vr_!!4611686018427382491-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "私护护理凝胶（温和型）",
+        "link": "https://s.taobao.com/search?q=私护护理凝胶温和型",
+        "price": "约49-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "女性私护非棉品方向需求稳定，温和配方口碑款复购高",
+        "goodKeywords": [
+          "温和不刺激",
+          "清爽",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "私护非棉品方向，避开自研套盒品类",
+        "image": "https://img.alicdn.com/imgextra/i4/2201279696471/O1CN01oPcJUj1xflyMVXd7q_!!2201279696471.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "迷你筋膜枪（便携款）",
+        "link": "https://search.jd.com/Search?keyword=迷你筋膜枪便携",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "肩颈放松需求高，便携小体积适合家用与送礼，小电榜单常客",
+        "goodKeywords": [
+          "力度足",
+          "静音",
+          "小巧便携"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "放松类小电，提升生活质量且价格适中",
+        "image": "https://q7.itc.cn/q_70/images03/20260912/ea0d31add053495d99269e819b0b3101.jpeg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "艾草暖贴（肩颈腰腹通用）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=艾草暖贴",
+        "price": "约19-39元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "降温季暖贴刚需，艾草概念契合养生，低价高频复购",
+        "goodKeywords": [
+          "发热持久",
+          "贴合牢固",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "温度偏高"
+        ],
+        "match": true,
+        "matchReason": "暖养刚需低价复购，非自研艾灸贴品类",
+        "image": "https://img.alicdn.com/imgextra/i4/849090736/O1CN01adZvHE1HJ8OTbcfjZ_!!849090736.jpg_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "season": "深秋·祛湿温养与换季滋补季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
