@@ -1,5 +1,338 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-02",
+    "season": "深秋·祛湿润燥双养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "祛湿养生茶（红豆薏米/陈皮茯苓类）",
+        "platform": "淘宝",
+        "price": "约19-69元",
+        "brand": "多品牌",
+        "hotReason": "淘宝海外祛湿养生茶相关商品超4800件，季节交替祛湿需求持续走高",
+        "image": ""
+      },
+      {
+        "name": "苹果山楂红枣陈皮养生茶包",
+        "platform": "淘宝",
+        "price": "约69元",
+        "brand": "多品牌",
+        "hotReason": "养生茶旗舰店榜单显示已售1000+件、500+评价，酸甜口感适合女性日常冲泡",
+        "image": ""
+      },
+      {
+        "name": "红参黄芪气血养生茶",
+        "platform": "淘宝",
+        "price": "约50-90元",
+        "brand": "多品牌",
+        "hotReason": "气血类药食同源茶包在养生茶榜单靠前，秋冬温补场景驱动",
+        "image": ""
+      },
+      {
+        "name": "酸枣仁百合膏（助眠膏方）",
+        "platform": "淘宝",
+        "price": "约60-120元/2盒",
+        "brand": "多品牌",
+        "hotReason": "送长辈礼品清单高频出现，10味草本助眠概念契合中老年睡眠需求",
+        "image": ""
+      },
+      {
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "platform": "京东",
+        "price": "约39-89元",
+        "brand": "多品牌",
+        "hotReason": "七夕/中秋/送长辈礼盒榜单常客，国风+养生双卖点，价格亲民",
+        "image": ""
+      },
+      {
+        "name": "法丽兹曲奇饼干礼盒",
+        "platform": "淘宝",
+        "price": "约30-60元",
+        "brand": "法丽兹",
+        "hotReason": "送妈妈/女性长辈礼品清单高频推荐，12款曲奇组合体面不贵",
+        "image": ""
+      },
+      {
+        "name": "珍珠项链/吊坠手链礼盒",
+        "platform": "淘宝",
+        "price": "约50-150元",
+        "brand": "多品牌",
+        "hotReason": "送妈妈礼物榜单热门，简约珍珠款提升气质、客单友好",
+        "image": ""
+      },
+      {
+        "name": "宿舍多层收纳置物架",
+        "platform": "淘宝",
+        "price": "约11.9元起",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍好物榜单持续热销，低价高性价比、学生党刚需",
+        "image": ""
+      },
+      {
+        "name": "折叠牙刷架/便携毛巾架",
+        "platform": "淘宝",
+        "price": "约9.9-29元",
+        "brand": "多品牌",
+        "hotReason": "开学季洗漱神器推荐，多功能便携易收纳，契合宿舍场景",
+        "image": ""
+      },
+      {
+        "name": "厨房小家电（电磁炉/电饭煲类）",
+        "platform": "苏宁易购",
+        "price": "约99-299元",
+        "brand": "美的/苏泊尔等",
+        "hotReason": "苏宁厨房小家电类目页持续在售热销，家庭刚需换新驱动",
+        "image": ""
+      },
+      {
+        "name": "中药伴侣/药食同源冲饮",
+        "platform": "淘宝",
+        "price": "约30-80元",
+        "brand": "多品牌",
+        "hotReason": "药食同源避坑指南等种草内容带动，冲饮型养生品复购高",
+        "image": ""
+      },
+      {
+        "name": "强力磁吸挂钩（宿舍免打孔）",
+        "platform": "京东",
+        "price": "约9.9-19.9元",
+        "brand": "多品牌",
+        "hotReason": "开学宿舍好物榜单常见，免打孔磁吸设计适配上下铺场景",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿润燥·家人温养周",
+      "reason": "11月初昼夜温差加大、秋燥与湿气并存，三四线女性既需自身祛湿润燥，也为父母长辈备温补礼品；选品以药食同源茶饮、助眠膏方、平价体面礼盒与宿舍/家居实用小物为主，价格敏感友好、复购高",
+      "zones": [
+        {
+          "zone": "祛湿润燥茶饮区",
+          "products": [
+            "苹果山楂红枣陈皮养生茶包",
+            "红参黄芪气血养生茶",
+            "茯苓山药祛湿茶包"
+          ]
+        },
+        {
+          "zone": "送长辈温养礼品区",
+          "products": [
+            "酸枣仁百合膏（助眠膏方）",
+            "法丽兹曲奇饼干礼盒",
+            "珍珠项链礼盒（送妈妈）"
+          ]
+        },
+        {
+          "zone": "家居宿舍实用好物区",
+          "products": [
+            "宿舍多层收纳置物架",
+            "折叠牙刷架/便携毛巾架",
+            "强力磁吸挂钩（免打孔）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "苹果山楂红枣陈皮养生茶包",
+          "platform": "淘宝",
+          "price": "约69元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "养生茶榜单已售1000+、500+评价，酸甜口感女性易坚持，秋冬祛湿解腻",
+          "image": "https://img06.weeecdn.com/item/image/895/587/2CFC0C14F37178FF.jpeg"
+        },
+        {
+          "name": "酸枣仁百合膏（助眠膏方）",
+          "platform": "淘宝",
+          "price": "约60-120元/2盒",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "送长辈礼品清单高频，草本助眠概念契合父母睡眠痛点，体面不贵",
+          "image": "https://cdn.yamibuy.net/item/670cb8a0a1e0ead58352cd471bf57818_750x750.webp"
+        },
+        {
+          "name": "法丽兹曲奇饼干礼盒",
+          "platform": "淘宝",
+          "price": "约30-60元",
+          "brand": "法丽兹",
+          "shipping": "48小时内",
+          "reason": "知名品牌礼盒，12款曲奇组合，送妈妈/长辈体面且价格友好",
+          "image": "https://img.youzigifts.com/Upload/Img103/106183-1350168692439190-5704116.jpg?_uptime=20240426121628"
+        },
+        {
+          "name": "强力磁吸挂钩（免打孔）",
+          "platform": "京东",
+          "price": "约9.9-19.9元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "免打孔磁吸设计适配宿舍上下铺与厨房，低客单高性价比易凑单",
+          "image": "https://img.alicdn.com/imgextra/i3/2207266407411/O1CN01usIKTn24cIISkkhzS_!!2207266407411.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "苹果山楂红枣陈皮养生茶包",
+        "link": "https://s.taobao.com/search?q=苹果山楂红枣陈皮养生茶包",
+        "price": "约69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "养生茶旗舰店榜单显示已售1000+件、500+评价，秋冬祛湿解腻场景热销",
+        "goodKeywords": [
+          "酸甜好喝",
+          "独立包装",
+          "解腻"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "药食同源茶饮，女性日常祛湿润燥、价格友好复购高",
+        "image": "https://img06.weeecdn.com/item/image/895/587/2CFC0C14F37178FF.jpeg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红参黄芪气血养生茶",
+        "link": "https://s.taobao.com/search?q=红参黄芪气血养生茶",
+        "price": "约50-90元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "气血类药食同源茶包在养生茶榜单靠前，秋冬温补需求驱动",
+        "goodKeywords": [
+          "气血温补",
+          "独立茶包",
+          "真材实料"
+        ],
+        "badKeywords": [
+          "药味重"
+        ],
+        "match": true,
+        "matchReason": "契合女性秋冬温养与送长辈场景，非黑名单品类",
+        "image": "https://img.alicdn.com/imgextra/i1/831867534/O1CN01umeMFN25Wd1gqc6Xw_!!4611686018427382414-2-item_pic.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "茯苓山药祛湿茶包",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=茯苓山药祛湿茶包",
+        "price": "约19-39元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "祛湿茶包在拼多多低价走量，独立装便携、复购高",
+        "goodKeywords": [
+          "价格实惠",
+          "独立小包",
+          "祛湿"
+        ],
+        "badKeywords": [
+          "味道淡"
+        ],
+        "match": true,
+        "matchReason": "价格敏感友好，祛湿润燥刚需，适合日常囤货",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i4/17293177/O1CN01OhBXdB1ZL7OVeZdIK_!!17293177.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "酸枣仁百合膏（助眠膏方）",
+        "link": "https://s.taobao.com/search?q=酸枣仁百合膏",
+        "price": "约60-120元/2盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "送长辈礼品清单高频出现，10味草本助眠概念契合中老年睡眠需求",
+        "goodKeywords": [
+          "助眠",
+          "草本配方",
+          "送长辈体面"
+        ],
+        "badKeywords": [
+          "偏甜腻"
+        ],
+        "match": true,
+        "matchReason": "药食同源膏方，送父母长辈温养礼品，体面合宜",
+        "image": "https://cdn.yamibuy.net/item/670cb8a0a1e0ead58352cd471bf57818_750x750.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "法丽兹曲奇饼干礼盒",
+        "link": "https://s.taobao.com/search?q=法丽兹曲奇饼干礼盒",
+        "price": "约30-60元",
+        "brand": "法丽兹",
+        "shipping": "48小时内",
+        "hotReason": "送妈妈/女性长辈礼品清单高频推荐，12款曲奇组合体面不贵",
+        "goodKeywords": [
+          "包装体面",
+          "口味多",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "易碎"
+        ],
+        "match": true,
+        "matchReason": "知名品牌礼盒，送长辈/节日场景体面且价格友好",
+        "image": "https://img.youzigifts.com/Upload/Img103/106183-1350168692439190-5704116.jpg?_uptime=20240426121628"
+      },
+      {
+        "platform": "京东",
+        "name": "强力磁吸挂钩（免打孔）",
+        "link": "https://search.jd.com/Search?keyword=强力磁吸挂钩免打孔",
+        "price": "约9.9-19.9元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学宿舍好物榜单常见，免打孔磁吸设计适配上下铺场景",
+        "goodKeywords": [
+          "吸力强",
+          "免打孔",
+          "便宜"
+        ],
+        "badKeywords": [
+          "承重有限"
+        ],
+        "match": true,
+        "matchReason": "低客单家居实用好物，易凑单、复购场景多",
+        "image": "https://img.alicdn.com/imgextra/i3/2207266407411/O1CN01usIKTn24cIISkkhzS_!!2207266407411.jpg"
+      },
+      {
+        "platform": "苏宁易购",
+        "name": "厨房小家电（电磁炉/电饭煲类）",
+        "link": "https://search.suning.com/厨房小家电/",
+        "price": "约99-299元",
+        "brand": "美的/苏泊尔等",
+        "shipping": "48小时内",
+        "hotReason": "苏宁厨房小家电类目页持续在售热销，家庭刚需换新驱动",
+        "goodKeywords": [
+          "大品牌",
+          "性价比高",
+          "售后方便"
+        ],
+        "badKeywords": [
+          "物流偏慢"
+        ],
+        "match": true,
+        "matchReason": "实用小家电提升生活质量，知名品牌、价格敏感友好",
+        "image": "http://e0.ifengimg.com/08/2019/0524/FB5EED2CDE052EDCB7EF5F60B8F0093D6F63801C_size196_w1140_h456.jpeg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "女性私护护理凝胶（温和型）",
+        "link": "https://s.taobao.com/search?q=女性私护护理凝胶温和型",
+        "price": "约39-89元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "女性私护非棉品方向需求稳定，温和型凝胶复购较高",
+        "goodKeywords": [
+          "温和不刺激",
+          "独立包装",
+          "隐私发货"
+        ],
+        "badKeywords": [
+          "见效慢"
+        ],
+        "match": true,
+        "matchReason": "私护非棉品、非爱善天使自有方向，契合女性健康养护",
+        "image": "https://img.alicdn.com/imgextra/i4/2201279696471/O1CN01oPcJUj1xflyMVXd7q_!!2201279696471.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "season": "深秋·祛湿润燥双养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
