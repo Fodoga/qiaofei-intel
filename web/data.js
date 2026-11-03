@@ -1,5 +1,284 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-03",
+    "season": "深秋·祛湿润燥双养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "platform": "京东",
+        "price": "约39-89元",
+        "brand": "SWEET CUPID等",
+        "hotReason": "七夕/中秋/送长辈场景高频出现，国风养生礼盒兼具实用与体面，评价数500+",
+        "image": ""
+      },
+      {
+        "name": "祛湿养生茶（赤小豆薏米芡实茯苓组合）",
+        "platform": "淘宝",
+        "price": "约19.9-49元",
+        "brand": "多品牌",
+        "hotReason": "淘宝祛湿养生茶相关商品超4800件，季节交替祛湿需求旺盛，独立茶包复购高",
+        "image": ""
+      },
+      {
+        "name": "中药祛温茶/养生茶饮",
+        "platform": "淘宝",
+        "price": "约25-69元",
+        "brand": "多品牌",
+        "hotReason": "淘宝中药祛温茶相关商品2391件，茶饮养生覆盖四季，秋冬温养需求上升",
+        "image": ""
+      },
+      {
+        "name": "送妈妈珍珠项链/吊坠手链",
+        "platform": "淘宝",
+        "price": "约59-199元",
+        "brand": "多品牌",
+        "hotReason": "七夕送妈妈礼物专题热推，珍珠项链简约大方，节日送礼刚需",
+        "image": ""
+      },
+      {
+        "name": "送女长辈礼物（丝巾/围巾类）",
+        "platform": "淘宝",
+        "price": "约39-129元",
+        "brand": "多品牌",
+        "hotReason": "淘宝送女长辈礼物相关商品3702件，秋冬保暖+体面送礼双驱动",
+        "image": ""
+      },
+      {
+        "name": "宿舍多层收纳置物架",
+        "platform": "淘宝",
+        "price": "约11.9-39元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍收纳神器热销，低价高性价比，学生党刚需",
+        "image": ""
+      },
+      {
+        "name": "强力磁吸挂钩（免打孔）",
+        "platform": "京东",
+        "price": "约9.9-29元",
+        "brand": "LZJV等",
+        "hotReason": "开学宿舍好物榜单常客，免打孔安装方便，买一送一促销拉动",
+        "image": ""
+      },
+      {
+        "name": "折叠镜/便携洗漱收纳好物",
+        "platform": "京东",
+        "price": "约9.9-25元",
+        "brand": "致生活等",
+        "hotReason": "开学季宿舍洗漱神器专题推荐，便携易收纳，学生党高性价比",
+        "image": ""
+      },
+      {
+        "name": "提升幸福感小家电（智能音箱/咖啡机等）",
+        "platform": "京东",
+        "price": "约199-599元",
+        "brand": "小度/松下等",
+        "hotReason": "什么值得买等平台小家电幸福感专题持续热推，送礼自用两宜",
+        "image": ""
+      },
+      {
+        "name": "药食同源养生冲饮/中药伴侣",
+        "platform": "淘宝",
+        "price": "约29-79元",
+        "brand": "闻茶纪/养益君等",
+        "hotReason": "药食同源避坑指南等内容带动关注，养生冲饮便捷化趋势明显",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿润燥·家人体面礼专区",
+      "reason": "11月初深秋交替，祛湿与润燥并重；同时临近年底送礼季，送长辈/送家人的体面实用礼品需求上升，价格敏感人群偏好高性价比养生与家居好物",
+      "zones": [
+        {
+          "zone": "祛湿润燥养生茶饮",
+          "products": [
+            "祛湿养生茶（赤小豆薏米芡实茯苓组合）",
+            "中药祛温茶/养生茶饮",
+            "药食同源养生冲饮/中药伴侣"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼",
+          "products": [
+            "国风养生艾草锤檀木梳礼盒",
+            "送妈妈珍珠项链/吊坠手链",
+            "送女长辈礼物（丝巾/围巾类）"
+          ]
+        },
+        {
+          "zone": "开学宿舍实用好物",
+          "products": [
+            "宿舍多层收纳置物架",
+            "强力磁吸挂钩（免打孔）",
+            "折叠镜/便携洗漱收纳好物"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "祛湿养生茶（赤小豆薏米芡实茯苓组合）",
+          "platform": "淘宝",
+          "price": "约19.9-49元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "深秋祛湿刚需，独立茶包复购高，价格敏感友好",
+          "image": "https://img.alicdn.com/imgextra/O1CN0186Fpe21o6f2SrmQw4_!!6000000005176-2-yinhe.png_q50.jpg_.webp"
+        },
+        {
+          "name": "送妈妈珍珠项链/吊坠手链",
+          "platform": "淘宝",
+          "price": "约59-199元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "送妈妈体面礼品，简约大方，节日送礼刚需",
+          "image": "https://img12.360buyimg.com/n1/jfs/t1/496361/1/8891/265056/6a79a64aF8728614b/00833203205f3637.png"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "祛湿养生茶（赤小豆薏米芡实茯苓组合）",
+        "link": "https://s.taobao.com/search?q=祛湿养生茶赤小豆薏米芡实茯苓",
+        "price": "约19.9-49元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "淘宝祛湿养生茶相关商品超4800件，季节交替祛湿需求旺盛，独立茶包复购高",
+        "goodKeywords": [
+          "祛湿",
+          "独立茶包",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "深秋祛湿刚需，价格敏感友好，高复购养生茶饮",
+        "image": "https://img.alicdn.com/imgextra/O1CN0186Fpe21o6f2SrmQw4_!!6000000005176-2-yinhe.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "中药祛温茶/养生茶饮",
+        "link": "https://s.taobao.com/search?q=中药祛温茶养生茶饮",
+        "price": "约25-69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "淘宝中药祛温茶相关商品2391件，茶饮养生覆盖四季，秋冬温养需求上升",
+        "goodKeywords": [
+          "温养",
+          "口感好",
+          "方便"
+        ],
+        "badKeywords": [
+          "包装一般"
+        ],
+        "match": true,
+        "matchReason": "秋冬温养茶饮，契合养生食补方向",
+        "image": "https://q8.itc.cn/q_70/images03/20250102/d4c73f0d43064f13a3700a87487fd87b.jpeg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "药食同源养生冲饮/中药伴侣",
+        "link": "https://s.taobao.com/search?q=药食同源养生冲饮中药伴侣",
+        "price": "约29-79元",
+        "brand": "闻茶纪/养益君等",
+        "shipping": "48小时内",
+        "hotReason": "药食同源避坑指南等内容带动关注，养生冲饮便捷化趋势明显",
+        "goodKeywords": [
+          "便捷",
+          "药食同源",
+          "好冲泡"
+        ],
+        "badKeywords": [
+          "口味因人而异"
+        ],
+        "match": true,
+        "matchReason": "药食同源养生冲饮，便捷养生趋势品",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/3937219703/O1CN01JPAhqQroObD1chua_!!3937219703-0-C2M.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "送妈妈珍珠项链/吊坠手链",
+        "link": "https://s.taobao.com/search?q=送妈妈珍珠项链吊坠手链",
+        "price": "约59-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "七夕送妈妈礼物专题热推，珍珠项链简约大方，节日送礼刚需",
+        "goodKeywords": [
+          "显气质",
+          "包装好",
+          "性价比"
+        ],
+        "badKeywords": [
+          "珍珠大小不一"
+        ],
+        "match": true,
+        "matchReason": "送妈妈体面礼品，节日送礼刚需",
+        "image": "https://img12.360buyimg.com/n1/jfs/t1/496361/1/8891/265056/6a79a64aF8728614b/00833203205f3637.png"
+      },
+      {
+        "platform": "淘宝",
+        "name": "送女长辈礼物（丝巾/围巾类）",
+        "link": "https://s.taobao.com/search?q=送女长辈礼物丝巾围巾",
+        "price": "约39-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "淘宝送女长辈礼物相关商品3702件，秋冬保暖+体面送礼双驱动",
+        "goodKeywords": [
+          "保暖",
+          "体面",
+          "颜色好看"
+        ],
+        "badKeywords": [
+          "色差"
+        ],
+        "match": true,
+        "matchReason": "秋冬送长辈保暖体面礼品，价格敏感友好",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/1895322936/O1CN01vK2J4K1XYjvjEklQV_!!4611686018427385144-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "折叠镜/便携洗漱收纳好物",
+        "link": "https://search.jd.com/Search?keyword=折叠镜便携洗漱收纳",
+        "price": "约9.9-25元",
+        "brand": "致生活等",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍洗漱神器专题推荐，便携易收纳，学生党高性价比",
+        "goodKeywords": [
+          "便携",
+          "清晰",
+          "可爱"
+        ],
+        "badKeywords": [
+          "镜面偏小"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍实用好物，低价实用",
+        "image": "https://img.alicdn.com/imgextra/i3/2216088302445/O1CN01BmlrfJ1TvrSUmnQx4_!!4611686018427384685-0-item_pic.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "提升幸福感小家电（智能音箱/咖啡机等）",
+        "link": "https://search.jd.com/Search?keyword=提升幸福感小家电智能音箱",
+        "price": "约199-599元",
+        "brand": "小度/松下等",
+        "shipping": "48小时内",
+        "hotReason": "什么值得买等平台小家电幸福感专题持续热推，送礼自用两宜",
+        "goodKeywords": [
+          "实用",
+          "颜值高",
+          "提升幸福感"
+        ],
+        "badKeywords": [
+          "功能复杂"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量小家电，送礼自用两宜",
+        "image": "https://qna.smzdm.com/202410/29/6720b750a232c735.jpg_fo742.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-11-02",
     "season": "深秋·祛湿润燥双养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
