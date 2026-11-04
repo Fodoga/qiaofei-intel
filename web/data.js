@@ -1,5 +1,330 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-04",
+    "season": "深秋·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "炒薏米茯苓陈皮祛湿茶",
+        "platform": "淘宝",
+        "price": "约39.8元起",
+        "brand": "多品牌",
+        "hotReason": "淘宝祛湿茶类目热销榜常客，深秋祛湿需求叠加药食同源趋势，已售100+、评价积累稳定",
+        "image": ""
+      },
+      {
+        "name": "中药祛湿温养茶组合",
+        "platform": "淘宝",
+        "price": "约20-60元",
+        "brand": "多品牌",
+        "hotReason": "淘宝海外中药祛温茶精选2391个商品，季节转换期搜索量上升",
+        "image": ""
+      },
+      {
+        "name": "玫瑰花茯苓疏肝祛湿养生茶",
+        "platform": "淘宝",
+        "price": "约30-80元",
+        "brand": "多品牌",
+        "hotReason": "女性养生茶热销，疏肝解郁+祛湿双卖点，契合县城女性养生需求",
+        "image": ""
+      },
+      {
+        "name": "开学季宿舍收纳神器（分层收纳盒/置物架）",
+        "platform": "淘宝",
+        "price": "约11.9-39元",
+        "brand": "多品牌",
+        "hotReason": "开学季好物榜持续热销，学生党刚需，价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "便携洗漱收纳好物（折叠牙刷架/毛巾架）",
+        "platform": "淘宝",
+        "price": "约9.9-29元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍好物推荐高频出现，多功能便携易收纳",
+        "image": ""
+      },
+      {
+        "name": "强力磁吸挂钩（免打孔）",
+        "platform": "京东",
+        "price": "约15-35元",
+        "brand": "多品牌",
+        "hotReason": "宿舍/家居收纳刚需，京东开学季宿舍好物榜热销",
+        "image": ""
+      },
+      {
+        "name": "女性私护护理凝胶（温和型）",
+        "platform": "淘宝",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "hotReason": "私护市场年增速约10%，科学养护需求上升，非棉品方向合规",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "hotReason": "女性健康意识提升，益生菌私护成复购型趋势品",
+        "image": ""
+      },
+      {
+        "name": "五味子黄芪麦冬养生茶包",
+        "platform": "淘宝",
+        "price": "约6.9-23.8元",
+        "brand": "多品牌",
+        "hotReason": "药食同源入门装热销，买2送1促销驱动，低价高复购",
+        "image": ""
+      },
+      {
+        "name": "茯苓祛湿丸",
+        "platform": "淘宝",
+        "price": "约29-69元",
+        "brand": "多品牌",
+        "hotReason": "祛湿类目衍生趋势品，药食同源零食化，便携易坚持",
+        "image": ""
+      },
+      {
+        "name": "宿舍床头磁吸挂钩/折叠镜组合",
+        "platform": "京东",
+        "price": "约10-30元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍神器口碑推荐，实用小件高性价比",
+        "image": ""
+      },
+      {
+        "name": "养生茶礼盒（送长辈/节日）",
+        "platform": "淘宝",
+        "price": "约49-129元",
+        "brand": "多品牌",
+        "hotReason": "深秋送礼场景升温，体面合宜、价格友好，适合家人场景",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋祛湿温养·开学居家焕新周",
+      "reason": "11月初深秋湿冷交替，县城女性注重祛湿温养与家人健康；开学季余温带动宿舍收纳与实用小件；节日送礼场景提前布局体面合宜的养生礼盒与家居好物，价格敏感友好、高复购。",
+      "zones": [
+        {
+          "zone": "祛湿温养食补专区",
+          "products": [
+            "炒薏米茯苓陈皮祛湿茶",
+            "玫瑰花茯苓疏肝祛湿养生茶",
+            "五味子黄芪麦冬养生茶包",
+            "茯苓祛湿丸"
+          ]
+        },
+        {
+          "zone": "开学居家收纳焕新专区",
+          "products": [
+            "宿舍分层收纳盒",
+            "便携折叠牙刷架",
+            "强力磁吸挂钩",
+            "折叠镜"
+          ]
+        },
+        {
+          "zone": "女性温和养护专区",
+          "products": [
+            "女性私护护理凝胶（温和型）",
+            "女性私护益生菌",
+            "私护护理液（非棉品）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "宿舍分层收纳盒",
+          "platform": "淘宝",
+          "price": "约11.9-39元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "开学季宿舍刚需，低价实用，适合为子女购置",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/179917267/O1CN01zcgEqW23YLKAjkcnJ_!!179917267.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "养生茶礼盒（送长辈）",
+          "platform": "淘宝",
+          "price": "约49-129元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "深秋送长辈体面合宜，价格友好，节日送礼场景适配",
+          "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i4/2206584264218/O1CN01um2zQ41h1tl0ll0kH_!!2206584264218-0-C2M.jpg_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "玫瑰花茯苓疏肝祛湿养生茶",
+        "link": "https://s.taobao.com/search?q=玫瑰花茯苓疏肝祛湿养生茶",
+        "price": "约30-80元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "女性养生茶热销，疏肝解郁+祛湿双卖点，搜索量上升",
+        "goodKeywords": [
+          "花香自然",
+          "喝着舒服",
+          "包装精致",
+          "回购多次"
+        ],
+        "badKeywords": [
+          "分量偏少"
+        ],
+        "match": true,
+        "matchReason": "女性养生+祛湿双需求，非自研品类，复购友好",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i1/2217254400585/O1CN01iMP0rR1GByqLnoSLs_!!2217254400585-0-C2M.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "五味子黄芪麦冬养生茶包",
+        "link": "https://s.taobao.com/search?q=五味子黄芪麦冬养生茶包",
+        "price": "约6.9-23.8元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "药食同源入门装热销，买2送1促销，低价高复购",
+        "goodKeywords": [
+          "价格实惠",
+          "免煮方便",
+          "味道可接受",
+          "独立茶包"
+        ],
+        "badKeywords": [
+          "药味偏重"
+        ],
+        "match": true,
+        "matchReason": "低价养生茶包，价格敏感友好，适合日常温养",
+        "image": "https://img.alicdn.com/imgextra/i1/725677994/O1CN01GCGZvl28vJEd8KCKK_!!4611686018427385770-2-item_pic.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "茯苓祛湿丸",
+        "link": "https://s.taobao.com/search?q=茯苓祛湿丸",
+        "price": "约29-69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "祛湿类目衍生趋势品，药食同源零食化，便携易坚持",
+        "goodKeywords": [
+          "方便携带",
+          "口感不错",
+          "独立小包装",
+          "回购"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "药食同源便携祛湿，契合养生零食化趋势",
+        "image": "https://img.shoplineapp.com/media/image_clips/60db415659ec3d001d2b3dd2/original.jpeg?1624981846"
+      },
+      {
+        "platform": "淘宝",
+        "name": "私护护理液（非棉品温和型）",
+        "link": "https://s.taobao.com/search?q=私护护理液温和型",
+        "price": "约29-79元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "私护基础清洁向科学养护升级，日常复购品",
+        "goodKeywords": [
+          "温和",
+          "不紧绷",
+          "味道清淡",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "泡沫偏少"
+        ],
+        "match": true,
+        "matchReason": "非棉品私护护理液，避开自研品类，日常复购",
+        "image": "https://jiaoyancare.com/img/product/cpt/7nvxinghuliye220ml/zhutu/zhutu1.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "宿舍分层收纳盒",
+        "link": "https://s.taobao.com/search?q=宿舍分层收纳盒",
+        "price": "约11.9-39元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍好物榜热销，学生党刚需，价格敏感友好",
+        "goodKeywords": [
+          "容量大",
+          "结实",
+          "安装简单",
+          "便宜实用"
+        ],
+        "badKeywords": [
+          "材质偏薄"
+        ],
+        "match": true,
+        "matchReason": "开学季为子女购置的实用家居好物，高性价比",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/179917267/O1CN01zcgEqW23YLKAjkcnJ_!!179917267.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "便携折叠牙刷架",
+        "link": "https://s.taobao.com/search?q=便携折叠牙刷架",
+        "price": "约9.9-29元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍洗漱神器推荐高频，便携易收纳",
+        "goodKeywords": [
+          "便携",
+          "不占地方",
+          "好清洗",
+          "价格实惠"
+        ],
+        "badKeywords": [
+          "吸盘易松"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍实用小件，低价高性价比",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%BE%BF%E6%90%BA%E6%8A%98%E5%8F%A0%E7%89%99%E5%88%B7%E6%9E%B6%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "养生茶礼盒（送长辈）",
+        "link": "https://s.taobao.com/search?q=养生茶礼盒送长辈",
+        "price": "约49-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "深秋送礼场景升温，体面合宜、价格友好，适合家人场景",
+        "goodKeywords": [
+          "包装体面",
+          "送人有面子",
+          "搭配丰富",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "礼盒偏小"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面合宜，节日送礼场景适配，价格敏感友好",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i4/2206584264218/O1CN01um2zQ41h1tl0ll0kH_!!2206584264218-0-C2M.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "折叠镜（宿舍便携款）",
+        "link": "https://s.taobao.com/search?q=折叠镜宿舍便携",
+        "price": "约10-30元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍好物口碑推荐，便携实用小件",
+        "goodKeywords": [
+          "清晰",
+          "折叠方便",
+          "颜值高",
+          "便宜"
+        ],
+        "badKeywords": [
+          "镜面偏小"
+        ],
+        "match": true,
+        "matchReason": "开学季宿舍实用小件，低价高性价比",
+        "image": "https://img.alicdn.com/imgextra/i3/2214823134312/O1CN01X1gNbX1hiwyfgJqim_!!4611686018427380840-2-item_pic.png_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "season": "深秋·祛湿润燥双养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
