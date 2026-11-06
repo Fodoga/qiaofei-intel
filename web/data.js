@@ -1,5 +1,323 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-06",
+    "season": "深秋·祛湿温养与暖冬备货季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "半亩花田小金珠身体油霜（特润紧致身体乳）",
+        "platform": "淘宝",
+        "price": "约119.9元",
+        "brand": "半亩花田",
+        "hotReason": "淘宝热卖榜已售1000+、800+评价，代言人同款，秋冬身体护理刚需，天然油养概念契合养生人群",
+        "image": ""
+      },
+      {
+        "name": "国风养生艾草锤檀木梳礼盒",
+        "platform": "京东",
+        "price": "约39-89元",
+        "brand": "SWEET CUPID等",
+        "hotReason": "京东七夕/中秋礼品榜500条评价，国风养生送礼两相宜，契合送长辈与节日场景",
+        "image": ""
+      },
+      {
+        "name": "九阳免手洗破壁豆浆机",
+        "platform": "京东",
+        "price": "约299-499元",
+        "brand": "九阳",
+        "hotReason": "多篇小家电幸福感清单高频推荐，厨房高频搭档，早餐养生豆浆需求稳定",
+        "image": ""
+      },
+      {
+        "name": "科沃斯T90 PRO扫地机器人",
+        "platform": "京东",
+        "price": "约2000-3000元",
+        "brand": "科沃斯",
+        "hotReason": "实测清单推荐，75℃热水洗地+防缠滚刷，解放家务提升生活质量，县城家庭升级需求",
+        "image": ""
+      },
+      {
+        "name": "小度智能音箱MatePro",
+        "platform": "京东",
+        "price": "约300元档",
+        "brand": "小度",
+        "hotReason": "三百元档全屋智能中枢，性价比高，适合家庭娱乐与长辈使用",
+        "image": ""
+      },
+      {
+        "name": "多功能电动切片机",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "hotReason": "淘宝社区厨房小白神器，省时省力，厨房实用小电趋势",
+        "image": ""
+      },
+      {
+        "name": "珍珠项链/吊坠手链（送妈妈）",
+        "platform": "淘宝",
+        "price": "约29-99元",
+        "brand": "多品牌",
+        "hotReason": "七夕/生日送妈妈浪漫风好物，温婉珍珠提升气质，节日礼品刚需",
+        "image": ""
+      },
+      {
+        "name": "真丝丝巾/复古丝巾（送长辈）",
+        "platform": "淘宝",
+        "price": "约49-159元",
+        "brand": "多品牌",
+        "hotReason": "七夕送妈妈浪漫风推荐，体面合宜，秋冬围巾丝巾需求上升",
+        "image": ""
+      },
+      {
+        "name": "智能迷你电饭煲/养生电炖杯",
+        "platform": "1688",
+        "price": "约49-129元",
+        "brand": "多品牌",
+        "hotReason": "厨房小家电批发热销，办公室/宿舍便携煲汤煮粥，养生场景契合",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌（口服型）",
+        "platform": "淘宝",
+        "price": "约69-159元",
+        "brand": "多品牌",
+        "hotReason": "女性健康搜索热度持续，口服益生菌非棉品方向，复购率高",
+        "image": ""
+      },
+      {
+        "name": "缓解疲劳身体护理油",
+        "platform": "淘宝",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "hotReason": "回购王实测，买二送一回头客多，秋冬身体护理与疲劳缓解需求",
+        "image": ""
+      },
+      {
+        "name": "七夕创意礼盒/陶瓷马克杯礼盒",
+        "platform": "京东",
+        "price": "约29-79元",
+        "brand": "万家全等",
+        "hotReason": "京东七夕创意礼盒500条评价，送男女朋友/家人实用又有仪式感",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "深秋温养·暖冬备货与体面送礼周",
+      "reason": "11月初深秋转凉，祛湿温养与暖冬小家电需求上升；同时临近双十一备货与节日送礼（送长辈/家人），主打高性价比养生食补、暖身好物与体面礼品组合",
+      "zones": [
+        {
+          "zone": "温养祛湿食补区",
+          "products": [
+            "陈皮茯苓祛湿膏",
+            "姜枣茶驱寒暖身茶包",
+            "黑芝麻丸（九蒸九晒）",
+            "即食阿胶糕礼盒"
+          ]
+        },
+        {
+          "zone": "暖冬家居小电区",
+          "products": [
+            "小型暖风机（桌面/卧室两用）",
+            "暖脚宝（办公室桌下款）",
+            "恒温电热水壶（多档保温）",
+            "小型加湿器（静音大容量）"
+          ]
+        },
+        {
+          "zone": "体面送礼区",
+          "products": [
+            "国风养生艾草锤檀木梳礼盒",
+            "真丝丝巾礼盒（送妈妈/长辈）",
+            "西洋参滋补礼盒（切片含片）",
+            "珍珠项链/吊坠手链（送妈妈）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "半亩花田小金珠身体油霜（特润紧致身体乳）",
+          "platform": "淘宝",
+          "price": "约119.9元",
+          "brand": "半亩花田",
+          "shipping": "48小时内",
+          "reason": "淘宝热卖已售1000+，秋冬身体护理刚需，天然油养契合养生人群，品牌知名度高",
+          "image": "https://cdn.yamibuy.net/item/af046b93c4ee8d9c48e690b49fecedad_750x750.webp"
+        },
+        {
+          "name": "九阳免手洗破壁豆浆机",
+          "platform": "京东",
+          "price": "约299-499元",
+          "brand": "九阳",
+          "shipping": "48小时内",
+          "reason": "厨房高频小电，早餐养生豆浆需求稳定，九阳品牌背书，提升生活质量",
+          "image": "https://md.huarenstore.com/media/1200/catalog/product/1/_/1_538.jpg.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "半亩花田小金珠身体油霜（特润紧致身体乳）",
+        "link": "https://s.taobao.com/search?q=半亩花田小金珠身体油霜",
+        "price": "约119.9元",
+        "brand": "半亩花田",
+        "shipping": "48小时内",
+        "hotReason": "淘宝热卖榜已售1000+、800+评价，代言人同款，秋冬身体护理刚需",
+        "goodKeywords": [
+          "滋润不油腻",
+          "香味好闻",
+          "紧致"
+        ],
+        "badKeywords": [
+          "偏油"
+        ],
+        "match": true,
+        "matchReason": "天然油养身体护理契合养生女性，品牌知名度高、价格适中",
+        "image": "https://cdn.yamibuy.net/item/af046b93c4ee8d9c48e690b49fecedad_750x750.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "九阳免手洗破壁豆浆机",
+        "link": "https://s.taobao.com/search?q=九阳免手洗破壁豆浆机",
+        "price": "约299-499元",
+        "brand": "九阳",
+        "shipping": "48小时内",
+        "hotReason": "多篇小家电幸福感清单高频推荐，厨房高频搭档",
+        "goodKeywords": [
+          "免手洗方便",
+          "豆浆细腻",
+          "声音可接受"
+        ],
+        "badKeywords": [
+          "清洗死角"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量实用小电，早餐养生场景，品牌背书强",
+        "image": "https://md.huarenstore.com/media/1200/catalog/product/1/_/1_538.jpg.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "小度智能音箱MatePro",
+        "link": "https://s.taobao.com/search?q=小度智能音箱MatePro",
+        "price": "约300元档",
+        "brand": "小度",
+        "shipping": "48小时内",
+        "hotReason": "三百元档全屋智能中枢，性价比高",
+        "goodKeywords": [
+          "语音灵敏",
+          "音质好",
+          "适合老人"
+        ],
+        "badKeywords": [
+          "资源需会员"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量小电，适合家庭与长辈使用，价格适中",
+        "image": "https://cdn.pingwest.com/portal/2024/10/18/portal/2024/10/18/Ka7n75B7MYk7h762b237e72fS7h7h2sC?x-oss-process=style/article-body"
+      },
+      {
+        "platform": "淘宝",
+        "name": "多功能电动切片机",
+        "link": "https://s.taobao.com/search?q=多功能电动切片机",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "淘宝社区厨房小白神器，省时省力",
+        "goodKeywords": [
+          "切片均匀",
+          "省力",
+          "好清洗"
+        ],
+        "badKeywords": [
+          "功率偏小"
+        ],
+        "match": true,
+        "matchReason": "厨房实用小电，提升做饭效率，价格友好",
+        "image": "https://images4.joy-sourcing.com/product/s1248x1248_jfsintlpro-000-product/t1/4294967296/5963776/61098360253616/1220553/69c1fa1aEe5610869/42b10752b5083d5e.png.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "珍珠项链/吊坠手链（送妈妈）",
+        "link": "https://s.taobao.com/search?q=珍珠项链送妈妈",
+        "price": "约29-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "七夕/生日送妈妈浪漫风好物，温婉珍珠提升气质",
+        "goodKeywords": [
+          "包装精美",
+          "显气质",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "珍珠偏小"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面礼品，价格敏感友好，节日场景强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%8F%8D%E7%8F%A0%E9%A1%B9%E9%93%BE/%E5%90%8A%E5%9D%A0%E6%89%8B%E9%93%BE%EF%BC%88%E9%80%81%E5%A6%88%E5%A6%88%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "缓解疲劳身体护理油",
+        "link": "https://s.taobao.com/search?q=缓解疲劳身体护理油",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "回购王实测，买二送一回头客多",
+        "goodKeywords": [
+          "吸收快",
+          "缓解疲劳",
+          "香味舒缓"
+        ],
+        "badKeywords": [
+          "瓶口设计"
+        ],
+        "match": true,
+        "matchReason": "天然个护方向，缓解疲劳契合养生女性，价格友好",
+        "image": "https://img.alicdn.com/imgextra/i1/30069/O1CN01ISV8Np1CNeFlYjTZ3_!!30069.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "七夕创意礼盒/陶瓷马克杯礼盒",
+        "link": "https://s.taobao.com/search?q=七夕创意礼盒陶瓷马克杯",
+        "price": "约29-79元",
+        "brand": "万家全等",
+        "shipping": "48小时内",
+        "hotReason": "京东七夕创意礼盒500条评价，实用又有仪式感",
+        "goodKeywords": [
+          "包装可爱",
+          "实用",
+          "送礼合适"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "节日送礼场景，价格友好，适合送家人朋友",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%B8%83%E5%A4%95%E5%88%9B%E6%84%8F%E7%A4%BC%E7%9B%92/%E9%99%B6%E7%93%B7%E9%A9%AC%E5%85%8B%E6%9D%AF%E7%A4%BC%E7%9B%92%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "1688",
+        "name": "智能迷你电饭煲/养生电炖杯",
+        "link": "https://www.1688.com/?keywords=智能迷你电饭煲养生电炖杯",
+        "price": "约49-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "厨房小家电批发热销，办公室/宿舍便携煲汤煮粥",
+        "goodKeywords": [
+          "小巧方便",
+          "煮粥好用",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "养生场景小电，价格敏感友好，适合宿舍/办公室",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%99%BA%E8%83%BD%E8%BF%B7%E4%BD%A0%E7%94%B5%E9%A5%AD%E7%85%B2/%E5%85%BB%E7%94%9F%E7%94%B5%E7%82%96%E6%9D%AF%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "season": "深秋·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类。本次检索素材多为词典释义、健康科普与泛家电测评，具体商品销量数据有限，趋势判断结合季节性与常识补充，标注为约/区间。",
