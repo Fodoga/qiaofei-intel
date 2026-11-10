@@ -1,5 +1,350 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-10",
+    "season": "初冬·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "艾草暖颈贴/肩颈热敷贴",
+        "platform": "拼多多",
+        "price": "约9.9-29.9元/盒",
+        "brand": "多品牌白牌",
+        "hotReason": "入冬肩颈受凉高发，办公室与中老年人群刚需，拼多多百亿补贴暖贴类目近期销量靠前",
+        "image": ""
+      },
+      {
+        "name": "恒温加热杯垫（55度暖杯）",
+        "platform": "淘宝",
+        "price": "约29-69元",
+        "brand": "小熊/白牌",
+        "hotReason": "冬季办公桌与居家热饮场景，小家电类目冬季搜索量上升，客单低易冲动下单",
+        "image": ""
+      },
+      {
+        "name": "即食阿胶糕（小包装）",
+        "platform": "京东",
+        "price": "约59-129元/盒",
+        "brand": "东阿/桃花姬类",
+        "hotReason": "冬季女性滋补送礼双场景，京东滋补类目冬季榜单常客，礼盒装适合送长辈",
+        "image": ""
+      },
+      {
+        "name": "电热饭盒（免注水加热）",
+        "platform": "淘宝",
+        "price": "约69-129元",
+        "brand": "小熊/生活元素",
+        "hotReason": "上班族冬季带饭热饭刚需，小家电实用性强，性价比高",
+        "image": ""
+      },
+      {
+        "name": "红豆薏米祛湿茶（独立茶包）",
+        "platform": "拼多多",
+        "price": "约19.9-39.9元",
+        "brand": "多品牌白牌",
+        "hotReason": "祛湿养生常年热销，冬季温养概念延续，拼多多茶饮类目复购高",
+        "image": ""
+      },
+      {
+        "name": "小型暖风机（桌面款）",
+        "platform": "京东",
+        "price": "约79-159元",
+        "brand": "美的/格力/白牌",
+        "hotReason": "北方供暖前与南方湿冷过渡期，桌面取暖小家电销量攀升",
+        "image": ""
+      },
+      {
+        "name": "黑芝麻丸（九蒸九晒）",
+        "platform": "淘宝",
+        "price": "约29.9-59.9元",
+        "brand": "多品牌白牌",
+        "hotReason": "药食同源养生零食，冬季养发补肾概念，女性与中老年皆宜",
+        "image": ""
+      },
+      {
+        "name": "蒸汽热敷眼罩（无香/艾草款）",
+        "platform": "淘宝",
+        "price": "约19.9-39.9元",
+        "brand": "花王/白牌",
+        "hotReason": "冬季助眠与缓解眼疲劳，送礼自用两宜，复购率高",
+        "image": ""
+      },
+      {
+        "name": "养生壶（多功能煮茶炖煮）",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "美的/九阳/小熊",
+        "hotReason": "冬季煮茶炖汤场景，小家电类目冬季热销，送礼实用",
+        "image": ""
+      },
+      {
+        "name": "羊绒围巾/披肩（送长辈）",
+        "platform": "淘宝",
+        "price": "约59-159元",
+        "brand": "多品牌白牌",
+        "hotReason": "冬季送礼刚需，体面合宜，价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "即食银耳羹/桃胶羹",
+        "platform": "淘宝",
+        "price": "约29.9-59.9元/箱",
+        "brand": "多品牌白牌",
+        "hotReason": "冬季滋润养生，开盖即食便捷，女性滋补复购高",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养·祛湿暖身周",
+      "reason": "11月初冬湿冷交替，女性宫寒、肩颈受凉、手脚冰凉需求集中，叠加送长辈与家庭保暖场景，选品以祛湿温养食补、暖身小家电、体面保暖礼品为主线，价格敏感友好、复购强",
+      "zones": [
+        {
+          "zone": "祛湿温养食补",
+          "products": [
+            "红豆薏米祛湿茶（独立茶包）",
+            "黑芝麻丸（九蒸九晒）",
+            "即食银耳羹/桃胶羹"
+          ]
+        },
+        {
+          "zone": "暖身小家电",
+          "products": [
+            "恒温加热杯垫（55度暖杯）",
+            "电热饭盒（免注水加热）",
+            "小型暖风机（桌面款）"
+          ]
+        },
+        {
+          "zone": "体面送长辈",
+          "products": [
+            "羊绒围巾/披肩（送长辈）",
+            "即食阿胶糕（小包装）",
+            "蒸汽热敷眼罩（无香/艾草款）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "恒温加热杯垫（55度暖杯）",
+          "platform": "淘宝",
+          "price": "约29-69元",
+          "brand": "小熊/白牌",
+          "shipping": "48小时内",
+          "reason": "冬季办公居家热饮刚需，客单低易转化，小家电实用性强",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%81%92%E6%B8%A9%E5%8A%A0%E7%83%AD%E6%9D%AF%E5%9E%AB%EF%BC%8855%E5%BA%A6%E6%9A%96%E6%9D%AF%EF%BC%89%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "即食阿胶糕（小包装）",
+          "platform": "京东",
+          "price": "约59-129元/盒",
+          "brand": "东阿/桃花姬类",
+          "shipping": "48小时内",
+          "reason": "女性滋补与送长辈双场景，礼盒体面，冬季滋补类目热销",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E9%98%BF%E8%83%B6%E7%B3%95%EF%BC%88%E5%B0%8F%E5%8C%85%E8%A3%85%EF%BC%89%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "电热饭盒（免注水加热）",
+          "platform": "淘宝",
+          "price": "约69-129元",
+          "brand": "小熊/生活元素",
+          "shipping": "48小时内",
+          "reason": "上班族冬季带饭热饭刚需，实用小家电，性价比高",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%94%B5%E7%83%AD%E9%A5%AD%E7%9B%92%EF%BC%88%E5%85%8D%E6%B3%A8%E6%B0%B4%E5%8A%A0%E7%83%AD%EF%BC%89%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "羊绒围巾/披肩（送长辈）",
+          "platform": "淘宝",
+          "price": "约59-159元",
+          "brand": "多品牌白牌",
+          "shipping": "48小时内",
+          "reason": "冬季送长辈体面保暖礼品，价格敏感友好",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%BE%8A%E7%BB%92%E5%9B%B4%E5%B7%BE/%E6%8A%AB%E8%82%A9%EF%BC%88%E9%80%81%E9%95%BF%E8%BE%88%EF%BC%89%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "恒温加热杯垫（55度暖杯）",
+        "link": "https://s.taobao.com/search?q=恒温加热杯垫",
+        "price": "约29-69元",
+        "brand": "小熊/白牌",
+        "shipping": "48小时内",
+        "hotReason": "冬季热饮场景刚需，小家电类目搜索上升，客单低易转化",
+        "goodKeywords": [
+          "加热快",
+          "恒温好",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "功率偏小"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，价格敏感友好，冬季办公居家皆宜",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%81%92%E6%B8%A9%E5%8A%A0%E7%83%AD%E6%9D%AF%E5%9E%AB%EF%BC%8855%E5%BA%A6%E6%9A%96%E6%9D%AF%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "即食阿胶糕（小包装）",
+        "link": "https://search.jd.com/Search?keyword=即食阿胶糕",
+        "price": "约59-129元/盒",
+        "brand": "东阿/桃花姬类",
+        "shipping": "48小时内",
+        "hotReason": "冬季女性滋补与送长辈双场景，京东滋补类目冬季榜单常客",
+        "goodKeywords": [
+          "口感好",
+          "独立包装",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "女性滋补+送礼双场景，礼盒体面合宜",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E9%98%BF%E8%83%B6%E7%B3%95%EF%BC%88%E5%B0%8F%E5%8C%85%E8%A3%85%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "电热饭盒（免注水加热）",
+        "link": "https://s.taobao.com/search?q=电热饭盒",
+        "price": "约69-129元",
+        "brand": "小熊/生活元素",
+        "shipping": "48小时内",
+        "hotReason": "上班族冬季带饭热饭刚需，小家电实用性强",
+        "goodKeywords": [
+          "加热均匀",
+          "好清洗",
+          "容量合适"
+        ],
+        "badKeywords": [
+          "略重"
+        ],
+        "match": true,
+        "matchReason": "实用小家电，提升生活质量，性价比高",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%94%B5%E7%83%AD%E9%A5%AD%E7%9B%92%EF%BC%88%E5%85%8D%E6%B3%A8%E6%B0%B4%E5%8A%A0%E7%83%AD%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "羊绒围巾/披肩（送长辈）",
+        "link": "https://s.taobao.com/search?q=羊绒围巾披肩",
+        "price": "约59-159元",
+        "brand": "多品牌白牌",
+        "shipping": "48小时内",
+        "hotReason": "冬季送长辈体面保暖礼品，价格敏感友好",
+        "goodKeywords": [
+          "柔软",
+          "保暖",
+          "颜色正"
+        ],
+        "badKeywords": [
+          "轻微掉毛"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面礼品，冬季保暖刚需",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%BE%8A%E7%BB%92%E5%9B%B4%E5%B7%BE/%E6%8A%AB%E8%82%A9%EF%BC%88%E9%80%81%E9%95%BF%E8%BE%88%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "蒸汽热敷眼罩（无香/艾草款）",
+        "link": "https://s.taobao.com/search?q=蒸汽热敷眼罩",
+        "price": "约19.9-39.9元",
+        "brand": "花王/白牌",
+        "shipping": "48小时内",
+        "hotReason": "冬季助眠缓解眼疲劳，送礼自用两宜，复购高",
+        "goodKeywords": [
+          "发热舒适",
+          "助眠",
+          "便携"
+        ],
+        "badKeywords": [
+          "热度一般"
+        ],
+        "match": true,
+        "matchReason": "养生个护好物，价格友好复购强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%92%B8%E6%B1%BD%E7%83%AD%E6%95%B7%E7%9C%BC%E7%BD%A9%EF%BC%88%E6%97%A0%E9%A6%99/%E8%89%BE%E8%8D%89%E6%AC%BE%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "红豆薏米祛湿茶（独立茶包）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=红豆薏米祛湿茶",
+        "price": "约19.9-39.9元",
+        "brand": "多品牌白牌",
+        "shipping": "48小时内",
+        "hotReason": "祛湿养生常年热销，冬季温养概念延续，拼多多茶饮复购高",
+        "goodKeywords": [
+          "味道清香",
+          "独立包装",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "偏淡"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养食补，价格敏感友好复购强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E7%BA%A2%E8%B1%86%E8%96%8F%E7%B1%B3%E7%A5%9B%E6%B9%BF%E8%8C%B6%EF%BC%88%E7%8B%AC%E7%AB%8B%E8%8C%B6%E5%8C%85%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "小型暖风机（桌面款）",
+        "link": "https://search.jd.com/Search?keyword=小型暖风机桌面",
+        "price": "约79-159元",
+        "brand": "美的/格力/白牌",
+        "shipping": "48小时内",
+        "hotReason": "供暖前与南方湿冷过渡期，桌面取暖小家电销量攀升",
+        "goodKeywords": [
+          "升温快",
+          "静音",
+          "小巧"
+        ],
+        "badKeywords": [
+          "耗电"
+        ],
+        "match": true,
+        "matchReason": "冬季实用小家电，提升生活质量",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B0%8F%E5%9E%8B%E6%9A%96%E9%A3%8E%E6%9C%BA%EF%BC%88%E6%A1%8C%E9%9D%A2%E6%AC%BE%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "即食银耳羹/桃胶羹",
+        "link": "https://s.taobao.com/search?q=即食银耳羹",
+        "price": "约29.9-59.9元/箱",
+        "brand": "多品牌白牌",
+        "shipping": "48小时内",
+        "hotReason": "冬季滋润养生，开盖即食便捷，女性滋补复购高",
+        "goodKeywords": [
+          "胶质浓",
+          "方便",
+          "不太甜"
+        ],
+        "badKeywords": [
+          "偏稀"
+        ],
+        "match": true,
+        "matchReason": "女性滋润养生食补，便捷复购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E9%93%B6%E8%80%B3%E7%BE%B9/%E6%A1%83%E8%83%B6%E7%BE%B9%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "艾草暖颈贴/肩颈热敷贴",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=艾草暖颈贴",
+        "price": "约9.9-29.9元/盒",
+        "brand": "多品牌白牌",
+        "shipping": "48小时内",
+        "hotReason": "入冬肩颈受凉高发，办公室与中老年刚需，拼多多暖贴类目销量靠前",
+        "goodKeywords": [
+          "发热快",
+          "草本味",
+          "便宜好用"
+        ],
+        "badKeywords": [
+          "持续时间短"
+        ],
+        "match": true,
+        "matchReason": "温养热敷非自研品类，价格友好复购强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E6%9A%96%E9%A2%88%E8%B4%B4/%E8%82%A9%E9%A2%88%E7%83%AD%E6%95%B7%E8%B4%B4%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-11-09",
     "season": "初冬·温养滋补季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
