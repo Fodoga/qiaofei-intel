@@ -1,5 +1,418 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-12",
+    "season": "初冬·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "艾草暖足贴/足底暖贴",
+        "platform": "拼多多",
+        "price": "约9.9-19.9元/盒",
+        "brand": "多品牌",
+        "hotReason": "初冬降温，足部保暖与祛湿需求上升，拼多多低价走量款近期销量靠前",
+        "image": ""
+      },
+      {
+        "name": "即食红枣桂圆银耳羹",
+        "platform": "淘宝",
+        "price": "约29-59元/箱",
+        "brand": "多品牌",
+        "hotReason": "秋冬滋补即食化趋势，开盖即食、送礼自用两宜，复购率高",
+        "image": ""
+      },
+      {
+        "name": "小型踢脚线取暖器",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "美的/格力等",
+        "hotReason": "北方供暖前、南方湿冷期，卧室小空间取暖需求集中释放",
+        "image": ""
+      },
+      {
+        "name": "艾草泡脚丸/泡脚凝珠",
+        "platform": "拼多多",
+        "price": "约15-29元/袋",
+        "brand": "多品牌",
+        "hotReason": "祛湿温养场景延伸，泡脚丸比足浴包更便携，年轻女性接受度高",
+        "image": ""
+      },
+      {
+        "name": "暖宫艾草坐垫/加热坐垫",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "hotReason": "办公室久坐女性保暖刚需，加热+艾草概念叠加，秋冬搜索量上升",
+        "image": ""
+      },
+      {
+        "name": "即食黑芝麻糊/核桃芝麻糊",
+        "platform": "拼多多",
+        "price": "约19.9-39.9元/袋",
+        "brand": "南方黑芝麻等",
+        "hotReason": "秋冬养发养生食补，冲泡便捷，中老年与女性用户重叠度高",
+        "image": ""
+      },
+      {
+        "name": "加湿器（卧室静音大雾量）",
+        "platform": "京东",
+        "price": "约79-159元",
+        "brand": "小米/美的等",
+        "hotReason": "供暖后室内干燥，加湿器进入季节性销售高峰",
+        "image": ""
+      },
+      {
+        "name": "暖手宝充电式（防爆款）",
+        "platform": "拼多多",
+        "price": "约19.9-39.9元",
+        "brand": "多品牌",
+        "hotReason": "通勤、学生、办公室场景刚需，低价高频，冬季爆款常客",
+        "image": ""
+      },
+      {
+        "name": "养生壶（煮茶炖煮一体）",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "小熊/九阳等",
+        "hotReason": "秋冬煮养生茶、炖银耳羹场景带动，小家电类目稳定热销",
+        "image": ""
+      },
+      {
+        "name": "艾草颈椎贴/肩颈热敷贴",
+        "platform": "淘宝",
+        "price": "约19.9-39.9元/盒",
+        "brand": "多品牌",
+        "hotReason": "久坐低头人群肩颈不适，热敷+艾草概念，秋冬复购明显",
+        "image": ""
+      },
+      {
+        "name": "中老年保暖内衣/加绒套装",
+        "platform": "拼多多",
+        "price": "约49-99元/套",
+        "brand": "多品牌",
+        "hotReason": "降温后送长辈保暖刚需，性价比款销量集中",
+        "image": ""
+      },
+      {
+        "name": "即食花胶/花胶羹",
+        "platform": "淘宝",
+        "price": "约59-129元/箱",
+        "brand": "多品牌",
+        "hotReason": "女性滋补即食化，秋冬进补与送礼场景叠加，客单适中",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养·祛湿暖身周",
+      "reason": "11月中旬降温明显，三四线县城女性对祛湿温养、足部与腰腹保暖、即食滋补需求集中；同时送长辈保暖与养生礼品进入旺季，选品以低价高复购、48小时内发货为主",
+      "zones": [
+        {
+          "zone": "祛湿温养茶饮",
+          "products": [
+            "陈皮茯苓祛湿茶",
+            "赤小豆薏米芡实茶",
+            "生姜红枣茶"
+          ]
+        },
+        {
+          "zone": "暖身小家电",
+          "products": [
+            "小型踢脚线取暖器",
+            "静音加湿器",
+            "充电暖手宝"
+          ]
+        },
+        {
+          "zone": "送长辈温养礼",
+          "products": [
+            "中老年加绒保暖内衣",
+            "即食黑芝麻核桃糊",
+            "艾草泡脚丸礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "艾草泡脚丸/泡脚凝珠",
+          "platform": "拼多多",
+          "price": "约15-29元/袋",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "祛湿温养场景强，便携易用，低价高复购，适合县城女性日常养生",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E6%B3%A1%E8%84%9A%E4%B8%B8/%E6%B3%A1%E8%84%9A%E5%87%9D%E7%8F%A0%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "小型踢脚线取暖器",
+          "platform": "京东",
+          "price": "约199-399元",
+          "brand": "美的/格力等",
+          "shipping": "48小时内",
+          "reason": "初冬卧室取暖刚需，品牌款好评率高，客单适中不奢",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B0%8F%E5%9E%8B%E8%B8%A2%E8%84%9A%E7%BA%BF%E5%8F%96%E6%9A%96%E5%99%A8%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "即食黑芝麻核桃糊",
+          "platform": "拼多多",
+          "price": "约19.9-39.9元/袋",
+          "brand": "南方黑芝麻等",
+          "shipping": "48小时内",
+          "reason": "秋冬养发食补，冲泡便捷，送长辈与自用皆宜，性价比高",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E9%BB%91%E8%8A%9D%E9%BA%BB%E6%A0%B8%E6%A1%83%E7%B3%8A%3C/text%3E%3C/svg%3E"
+        },
+        {
+          "name": "暖宫艾草加热坐垫",
+          "platform": "淘宝",
+          "price": "约59-129元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "办公室久坐女性保暖祛湿，概念贴合目标人群，复购与口碑稳定",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%9A%96%E5%AE%AB%E8%89%BE%E8%8D%89%E5%8A%A0%E7%83%AD%E5%9D%90%E5%9E%AB%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "艾草泡脚丸/泡脚凝珠",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=艾草泡脚丸",
+        "price": "约15-29元/袋",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "秋冬祛湿温养搜索上升，泡脚丸便携免煮，拼多多低价走量款销量靠前",
+        "goodKeywords": [
+          "方便",
+          "味道好闻",
+          "泡完暖和"
+        ],
+        "badKeywords": [
+          "溶解慢"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养场景强、低价高复购，契合县城女性日常养生",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E6%B3%A1%E8%84%9A%E4%B8%B8/%E6%B3%A1%E8%84%9A%E5%87%9D%E7%8F%A0%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "小型踢脚线取暖器",
+        "link": "https://search.jd.com/Search?keyword=小型踢脚线取暖器",
+        "price": "约199-399元",
+        "brand": "美的/格力等",
+        "shipping": "48小时内",
+        "hotReason": "初冬降温，卧室小空间取暖需求集中，品牌款好评率高",
+        "goodKeywords": [
+          "升温快",
+          "静音",
+          "省电"
+        ],
+        "badKeywords": [
+          "占地"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的小家电，客单适中、品牌背书强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B0%8F%E5%9E%8B%E8%B8%A2%E8%84%9A%E7%BA%BF%E5%8F%96%E6%9A%96%E5%99%A8%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "即食黑芝麻核桃糊",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=黑芝麻核桃糊",
+        "price": "约19.9-39.9元/袋",
+        "brand": "南方黑芝麻等",
+        "shipping": "48小时内",
+        "hotReason": "秋冬养发食补，冲泡便捷，中老年与女性用户重叠，复购高",
+        "goodKeywords": [
+          "香浓",
+          "不甜腻",
+          "冲泡方便"
+        ],
+        "badKeywords": [
+          "偏稀"
+        ],
+        "match": true,
+        "matchReason": "药食同源食补，送长辈与自用皆宜，价格敏感友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E9%BB%91%E8%8A%9D%E9%BA%BB%E6%A0%B8%E6%A1%83%E7%B3%8A%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "暖宫艾草加热坐垫",
+        "link": "https://s.taobao.com/search?q=暖宫艾草加热坐垫",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "办公室久坐女性保暖祛湿，加热+艾草概念叠加，秋冬搜索量上升",
+        "goodKeywords": [
+          "热得快",
+          "坐着舒服",
+          "艾草味淡"
+        ],
+        "badKeywords": [
+          "线短"
+        ],
+        "match": true,
+        "matchReason": "女性温养场景贴合，非自研品类，客单适中",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%9A%96%E5%AE%AB%E8%89%BE%E8%8D%89%E5%8A%A0%E7%83%AD%E5%9D%90%E5%9E%AB%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "静音加湿器（卧室大雾量）",
+        "link": "https://search.jd.com/Search?keyword=静音加湿器卧室",
+        "price": "约79-159元",
+        "brand": "小米/美的等",
+        "shipping": "48小时内",
+        "hotReason": "供暖后室内干燥，加湿器进入季节性销售高峰，品牌款口碑稳定",
+        "goodKeywords": [
+          "静音",
+          "雾量大",
+          "好清洗"
+        ],
+        "badKeywords": [
+          "水箱小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量的小家电，性价比友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%9D%99%E9%9F%B3%E5%8A%A0%E6%B9%BF%E5%99%A8%EF%BC%88%E5%8D%A7%E5%AE%A4%E5%A4%A7%E9%9B%BE%E9%87%8F%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "充电暖手宝（防爆款）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=充电暖手宝",
+        "price": "约19.9-39.9元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "通勤、学生、办公室场景刚需，冬季低价高频爆款",
+        "goodKeywords": [
+          "热得久",
+          "小巧",
+          "安全"
+        ],
+        "badKeywords": [
+          "充电慢"
+        ],
+        "match": true,
+        "matchReason": "冬季刚需小物，低价易冲动购买，复购与送礼皆宜",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%85%85%E7%94%B5%E6%9A%96%E6%89%8B%E5%AE%9D%EF%BC%88%E9%98%B2%E7%88%86%E6%AC%BE%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "陈皮茯苓祛湿茶（独立茶包）",
+        "link": "https://s.taobao.com/search?q=陈皮茯苓祛湿茶",
+        "price": "约29-59元/盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "祛湿温养季核心品类，独立茶包便携，秋冬搜索与复购稳定",
+        "goodKeywords": [
+          "味道清香",
+          "独立包装",
+          "喝着舒服"
+        ],
+        "badKeywords": [
+          "偏淡"
+        ],
+        "match": true,
+        "matchReason": "药食同源祛湿茶饮，契合目标人群养生需求",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%99%88%E7%9A%AE%E8%8C%AF%E8%8B%93%E7%A5%9B%E6%B9%BF%E8%8C%B6%EF%BC%88%E7%8B%AC%E7%AB%8B%E8%8C%B6%E5%8C%85%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "中老年加绒保暖内衣套装",
+        "link": "https://search.jd.com/Search?keyword=中老年加绒保暖内衣",
+        "price": "约49-99元/套",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "降温后送长辈保暖刚需，性价比款销量集中，好评率高",
+        "goodKeywords": [
+          "厚实",
+          "不扎",
+          "尺码全"
+        ],
+        "badKeywords": [
+          "掉色"
+        ],
+        "match": true,
+        "matchReason": "送长辈父母场景刚需，价格敏感友好",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E4%B8%AD%E8%80%81%E5%B9%B4%E5%8A%A0%E7%BB%92%E4%BF%9D%E6%9A%96%E5%86%85%E8%A1%A3%E5%A5%97%E8%A3%85%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "即食红枣桂圆银耳羹",
+        "link": "https://s.taobao.com/search?q=即食红枣桂圆银耳羹",
+        "price": "约29-59元/箱",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "秋冬滋补即食化，开盖即食，送礼自用两宜，复购率高",
+        "goodKeywords": [
+          "料足",
+          "不太甜",
+          "方便"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "女性滋补即食，客单适中，适合日常与送礼",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E7%BA%A2%E6%9E%A3%E6%A1%82%E5%9C%86%E9%93%B6%E8%80%B3%E7%BE%B9%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "拼多多",
+        "name": "艾草暖足贴/足底暖贴",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=艾草暖足贴",
+        "price": "约9.9-19.9元/盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "初冬足部保暖祛湿需求上升，低价走量款销量靠前",
+        "goodKeywords": [
+          "发热久",
+          "贴合",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "粘性一般"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养低价刚需，适合凑单与复购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e02e24%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e02e24%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e02e24%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E6%9A%96%E8%B6%B3%E8%B4%B4/%E8%B6%B3%E5%BA%95%E6%9A%96%E8%B4%B4%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "京东",
+        "name": "养生壶（煮茶炖煮一体）",
+        "link": "https://search.jd.com/Search?keyword=养生壶煮茶",
+        "price": "约99-199元",
+        "brand": "小熊/九阳等",
+        "shipping": "48小时内",
+        "hotReason": "秋冬煮养生茶、炖银耳羹场景带动，小家电稳定热销",
+        "goodKeywords": [
+          "功能多",
+          "好清洗",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "噪音"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量小家电，契合养生煮茶场景",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%85%BB%E7%94%9F%E5%A3%B6%EF%BC%88%E7%85%AE%E8%8C%B6%E7%82%96%E7%85%AE%E4%B8%80%E4%BD%93%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "艾草颈椎贴/肩颈热敷贴",
+        "link": "https://s.taobao.com/search?q=艾草颈椎贴",
+        "price": "约19.9-39.9元/盒",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "久坐低头人群肩颈不适，热敷+艾草概念，秋冬复购明显",
+        "goodKeywords": [
+          "发热舒服",
+          "味道温和",
+          "贴合"
+        ],
+        "badKeywords": [
+          "易脱落"
+        ],
+        "match": true,
+        "matchReason": "温养热敷类非自研品类，低价高频复购",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E8%89%BE%E8%8D%89%E9%A2%88%E6%A4%8E%E8%B4%B4/%E8%82%A9%E9%A2%88%E7%83%AD%E6%95%B7%E8%B4%B4%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "season": "初冬·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
