@@ -1,5 +1,171 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-18",
+    "season": "初冬·祛湿温养进补季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "即食花胶羹（小碗装）",
+        "platform": "淘宝",
+        "price": "约39-79元/6碗",
+        "brand": "官栈/燕之屋等",
+        "hotReason": "秋冬滋补进补季，开盖即食、高胶原卖点，近30天滋补类目销量靠前",
+        "image": ""
+      },
+      {
+        "name": "艾草暖颈贴/肩颈热敷贴",
+        "platform": "拼多多",
+        "price": "约9.9-29.9元/盒",
+        "brand": "多品牌白牌",
+        "hotReason": "降温后肩颈受凉人群增多，低价高频复购，拼多多热销榜常客",
+        "image": ""
+      },
+      {
+        "name": "小型暖风机（桌面/卧室两用）",
+        "platform": "京东",
+        "price": "约79-159元",
+        "brand": "美的/格力/小熊",
+        "hotReason": "初冬取暖刚需，小体积低功耗，京东小家电热卖榜前列",
+        "image": ""
+      },
+      {
+        "name": "红豆薏米芡实茶（三角包）",
+        "platform": "拼多多",
+        "price": "约19.9-39.9元/30包",
+        "brand": "多品牌",
+        "hotReason": "祛湿养生常青款，独立三角包便携，秋冬祛湿话题带动复购",
+        "image": ""
+      },
+      {
+        "name": "暖菜板（多功能保温）",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "小熊/摩飞等",
+        "hotReason": "冬季家庭餐桌保温刚需，送礼自用两宜，家居小家电趋势品",
+        "image": ""
+      },
+      {
+        "name": "折叠烘干机（家用小型）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "奥克斯/志高",
+        "hotReason": "阴冷天气衣物难干，折叠收纳省空间，京东干衣机品类热销",
+        "image": ""
+      },
+      {
+        "name": "西洋参石斛礼盒",
+        "platform": "淘宝",
+        "price": "约99-299元",
+        "brand": "同仁堂/多品牌",
+        "hotReason": "送长辈父母体面礼品，秋冬进补节点，礼盒装搜索量上升",
+        "image": ""
+      },
+      {
+        "name": "艾草颈椎热敷枕",
+        "platform": "淘宝",
+        "price": "约49-129元",
+        "brand": "多品牌",
+        "hotReason": "颈椎养护+热敷双卖点，办公室与中老年人群双覆盖",
+        "image": ""
+      },
+      {
+        "name": "中老年高钙奶粉（无糖）",
+        "platform": "京东",
+        "price": "约69-139元/罐",
+        "brand": "伊利/蒙牛/雀巢",
+        "hotReason": "送父母健康礼刚需，无糖高钙卖点契合中老年，京东冲调类目热销",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌（口服型）",
+        "platform": "淘宝",
+        "price": "约59-129元/盒",
+        "brand": "多品牌",
+        "hotReason": "女性健康养护意识提升，口服益生菌非棉品方向，复购率高",
+        "image": ""
+      },
+      {
+        "name": "天然植物油身体护理油（缓解疲劳）",
+        "platform": "淘宝",
+        "price": "约49-99元",
+        "brand": "多品牌",
+        "hotReason": "秋冬干燥+身体护理需求，按摩放松场景，女性个护趋势品",
+        "image": ""
+      },
+      {
+        "name": "养生茶礼盒（送长辈）",
+        "platform": "淘宝",
+        "price": "约69-159元",
+        "brand": "多品牌",
+        "hotReason": "节日送礼场景驱动，体面包装+养生属性，搜索热度持续",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养·送长辈体面礼专区",
+      "reason": "11月中下旬气温走低，祛湿温养与进补需求叠加，同时临近年底送礼节点，围绕女性自身养护与送父母长辈的体面实用礼品做组合，价格敏感友好、高性价比优先",
+      "zones": [
+        {
+          "zone": "女性温养养护",
+          "products": [
+            "女性私护益生菌（口服型）",
+            "天然植物油身体护理油（缓解疲劳）",
+            "艾草颈椎热敷枕"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼",
+          "products": [
+            "西洋参石斛礼盒",
+            "中老年高钙奶粉（无糖）",
+            "养生茶礼盒（送长辈）"
+          ]
+        },
+        {
+          "zone": "居家暖冬好物",
+          "products": [
+            "小型暖风机（桌面/卧室两用）",
+            "暖菜板（多功能保温）",
+            "折叠烘干机（家用小型）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "即食花胶羹（小碗装）",
+          "platform": "淘宝",
+          "price": "约39-79元/6碗",
+          "brand": "官栈/燕之屋等",
+          "shipping": "48小时内",
+          "reason": "开盖即食滋补，女性自用与送礼皆宜，秋冬进补节点高复购",
+          "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E8%8A%B1%E8%83%B6%E7%BE%B9%EF%BC%88%E5%B0%8F%E7%A2%97%E8%A3%85%EF%BC%89%3C/text%3E%3C/svg%3E"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "即食花胶羹（小碗装）",
+        "link": "https://s.taobao.com/search?q=即食花胶羹",
+        "price": "约39-79元/6碗",
+        "brand": "官栈/燕之屋等",
+        "shipping": "48小时内",
+        "hotReason": "秋冬滋补进补季，开盖即食高胶原卖点，滋补类目销量靠前",
+        "goodKeywords": [
+          "方便即食",
+          "口感好",
+          "包装精致"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "女性滋补自用与送礼两宜，契合温养进补主题",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%8D%B3%E9%A3%9F%E8%8A%B1%E8%83%B6%E7%BE%B9%EF%BC%88%E5%B0%8F%E7%A2%97%E8%A3%85%EF%BC%89%3C/text%3E%3C/svg%3E"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "season": "初冬·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
