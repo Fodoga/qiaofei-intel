@@ -1,5 +1,320 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-19",
+    "season": "初冬·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "特调8味祛湿茶（买1发2）",
+        "platform": "淘宝",
+        "price": "约19-39元",
+        "brand": "海诺大药房等",
+        "hotReason": "祛湿类目常年热销，买1发2促销驱动，药房旗舰店背书，冬季温养需求上升",
+        "image": ""
+      },
+      {
+        "name": "半亩花田小金珠身体油霜",
+        "platform": "淘宝",
+        "price": "约119.9元",
+        "brand": "半亩花田",
+        "hotReason": "代言人同款，已售1000+件、800+评价，冬季身体滋润刚需",
+        "image": ""
+      },
+      {
+        "name": "草本温和滋养膏（年度断货王）",
+        "platform": "淘宝",
+        "price": "约38元",
+        "brand": "白牌/草本类",
+        "hotReason": "央妈推荐500w+、年度断货王标签，冬季草本滋养需求旺",
+        "image": ""
+      },
+      {
+        "name": "养生壶（煮茶炖煮一体）",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "美的/九阳等",
+        "hotReason": "提升幸福感小家电榜单常客，冬季煮茶炖汤高频使用",
+        "image": ""
+      },
+      {
+        "name": "足浴盆（恒温加热）",
+        "platform": "淘宝",
+        "price": "约79-159元",
+        "brand": "南极人/蓓慈等",
+        "hotReason": "8款提升幸福感小家电推荐之一，冬季泡脚祛湿温养刚需",
+        "image": ""
+      },
+      {
+        "name": "破壁机/豆浆机",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "九阳/美的等",
+        "hotReason": "厨房小家电热销榜，早餐养生场景高频，冬季热饮需求",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅",
+        "platform": "淘宝",
+        "price": "约129-259元",
+        "brand": "美的/苏泊尔等",
+        "hotReason": "厨房好用不贵小家电推荐，家庭实用高性价比",
+        "image": ""
+      },
+      {
+        "name": "智能插座（远程定时）",
+        "platform": "京东",
+        "price": "约29-59元",
+        "brand": "小米/公牛等",
+        "hotReason": "提升幸福感小家电榜单，低成本提升生活品质",
+        "image": ""
+      },
+      {
+        "name": "中老年出行三件套",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "hotReason": "淘宝逛一逛专题推荐，送长辈父母场景热销",
+        "image": ""
+      },
+      {
+        "name": "女性健康养护类（根部养护）",
+        "platform": "淘宝",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "hotReason": "淘宝女性健康专题热卖，私护非棉品方向需求稳定",
+        "image": ""
+      },
+      {
+        "name": "电炖盅/隔水炖锅",
+        "platform": "京东",
+        "price": "约89-169元",
+        "brand": "美的/苏泊尔等",
+        "hotReason": "8款提升幸福感厨房小家电之一，冬季炖补养生高频",
+        "image": ""
+      },
+      {
+        "name": "干衣机/便携烘干袋",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "提升幸福感小家电推荐，冬季阴冷潮湿晾衣难刚需",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养·祛湿暖身与居家幸福感专区",
+      "reason": "11月初冬气温下降、湿冷加重，三四线县城女性对祛湿温养、暖身养生与提升居家生活质量的小家电需求集中释放；同时送长辈父母的体面实用礼品进入旺季，选品主打价格敏感友好、高性价比、高复购。",
+      "zones": [
+        {
+          "zone": "祛湿温养食补区",
+          "products": [
+            "特调8味祛湿茶",
+            "陈皮茯苓祛湿膏",
+            "红豆薏米芡实茶",
+            "黑糖姜枣茶"
+          ]
+        },
+        {
+          "zone": "居家暖身小家电区",
+          "products": [
+            "足浴盆（恒温加热）",
+            "养生壶（煮茶炖煮一体）",
+            "电炖盅/隔水炖锅",
+            "干衣机/便携烘干袋"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼品区",
+          "products": [
+            "中老年出行三件套",
+            "西洋参石斛礼盒",
+            "中老年高钙奶粉（无糖）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "足浴盆（恒温加热）",
+          "platform": "淘宝",
+          "price": "约79-159元",
+          "brand": "南极人/蓓慈等",
+          "shipping": "48小时内",
+          "reason": "冬季泡脚祛湿温养刚需，提升幸福感小家电榜单常客，价格敏感友好",
+          "image": "https://static.airchina.com.cn/upload/t/V8xsmZ-BCFPMkmURGg6U2Fv1oTo=/670x670/img/store/1438/1789975729591.jpg"
+        },
+        {
+          "name": "特调8味祛湿茶",
+          "platform": "淘宝",
+          "price": "约19-39元",
+          "brand": "海诺大药房等",
+          "shipping": "48小时内",
+          "reason": "买1发2促销，祛湿类目热销，药房旗舰店背书，复购高",
+          "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3991803790873577000"
+        },
+        {
+          "name": "电炖盅/隔水炖锅",
+          "platform": "京东",
+          "price": "约89-169元",
+          "brand": "美的/苏泊尔等",
+          "shipping": "48小时内",
+          "reason": "冬季炖补养生高频，厨房小家电热销，送长辈实用体面",
+          "image": "https://cdn.huarenstore.com/media/1200/catalog/product/1/_/1_604.jpg.webp"
+        },
+        {
+          "name": "中老年出行三件套",
+          "platform": "淘宝",
+          "price": "约59-129元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "淘宝专题推荐，送长辈父母场景热销，性价比高",
+          "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/2756305166/O1CN019AwDe4K3u8K1chua_!!2756305166.png_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "特调8味祛湿茶（独立茶包）",
+        "link": "https://s.taobao.com/search?q=特调8味祛湿茶",
+        "price": "约19-39元",
+        "brand": "海诺大药房等",
+        "shipping": "48小时内",
+        "hotReason": "买1发2促销，祛湿类目热销，药房旗舰店背书，冬季温养需求上升",
+        "goodKeywords": [
+          "料足耐泡",
+          "祛湿",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "口味偏淡"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养食补方向，价格敏感友好、复购高",
+        "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=4001615095843224029"
+      },
+      {
+        "platform": "淘宝",
+        "name": "足浴盆（恒温加热）",
+        "link": "https://s.taobao.com/search?q=足浴盆恒温加热",
+        "price": "约79-159元",
+        "brand": "南极人/蓓慈等",
+        "shipping": "48小时内",
+        "hotReason": "提升幸福感小家电榜单常客，冬季泡脚祛湿温养刚需",
+        "goodKeywords": [
+          "恒温",
+          "按摩舒适",
+          "省水"
+        ],
+        "badKeywords": [
+          "加热慢"
+        ],
+        "match": true,
+        "matchReason": "居家暖身小家电，冬季高频使用，性价比高",
+        "image": "https://static.airchina.com.cn/upload/t/V8xsmZ-BCFPMkmURGg6U2Fv1oTo=/670x670/img/store/1438/1789975729591.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "电炖盅/隔水炖锅",
+        "link": "https://search.jd.com/Search?keyword=电炖盅隔水炖锅",
+        "price": "约89-169元",
+        "brand": "美的/苏泊尔等",
+        "shipping": "48小时内",
+        "hotReason": "8款提升幸福感厨房小家电之一，冬季炖补养生高频",
+        "goodKeywords": [
+          "炖煮方便",
+          "静音",
+          "易清洗"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "养生炖补小家电，送长辈实用体面",
+        "image": "https://cdn.huarenstore.com/media/1200/catalog/product/1/_/1_604.jpg.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "中老年出行三件套",
+        "link": "https://s.taobao.com/search?q=中老年出行三件套",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "淘宝逛一逛专题推荐，送长辈父母场景热销",
+        "goodKeywords": [
+          "实用",
+          "保暖",
+          "送礼体面"
+        ],
+        "badKeywords": [
+          "尺码偏差"
+        ],
+        "match": true,
+        "matchReason": "送长辈父母体面实用礼品，价格友好",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/2756305166/O1CN019AwDe4K3u8K1chua_!!2756305166.png_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "干衣机/便携烘干袋",
+        "link": "https://search.jd.com/Search?keyword=便携干衣机烘干袋",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "提升幸福感小家电推荐，冬季阴冷潮湿晾衣难刚需",
+        "goodKeywords": [
+          "烘干快",
+          "便携",
+          "省空间"
+        ],
+        "badKeywords": [
+          "容量小"
+        ],
+        "match": true,
+        "matchReason": "居家实用小家电，冬季刚需",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i4/143803550/O1CN01XwfYbR1c5x6Y3DI7C_!!143803550.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "黑糖姜枣茶",
+        "link": "https://s.taobao.com/search?q=黑糖姜枣茶",
+        "price": "约19-39元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "冬季驱寒暖身热销，女性温养复购高",
+        "goodKeywords": [
+          "暖身",
+          "独立包装",
+          "姜味足"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "女性温养食补，价格友好复购高",
+        "image": "https://img.meituan.net/rmscashier/b16e176a09227e418e9f62048423c94c95423.jpg@format=webp"
+      },
+      {
+        "platform": "京东",
+        "name": "智能插座（远程定时）",
+        "link": "https://search.jd.com/Search?keyword=智能插座远程定时",
+        "price": "约29-59元",
+        "brand": "小米/公牛等",
+        "shipping": "48小时内",
+        "hotReason": "提升幸福感小家电榜单，低成本提升生活品质",
+        "goodKeywords": [
+          "远程控制",
+          "定时",
+          "便宜实用"
+        ],
+        "badKeywords": [
+          "连接偶有延迟"
+        ],
+        "match": true,
+        "matchReason": "低成本提升生活质量小家电，性价比高",
+        "image": "https://img.alicdn.com/imgextra/i2/701514475/O1CN01hRK7Vq1ivbXe9Js1t_!!701514475.jpg_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "season": "初冬·祛湿温养进补季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
