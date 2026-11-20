@@ -1,5 +1,427 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-20",
+    "season": "初冬·温养滋补季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类。检索素材多为泛家居/小家电/私护行业趋势与送礼话题，具体单品价格与销量为约数，需人工核验。",
+    "trending": [
+      {
+        "name": "智能空气炸锅（可视免翻面）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "小米米家/美的/九阳",
+        "hotReason": "2026小家电趋势榜高频出现，厨房懒人经济+节日送礼双驱动，百元档性价比高",
+        "image": ""
+      },
+      {
+        "name": "即热式饮水机/桌面速热饮水机",
+        "platform": "淘宝",
+        "price": "约129-299元",
+        "brand": "小米/美的/奥克斯",
+        "hotReason": "初冬热饮需求上升，小体积免安装，适合县城家庭与送长辈",
+        "image": ""
+      },
+      {
+        "name": "艾草锤/经络拍打锤礼盒",
+        "platform": "1688",
+        "price": "约19-38元",
+        "brand": "白牌源头工厂",
+        "hotReason": "送妈妈长辈热门创意礼品，艾草养生概念+低价高感知，成交活跃",
+        "image": ""
+      },
+      {
+        "name": "女性益生菌（私护方向）",
+        "platform": "淘宝",
+        "price": "约69-159元",
+        "brand": "life-space/月神/汤臣倍健",
+        "hotReason": "私护市场年增约10%，从清洁转向科学养护，益生菌为高复购趋势品类",
+        "image": ""
+      },
+      {
+        "name": "护理凝胶（私护非棉品）",
+        "platform": "淘宝",
+        "price": "约49-129元",
+        "brand": "femfresh/妇炎洁等非黑名单品牌",
+        "hotReason": "私密养护科学化趋势，凝胶类非棉品复购高，需避开自研套盒",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩仪（充电便携）",
+        "platform": "京东",
+        "price": "约99-259元",
+        "brand": "SKG/倍轻松/小米",
+        "hotReason": "久坐低头人群刚需，送长辈与自用双场景，节日礼品榜常客",
+        "image": ""
+      },
+      {
+        "name": "药食同源五红粉/五黑粉",
+        "platform": "拼多多",
+        "price": "约29-69元",
+        "brand": "老金磨方/燕之坊",
+        "hotReason": "养生食补冲饮趋势，独立小袋便携，价格敏感友好高复购",
+        "image": ""
+      },
+      {
+        "name": "暖脚宝/电热暖脚垫",
+        "platform": "淘宝",
+        "price": "约39-99元",
+        "brand": "白牌/彩虹",
+        "hotReason": "初冬取暖小件，办公居家两用，低价冲动型爆款",
+        "image": ""
+      },
+      {
+        "name": "陶瓷养生杯/焖烧杯礼盒",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "白牌/富光",
+        "hotReason": "送长辈体面实用，保温焖煮养生概念，礼盒装适合节日",
+        "image": ""
+      },
+      {
+        "name": "天然成分身体乳/护手霜礼盒",
+        "platform": "京东",
+        "price": "约49-119元",
+        "brand": "半亩花田/凡士林",
+        "hotReason": "初冬干燥护理刚需，礼盒装适合送女性长辈，性价比高",
+        "image": ""
+      },
+      {
+        "name": "小型除螨仪/手持吸尘器",
+        "platform": "京东",
+        "price": "约129-299元",
+        "brand": "小米/德尔玛",
+        "hotReason": "家居清洁小家电趋势，换季除螨需求，提升生活质量",
+        "image": ""
+      },
+      {
+        "name": "红枣夹核桃/每日坚果混合装",
+        "platform": "拼多多",
+        "price": "约19-49元",
+        "brand": "三只松鼠/百草味",
+        "hotReason": "养生零食高复购，独立包装适合家人共享与送礼",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养滋补·送长辈体面好物周",
+      "reason": "11月下旬转冷，祛湿转向温养滋补；叠加年末送礼与家人关怀场景，主推养生食补、取暖小家电与体面实用礼品，价格敏感友好、高复购。",
+      "zones": [
+        {
+          "zone": "温养滋补食补区",
+          "products": [
+            "药食同源五红粉/五黑粉",
+            "红枣夹核桃每日坚果",
+            "即食阿胶糕（小包装）"
+          ]
+        },
+        {
+          "zone": "初冬取暖小家电区",
+          "products": [
+            "即热式桌面饮水机",
+            "暖脚宝/电热暖脚垫",
+            "颈椎按摩仪（充电便携）"
+          ]
+        },
+        {
+          "zone": "送长辈体面礼品区",
+          "products": [
+            "艾草锤经络礼盒",
+            "陶瓷养生焖烧杯礼盒",
+            "天然成分护手霜身体乳礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "即热式桌面速热饮水机",
+          "platform": "京东",
+          "price": "约129-299元",
+          "brand": "小米/美的/奥克斯",
+          "shipping": "48小时内",
+          "reason": "初冬热饮刚需，免安装小体积，送父母自用皆宜，性价比高",
+          "image": "https://cdn.huarenstore.com/media/wysiwyg/product/Buydeem/S9013/1.jpg.webp"
+        },
+        {
+          "name": "药食同源五红粉/五黑粉（独立小袋）",
+          "platform": "拼多多",
+          "price": "约29-69元",
+          "brand": "老金磨方/燕之坊",
+          "shipping": "48小时内",
+          "reason": "养生食补高复购，价格敏感友好，冲饮便捷适合女性与长辈",
+          "image": "https://cdn.yamibuy.net/item/3d2751e624b6caab81ab5038e8153fb3_750x750.webp"
+        },
+        {
+          "name": "艾草锤经络拍打礼盒",
+          "platform": "1688",
+          "price": "约19-38元",
+          "brand": "源头工厂白牌",
+          "shipping": "48小时内",
+          "reason": "送妈妈长辈创意养生礼，低价高感知，节日走量款",
+          "image": "https://img.alicdn.com/imgextra/i3/2221230673897/O1CN01CA0EO61eescbk34vI_!!2221230673897.png_q50.jpg_.webp"
+        },
+        {
+          "name": "颈椎按摩仪（充电便携）",
+          "platform": "京东",
+          "price": "约99-259元",
+          "brand": "SKG/倍轻松/小米",
+          "shipping": "48小时内",
+          "reason": "送长辈实用体面，久坐低头刚需，节日礼品榜常客",
+          "image": "https://img.alicdn.com/imgextra/O1CN01tjwtQy1igwZURzvjg_!!6000000004443-2-yinhe.png_q50.jpg_.webp"
+        },
+        {
+          "name": "女性益生菌（私护方向）",
+          "platform": "淘宝",
+          "price": "约69-159元",
+          "brand": "life-space/月神/汤臣倍健",
+          "shipping": "48小时内",
+          "reason": "私护科学养护趋势，非棉品非自研，高复购女性健康品",
+          "image": "https://img.jiemian.com/101/original/20230927/169578097867652200.png"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "京东",
+        "name": "智能空气炸锅（可视免翻面）",
+        "link": "https://search.jd.com/Search?keyword=智能空气炸锅",
+        "price": "约199-399元",
+        "brand": "小米米家/美的/九阳",
+        "shipping": "48小时内",
+        "hotReason": "2026小家电趋势榜高频，厨房懒人经济+送礼双驱动，百元档销量增长明显",
+        "goodKeywords": [
+          "免翻面",
+          "好清洗",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量实用小家电，性价比高适合县城家庭",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/925713709/O1CN01bV7qk7YT7eB1chua_!!4611686018427381037-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "即热式桌面速热饮水机",
+        "link": "https://s.taobao.com/search?q=即热式桌面饮水机",
+        "price": "约129-299元",
+        "brand": "小米/美的/奥克斯",
+        "shipping": "48小时内",
+        "hotReason": "初冬热饮需求上升，免安装小体积，送长辈热门",
+        "goodKeywords": [
+          "出水快",
+          "免安装",
+          "小巧"
+        ],
+        "badKeywords": [
+          "水箱偏小"
+        ],
+        "match": true,
+        "matchReason": "初冬温养热饮刚需，送父母实用体面",
+        "image": "https://cdn.huarenstore.com/media/wysiwyg/product/Buydeem/S9013/1.jpg.webp"
+      },
+      {
+        "platform": "1688",
+        "name": "艾草锤经络拍打礼盒",
+        "link": "https://www.1688.com/?keywords=艾草锤礼盒",
+        "price": "约19-38元",
+        "brand": "源头工厂白牌",
+        "shipping": "48小时内",
+        "hotReason": "送妈妈长辈创意养生礼，成交活跃，低价高感知",
+        "goodKeywords": [
+          "包装体面",
+          "艾草香",
+          "送长辈合适"
+        ],
+        "badKeywords": [
+          "做工一般"
+        ],
+        "match": true,
+        "matchReason": "养生概念+体面送礼，价格敏感友好",
+        "image": "https://img.alicdn.com/imgextra/i3/2221230673897/O1CN01CA0EO61eescbk34vI_!!2221230673897.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "颈椎按摩仪（充电便携）",
+        "link": "https://search.jd.com/Search?keyword=颈椎按摩仪",
+        "price": "约99-259元",
+        "brand": "SKG/倍轻松/小米",
+        "shipping": "48小时内",
+        "hotReason": "久坐低头刚需，送长辈与自用双场景，节日礼品榜常客",
+        "goodKeywords": [
+          "热敷舒服",
+          "便携",
+          "送礼有面子"
+        ],
+        "badKeywords": [
+          "力度偏轻"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面实用，健康小家电高感知",
+        "image": "https://img.alicdn.com/imgextra/O1CN01tjwtQy1igwZURzvjg_!!6000000004443-2-yinhe.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "女性益生菌（私护方向）",
+        "link": "https://s.taobao.com/search?q=女性益生菌",
+        "price": "约69-159元",
+        "brand": "life-space/月神/汤臣倍健",
+        "shipping": "48小时内",
+        "hotReason": "私护市场年增约10%，科学养护趋势，益生菌高复购",
+        "goodKeywords": [
+          "独立包装",
+          "口感好",
+          "回购"
+        ],
+        "badKeywords": [
+          "见效慢"
+        ],
+        "match": true,
+        "matchReason": "女性健康非棉品非自研方向，高复购",
+        "image": "https://img.jiemian.com/101/original/20230927/169578097867652200.png"
+      },
+      {
+        "platform": "淘宝",
+        "name": "护理凝胶（私护非棉品）",
+        "link": "https://s.taobao.com/search?q=私护护理凝胶",
+        "price": "约49-129元",
+        "brand": "femfresh/妇炎洁等非黑名单品牌",
+        "shipping": "48小时内",
+        "hotReason": "私密养护科学化趋势，凝胶类非棉品复购高",
+        "goodKeywords": [
+          "温和",
+          "不刺激",
+          "清爽"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "私护非棉品非自研，符合女性健康方向",
+        "image": "https://cdn.yamibuy.net/item/25be10166466c17fe4ab76320dd16518_750x750.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "药食同源五红粉/五黑粉（独立小袋）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=五红粉五黑粉",
+        "price": "约29-69元",
+        "brand": "老金磨方/燕之坊",
+        "shipping": "48小时内",
+        "hotReason": "养生食补冲饮趋势，独立小袋便携，价格敏感友好高复购",
+        "goodKeywords": [
+          "冲泡方便",
+          "味道香",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "药食同源食补，高性价比高复购",
+        "image": "https://cdn.yamibuy.net/item/3d2751e624b6caab81ab5038e8153fb3_750x750.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "暖脚宝/电热暖脚垫",
+        "link": "https://s.taobao.com/search?q=暖脚宝电热暖脚垫",
+        "price": "约39-99元",
+        "brand": "白牌/彩虹",
+        "shipping": "48小时内",
+        "hotReason": "初冬取暖小件，办公居家两用，低价冲动型爆款",
+        "goodKeywords": [
+          "加热快",
+          "静音",
+          "省电"
+        ],
+        "badKeywords": [
+          "线短"
+        ],
+        "match": true,
+        "matchReason": "初冬取暖实用小件，价格友好",
+        "image": "https://img.alicdn.com/imgextra/i1/3908544048/O1CN01Xf8O631fm2GjN5085_!!3908544048.jpg_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "陶瓷养生焖烧杯礼盒",
+        "link": "https://s.taobao.com/search?q=陶瓷焖烧杯礼盒",
+        "price": "约59-129元",
+        "brand": "白牌/富光",
+        "shipping": "48小时内",
+        "hotReason": "送长辈体面实用，保温焖煮养生概念，礼盒装适合节日",
+        "goodKeywords": [
+          "保温好",
+          "礼盒体面",
+          "容量合适"
+        ],
+        "badKeywords": [
+          "偏重"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面礼品，养生实用",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i2/3182335687/O1CN01mxE0YPuvWqB3eano_!!4611686018427385543-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "天然成分护手霜身体乳礼盒",
+        "link": "https://search.jd.com/Search?keyword=护手霜身体乳礼盒",
+        "price": "约49-119元",
+        "brand": "半亩花田/凡士林",
+        "shipping": "48小时内",
+        "hotReason": "初冬干燥护理刚需，礼盒装适合送女性长辈，性价比高",
+        "goodKeywords": [
+          "滋润不腻",
+          "香味淡雅",
+          "礼盒好看"
+        ],
+        "badKeywords": [
+          "香味偏浓"
+        ],
+        "match": true,
+        "matchReason": "天然个护+体面送礼，价格友好",
+        "image": "https://img.alicdn.com/imgextra/i4/3166025673/O1CN011ETSKk1rmI2GIEijJ_!!3166025673.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "小型除螨仪/手持吸尘器",
+        "link": "https://search.jd.com/Search?keyword=除螨仪",
+        "price": "约129-299元",
+        "brand": "小米/德尔玛",
+        "shipping": "48小时内",
+        "hotReason": "家居清洁小家电趋势，换季除螨需求，提升生活质量",
+        "goodKeywords": [
+          "吸力大",
+          "轻便",
+          "除螨明显"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "家居好物提升生活质量，实用小家电",
+        "image": "https://img.alicdn.com/imgextra/i4/3937219703/O1CN01SGUhbE2LY2BJADiLk_!!3937219703-2-C2M.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "红枣夹核桃每日坚果混合装",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=红枣夹核桃每日坚果",
+        "price": "约19-49元",
+        "brand": "三只松鼠/百草味",
+        "shipping": "48小时内",
+        "hotReason": "养生零食高复购，独立包装适合家人共享与送礼",
+        "goodKeywords": [
+          "独立包装",
+          "新鲜",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "个头偏小"
+        ],
+        "match": true,
+        "matchReason": "养生食补零食，价格敏感友好高复购",
+        "image": "https://img.alicdn.com/imgextra/i1/880734502/O1CN01lvqi9k1j7y8tQoGv7_!!4611686018427384102-2-item_pic.png_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "season": "初冬·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
