@@ -1,5 +1,428 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-23",
+    "season": "初冬·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "高颜值多功能小家电（厨房/懒人款）",
+        "platform": "抖音",
+        "price": "约59-199元",
+        "brand": "多品牌",
+        "hotReason": "抖音厨房好物视频获223.7万点赞，懒人小家电内容持续高热，节日送礼场景带动",
+        "image": ""
+      },
+      {
+        "name": "1688源头工厂小家电（48小时发货款）",
+        "platform": "1688",
+        "price": "约29-159元",
+        "brand": "源头工厂白牌",
+        "hotReason": "1688小家电爆款现货一键代发，48小时发货+退货包运费成买家底线，6星以上店铺更稳",
+        "image": ""
+      },
+      {
+        "name": "祛湿养生茶（薏米茯苓/五指毛桃）",
+        "platform": "淘宝",
+        "price": "约40-70元",
+        "brand": "方回春堂/同仁堂等",
+        "hotReason": "祛湿茶相关商品超2700件，药食同源祛湿需求旺盛，初冬温养场景延续",
+        "image": ""
+      },
+      {
+        "name": "同仁堂山楂陈皮茯苓祛湿茶",
+        "platform": "淘宝",
+        "price": "约69.9元",
+        "brand": "同仁堂",
+        "hotReason": "老字号背书，健脾养胃祛湿概念，已售100+、60评价，特价秒杀引流",
+        "image": ""
+      },
+      {
+        "name": "送长辈保暖围巾披肩礼盒",
+        "platform": "淘宝",
+        "price": "约99-419元",
+        "brand": "上海故事等",
+        "hotReason": "2026秋冬新款保暖加厚御寒围巾披肩送长辈礼盒，11月送长辈礼物榜单热销",
+        "image": ""
+      },
+      {
+        "name": "檀木气垫梳子礼盒套装",
+        "platform": "淘宝",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "hotReason": "养生伴手礼方向，送长辈/员工礼盒，月销口碑榜单靠前",
+        "image": ""
+      },
+      {
+        "name": "米家护颈记忆棉枕",
+        "platform": "小米有品/淘宝",
+        "price": "约99-159元",
+        "brand": "米家",
+        "hotReason": "高低曲线承托内外抗菌，送妈妈/女性长辈礼品榜单推荐，睡眠健康刚需",
+        "image": ""
+      },
+      {
+        "name": "宿舍/开学季实用小电器（迷你节能灯等）",
+        "platform": "淘宝",
+        "price": "约19-79元",
+        "brand": "多品牌",
+        "hotReason": "开学季好物清单持续传播，USB充电触摸迷你灯等低客单实用款受学生党欢迎",
+        "image": ""
+      },
+      {
+        "name": "红糖水杯暖心礼盒",
+        "platform": "淘宝",
+        "price": "约58元",
+        "brand": "多品牌",
+        "hotReason": "七夕/节日送女生实用创意礼盒，红糖姜茶+保温杯组合，暖心呵护概念",
+        "image": ""
+      },
+      {
+        "name": "桑蚕丝披肩礼盒装（送妈妈/长辈）",
+        "platform": "淘宝",
+        "price": "约419元",
+        "brand": "多品牌",
+        "hotReason": "高级感送长辈礼品，真丝丝巾披肩礼盒，节日送礼场景驱动",
+        "image": ""
+      },
+      {
+        "name": "祛湿茶薏苓茶/炒薏米茯苓茶包",
+        "platform": "淘宝",
+        "price": "约30-60元",
+        "brand": "多品牌",
+        "hotReason": "亳州正品祛湿茶，薏米茯苓炒制，独立茶包便携，复购型养生品",
+        "image": ""
+      },
+      {
+        "name": "实用家居好物（厨房收纳/清洁小物）",
+        "platform": "抖音",
+        "price": "约9.9-49元",
+        "brand": "多品牌",
+        "hotReason": "家居好物分享视频57.1万点赞，实用低价厨房/清洁小物持续走量",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养·送长辈暖心礼",
+      "reason": "11月下旬入冬，祛湿温养与保暖送礼需求叠加；三四线县城女性为父母长辈备冬、为家人添置实用家居小电器的决策高峰，价格敏感、重性价比与体面感",
+      "zones": [
+        {
+          "zone": "祛湿温养食补",
+          "products": [
+            "五指毛桃茯苓祛湿茶",
+            "陈皮山楂茯苓茶包",
+            "红豆薏米茯苓茶"
+          ]
+        },
+        {
+          "zone": "送长辈暖心礼",
+          "products": [
+            "保暖加厚围巾披肩礼盒",
+            "檀木气垫梳礼盒",
+            "护颈记忆棉枕"
+          ]
+        },
+        {
+          "zone": "居家实用小电器",
+          "products": [
+            "迷你节能触摸灯",
+            "桌面暖风机",
+            "便携干衣袋"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "五指毛桃茯苓祛湿茶（独立茶包）",
+          "platform": "淘宝",
+          "price": "约40-70元",
+          "brand": "方回春堂等",
+          "shipping": "48小时内",
+          "reason": "药食同源祛湿方向，初冬温养刚需，独立茶包便携复购高，价格敏感友好",
+          "image": "https://cdn.yamibuy.net/item/807d4b9ad541e709ac9690595fad75c5_750x750.webp"
+        },
+        {
+          "name": "保暖加厚围巾披肩礼盒（送长辈）",
+          "platform": "淘宝",
+          "price": "约99-199元",
+          "brand": "上海故事等",
+          "shipping": "48小时内",
+          "reason": "11月送长辈礼物榜单热销，体面合宜、保暖实用，契合送父母场景",
+          "image": "https://img.alicdn.com/bao/uploaded/i1/2214282643356/O1CN01YEePlMkolXB1chua_!!2214282643356.jpg"
+        },
+        {
+          "name": "檀木气垫梳礼盒套装",
+          "platform": "淘宝",
+          "price": "约39-99元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "养生伴手礼方向，送长辈体面不贵，按摩头皮养生概念契合人群",
+          "image": "https://img.alicdn.com/imgextra/i3/2222292470369/O1CN01OgbNjNT8fAJ2vH2e_!!4611686018427382369-0-item_pic.jpg_q50.jpg_.webp"
+        },
+        {
+          "name": "护颈记忆棉枕（抗菌款）",
+          "platform": "小米有品/淘宝",
+          "price": "约99-159元",
+          "brand": "米家",
+          "shipping": "48小时内",
+          "reason": "睡眠健康刚需，送妈妈/长辈礼品榜单推荐，品牌背书好评率高",
+          "image": "https://img.alicdn.com/imgextra/i3/2213155334929/O1CN01aaH2VI1mHXLIl3crX_!!2213155334929.jpg_q50.jpg_.webp"
+        },
+        {
+          "name": "迷你节能触摸灯（USB充电）",
+          "platform": "淘宝",
+          "price": "约19-49元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "开学季/宿舍好物清单热推，低客单实用，冷暖双光源，学生与家用皆宜",
+          "image": "https://img.alicdn.com/imgextra/i2/O1CN01rQTDoG1bnApRJvoZO_!!4611686018427384485-0-item_pic.jpg"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "五指毛桃茯苓祛湿茶（独立茶包）",
+        "link": "https://s.taobao.com/search?q=五指毛桃茯苓祛湿茶",
+        "price": "约40-70元",
+        "brand": "方回春堂等",
+        "shipping": "48小时内",
+        "hotReason": "祛湿茶相关商品超2700件，药食同源祛湿需求旺盛，老字号款销量靠前",
+        "goodKeywords": [
+          "祛湿舒服",
+          "独立小包方便",
+          "味道清香",
+          "回购"
+        ],
+        "badKeywords": [
+          "效果因人而异"
+        ],
+        "match": true,
+        "matchReason": "药食同源祛湿温养，契合初冬养生与价格敏感人群",
+        "image": "https://cdn.yamibuy.net/item/807d4b9ad541e709ac9690595fad75c5_750x750.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "同仁堂山楂陈皮茯苓茶",
+        "link": "https://s.taobao.com/search?q=同仁堂山楂陈皮茯苓茶",
+        "price": "约69.9元",
+        "brand": "同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "老字号背书，健脾养胃祛湿概念，已售100+、60评价，特价秒杀引流",
+        "goodKeywords": [
+          "老字号放心",
+          "健脾开胃",
+          "茶包干净"
+        ],
+        "badKeywords": [
+          "偏贵"
+        ],
+        "match": true,
+        "matchReason": "知名品牌祛湿养生茶，送长辈自用皆宜",
+        "image": "https://img06.weeecdn.com/item/image/132/701/174F33CDB64D04A3.jpeg"
+      },
+      {
+        "platform": "拼多多",
+        "name": "红豆薏米茯苓茶（独立茶包）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=红豆薏米茯苓茶",
+        "price": "约19-39元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "祛湿茶高频复购款，拼多多低价走量，独立茶包便携",
+        "goodKeywords": [
+          "便宜大碗",
+          "茶包干净",
+          "祛湿"
+        ],
+        "badKeywords": [
+          "味道偏淡"
+        ],
+        "match": true,
+        "matchReason": "价格敏感友好，祛湿温养日常口粮茶",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2928278102/O1CN01GLruiU29ilrq7CRla_!!0-item_pic.jpg_1280x0.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "保暖加厚围巾披肩礼盒（送长辈）",
+        "link": "https://s.taobao.com/search?q=保暖加厚围巾披肩礼盒送长辈",
+        "price": "约99-199元",
+        "brand": "上海故事等",
+        "shipping": "48小时内",
+        "hotReason": "2026秋冬新款保暖加厚御寒围巾披肩送长辈礼盒，11月送长辈礼物榜单热销",
+        "goodKeywords": [
+          "保暖厚实",
+          "礼盒体面",
+          "颜色好看"
+        ],
+        "badKeywords": [
+          "掉毛"
+        ],
+        "match": true,
+        "matchReason": "送长辈体面合宜，初冬保暖刚需",
+        "image": "https://img.alicdn.com/bao/uploaded/i1/2214282643356/O1CN01YEePlMkolXB1chua_!!2214282643356.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "檀木气垫梳礼盒套装",
+        "link": "https://s.taobao.com/search?q=檀木气垫梳礼盒套装",
+        "price": "约39-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "养生伴手礼方向，送长辈/员工礼盒，月销口碑榜单靠前",
+        "goodKeywords": [
+          "按摩舒服",
+          "礼盒精致",
+          "送人有面子"
+        ],
+        "badKeywords": [
+          "梳齿偏硬"
+        ],
+        "match": true,
+        "matchReason": "养生伴手礼，体面不贵，契合送长辈场景",
+        "image": "https://img.alicdn.com/imgextra/i3/2222292470369/O1CN01OgbNjNT8fAJ2vH2e_!!4611686018427382369-0-item_pic.jpg_q50.jpg_.webp"
+      },
+      {
+        "platform": "小米有品/淘宝",
+        "name": "护颈记忆棉枕（抗菌款）",
+        "link": "https://s.taobao.com/search?q=护颈记忆棉枕抗菌",
+        "price": "约99-159元",
+        "brand": "米家",
+        "shipping": "48小时内",
+        "hotReason": "高低曲线承托内外抗菌，送妈妈/女性长辈礼品榜单推荐，睡眠健康刚需",
+        "goodKeywords": [
+          "支撑好",
+          "睡得香",
+          "抗菌"
+        ],
+        "badKeywords": [
+          "偏硬"
+        ],
+        "match": true,
+        "matchReason": "品牌背书睡眠健康好物，送长辈实用",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E6%8A%A4%E9%A2%88%E8%AE%B0%E5%BF%86%E6%A3%89%E6%9E%95%EF%BC%88%E6%8A%97%E8%8F%8C%E6%AC%BE%EF%BC%89%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "迷你节能触摸灯（USB充电）",
+        "link": "https://s.taobao.com/search?q=迷你节能触摸灯USB充电",
+        "price": "约19-49元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季/宿舍好物清单热推，冷暖双光源，低客单实用",
+        "goodKeywords": [
+          "小巧方便",
+          "亮度够",
+          "充电耐用"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "低客单实用小电器，学生与家用皆宜",
+        "image": "https://img.alicdn.com/imgextra/i2/O1CN01rQTDoG1bnApRJvoZO_!!4611686018427384485-0-item_pic.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "桌面暖风机（小型静音款）",
+        "link": "https://s.taobao.com/search?q=桌面暖风机小型静音",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "shipping": "24小时内",
+        "hotReason": "初冬桌面取暖刚需，小型静音款适合办公与卧室，京东物流快",
+        "goodKeywords": [
+          "出风快",
+          "静音",
+          "小巧"
+        ],
+        "badKeywords": [
+          "功率偏小"
+        ],
+        "match": true,
+        "matchReason": "初冬居家实用小电器，价格友好",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/1922259318/O1CN01uZlr5i2IhhKTiwfeP_!!1922259318.jpg_360x360q90.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "便携干衣袋（可折叠烘衣）",
+        "link": "https://s.taobao.com/search?q=便携干衣袋可折叠",
+        "price": "约49-99元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "阴冷天气衣物难干，便携干衣袋低客单实用，租房/宿舍场景热销",
+        "goodKeywords": [
+          "干衣快",
+          "收纳方便",
+          "省空间"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "初冬实用家居好物，性价比高",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/671858550/O1CN01tEeZoB2D1xVQqd1mY_!!671858550.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红糖姜茶保温杯暖心礼盒",
+        "link": "https://s.taobao.com/search?q=红糖姜茶保温杯礼盒",
+        "price": "约58元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "节日送女生实用创意礼盒，红糖姜茶+保温杯组合，暖心呵护概念",
+        "goodKeywords": [
+          "礼盒好看",
+          "暖身",
+          "送人合适"
+        ],
+        "badKeywords": [
+          "姜味偏重"
+        ],
+        "match": true,
+        "matchReason": "女性温养+送礼场景，价格友好",
+        "image": "https://img.alicdn.com/imgextra/i2/2204667436611/O1CN01FuAFf71yhtQPlpCNf_!!4611686018427387459-0-item_pic.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "桑蚕丝披肩礼盒装（送妈妈/长辈）",
+        "link": "https://s.taobao.com/search?q=桑蚕丝披肩礼盒装送妈妈",
+        "price": "约199-419元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "高级感送长辈礼品，真丝丝巾披肩礼盒，节日送礼场景驱动",
+        "goodKeywords": [
+          "质感好",
+          "显档次",
+          "包装精美"
+        ],
+        "badKeywords": [
+          "价格偏高"
+        ],
+        "match": true,
+        "matchReason": "体面送礼可选，注意控制客单避免过高",
+        "image": "https://cdn.huarenstore.com/media/1200/catalog/product/_/4/_4_128.jpg.webp"
+      },
+      {
+        "platform": "1688",
+        "name": "厨房实用小家电（48小时发货款）",
+        "link": "https://www.1688.com/?keywords=厨房小家电48小时发货",
+        "price": "约29-159元",
+        "brand": "源头工厂白牌",
+        "shipping": "48小时内",
+        "hotReason": "1688小家电爆款现货一键代发，48小时发货+退货包运费，6星以上店铺更稳",
+        "goodKeywords": [
+          "性价比高",
+          "发货快",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "售后需确认"
+        ],
+        "match": true,
+        "matchReason": "源头工厂高性价比，适合家居小电器补充",
+        "image": "https://imgcache.dealmoon.com/thumbimg.dealmoon.com/us2509/dealmoon/749/749/980/8e3778fe1c742ab2fe88a55x2560x2560x654.jpeg_1280_1280_3_107f.jpeg"
+      }
+    ]
+  },
+  {
     "date": "2026-11-20",
     "season": "初冬·温养滋补季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类。检索素材多为泛家居/小家电/私护行业趋势与送礼话题，具体单品价格与销量为约数，需人工核验。",
