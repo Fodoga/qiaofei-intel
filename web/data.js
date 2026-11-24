@@ -1,5 +1,407 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-24",
+    "season": "初冬·祛湿温养与暖冬礼赠季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "台湾桂格即食燕麦片礼盒（红黑滋养/十种食材）",
+        "platform": "有礼网/淘宝",
+        "price": "约49-79元",
+        "brand": "桂格",
+        "hotReason": "送妈妈/女性长辈礼赠场景高频出现，药食同源谷物礼盒，秋冬温养早餐刚需，礼盒体面且价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "小罐茶/八马茶叶礼盒（大红袍/铁观音）",
+        "platform": "什么值得买/淘宝",
+        "price": "约99-199元",
+        "brand": "小罐茶/八马",
+        "hotReason": "送礼指南反复推荐送长辈'面子'礼品，秋冬煮茶养生场景强，知名度高、发货稳定",
+        "image": ""
+      },
+      {
+        "name": "华为手环8/小米手环8 Pro",
+        "platform": "京东",
+        "price": "约249-299元",
+        "brand": "华为/小米",
+        "hotReason": "送礼指南列为送长辈实用礼品，心率血氧睡眠监测契合中老年健康关注，品牌背书强",
+        "image": ""
+      },
+      {
+        "name": "智能感应夜灯（充电款）",
+        "platform": "知乎/淘宝",
+        "price": "约19-39元",
+        "brand": "小米米家/通用",
+        "hotReason": "小家电榜单'不起眼但提升居家幸福感'高频提名，起夜照明适老场景，低价高性价比",
+        "image": ""
+      },
+      {
+        "name": "布艺沙发/小白鞋清洁机（便携清洁小家电）",
+        "platform": "知乎/淘宝",
+        "price": "约99-199元",
+        "brand": "通用",
+        "hotReason": "居家清洁小家电趋势品，浅色布艺家庭与宠物家庭刚需，秋冬换季清洁需求上升",
+        "image": ""
+      },
+      {
+        "name": "超声波迷你加湿器",
+        "platform": "淘宝/京东",
+        "price": "约39-89元",
+        "brand": "小米米家/通用",
+        "hotReason": "宿舍与卧室小家电榜单常客，北方供暖/南方空调房干燥刚需，体积小功率低",
+        "image": ""
+      },
+      {
+        "name": "特调8味祛湿茶（独立茶包）",
+        "platform": "淘宝",
+        "price": "约29-59元",
+        "brand": "海诺大药房等",
+        "hotReason": "祛湿温养季搜索热词，料足耐泡独立包装，药食同源方向复购高",
+        "image": ""
+      },
+      {
+        "name": "红景天元气茶/养生保健茶",
+        "platform": "淘宝",
+        "price": "约39-69元",
+        "brand": "V-care嘉心思等",
+        "hotReason": "养生茶饮趋势品，秋冬抗疲劳温养概念，独立小包便携",
+        "image": ""
+      },
+      {
+        "name": "宿舍床边挂篮/收纳神器",
+        "platform": "淘宝",
+        "price": "约9.9-29元",
+        "brand": "通用",
+        "hotReason": "开学季与租房收纳趋势，10元以下宿舍好物高频分享，实用不踩雷",
+        "image": ""
+      },
+      {
+        "name": "宿舍楼梯脚踏垫",
+        "platform": "淘宝",
+        "price": "约7.9元/2米",
+        "brand": "通用",
+        "hotReason": "开学季宿舍好物清单高频推荐，防滑防凉，学生党闭眼入",
+        "image": ""
+      },
+      {
+        "name": "智能插座（远程定时）",
+        "platform": "京东",
+        "price": "约29-59元",
+        "brand": "小米米家/公牛",
+        "hotReason": "小家电生态入门件，远程定时适老与节能场景，APP联动简单",
+        "image": ""
+      },
+      {
+        "name": "送长辈创意贺寿/生日实用礼品（保暖/养生方向）",
+        "platform": "淘宝",
+        "price": "约48-99元",
+        "brand": "通用",
+        "hotReason": "送爷爷奶奶/父母礼赠搜索热，秋冬保暖养生实用型礼品转化高",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养·暖家礼赠周",
+      "reason": "11月下旬入冬，祛湿温养与保暖刚需叠加送长辈/家人礼赠场景；主推药食同源食补、暖身小家电与体面平价礼盒，价格敏感友好、复购高，避开棉品与自研品类",
+      "zones": [
+        {
+          "zone": "祛湿温养食补区",
+          "products": [
+            "陈皮普洱/柑普茶独立小包",
+            "茯苓山药粉独立小袋",
+            "桂圆红枣枸杞茶礼盒"
+          ]
+        },
+        {
+          "zone": "暖家小家电区",
+          "products": [
+            "暖脚宝/电热暖脚垫（升级款）",
+            "小型衣物烘干袋/便携干衣机",
+            "智能感应夜灯（充电款）"
+          ]
+        },
+        {
+          "zone": "体面送长辈礼赠区",
+          "products": [
+            "茶叶礼盒（大红袍/铁观音）",
+            "中老年护膝保暖套装",
+            "智能手环（心率血氧监测）"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "茶叶礼盒（大红袍/铁观音）",
+          "platform": "淘宝",
+          "price": "约99-199元",
+          "brand": "八马/小罐茶",
+          "shipping": "48小时内",
+          "reason": "送长辈体面不出错，秋冬煮茶温养场景强，知名度高、价格带适中",
+          "image": "https://img.alicdn.com/imgextra/i4/2222476476261/O1CN018UhioG1w7av2coL9D_!!2222476476261.jpg_q50.jpg_.webp"
+        },
+        {
+          "name": "智能手环（心率血氧睡眠监测）",
+          "platform": "京东",
+          "price": "约249-299元",
+          "brand": "小米/华为",
+          "shipping": "24-48小时",
+          "reason": "送父母健康监测实用礼品，品牌背书强，契合中老年健康关注",
+          "image": "https://img.alicdn.com/imgextra/i3/765391429/O1CN01xkfOEs1MQX3aKNXoQ_!!4611686018427384389-2-item_pic.png_q50.jpg_.webp"
+        },
+        {
+          "name": "陈皮普洱/柑普茶独立小包",
+          "platform": "拼多多",
+          "price": "约29-59元",
+          "brand": "通用",
+          "shipping": "48小时内",
+          "reason": "药食同源温养茶饮，独立小包便携复购高，价格敏感友好",
+          "image": "https://down-sg.img.susercontent.com/file/sg-11134201-825bb-mu2bllmyz28450"
+        },
+        {
+          "name": "中老年护膝保暖套装",
+          "platform": "淘宝",
+          "price": "约39-79元",
+          "brand": "通用",
+          "shipping": "48小时内",
+          "reason": "初冬送父母保暖刚需，实用体面，性价比高",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/3019594523/O1CN01GmGVId1jHaVpTX0D7_!!4611686018427386651-0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "智能感应夜灯（充电款）",
+          "platform": "淘宝",
+          "price": "约19-39元",
+          "brand": "小米米家/通用",
+          "shipping": "48小时内",
+          "reason": "居家幸福感小家电，起夜照明适老场景，低价高转化",
+          "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2535750136/O1CN01n0S6gB1CsKxF0rY4Z_!!2535750136.png_360x360q90.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "茶叶礼盒（大红袍/铁观音）",
+        "link": "https://s.taobao.com/search?q=茶叶礼盒大红袍铁观音",
+        "price": "约99-199元",
+        "brand": "八马/小罐茶",
+        "shipping": "48小时内",
+        "hotReason": "送礼指南高频推荐送长辈'面子'礼品，秋冬煮茶温养场景强，品牌知名度高",
+        "goodKeywords": [
+          "包装体面",
+          "茶香正",
+          "送长辈有面子"
+        ],
+        "badKeywords": [
+          "礼盒偏大"
+        ],
+        "match": true,
+        "matchReason": "体面合宜的送长辈礼品，价格带适中、知名度高",
+        "image": "https://img.alicdn.com/imgextra/i4/2222476476261/O1CN018UhioG1w7av2coL9D_!!2222476476261.jpg_q50.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "智能手环（心率血氧睡眠监测）",
+        "link": "https://search.jd.com/Search?keyword=智能手环心率血氧",
+        "price": "约249-299元",
+        "brand": "小米/华为",
+        "shipping": "24-48小时",
+        "hotReason": "送礼指南列为送长辈实用礼品，健康监测契合中老年关注，品牌背书强",
+        "goodKeywords": [
+          "监测准",
+          "续航久",
+          "送父母实用"
+        ],
+        "badKeywords": [
+          "表带偏硬"
+        ],
+        "match": true,
+        "matchReason": "送父母健康实用礼品，品牌可靠、发货快",
+        "image": "https://img.alicdn.com/imgextra/i3/765391429/O1CN01xkfOEs1MQX3aKNXoQ_!!4611686018427384389-2-item_pic.png_q50.jpg_.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "陈皮普洱/柑普茶独立小包",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=陈皮普洱柑普茶",
+        "price": "约29-59元",
+        "brand": "通用",
+        "shipping": "48小时内",
+        "hotReason": "祛湿温养季茶饮趋势，药食同源独立小包便携，复购高",
+        "goodKeywords": [
+          "柑香浓",
+          "耐泡",
+          "独立包装方便"
+        ],
+        "badKeywords": [
+          "个别碎茶"
+        ],
+        "match": true,
+        "matchReason": "药食同源温养茶饮，价格敏感友好、复购高",
+        "image": "https://down-sg.img.susercontent.com/file/sg-11134201-825bb-mu2bllmyz28450"
+      },
+      {
+        "platform": "淘宝",
+        "name": "茯苓山药粉独立小袋",
+        "link": "https://s.taobao.com/search?q=茯苓山药粉独立小袋",
+        "price": "约29-59元",
+        "brand": "通用",
+        "shipping": "48小时内",
+        "hotReason": "药食同源食补趋势，秋冬健脾祛湿概念，独立小袋冲饮方便",
+        "goodKeywords": [
+          "冲泡顺滑",
+          "独立小袋",
+          "早餐方便"
+        ],
+        "badKeywords": [
+          "偏淡需加糖"
+        ],
+        "match": true,
+        "matchReason": "药食同源食补，契合祛湿温养与家庭早餐场景",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i3/2215069851855/O1CN01dIyUdW1PZdnIAhZTM_!!2215069851855.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "桂圆红枣枸杞茶礼盒",
+        "link": "https://s.taobao.com/search?q=桂圆红枣枸杞茶礼盒",
+        "price": "约39-79元",
+        "brand": "通用",
+        "shipping": "48小时内",
+        "hotReason": "女性温养茶饮常青款，礼盒装适合送妈妈/长辈，秋冬热饮刚需",
+        "goodKeywords": [
+          "料足",
+          "甜度适中",
+          "礼盒体面"
+        ],
+        "badKeywords": [
+          "枣偏小"
+        ],
+        "match": true,
+        "matchReason": "女性温养与送长辈双场景，价格友好",
+        "image": "https://cdn.yamibuy.net/itemdescription/610b36cd168737b15c016ae1da34b9d1_0x0.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "中老年护膝保暖套装",
+        "link": "https://s.taobao.com/search?q=中老年护膝保暖套装",
+        "price": "约39-79元",
+        "brand": "通用",
+        "shipping": "48小时内",
+        "hotReason": "初冬送父母保暖刚需，护膝实用体面，搜索转化高",
+        "goodKeywords": [
+          "保暖不勒",
+          "送父母合适",
+          "做工扎实"
+        ],
+        "badKeywords": [
+          "尺码偏紧"
+        ],
+        "match": true,
+        "matchReason": "送长辈保暖实用礼品，性价比高",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/3019594523/O1CN01GmGVId1jHaVpTX0D7_!!4611686018427386651-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "智能感应夜灯（充电款）",
+        "link": "https://s.taobao.com/search?q=智能感应夜灯充电款",
+        "price": "约19-39元",
+        "brand": "小米米家/通用",
+        "shipping": "48小时内",
+        "hotReason": "居家幸福感小家电榜单高频提名，起夜照明适老场景，低价高转化",
+        "goodKeywords": [
+          "感应灵敏",
+          "亮度合适",
+          "充电方便"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "提升居家生活质量的小家电，适老且价格友好",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/2535750136/O1CN01n0S6gB1CsKxF0rY4Z_!!2535750136.png_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "超声波迷你加湿器",
+        "link": "https://search.jd.com/Search?keyword=超声波迷你加湿器",
+        "price": "约39-89元",
+        "brand": "小米米家/通用",
+        "shipping": "24-48小时",
+        "hotReason": "供暖/空调房干燥刚需，小家电榜单常客，体积小功率低",
+        "goodKeywords": [
+          "雾量细腻",
+          "静音",
+          "体积小"
+        ],
+        "badKeywords": [
+          "水箱偏小"
+        ],
+        "match": true,
+        "matchReason": "提升卧室舒适度的实用小家电，价格带友好",
+        "image": "https://img12.360buyimg.com/n1/jfs/t1/326421/22/3482/66595/689a8298F7b24a3aa/22f61a7ababe835e.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "布艺清洁机（便携沙发/小白鞋清洁）",
+        "link": "https://s.taobao.com/search?q=布艺清洁机便携",
+        "price": "约99-199元",
+        "brand": "通用",
+        "shipping": "48小时内",
+        "hotReason": "居家清洁小家电趋势品，浅色布艺与宠物家庭刚需，换季清洁需求上升",
+        "goodKeywords": [
+          "清洁力强",
+          "操作简单",
+          "省水"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "提升居家生活质量的小家电，实用高频",
+        "image": "https://imgcache.dealmoon.com/thumbimg.dealmoon.com/us2611/dealmoon/36b/cc2/4e6/fac49a984b2eb9eab921e1dx2000x2000x321.jpeg_600_0_3_da4c.jpeg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "宿舍床边挂篮收纳神器",
+        "link": "https://s.taobao.com/search?q=宿舍床边挂篮收纳",
+        "price": "约9.9-29元",
+        "brand": "通用",
+        "shipping": "48小时内",
+        "hotReason": "开学季与租房收纳趋势，10元档宿舍好物高频分享，实用不踩雷",
+        "goodKeywords": [
+          "结实",
+          "容量大",
+          "安装简单"
+        ],
+        "badKeywords": [
+          "挂钩偏细"
+        ],
+        "match": true,
+        "matchReason": "开学季/租房收纳实用好物，价格极友好",
+        "image": "https://img.alicdn.com/imgextra/i1/849090736/O1CN01lVZ5sPqlMhC2qEqW_!!849090736.jpg_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "宿舍楼梯脚踏垫",
+        "link": "https://s.taobao.com/search?q=宿舍楼梯脚踏垫",
+        "price": "约7.9元/2米",
+        "brand": "通用",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍好物清单高频推荐，防滑防凉，学生党闭眼入",
+        "goodKeywords": [
+          "防滑",
+          "踩着不凉",
+          "好裁剪"
+        ],
+        "badKeywords": [
+          "背胶一般"
+        ],
+        "match": true,
+        "matchReason": "开学季实用小物，价格敏感友好",
+        "image": "https://img.alicdn.com/imgextra/i1/2211412131739/O1CN01SL8guk1OiVuN9B3Jf_!!4611686018427387803-0-item_pic.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
     "season": "初冬·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
