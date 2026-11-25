@@ -1,5 +1,329 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-25",
+    "season": "初冬·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "药食同源五指毛桃茯苓祛湿茶",
+        "platform": "淘宝",
+        "price": "约29-49元",
+        "brand": "农科院/同仁堂等",
+        "hotReason": "药食同源养生水持续走热，红豆薏米枸杞红枣为热门成分，祛湿健脾方向搜索与销量双高，契合初冬温养需求",
+        "image": ""
+      },
+      {
+        "name": "开学季宿舍神器收纳套装",
+        "platform": "淘宝",
+        "price": "约25-178元",
+        "brand": "多品牌",
+        "hotReason": "开学季/住校场景持续热销，宿舍收纳、床头挂篮、折叠镜等实用小物销量靠前",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机（徕芬等国货）",
+        "platform": "淘宝",
+        "price": "约199-399元",
+        "brand": "徕芬等",
+        "hotReason": "个护小家电性价比突出，媲美高端品牌性能，社媒讨论度高，送礼自用两宜",
+        "image": ""
+      },
+      {
+        "name": "可视免翻面空气炸锅",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "小米米家等",
+        "hotReason": "高性价比小家电销量大幅增长，厨房懒人神器，家庭场景刚需",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌",
+        "platform": "淘宝",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "hotReason": "女性私护市场年均增速约10%，需求从基础清洁转向科学养护，益生菌方向复购高",
+        "image": ""
+      },
+      {
+        "name": "药食同源女性滋补粉（七白/五红）",
+        "platform": "淘宝",
+        "price": "约39-89元",
+        "brand": "多品牌",
+        "hotReason": "东方食养新风向，女性滋补粉品牌盘点热度高，温润日常食补、不添加蔗糖受青睐",
+        "image": ""
+      },
+      {
+        "name": "南京同仁堂葛根养生茶",
+        "platform": "淘宝",
+        "price": "约39-69元",
+        "brand": "南京同仁堂",
+        "hotReason": "老字号背书，自然风干零硫熏，熬夜养生场景口碑好，煮水甘润",
+        "image": ""
+      },
+      {
+        "name": "智能扫地机器人（入门款）",
+        "platform": "京东",
+        "price": "约499-999元",
+        "brand": "小米米家等",
+        "hotReason": "智能化便捷化小家电受欢迎，提升生活质量家居好物，销量增长明显",
+        "image": ""
+      },
+      {
+        "name": "宿舍除螨仪/手持吸尘器",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "开学季宿舍清洁刚需，床铺除螨装备列入学生党好物清单",
+        "image": ""
+      },
+      {
+        "name": "养生壶（煮茶炖煮一体）",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "hotReason": "初冬煮茶炖煮场景高频，办公室与家庭双场景，性价比高",
+        "image": ""
+      },
+      {
+        "name": "艾草锤经络拍打礼盒",
+        "platform": "1688",
+        "price": "约19-39元",
+        "brand": "多品牌",
+        "hotReason": "养生拍打小物走红，送长辈体面实用，价格敏感友好",
+        "image": ""
+      },
+      {
+        "name": "即热式桌面速热饮水机",
+        "platform": "淘宝",
+        "price": "约199-399元",
+        "brand": "多品牌",
+        "hotReason": "提升生活质量小家电，冬季热水刚需，桌面场景便捷",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养·家人暖心周",
+      "reason": "初冬气温走低，祛湿温养、暖身养生与送长辈礼品需求上升；结合开学季尾声宿舍实用好物与高性价比小家电，主打价格敏感友好、高复购的温养与家居方向",
+      "zones": [
+        {
+          "zone": "祛湿温养食补区",
+          "products": [
+            "五指毛桃茯苓祛湿茶",
+            "南京同仁堂葛根养生茶",
+            "药食同源女性滋补粉"
+          ]
+        },
+        {
+          "zone": "家人暖心小家电区",
+          "products": [
+            "高速吹风机",
+            "可视免翻面空气炸锅",
+            "即热式桌面速热饮水机"
+          ]
+        },
+        {
+          "zone": "宿舍实用好物区",
+          "products": [
+            "宿舍收纳套装",
+            "手持除螨仪",
+            "床头磁吸挂钩"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "高速吹风机（国货性价比款）",
+          "platform": "淘宝",
+          "price": "约199-399元",
+          "brand": "徕芬等",
+          "shipping": "48小时内",
+          "reason": "个护小家电性价比突出，自用送礼两宜，社媒口碑好",
+          "image": "https://pic2.zhimg.com/v2-256d482d0b753443745a9746ec15d37f_1440w.jpg"
+        },
+        {
+          "name": "可视免翻面空气炸锅",
+          "platform": "京东",
+          "price": "约199-399元",
+          "brand": "小米米家等",
+          "shipping": "48小时内",
+          "reason": "厨房懒人神器，家庭场景刚需，销量增长明显",
+          "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/175592270/O1CN01TPHARD1SdiDsPA2FJ_!!4611686018427384654-0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "女性私护益生菌",
+          "platform": "淘宝",
+          "price": "约59-129元",
+          "brand": "多品牌",
+          "shipping": "48小时内",
+          "reason": "私护科学养护方向复购高，非棉品非自研方向，契合女性健康主线",
+          "image": "https://x0.ifengimg.com/ucms/2024_48/BB8E2C00E44782719D5077D9D122935ECB8CFFD1_size218_w477_h333.png"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "南京同仁堂葛根养生茶",
+        "link": "https://s.taobao.com/search?q=南京同仁堂葛根养生茶",
+        "price": "约39-69元",
+        "brand": "南京同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "老字号背书，零硫熏自然风干，熬夜养生场景口碑好",
+        "goodKeywords": [
+          "老字号",
+          "干净无碎渣",
+          "甘润"
+        ],
+        "badKeywords": [
+          "包装一般"
+        ],
+        "match": true,
+        "matchReason": "老字号养生茶，送长辈与自用皆宜",
+        "image": "https://img.alicdn.com/imgextra/i1/2928278102/O1CN01r0S2E6WXZPI1chua_!!4611686018427386454-2-item_pic.png_300x300q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "药食同源女性滋补粉（七白/五红独立小袋）",
+        "link": "https://s.taobao.com/search?q=药食同源女性滋补粉",
+        "price": "约39-89元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "东方食养新风向，女性滋补粉品牌盘点热度高，温润日常食补",
+        "goodKeywords": [
+          "不添加蔗糖",
+          "独立小袋",
+          "温润"
+        ],
+        "badKeywords": [
+          "冲泡易结块"
+        ],
+        "match": true,
+        "matchReason": "女性食补方向，复购高、价格友好",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/6000000003653/O1CN01DPsjIBUMynH1chua_!!6000000003653-0-sm.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "女性私护益生菌",
+        "link": "https://s.taobao.com/search?q=女性私护益生菌",
+        "price": "约59-129元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "私护市场年均增速约10%，科学养护需求上升，益生菌方向复购高",
+        "goodKeywords": [
+          "温和",
+          "复购",
+          "便携"
+        ],
+        "badKeywords": [
+          "见效慢"
+        ],
+        "match": true,
+        "matchReason": "私护非棉品非自研方向，契合女性健康主线",
+        "image": "https://x0.ifengimg.com/ucms/2024_48/BB8E2C00E44782719D5077D9D122935ECB8CFFD1_size218_w477_h333.png"
+      },
+      {
+        "platform": "淘宝",
+        "name": "高速吹风机（国货性价比款）",
+        "link": "https://s.taobao.com/search?q=高速吹风机",
+        "price": "约199-399元",
+        "brand": "徕芬等",
+        "shipping": "48小时内",
+        "hotReason": "个护小家电性价比突出，社媒讨论度高，送礼自用两宜",
+        "goodKeywords": [
+          "风力大",
+          "性价比高",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "噪音偏大"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量小家电，体面礼品属性",
+        "image": "https://pic2.zhimg.com/v2-256d482d0b753443745a9746ec15d37f_1440w.jpg"
+      },
+      {
+        "platform": "京东",
+        "name": "可视免翻面空气炸锅",
+        "link": "https://search.jd.com/Search?keyword=可视空气炸锅",
+        "price": "约199-399元",
+        "brand": "小米米家等",
+        "shipping": "48小时内",
+        "hotReason": "高性价比小家电销量增长，厨房懒人神器，家庭刚需",
+        "goodKeywords": [
+          "免翻面",
+          "可视",
+          "易清洗"
+        ],
+        "badKeywords": [
+          "容量偏小"
+        ],
+        "match": true,
+        "matchReason": "家居实用小家电，家庭场景刚需",
+        "image": "https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/175592270/O1CN01TPHARD1SdiDsPA2FJ_!!4611686018427384654-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "手持除螨仪/小型吸尘器",
+        "link": "https://search.jd.com/Search?keyword=手持除螨仪",
+        "price": "约99-199元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季宿舍清洁刚需，床铺除螨装备列入学生党好物清单",
+        "goodKeywords": [
+          "吸力大",
+          "轻便",
+          "除螨效果好"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "宿舍与家庭清洁实用好物，价格友好",
+        "image": "https://cdnimg.chinagoods.com/jpg/2026/08/15/yysz6aln7yiohk4jftyiknxa4gxeos1t.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "宿舍收纳套装（床头挂篮/折叠镜）",
+        "link": "https://s.taobao.com/search?q=宿舍收纳神器",
+        "price": "约25-59元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "开学季住校场景持续热销，实用小物销量靠前",
+        "goodKeywords": [
+          "实用",
+          "省空间",
+          "便宜"
+        ],
+        "badKeywords": [
+          "材质偏薄"
+        ],
+        "match": true,
+        "matchReason": "开学季实用好物，价格敏感友好",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2212104940552/O1CN012I0Q4X1Fwri8M7Z0T_!!2212104940552.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "智能扫地机器人（入门款）",
+        "link": "https://search.jd.com/Search?keyword=扫地机器人入门",
+        "price": "约499-999元",
+        "brand": "小米米家等",
+        "shipping": "48小时内",
+        "hotReason": "智能化便捷化小家电受欢迎，提升生活质量家居好物",
+        "goodKeywords": [
+          "省力",
+          "APP联动",
+          "性价比"
+        ],
+        "badKeywords": [
+          "边角清洁一般"
+        ],
+        "match": true,
+        "matchReason": "提升生活质量家居好物，入门价位友好",
+        "image": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2628834716/O1CN01GiGvcT1khySZPmVG9_!!2628834716.jpg_360x360q90.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-11-24",
     "season": "初冬·祛湿温养与暖冬礼赠季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
