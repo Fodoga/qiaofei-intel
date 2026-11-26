@@ -1,5 +1,254 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-26",
+    "season": "初冬·祛湿温养季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "药食同源代茶饮（茯苓薏米祛湿茶包）",
+        "platform": "淘宝",
+        "price": "约19-39元/盒",
+        "brand": "同仁堂/南京同仁堂等",
+        "hotReason": "药食同源养生热持续，祛湿健脾类代茶饮成秋冬刚需，独立茶包便携复购高",
+        "image": ""
+      },
+      {
+        "name": "中式养生水/五红五黑滋补粉",
+        "platform": "拼多多",
+        "price": "约29-59元",
+        "brand": "多品牌",
+        "hotReason": "2024-2026中式养生水市场破百亿，红豆薏米枸杞红枣为热门成分，女性食养需求旺",
+        "image": ""
+      },
+      {
+        "name": "草本温和滋养膏（身体护理）",
+        "platform": "淘宝",
+        "price": "约20-49元",
+        "brand": "多品牌",
+        "hotReason": "标称年度断货王、销量500w+级别，秋冬干燥季身体保湿刚需，温和草本概念受青睐",
+        "image": ""
+      },
+      {
+        "name": "半亩花田小金珠身体油霜",
+        "platform": "淘宝",
+        "price": "约119.9元",
+        "brand": "半亩花田",
+        "hotReason": "代言人同款、已售1000+件，秋冬身体滋润紧致需求，国货个护口碑款",
+        "image": ""
+      },
+      {
+        "name": "小米即热饮水器/桌面速热饮水机",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "小米米家",
+        "hotReason": "百元级提升幸福感小家电榜单常客，秋冬热水需求高，性价比与生态联动强",
+        "image": ""
+      },
+      {
+        "name": "海尔腰颈肩按摩仪",
+        "platform": "京东",
+        "price": "约99-199元",
+        "brand": "海尔",
+        "hotReason": "百元家电好物推荐，久坐办公与送长辈场景双适配，品牌背书强",
+        "image": ""
+      },
+      {
+        "name": "美的加湿器",
+        "platform": "京东",
+        "price": "约79-159元",
+        "brand": "美的",
+        "hotReason": "秋冬干燥季刚需，百元家电好物榜单推荐，卧室静音大雾量需求旺",
+        "image": ""
+      },
+      {
+        "name": "空气炸锅（可视免翻面）",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "美的/苏泊尔/米家",
+        "hotReason": "小家电销量大幅增长品类，厨房幸福感好物，节日送礼与家庭自用两旺",
+        "image": ""
+      },
+      {
+        "name": "智能扫地机器人（入门款）",
+        "platform": "京东",
+        "price": "约599-999元",
+        "brand": "米家/科沃斯入门",
+        "hotReason": "年轻一代重视家居生活质量，智能化便捷化小家电销量增长，入门款性价比友好",
+        "image": ""
+      },
+      {
+        "name": "女性健康呵护计划类图书/健康礼包",
+        "platform": "淘宝",
+        "price": "约49元起",
+        "brand": "多品牌",
+        "hotReason": "女性全生命周期健康话题热度上升，健康升级包类目受40+女性关注",
+        "image": ""
+      },
+      {
+        "name": "艾草锤经络拍打礼盒",
+        "platform": "1688",
+        "price": "约15-35元",
+        "brand": "源头工厂款",
+        "hotReason": "养生拍打类小物走红，秋冬祛湿温养场景契合，礼盒装适合送长辈，48小时发货货源多",
+        "image": ""
+      },
+      {
+        "name": "厨房高颜值小家电（多功能料理锅）",
+        "platform": "1688",
+        "price": "约89-199元",
+        "brand": "源头工厂款",
+        "hotReason": "抖音厨房好物视频高赞带动，1688小家电爆款现货支持48小时发货与退货包运费",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养·祛湿暖身周",
+      "reason": "11月末气温走低、湿冷感明显，县城女性与长辈对祛湿温养、暖身暖足、居家滋润需求集中；叠加年末送礼预热，选品以药食同源食补、暖身小家电、体面实用礼品为主，价格带控制在百元内为主，兼顾复购与送礼",
+      "zones": [
+        {
+          "zone": "祛湿温养食补区",
+          "products": [
+            "陈皮茯苓祛湿茶（独立茶包）",
+            "红豆薏米芡实茶",
+            "即食红枣桂圆银耳羹",
+            "五红粉独立小袋"
+          ]
+        },
+        {
+          "zone": "暖身暖足居家区",
+          "products": [
+            "暖脚宝/电热暖脚垫",
+            "艾草泡脚丸",
+            "小型静音加湿器",
+            "护腰暖腹带"
+          ]
+        },
+        {
+          "zone": "体面送礼长辈区",
+          "products": [
+            "艾草锤经络拍打礼盒",
+            "陶瓷养生焖烧杯礼盒",
+            "天然成分护手霜礼盒",
+            "颈椎按摩仪"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "小型静音加湿器",
+          "platform": "京东",
+          "price": "约59-129元",
+          "brand": "美的/米家",
+          "shipping": "48小时内",
+          "reason": "初冬干燥季卧室刚需，静音大雾量好评集中，品牌背书强、送礼自用皆宜",
+          "image": "https://img.alicdn.com/imgextra/i4/2207104937688/O1CN01TkdVv426fA6iih5KO_!!4611686018427383512-0-item_pic.jpg_q50.jpg_.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "拼多多",
+        "name": "红豆薏米芡实茶",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=红豆薏米芡实茶",
+        "price": "约12-29元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "祛湿经典组方，拼多多价格带友好，秋冬养生茶饮销量稳定",
+        "goodKeywords": [
+          "便宜大碗",
+          "祛湿",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "包装简陋"
+        ],
+        "match": true,
+        "matchReason": "高性价比祛湿茶，适合县城女性日常养生复购",
+        "image": "https://cdn.yamibuy.net/item/e7b2086c245cbb65080ffe50afe35830_750x750.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "五红粉独立小袋",
+        "link": "https://s.taobao.com/search?q=五红粉独立小袋",
+        "price": "约29-59元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "补气血食养热门，独立小袋冲饮方便，女性滋补复购品类",
+        "goodKeywords": [
+          "独立小袋",
+          "冲饮方便",
+          "气色好"
+        ],
+        "badKeywords": [
+          "结块"
+        ],
+        "match": true,
+        "matchReason": "药食同源女性滋补，便携高复购，价格友好",
+        "image": "https://cdn.yamibuy.net/item/9fc8932834d6cc5566264ea7f4bb82e4_750x750.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "艾草泡脚丸",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=艾草泡脚丸",
+        "price": "约9.9-29元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "泡脚养生日常化，艾草祛湿概念契合初冬，价格极友好、复购高",
+        "goodKeywords": [
+          "味道浓",
+          "溶解快",
+          "便宜"
+        ],
+        "badKeywords": [
+          "包装一般"
+        ],
+        "match": true,
+        "matchReason": "祛湿温养泡脚场景，低价高频复购",
+        "image": "https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/461035/6/4552/99675/6a38b7b4F04f38278/008332032004f872.jpg!q80.dpg.webp"
+      },
+      {
+        "platform": "京东",
+        "name": "小型静音加湿器",
+        "link": "https://search.jd.com/Search?keyword=小型静音加湿器",
+        "price": "约59-129元",
+        "brand": "美的/米家",
+        "shipping": "48小时内",
+        "hotReason": "秋冬干燥季卧室刚需，百元家电好物榜单常客，静音大雾量好评集中",
+        "goodKeywords": [
+          "静音",
+          "雾量大",
+          "好清洗"
+        ],
+        "badKeywords": [
+          "水箱偏小"
+        ],
+        "match": true,
+        "matchReason": "初冬居家刚需小家电，品牌背书、送礼自用皆宜",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E5%B0%8F%E5%9E%8B%E9%9D%99%E9%9F%B3%E5%8A%A0%E6%B9%BF%E5%99%A8%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "护腰暖腹带",
+        "link": "https://s.taobao.com/search?q=护腰暖腹带",
+        "price": "约29-69元",
+        "brand": "多品牌",
+        "shipping": "48小时内",
+        "hotReason": "女性暖宫暖腹与长辈护腰需求叠加，秋冬温养场景强，价格友好",
+        "goodKeywords": [
+          "暖和",
+          "贴合",
+          "面料软"
+        ],
+        "badKeywords": [
+          "偏厚"
+        ],
+        "match": true,
+        "matchReason": "女性温养与送长辈双场景，性价比高",
+        "image": "https://img.alicdn.com/imgextra/O1CN01C6QYW91yvdH5knFU9_!!6000000006641-2-yinhe.png_q50.jpg_.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "season": "初冬·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
