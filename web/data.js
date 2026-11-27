@@ -1,5 +1,292 @@
 window.DASHBOARD_DATA = [
   {
+    "date": "2026-11-27",
+    "season": "初冬·温养滋补季",
+    "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
+    "trending": [
+      {
+        "name": "智能扫地机器人（入门款）",
+        "platform": "京东",
+        "price": "约599-999元",
+        "brand": "小米米家/科沃斯入门款",
+        "hotReason": "2026小家电选购指南显示智能扫地机器人销量大幅增长，年轻家庭与县城用户追求省时省力，入门款性价比高",
+        "image": ""
+      },
+      {
+        "name": "高速吹风机（国货性价比款）",
+        "platform": "淘宝",
+        "price": "约129-299元",
+        "brand": "徕芬/小米",
+        "hotReason": "反向海淘指南指出国产高速吹风机凭媲美高端品牌性能与亲民价格在社媒走红，个护小家电销量领先",
+        "image": ""
+      },
+      {
+        "name": "可视免翻面空气炸锅",
+        "platform": "京东",
+        "price": "约199-399元",
+        "brand": "美的/九阳/小米",
+        "hotReason": "新华网报道空气炸锅位列热门小家电前十，可视化免翻面设计降低使用门槛，厨房小白与家庭用户热捧",
+        "image": ""
+      },
+      {
+        "name": "养生壶（多功能煮茶炖煮）",
+        "platform": "淘宝",
+        "price": "约89-199元",
+        "brand": "美的/苏泊尔/小熊",
+        "hotReason": "智能小家电销售增长数据中养生壶为十大热门产品之一，契合女性养生煮花茶、炖银耳场景",
+        "image": ""
+      },
+      {
+        "name": "女性私护益生菌",
+        "platform": "淘宝",
+        "price": "约69-159元",
+        "brand": "Life-Space/月神/汤臣倍健",
+        "hotReason": "2026中国私护市场年均增速10.4%，用户需求从基础清洁转向科学养护，益生菌内调复购率高",
+        "image": ""
+      },
+      {
+        "name": "艾草锤经络拍打礼盒",
+        "platform": "1688",
+        "price": "约19-49元",
+        "brand": "源头工厂白牌",
+        "hotReason": "养生锤类目在抖音小红书持续走热，肩颈放松+送礼两用，1688源头厂48小时发货款受小店主青睐",
+        "image": ""
+      },
+      {
+        "name": "茶叶礼盒（大红袍/铁观音）",
+        "platform": "淘宝",
+        "price": "约99-299元",
+        "brand": "八马/小罐茶",
+        "hotReason": "送礼指南推荐送长辈选经典茶叶礼盒配茶具，面子足、价格带适中，节日与日常送礼刚需",
+        "image": ""
+      },
+      {
+        "name": "智能手环（心率血氧睡眠监测）",
+        "platform": "京东",
+        "price": "约199-299元",
+        "brand": "小米/华为",
+        "hotReason": "送礼清单高频推荐，健康监测实用性强，送父母送伴侣皆宜，200元档性价比突出",
+        "image": ""
+      },
+      {
+        "name": "颈椎按摩仪（充电便携）",
+        "platform": "京东",
+        "price": "约99-259元",
+        "brand": "SKG/倍轻松",
+        "hotReason": "久坐低头人群扩大，便携颈椎按摩仪成办公与居家放松爆款，送礼属性强",
+        "image": ""
+      },
+      {
+        "name": "即热式桌面速热饮水机",
+        "platform": "淘宝",
+        "price": "约159-299元",
+        "brand": "小米/心想/北鼎",
+        "hotReason": "冬季热水需求上升，桌面即热饮水机免安装、3秒出热水，小户型与办公室场景热销",
+        "image": ""
+      },
+      {
+        "name": "足浴盆（恒温加热）",
+        "platform": "淘宝",
+        "price": "约99-199元",
+        "brand": "泰昌/蓓慈",
+        "hotReason": "入冬泡脚养生刚需，恒温加热款销量攀升，送长辈父母高频选择",
+        "image": ""
+      },
+      {
+        "name": "药食同源五红粉/五黑粉（独立小袋）",
+        "platform": "拼多多",
+        "price": "约29-69元",
+        "brand": "南京同仁堂/固本堂",
+        "hotReason": "药食同源滋补粉契合女性气血养护，独立小袋便携、价格敏感友好，复购率高",
+        "image": ""
+      }
+    ],
+    "weeklySuggestion": {
+      "theme": "初冬温养滋补·暖心好礼周",
+      "reason": "11月末入冬转凉，女性气血温养、祛湿健脾需求上升；同时临近年底送礼与家人关怀场景增多，选品以药食同源滋补、暖身小家电与体面实用礼品为主，兼顾价格敏感与高复购",
+      "zones": [
+        {
+          "zone": "温养滋补食补区",
+          "products": [
+            "黑芝麻核桃黑豆粉（独立小袋）",
+            "阿胶糕即食小包装",
+            "红枣桂圆枸杞茶礼盒",
+            "山药葛根粉独立小袋"
+          ]
+        },
+        {
+          "zone": "暖身家居小电区",
+          "products": [
+            "养生壶（多功能煮茶炖煮）",
+            "即热式桌面速热饮水机",
+            "足浴盆（恒温加热）",
+            "暖手宝充电款"
+          ]
+        },
+        {
+          "zone": "体面送礼关怀区",
+          "products": [
+            "茶叶礼盒（大红袍/铁观音）",
+            "智能手环（心率血氧睡眠监测）",
+            "颈椎按摩仪（充电便携）",
+            "艾草锤经络拍打礼盒"
+          ]
+        }
+      ],
+      "topPicks": [
+        {
+          "name": "养生壶（多功能煮茶炖煮）",
+          "platform": "淘宝",
+          "price": "约89-199元",
+          "brand": "美的/苏泊尔/小熊",
+          "shipping": "48小时内",
+          "reason": "冬季煮花茶炖银耳高频使用，女性养生刚需，百元档性价比高，品牌好评率高",
+          "image": "https://cdn2.huarenstore.com/media/1200/catalog/product/y/s/ysh-c18s2.png.webp"
+        },
+        {
+          "name": "黑芝麻核桃黑豆粉（独立小袋）",
+          "platform": "拼多多",
+          "price": "约29-59元",
+          "brand": "南京同仁堂/固本堂",
+          "shipping": "48小时内",
+          "reason": "药食同源温补，独立小袋便携，价格敏感友好，复购率高，契合女性与长辈养护",
+          "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/1848219836/O1CN01scx7PbTAO9I2vH2e_!!4611686018427386044-0-item_pic.jpg_360x360q90.jpg_.webp"
+        },
+        {
+          "name": "暖手宝充电款",
+          "platform": "淘宝",
+          "price": "约39-89元",
+          "brand": "彩虹/米尼",
+          "shipping": "48小时内",
+          "reason": "入冬暖手刚需，充电款便携安全，价格亲民，女性与学生群体热销",
+          "image": "https://cdn.yamibuy.net/item/903dc6e37969197e8827df9a16291312_750x750.webp"
+        }
+      ]
+    },
+    "products": [
+      {
+        "platform": "淘宝",
+        "name": "养生壶（多功能煮茶炖煮）",
+        "link": "https://s.taobao.com/search?q=养生壶多功能煮茶",
+        "price": "约89-199元",
+        "brand": "美的/苏泊尔/小熊",
+        "shipping": "48小时内",
+        "hotReason": "养生壶位列智能小家电十大热门产品，冬季煮花茶炖银耳场景高频，品牌好评率高",
+        "goodKeywords": [
+          "煮茶方便",
+          "颜值高",
+          "保温好"
+        ],
+        "badKeywords": [
+          "清洗略麻烦"
+        ],
+        "match": true,
+        "matchReason": "女性养生煮茶炖煮刚需，百元档性价比高，契合温养主题",
+        "image": "https://cdn2.huarenstore.com/media/1200/catalog/product/y/s/ysh-c18s2.png.webp"
+      },
+      {
+        "platform": "拼多多",
+        "name": "黑芝麻核桃黑豆粉（独立小袋）",
+        "link": "https://mobile.yangkeduo.com/search_result.html?search_key=黑芝麻核桃黑豆粉",
+        "price": "约29-59元",
+        "brand": "南京同仁堂/固本堂",
+        "shipping": "48小时内",
+        "hotReason": "药食同源温补粉类在拼多多销量领先，独立小袋便携，价格敏感友好复购高",
+        "goodKeywords": [
+          "香浓不甜腻",
+          "独立包装方便",
+          "性价比高"
+        ],
+        "badKeywords": [
+          "部分批次偏甜"
+        ],
+        "match": true,
+        "matchReason": "女性与长辈温补食补，价格友好高复购",
+        "image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/i1/1848219836/O1CN01scx7PbTAO9I2vH2e_!!4611686018427386044-0-item_pic.jpg_360x360q90.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "阿胶糕即食小包装",
+        "link": "https://s.taobao.com/search?q=阿胶糕即食小包装",
+        "price": "约49-129元",
+        "brand": "东阿阿胶/桃花姬",
+        "shipping": "48小时内",
+        "hotReason": "冬季女性气血滋补热门，即食小包装便携，品牌背书强，送礼自用两宜",
+        "goodKeywords": [
+          "口感好",
+          "独立包装",
+          "送人有面子"
+        ],
+        "badKeywords": [
+          "偏甜"
+        ],
+        "match": true,
+        "matchReason": "女性温养滋补经典品，体面送礼属性强",
+        "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22200%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e85b8a%22%20opacity%3D%220.12%22/%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22288%22%20height%3D%22188%22%20rx%3D%2212%22%20fill%3D%22none%22%20stroke%3D%22%23e85b8a%22%20stroke-width%3D%222%22%20opacity%3D%220.5%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20fill%3D%22%23e85b8a%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E9%98%BF%E8%83%B6%E7%B3%95%E5%8D%B3%E9%A3%9F%E5%B0%8F%E5%8C%85%E8%A3%85%3C/text%3E%3C/svg%3E"
+      },
+      {
+        "platform": "淘宝",
+        "name": "红枣桂圆枸杞茶礼盒",
+        "link": "https://s.taobao.com/search?q=红枣桂圆枸杞茶礼盒",
+        "price": "约39-99元",
+        "brand": "艺福堂/同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "冬季暖身茶饮礼盒热销，独立茶包方便，送女性长辈体面实用",
+        "goodKeywords": [
+          "料足",
+          "包装精美",
+          "暖身好喝"
+        ],
+        "badKeywords": [
+          "甜度偏高"
+        ],
+        "match": true,
+        "matchReason": "温养茶饮+送礼场景，价格友好",
+        "image": "https://imgservice.suning.cn/uimg1/b2c/image/knG2sZC0CC97zQAwLseVsg.jpg"
+      },
+      {
+        "platform": "淘宝",
+        "name": "山药葛根粉独立小袋",
+        "link": "https://s.taobao.com/search?q=山药葛根粉独立小袋",
+        "price": "约29-69元",
+        "brand": "固本堂/南京同仁堂",
+        "shipping": "48小时内",
+        "hotReason": "药食同源健脾养胃粉类受养生人群青睐，独立小袋冲调方便，复购率高",
+        "goodKeywords": [
+          "冲调顺滑",
+          "养胃",
+          "独立包装"
+        ],
+        "badKeywords": [
+          "易结块"
+        ],
+        "match": true,
+        "matchReason": "健脾温养食补，价格敏感友好",
+        "image": "https://img.alicdn.com/imgextra/i4/779953981/O1CN01H6b1jS1fHLrgb3avX~crop,420,0,1080,1080~_!!779953981.jpg_q50.jpg_.webp"
+      },
+      {
+        "platform": "淘宝",
+        "name": "暖手宝充电款",
+        "link": "https://s.taobao.com/search?q=暖手宝充电款",
+        "price": "约39-89元",
+        "brand": "彩虹/米尼",
+        "shipping": "48小时内",
+        "hotReason": "入冬暖手刚需，充电款便携安全，价格亲民，女性与学生群体热销",
+        "goodKeywords": [
+          "发热快",
+          "小巧便携",
+          "颜值高"
+        ],
+        "badKeywords": [
+          "续航一般"
+        ],
+        "match": true,
+        "matchReason": "冬季暖身小物，价格敏感友好",
+        "image": "https://cdn.yamibuy.net/item/903dc6e37969197e8827df9a16291312_750x750.webp"
+      }
+    ]
+  },
+  {
     "date": "2026-11-26",
     "season": "初冬·祛湿温养季",
     "dataSource": "联网搜索聚合说明：非平台官方API逐条爬取，价格/链接/发货时效以平台最新页面为准，上架前需人工复核；已避开俏妃自研品类",
